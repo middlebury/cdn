@@ -1,0 +1,66 @@
+/* Internet-Explorer-6-only Styles (expands and overrides miis.css)*/
+/* by White Whale Web Services for MIIS */
+
+/* Fix navigation positioning and image replacement */
+#navigation li a.tab span { padding:0 12px; height:34px; }
+#nav_offices .nav_dropdown { right:-2px; }
+
+/* Fix Offices missing tab feature */
+#navigation li#nav_offices .nav_dropdown .right { width:auto; float:none; }
+
+/* Fix breadcrumb */
+.titlecard { position:relative; width: 470px; }
+
+/* Fix page width */
+#page { overflow-x:hidden; }
+
+/* Fix RSS Icon */
+#news h2 { width: 546px; }
+
+/* Fix pages with the gray sidebar */
+#page.gray_sidebar { border-right-width:212px; overflow:visible; }
+	#gray_sidebar { position:relative; right:-180px; }
+	#bottom_edge { width:100%; }
+
+/* Fix twitter bubble */
+.twitter { padding-bottom:1em; }
+	.twitter .tweet { bottom:240px; left:-65px; }
+
+/* Fix blackout area */
+.blackout { width:100%; height:2000px; position:absolute; }
+
+/* Fix subnavigation */
+ul.menu { list-style-type:none; margin: -9px 0px 0px 0px; }
+ul.menu li { margin: 0px; }
+  div.content ul.menu li a { display:none; }
+  div.content ul.menu li ul.menu li { margin:0; /* JP-fix */  background-color:#061830; /* JP-fix */  border:1px solid #18293a; margin-bottom:5px;}
+  div.content ul.menu li ul.menu li a {
+      display:block; border:none; padding:8px 10px; text-decoration: none;
+      font-size:0.929em; line-height:1.1em; font-weight:bold; color: #dde; }
+    div.content ul.menu li ul.menu li a:hover {  /* JP-fix */  background-color:#18447c; text-decoration: none; color: #fff;}
+    div.content ul.menu li ul.menu li ul {margin:10px 0;}
+    div.content ul.menu li ul.menu li.expanded ul li {padding:0 10px; margin:0 0 5px 0;}
+    div.content ul.menu li ul.menu li.expanded {border-color:#ccff26; background-color:#036}
+    div.content ul.menu li ul.menu li.expanded a {background-color:#ccff26; color:#14304E; border:none; }
+    div.content ul.menu li ul.menu li.expanded a:hover { color:#467; background-color:#ccff26; }
+        div.content ul.menu li ul.menu li.expanded ul.menu li { background-color: #036; border: #036; }
+        div.content ul.menu li ul.menu li.expanded ul.menu a { padding: 0px; background-color: #036; color:#ccff26; display: inline; }
+        div.content ul.menu li ul.menu li.expanded ul.menu a:hover { background: #036; color: #ccff26; border-bottom: 1px dotted #ccff26; }
+	div.content ul.menu li ul.menu li.expanded ul.menu li.expanded ul.menu { list-style-type:disc; color:#cef;  font-size:0.929em; margin-left:1.2em; }/* DT-fix */
+	div.content ul.menu li ul.menu li.expanded ul.menu li.expanded ul.menu li { margin-top:0.2em; }/* DT-fix */
+	div.content ul.menu li ul.menu li.expanded ul.menu li.expanded ul.menu li a { list-style-type:disc; color:#cef; border-color:#cef; }/* DT-fix */
+        div.content ul.menu li ul.menu li.expanded ul.menu li.expanded ul.menu li a:hover { border-bottom: 1px dotted #fff !important;}
+	div.content ul.menu li ul.menu li.expanded ul.menu li.here { color:#fff; }/* DT-fix */
+        div.content ul.menu li ul.menu li.expanded ul.menu li.here a {font-weight:bold; color:#fff !important; border:none; }
+  div.content ul.menu li ul.menu li.expanded ul.menu li.here a:hover { border: none !important; }
+
+/* Fix Directory Results Sidebar */
+#gray_sidebar { margin-left: -260px; }
+.gray_sidebar { width: 728px !important; background-color:#ddd !important; }
+.gray_sidebar .body { width: 570px !important; background-color:#fff; } 
+
+/* Fix Offices Tab Quickaccess */
+#navigation li#nav_offices .nav_dropdown .nav_feature { z-index:800; } /* DT-fix */
+
+/* Finally, fix alpha-transparent PNGs */
+#wordmark img,.theme #title { behavior:url('/ie/miis/iepngfix.php'); }
