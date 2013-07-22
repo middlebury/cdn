@@ -65,6 +65,7 @@ ul,ol { margin-left:1.5em; margin-bottom:0.8em; }
   .tags a:hover { text-decoration:none; background-color:#E9E9E9; }
   .tags ul { margin-left:0; }
 .verybig { font-size:2em; line-height:1.25em; }
+.noborder, .noborder:hover { border:none; background-color:transparent !important; padding:0; }
 
 /* Body top to bottom */
 body { background:#071427 url(//cdn.middlebury.edu/middlebury.edu/2010/images/bluegradient.jpg) no-repeat center top; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; color:#221100; font-size:0.875em; line-height:1.4; }
@@ -286,6 +287,9 @@ body { background:#071427 url(//cdn.middlebury.edu/middlebury.edu/2010/images/bl
         .taskbar .node.gray h1 { background-color:#8C8C8C; color:#FFFFFF; background-position:right bottom; }
           .gray.active h1 { background-color:#8C8C8C; color:#222222; }
 
+    /* Banner Image */
+    .banner { float:left; }
+
     /* Left Column */
     .left { float:left; width:204px; padding:18px 18px 15em; color:#FFFFFF; font-size:0.929em; }
       ul.menu { margin:0px; background-color:#0d1e29; }
@@ -315,7 +319,7 @@ body { background:#071427 url(//cdn.middlebury.edu/middlebury.edu/2010/images/bl
 
     /* Content Region */
     .page { float:left; width:684px; background-color:#FFFFFF; border-top:4px solid #CCCC99; padding:18px; }
-      .fullwidth .page { width:926px; border:none; }
+      .fullwidth .page { width:924px; border:none; }
 
       /* Right Sidebar */
       aside.sidebar { margin-left:18px; float:right; width:204px; }
