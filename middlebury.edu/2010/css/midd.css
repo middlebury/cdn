@@ -317,6 +317,11 @@ body { background:#071427 url(//cdn.middlebury.edu/middlebury.edu/2010/images/bl
       .left.blue #block-monster-menus-8 a { color:#cf6; border-bottom-color:#cf6; }
       .left.blue #block-monster-menus-8 a:hover { background-color:#003466; }
 
+      /* Address */
+      .region-address { position:absolute; bottom:0; left:0; padding:18px; color:#FFFFFF; width:240px; }
+        .region-address a { border-bottom-color:#CCFF66; }
+        .region-address a:hover{ background-color:#003466; }
+
     /* Content Region */
     .page { float:left; width:684px; background-color:#FFFFFF; border-top:4px solid #CCCC99; padding:18px; }
       .fullwidth .page { width:924px; border:none; }
@@ -427,7 +432,8 @@ body { background:#071427 url(//cdn.middlebury.edu/middlebury.edu/2010/images/bl
     .midd_department .left a:hover, .midd_department .region-address a:hover { background-color:#EEFFCC; color:#333300; }
   .midd_department .page { border-top:0px; }
   .midd_department ul.menu { margin-left:0px; background:#FFFFFF; }
-    .midd_department ul.menu li { background-color:transparent; border-color:#CCCCCC; }
+    .midd_department div.content ul.menu li { background-color:transparent; border-color:#CCCCCC; }
+      .midd_department div.content > ul.menu > li > ul.menu > li { border-color:#CCCCCC; }
       .midd_department ul.menu li a { color:#272C6F; padding-left:6px; }
       .midd_department ul.menu li a:hover { color:#333300; background:#FFFFFF; }
     .midd_department ul.menu li.active a { color:#333300; }
