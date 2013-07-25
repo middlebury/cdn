@@ -4,6 +4,15 @@ var ie = jQuery.browser.msie,
   ie8 = jQuery.browser.msie&&jQuery.browser.version>=8&&jQuery.browser.version<9,
   ie9 = jQuery.browser.msie&&jQuery.browser.version>=9&&jQuery.browser.version<10;
 
+var settings = {
+    edgeWidth : 0.25, // width of hover area on right and left edges for scrolling (portion of frame)
+    maxSpeed : 15, //maximum speed (pixels per frame)
+    minSpeed : 0.5, // minimum speed (pixels per frame)
+    fps : 60, // frames per second
+    refreshRate : 100, // how often to listen for a mouse move event
+    threshold : 20 // how many pixels does the mouse have to have moved to register the change?
+  };
+
 jQuery(document).ready(function(jQuery) {
   homepage = jQuery('body').is('#midd_homepage');
   if (jQuery('body').hasClass('page-mm-71654')) {
