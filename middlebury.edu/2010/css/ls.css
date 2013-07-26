@@ -1,0 +1,129 @@
+body { background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/ls/globe.jpg); }
+.column>a, .column .content>a {display:none;}
+.column.gray .profile {margin-top:0px;}
+table.layout tbody, table.layout tr, table.layout td, table.layout { border: none; }
+
+.top_panel { padding-top:1px; }
+.midd_ls h1.wordmark { width:100%; text-align:center; padding:10px 0px 5px; background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/ls/blue_50.png); clear:both; margin-top:59px; margin-bottom:0px; border-bottom:30px solid #0091A4; font-size:1.4em; }
+
+.search_query { background-color:#FFFFFF; border:none; font-size:0.929em; color:#666666; }
+.search_submit.ir { background:url(//cdn.middlebury.edu/middlebury.edu/2010/images/arrow_go_white.png); }
+
+.navigation ul { background-color:#0091A4; height:30px; font-size:1em; line-height:30px; margin:0px; margin-top:-30px; }
+	.navigation li { margin:0px 3px; }
+	.navigation li a { position:relative; color:#051B36; height:30px !important; }
+	.navigation li a span { background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/ls/nav_languageschools.gif); display:block; position:absolute; top:0px; left:0px; width:100%; height:36px; }
+	.nav_applying { width:87px; }
+		.nav_applying a span { background-position:0px 0px; }
+		.nav_applying a:hover span { background-position:0px -30px; }
+		.nav_applying.active a span { background-position:0px -60px; }
+	.nav_approach { width:123px; }
+		.nav_approach a span { background-position:-94px 0px; }
+		.nav_approach a:hover span { background-position:-94px -30px; }
+		.nav_approach.active a span { background-position:-94px -60px; }
+	.nav_aid { width:120px; }
+		.nav_aid a span { background-position:-225px 0px; }
+		.nav_aid a:hover span { background-position:-225px -30px; }
+		.nav_aid.active a span { background-position:-225px -60px; }
+	.nav_experience { width:134px; }
+		.nav_experience a span { background-position:-352px 0px; }
+		.nav_experience a:hover span { background-position:-352px -30px; }
+		.nav_experience.active a span { background-position:-352px -60px; }
+	.nav_graduate { width:165px; }
+		.nav_graduate a span { background-position:-496px 0px; }
+		.nav_graduate a:hover span { background-position:-496px -30px; }
+		.nav_graduate.active a span { background-position:-496px -60px; }
+	.nav_news { width:128px; }
+		.nav_news a span { background-position:-668px 0px; }
+		.nav_news a:hover span { background-position:-668px -30px; }
+		.nav_news.active a span { background-position:-668px -60px; }
+	.nav_schoolsabroad { width:136px; }
+		.nav_schoolsabroad a span { background-position:-803px 0px; }
+		.nav_schoolsabroad a:hover span { background-position:-803px -30px; }
+		.nav_schoolsabroad.active a span { background-position:-803px -60px; }
+	
+.languages_feature { height:250px; position:relative; }
+	.languages_feature h2 { text-indent:-999em; overflow:hidden; background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/ls/languages2.gif); height:33px; width:345px; position:absolute; top:86px; left:305px; }
+		.languages_feature h2 a { background:url(//cdn.middlebury.edu/middlebury.edu/2010/images/ls/languages2.gif) no-repeat 0px 0px; height:33px; left:305px; overflow:hidden; text-indent:-999em; display:block; width:345px; border:0px !important; }
+		.languages_feature h2 a:hover { background:url(//cdn.middlebury.edu/middlebury.edu/2010/images/ls/languages2.gif) no-repeat 0px -34px; }
+	.languages_feature ul { list-style-type:none; margin:0px; padding:0px; }
+		.languages_feature ul li { margin:0px; padding:0px; display:block; position:absolute; }
+			.languages_feature ul li a { display:block; height:33px; border:none; text-indent:-999em; overflow:hidden; background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/ls/languages2.gif); }
+				.languages_feature li a:hover { background-color:transparent; }
+			.feature_arabic { width:261px; left:702px; top:86px; }
+				.feature_arabic a { background-position:-365px 0px; }
+				.feature_arabic a:hover { background-position:-365px -35px; }
+			.feature_japanese { width:185px; left:764px; top:203px; }
+				.feature_japanese a { background-position:-646px 0px; }
+				.feature_japanese a:hover { background-position:-646px -35px; }
+			.feature_french { width:423px; left:534px; top:25px; }
+				.feature_french a { background-position:-851px 0px; }
+				.feature_french a:hover { background-position:-851px -35px; }
+			.feature_german { width:401px; left:-8px; top:25px; }
+				.feature_german a { background-position:-1293px 0px; }
+				.feature_german a:hover { background-position:-1293px -35px; }
+			.feature_hebrew { width:310px; left:8px; top:142px; }
+				.feature_hebrew a { background-position:-1713px 0px; }
+				.feature_hebrew a:hover { background-position:-1713px -35px; }
+			.feature_italian { width:291px; left:-28px; top:85px; }
+				.feature_italian a { background-position:-2043px 0px; }
+				.feature_italian a:hover { background-position:-2043px -35px; }
+			.feature_chinese { width:134px; left:372px; top:152px; }
+				.feature_chinese a { background-position:-2352px 0px; }
+				.feature_chinese a:hover { background-position:-2352px -35px; }
+			.feature_portuguese { width:313px; left:383px; top:203px; }
+				.feature_portuguese a { background-position:-2505px 0px; }
+				.feature_portuguese a:hover { background-position:-2505px -35px; }
+			.feature_russian { width:360px; left:587px; top:156px; }
+				.feature_russian a { background-position:-2837px 0px; }
+				.feature_russian a:hover { background-position:-2837px -35px; }
+			.feature_spanish { width:288px; left:13px; top:203px; }
+				.feature_spanish a { background-position:-3217px 0px; }
+				.feature_spanish a:hover { background-position:-3217px -35px; }
+
+.midd_ls .pagecontent { background-color:#FFFFFF; }
+.midd_ls .body { padding:0px; float:left; min-width:698px; }
+	.midd_ls .page { width:924px; border:none; float:none; width:auto; background-color:#FFFFFF; padding:0px; }
+.midd_ls .columns { margin-left:9px; }
+.columns .column { padding:18px; margin:0px; }
+	.columns p { margin:1em 0px; }
+.midd_ls .columns.split { background:url(//cdn.middlebury.edu/middlebury.edu/2010/images/column_gray.gif) repeat-y right top; }
+	.midd_ls .columns.split .column { width:240px; }
+	.midd_ls .columns.split .first { width:639px; color:#333300; }
+		.split .first h2 { color:#006F37; font-size:1.8em; font-weight:normal; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; }
+		.split .last h4 { margin-top:5px; margin-bottom:0px; }
+.schools ul { list-style-type:none; margin:0px 0px 1em; padding:0px; color:#666666; width:40%; float:left; }
+	.schools ul li { margin:0.2em 0px; }
+		.schools ul li a { font-weight:bold; font-size:1.2em; border:none; }
+
+h2 { color:#2BACC2 !important; font-family:Georgia,serif; margin-bottom:8px; }
+h4 { color:#666666; font-size:1.2em; line-height:1em; }
+ul.sublinks { list-style-type:none; font-size:1.2em; margin:0px; }
+p.more_link { text-align:left; margin:0px; font-size:1.3em; font-weight:normal; color:#666666; }
+
+.footer a { border:none; }
+	.footer ul li a span { background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/ls/nav_languageschools_footer.gif); }
+	.footer ul { float:left; }
+	.languageschools_students { width:127px; }
+		.languageschools_students a span { background-position:0px 0px; }
+		.languageschools_students a:hover span { background-position:0px -30px; }
+		.languageschools_students.active a span { background-position:0px -60px; }
+		.languageschools_students.active a:hover span { background-position:0px -90px; }
+	.languageschools_families { width:71px; }
+		.languageschools_families a span { background-position:-133px 0px; }
+		.languageschools_families a:hover span { background-position:-133px -30px; }
+		.languageschools_families.active a span { background-position:-133px -60px; }
+		.languageschools_families.active a:hover span { background-position:-133px -90px; }
+	.languageschools_alumni { width:62px; }
+		.languageschools_alumni a span { background-position:-210px 0px; }
+		.languageschools_alumni a:hover span { background-position:-210px -30px; }
+		.languageschools_alumni.active a span { background-position:-210px -60px; }
+		.languageschools_alumni.active a:hover span { background-position:-210px -90px; }
+	.languageschools_contact { width:87px; }
+		.languageschools_contact a span { background-position:-278px 0px; }
+		.languageschools_contact a:hover span { background-position:-278px -30px; }
+		.languageschools_contact.active a span { background-position:-278px -60px; }
+		.languageschools_contact.active a:hover span { background-position:-278px -90px; }
+
+.footer_wordmark { float:right; }
+	.footer_wordmark:hover { background-color:transparent !important; }

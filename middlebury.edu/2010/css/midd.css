@@ -350,6 +350,17 @@ body { background:#071427 url(//cdn.middlebury.edu/middlebury.edu/2010/images/bl
     .carousel .node, .carousel .link-wrapper { border-left:1px dashed #FFFFFF; height:180px; padding:30px; margin:0px; float:left; }
     .carousel .content > a { display:none; }
 
+  /* Columns */
+  .columns { }
+    .columns .column { float:left; margin:0px 18px; min-height:1px; }
+    .columns .column.first { margin-left:0px; }
+    .columns .column.last { margin-right:0px; }
+  .columns.two { }
+    .fullwidth .columns.two .column { width:444px; }
+  .columns.three { }
+    .fullwidth .columns.three .column { width:284px; }
+  .column.gray { background-color:#EDEDED; }
+
   /* Footer */
   .footer { visibility:hidden; background-color:#003366; line-height:30px; margin-top:30px; font-size:1.1em; font-family:Garamond,"Times New Roman",serif; color:#FFFFFF; position:relative; }
     .footer a { color:#FFFFFF; border-color:#CCCCCC; padding:0px; outline:none; }
