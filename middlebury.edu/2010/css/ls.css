@@ -1,10 +1,13 @@
-body { background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/ls/globe.jpg); }
+.midd_ls { background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/ls/globe.jpg); }
 .column>a, .column .content>a {display:none;}
 .column.gray .profile {margin-top:0px;}
 table.layout tbody, table.layout tr, table.layout td, table.layout { border: none; }
 
 .top_panel { padding-top:1px; }
-.midd_ls h1.wordmark { width:100%; text-align:center; padding:10px 0px 5px; background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/ls/blue_50.png); clear:both; margin-top:59px; margin-bottom:0px; border-bottom:30px solid #0091A4; font-size:1.4em; }
+.midd_ls h1.wordmark, .midd_ls_inside h1.wordmark, .midd_ls_grad h1.wordmark { width:100%; text-align:center; clear:both; border-bottom:30px solid #0091A4; font-size:1.4em; }
+	.midd_ls h1.wordmark { padding:10px 0px 5px; background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/ls/blue_50.png); margin-top:59px; margin-bottom:0px; }
+	.midd_ls_inside h1.wordmark, .midd_ls_grad h1.wordmark { padding:50px 0px 6px; margin:0px; background-image:url(); }
+		.midd_ls_grad h1.wordmark { border-color:#83B2F9; }
 
 .search_query { background-color:#FFFFFF; border:none; font-size:0.929em; color:#666666; }
 .search_submit.ir { background:url(//cdn.middlebury.edu/middlebury.edu/2010/images/arrow_go_white.png); }
@@ -41,6 +44,38 @@ table.layout tbody, table.layout tr, table.layout td, table.layout { border: non
 		.nav_schoolsabroad a span { background-position:-803px 0px; }
 		.nav_schoolsabroad a:hover span { background-position:-803px -30px; }
 		.nav_schoolsabroad.active a span { background-position:-803px -60px; }
+
+.midd_ls_grad .navigation ul { background-color:#83B2F9; }
+.midd_ls_grad .navigation li { margin:0px 3px; }
+.midd_ls_grad .navigation li a span { background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/ls/nav_languageschools_grad.gif); }
+  .midd_ls_grad .nav_applying { width:87px; }
+    .midd_ls_grad .nav_applying a span { background-position:0 0; }
+    .midd_ls_grad .nav_applying a:hover span { background-position:0 -30px; }
+    .midd_ls_grad .nav_applying.active a span { background-position:0 -60px; }
+  .midd_ls_grad .nav_approach { width:123px; }
+    .midd_ls_grad .nav_approach a span { background-position:-94px 0; }
+    .midd_ls_grad .nav_approach a:hover span { background-position:-94px -30px; }
+    .midd_ls_grad .nav_approach.active a span { background-position:-94px -60px; }
+  .midd_ls_grad .nav_aid { width:120px; }
+    .midd_ls_grad .nav_aid a span { background-position:-225px 0; }
+    .midd_ls_grad .nav_aid a:hover span { background-position:-225px -30px; }
+    .midd_ls_grad .nav_aid.active a span { background-position:-225px -60px; }
+  .midd_ls_grad .nav_experience { width:134px; }
+    .midd_ls_grad .nav_experience a span { background-position:-352px 0; }
+    .midd_ls_grad .nav_experience a:hover span { background-position:-352px -30px; }
+    .midd_ls_grad .nav_experience.active a span { background-position:-352px -60px; }
+  .midd_ls_grad .nav_languageschools { width:155px; }
+    .midd_ls_grad .nav_languageschools a span { background-position:-496px 0; }
+    .midd_ls_grad .nav_languageschools a:hover span { background-position:-496px -30px; }
+    .midd_ls_grad .nav_languageschools.active a span { background-position:-496px -60px; }
+  .midd_ls_grad .nav_news { width:128px; }
+    .midd_ls_grad .nav_news a span { background-position:-658px 0; }
+    .midd_ls_grad .nav_news a:hover span { background-position:-658px -30px; }
+    .midd_ls_grad .nav_news.active a span { background-position:-658px -60px; }
+  .midd_ls_grad .nav_schoolsabroad { width:136px; }
+    .midd_ls_grad .nav_schoolsabroad a span { background-position:-793px 0; }
+    .midd_ls_grad .nav_schoolsabroad a:hover span { background-position:-793px -30px; }
+    .midd_ls_grad .nav_schoolsabroad.active a span { background-position:-793px -60px; }
 	
 .languages_feature { height:250px; position:relative; }
 	.languages_feature h2 { text-indent:-999em; overflow:hidden; background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/ls/languages2.gif); height:33px; width:345px; position:absolute; top:86px; left:305px; }
@@ -82,8 +117,10 @@ table.layout tbody, table.layout tr, table.layout td, table.layout { border: non
 				.feature_spanish a:hover { background-position:-3217px -35px; }
 
 .midd_ls .pagecontent { background-color:#FFFFFF; }
+	.midd_ls_inside .pagecontent, .midd_ls_grad .pagecontent { margin-top:0px; background-color:#FFFFFF; }
 .midd_ls .body { padding:0px; float:left; min-width:698px; }
 	.midd_ls .page { width:924px; border:none; float:none; width:auto; background-color:#FFFFFF; padding:0px; }
+		.midd_ls_inside .page, .midd_ls_grad .page { border-top:none; }
 .midd_ls .columns { margin-left:9px; }
 .columns .column { padding:18px; margin:0px; }
 	.columns p { margin:1em 0px; }
@@ -95,6 +132,16 @@ table.layout tbody, table.layout tr, table.layout td, table.layout { border: non
 .schools ul { list-style-type:none; margin:0px 0px 1em; padding:0px; color:#666666; width:40%; float:left; }
 	.schools ul li { margin:0.2em 0px; }
 		.schools ul li a { font-weight:bold; font-size:1.2em; border:none; }
+
+.midd_ls_inside .left, .midd_ls_inside .region-address, .midd_ls_grad .left, .midd_ls_inside .region-address { color:#221100; }
+	.midd_ls_inside ul.menu, .midd_ls_grad ul.menu { background:none repeat scroll 0px 0px #FFFFFF; margin-left:0px; }
+	.midd_ls_inside ul.menu li, .midd_ls_grad ul.menu li { background-color:transparent; border-color:#CCCCCC !important; }
+	.midd_ls_inside ul.menu li a, .midd_ls_grad ul.menu li a { color:#272C6F; padding-left:6px; }
+	.midd_ls_inside ul.menu li a:hover, .midd_ls_grad ul.menu li a:hover { background:none repeat scroll 0px 0px #FFFFFF !important; }
+	.midd_ls_inside ul.menu li.active a, .midd_ls_grad ul.menu li.active a { color:#333300; }
+	.midd_ls_inside ul.menu li.active ul, .midd_ls_grad ul.menu li.active ul { margin-left:18px; }
+	.midd_ls_inside ul.menu li.active ul li a, .midd_ls_grad ul.menu li.active ul li a { color:#272C6F; }
+	.midd_ls_inside ul.menu li.current a, .midd_ls_inside ul.menu li.active ul li.current a, .midd_ls_grad ul.menu li.current a, .midd_ls_grad ul.menu li.active ul li.current a { color:#660000; }
 
 h2 { color:#2BACC2 !important; font-family:Georgia,serif; margin-bottom:8px; }
 h4 { color:#666666; font-size:1.2em; line-height:1em; }
