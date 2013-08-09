@@ -1,0 +1,105 @@
+.column>a, .column .content>a {display:none;}
+.column.gray .profile {margin-top:0px;}
+
+.midd_sa { background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/sa/photos.jpg); background-position:center 50px; }
+
+.midd_sa h1.wordmark, .midd_sa_inside h1.wordmark { width:830px; }
+  .midd_sa h1.wordmark { padding:230px 0 1px; margin-bottom:-11px; }
+  .midd_sa_inside h1.wordmark { padding:50px 0px 6px; }
+
+.header_callout { background:url(//cdn.middlebury.edu/middlebury.edu/2010/images/black_80.png); color:#fff; padding:10px 20px; position:absolute; right:0; bottom:140px; }
+  .midd_sa_inside .header_callout { display:none; }
+  .header_callout h2 { font-size:1.2em; margin:0; color:#fff; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-weight:bold; }
+  .header_callout ul { list-style-type:none; margin:0; }
+  .header_callout li { margin:0; }
+  .header_callout a { color:#f9dd3f; border:none; }
+  .header_callout a:hover { text-decoration:underline; background-color:transparent; }
+
+.search_query { background-color:#fff; border:none; font-size:0.929em; color:#666; }
+.search_submit.ir { background:url(//cdn.middlebury.edu/middlebury.edu/2010/images/arrow_go_white.png); }
+
+.navigation ul { background-color:#210; height:30px; font-size:1em; line-height:30px; margin:0; }
+  .navigation li { margin:0 5px; }
+  .navigation li a { position:relative; color:#fff; height:30px !important; }
+  .navigation li a span { background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/sa/nav_schoolsabroad.gif); display:block; position:absolute; top:0; left:0; width:100%; height:36px; }
+  .nav_applying { width:102px; }
+    .nav_applying a span { background-position:0 0; }
+    .nav_applying a:hover span { background-position:0 -30px; }
+    .nav_applying.active a span { background-position:0 -60px; }
+  .nav_whymidd { width:154px; }
+    .nav_whymidd a span { background-position:-108px 0; }
+    .nav_whymidd a:hover span { background-position:-108px -30px; }
+    .nav_whymidd.active a span { background-position:-108px -60px; }
+  .nav_aid { width:90px; }
+    .nav_aid a span { background-position:-270px 0; }
+    .nav_aid a:hover span { background-position:-270px -30px; }
+    .nav_aid.active a span { background-position:-270px -60px; }
+  .nav_health { width:197px; }
+    .nav_health a span { background-position:-366px 0; }
+    .nav_health a:hover span { background-position:-366px -30px; }
+    .nav_health.active a span { background-position:-366px -60px; }
+  .nav_graduate { width:167px; }
+    .nav_graduate a span { background-position:-576px 0; }
+    .nav_graduate a:hover span { background-position:-576px -30px; }
+    .nav_graduate.active a span { background-position:-576px -60px; }
+  .nav_languageschools { width:156px; }
+    .nav_languageschools a span { background-position:-755px 0; }
+    .nav_languageschools a:hover span { background-position:-755px -30px; }
+    .nav_languageschools.active a span { background-position:-755px -60px; }
+
+.midd_sa .pagecontent, .midd_sa_inside .pagecontent { margin-top:0; background-color:#FFFFFF; }
+  .midd_sa .page { border:none; float:none; width:auto; padding:0px; }
+    .midd_sa_inside .page { border-top:none; }
+    .midd_sa .body { padding:0; float:left; min-width:698px; }
+.midd_sa .columns { margin-left:9px; }
+.columns .column { padding:18px; margin:0; }
+  .columns p { margin:1em 0; }
+.midd_sa .columns.split { background:url(//cdn.middlebury.edu/middlebury.edu/2010/images/column_gray.gif) repeat-y 383px top; }
+  .midd_sa .columns.split .column { width:240px; }
+  .midd_sa .columns.split .first { width:347px; color:#330; }
+.opening { font-size:1.6em; color:#440; }
+  .opening a { font-style:italic; border:none; }
+
+.schools ul { list-style-type:none; margin:0; color:#666; font-size:0.929em; }
+  .schools ul li { margin-bottom:1em; }
+    .schools ul li a { font-weight:bold; font-size:1.5em; border:none; }
+
+.midd_sa_inside .left, .midd_sa_inside .region-address { color:#221100; }
+  .midd_sa_inside ul.menu { background:none repeat scroll 0px 0px #FFFFFF; margin-left:0px; }
+  .midd_sa_inside ul.menu li { background-color:transparent; border-color:#CCCCCC !important; }
+  .midd_sa_inside ul.menu li a { color:#272C6F !important; padding-left:6px; }
+  .midd_sa_inside ul.menu li a:hover { background:none repeat scroll 0px 0px #FFFFFF !important; }
+  .midd_sa_inside ul.menu li.active a { color:#333300; }
+  .midd_sa_inside ul.menu li.active ul { margin-left:18px; }
+  .midd_sa_inside ul.menu li.active ul li a { color:#272C6F; }
+  .midd_sa_inside ul.menu li.current a, .midd_sa_inside ul.menu li.active ul li.current a { color:#660000; }
+
+
+h2 { color:#666; font-family:Georgia,serif; margin-bottom:16px; }
+
+.footer a { border:none; }
+  .footer ul li a span { background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/sa/nav_schoolsabroad_footer.gif); }
+  .footer ul { float:left; }
+  .schoolsabroad_contact { width:85px; }
+    .schoolsabroad_contact a span { background-position:0 0; }
+    .schoolsabroad_contact a:hover span { background-position:0 -30px; }
+    .schoolsabroad_contact.active a span { background-position:0 -60px; }
+    .schoolsabroad_contact.active a:hover span { background-position:0 -90px; }
+  .schoolsabroad_directory { width:74px; }
+    .schoolsabroad_directory a span { background-position:-91px 0; }
+    .schoolsabroad_directory a:hover span { background-position:-91px -30px; }
+    .schoolsabroad_directory.active a span { background-position:-91px -60px; }
+    .schoolsabroad_directory.active a:hover span { background-position:-91px -90px; }
+  .schoolsabroad_giving { width:209px; }
+    .schoolsabroad_giving a span { background-position:-171px 0; }
+    .schoolsabroad_giving a:hover span { background-position:-171px -30px; }
+    .schoolsabroad_giving.active a span { background-position:-171px -60px; }
+    .schoolsabroad_giving.active a:hover span { background-position:-171px -90px; }
+  .quick_go { width:93px; }
+    .quick_go a span { background-position:-387px 0; }
+    .quick_go a:hover span { background-position:-387px -30px; }
+    .quick_go.active a span { background-position:-387px -60px; }
+    .quick_go.active a:hover span { background-position:-387px -90px; }
+
+.footer_wordmark { float:right; }
+  .footer_wordmark:hover { background-color:transparent !important; }

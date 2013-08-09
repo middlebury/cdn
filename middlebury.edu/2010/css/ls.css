@@ -133,7 +133,7 @@ table.layout tbody, table.layout tr, table.layout td, table.layout { border: non
 	.schools ul li { margin:0.2em 0px; }
 		.schools ul li a { font-weight:bold; font-size:1.2em; border:none; }
 
-.midd_ls_inside .left, .midd_ls_inside .region-address, .midd_ls_grad .left, .midd_ls_inside .region-address { color:#221100; }
+.midd_ls_inside .left, .midd_ls_inside .region-address, .midd_ls_grad .left, .midd_ls_grad .region-address { color:#221100; }
 	.midd_ls_inside ul.menu, .midd_ls_grad ul.menu { background:none repeat scroll 0px 0px #FFFFFF; margin-left:0px; }
 	.midd_ls_inside ul.menu li, .midd_ls_grad ul.menu li { background-color:transparent; border-color:#CCCCCC !important; }
 	.midd_ls_inside ul.menu li a, .midd_ls_grad ul.menu li a { color:#272C6F; padding-left:6px; }

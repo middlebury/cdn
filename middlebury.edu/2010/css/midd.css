@@ -266,7 +266,8 @@ body { background:#071427 url(//cdn.middlebury.edu/middlebury.edu/2010/images/bl
           .taskbar_forward:hover { background-color:#DDDDDD; background-position:right bottom; }
       .taskbar_dropdowns { position:absolute; top:0px; right:0px; z-index:400; }
         .dropdown_label { float:left; }
-      .taskbar .node { position:relative; float:left; margin:3px; }
+      .region-quicklinks, .taskbar .node, .taskbar .link-wrapper { float:left; }
+      .taskbar .node { position:relative; margin:3px; }
         .taskbar .node h1 { font-family:Verdana,"Lucida Grande",Lucida,sans-serif; font-weight:normal; font-size:0.846em; text-transform:uppercase; letter-spacing:0.1em; cursor:pointer; color:#222222; line-height:28px; padding:3px 30px 3px 6px; background:#83B2F9 url(//cdn.middlebury.edu/middlebury.edu/2010/images/dropdown_pointer.png) no-repeat right top; }
           .taskbar .node h1 a { color:inherit; border:none; }
           .taskbar .node h1 a:hover { background:transparent; }
