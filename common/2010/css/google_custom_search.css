@@ -1,0 +1,37 @@
+form.google_custom_search { margin-left:0px; }
+.google_custom_search_text { border:1px solid #999; padding:6px; font-size:1em; margin:0; width:60%; background: white url(//www.google.com/cse/intl/en/images/google_custom_search_watermark.gif) no-repeat 0% 50%; }
+.google_custom_search_text.filled { background: white; }
+.google_custom_search_id { display: none; }
+.google_custom_search_submit { background-color:#eee; border:1px solid #aaa; padding:5px; }
+
+.catalog_directory_results div { border:1px dotted #000; padding:10px; margin-bottom:20px; }
+.catalog_directory_results .vcard { float:none; }
+.catalog_directory_results address { font-style:normal; }
+.catalog_directory_results a.email {background:transparent; }
+
+#cse .gsc-search-box { display:none; }
+#cse .gsc-resultsHeader { display: none; }
+#cse .gsc-control-cse { padding:0; }
+#cse .gsc-webResult.gsc-result, #body .gsc-webResult.gsc-result { padding:0; border:0; }
+#cse .gsc-webResult.gsc-result:hover, #body .gsc-webResult.gsc-result:hover { border:0; }
+#cse .gsc-adBlockVertical { clear:none; }
+#cse .gsc-above-wrapper-area, #cse .gsc-wrapper { float:left; width:70%; }
+#cse .gsc-tabsArea { float:right; width:204px; }
+#cse .gsc-tabsArea .gsc-tabHeader { border:0; font-family: Garamond,"Times New Roman", serif; font-size:1.2em; font-weight:normal; text-align:center; display:block; margin:0 0 18px 0; padding:8px 12px; }
+#cse .gsc-tabsArea .gsc-tabHeader.gsc-tabhActive { background-color:#1158A0; color:#fff; }
+#cse .gsc-tabsArea .gsc-tabHeader.gsc-tabhInactive { background-color:#ccc; color:#000; }
+#cse .gsc-tabsArea span.gs-spacer { display:none; }
+#cse .gs-result .gs-visibleUrl-short { display:none; }
+#cse .gs-result .gs-visibleUrl-long { display:block; }
+
+body.sidebar #cse .gsc-above-wrapper-area, body.sidebar #cse .gsc-wrapper { width:450px; }
+body.sidebar #cse .gsc-tabsArea { display:none; }
+
+#page .box.filled { background-color:#AECDE9; border:none; font-size:1.15em; padding:11px; margin:0 0 18px 0; }
+.box p, .box ul, .box ul li { display:inline; }
+div.sidebar .box p { display:block; }
+div.sidebar .box ul { display:block; list-style-type: disc; margin-right:0px; }
+div.sidebar .box ul li { display:list-item; }
+.box ul { list-style-type: none; margin-right:20px; }
+.box ul li { padding-right: 10px; }
+.box p { margin-bottom: 0; }
