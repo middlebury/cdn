@@ -1,0 +1,131 @@
+body { background:#0079BD url('//cdn.middlebury.edu/middlebury.edu/2010/images/uwc/background.png') repeat-x center top; margin:0px; font-size:16px; font-family:Garamond,"Times New Roman",serif; }
+article, aside, figure, footer, header, hgroup, nav, section { display:block; }
+h1, h2, h3, h4, h5, h6 { font-weight:bold; }
+h1 { font-size:28.39px; color:#50473B; }
+h2 { font-size:22px; }
+h3 { font-size:1.4em; color:#61584B; font-weight:normal; }
+h4 { font-size:13px; }
+h5 { font-size:11px; }
+h6 { font-size:9px; }
+a { text-decoration:underline; color:#3762A0; }
+  a:hover { text-decoration:none; }
+  a:active { color:#0000EE; }
+table { margin-bottom:1em; }
+  th { padding:8px; background-color:#EFEFEA; border-bottom:1px solid #CCCC99; border-top:3px solid #666633; }
+  td { padding:8px; border-top:1px solid transparent; border-bottom:1px solid #CCCC99; }
+    td:hover { background:#EFEEE9; }
+  tr:nth-child(even) { background-color:#F9F2E1; }
+  table.layout td { padding:0px 20px 20px 0px; background:none; border:none; vertical-align:top; }
+  table.layout tr:hover td { background:none; }
+.opening { font-size:22px; color:#50473B; }
+.centered, .wordmark * { margin:0px auto; }
+.fullwidth { width:960px; }
+
+.wordmark img { display:block; margin-top:15px; }
+.wordmark h1 { width:392px; height:26px; background-image:url('//cdn.middlebury.edu/middlebury.edu/2010/images/uwc/wordmark_h1.png'); font-size:0px; }
+.wordmark h2 { width:100px; height:11px; background-image:url('//cdn.middlebury.edu/middlebury.edu/2010/images/uwc/wordmark_h2.png'); font-size:0px; }
+
+.topnav { width:100%; height:45px; border:1px solid #A1A2A2; background:#518C8C; margin-top:23px; }
+  .topnav ul { list-style-type:none; background:#FFFFFF; height:46px; padding:0px; width:960px; border-right:2px solid #518C8C; }
+  .topnav li { float:left; height:35px; background:#518C8C; padding:0px 1px; }
+    .topnav li.active, .topnav li:hover { background:#FFFFFF; color:#FFFFFF; }
+    .topnav li a { position:relative; height:35px !important; color:#518C8C; }
+      .topnav li a span { display:block; height:35px; left:0px; position:absolute; top:0px; width:100%; background-image:url('//cdn.middlebury.edu/middlebury.edu/2010/images/uwc/nav.png'); }
+    .topnav li.program { width:118px; }
+      .topnav li.program a span { width:118px; background-position:0px 0px; }
+      .topnav li.program a:hover span,
+      .topnav li.program.active a span { background-position:0px -35px; }
+    .topnav li.scholars { width:84px; }
+      .topnav li.scholars a span { width:84px; background-position:-118px 0px; }
+      .topnav li.scholars a:hover span,
+      .topnav li.scholars.active a span { background-position:-118px -35px; }
+    .topnav li.founders { width:96px; }
+      .topnav li.founders a span { width:96px; background-position:-202px 0px; }
+      .topnav li.founders a:hover span,
+      .topnav li.founders.active a span { background-position:-202px -35px; }
+    .topnav li.partners { width:172px; }
+      .topnav li.partners a span { width:172px; background-position:-298px 0px; }
+      .topnav li.partners a:hover span,
+      .topnav li.partners.active a span { background-position:-298px -35px; }
+    .topnav li.stories { width:178px; }
+      .topnav li.stories a span { width:178px; background-position:-470px 0px; }
+      .topnav li.stories a:hover span,
+      .topnav li.stories.active a span { background-position:-470px -35px; }
+    .topnav li.join { width:198px; }
+      .topnav li.join a span { width:198px; background-position:-648px 0px; }
+      .topnav li.join a:hover span,
+      .topnav li.join.active a span { background-position:-648px -35px; }
+    .topnav li.contact { width:100px; }
+      .topnav li.contact a span { width:100px; background-position:-846px 0px; }
+      .topnav li.contact a:hover span,
+      .topnav li.contact.active a span { background-position:-846px -35px; }
+    .topnav li.active { background:#FFFFFF; }
+
+.body, .feature { background:#FFFFFF; display:table; }
+
+.body nav { width:175px; padding:21px 8px; display:table-cell; vertical-align:top; }
+.body nav .content > ul.menu { margin:0px; padding:0px; }
+.body nav .content > ul.menu > li { margin:0px; padding:0px; }
+.body nav .content > ul.menu > li > ul { margin:0px; padding:0px; }
+.body nav .content > ul.menu > li > ul > li:first-child { border-top:1px solid #D6D6D6; }
+.body nav .content > ul.menu > li > ul > li { border-bottom:1px solid #D6D6D6; width:175px; }
+.body nav .content > ul.menu > li > a { display:none; }
+.body nav ul.menu li { list-style-type:none; list-style-image:none; }
+.body nav li { min-height:31px; }
+.body nav li a { color:#1D4468; text-decoration:none; font-family:Univers,"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:13px; margin:8px 0px 0px 5px; display:block; }
+
+section.content { display:table-cell; min-width:350px; padding:0px 30px; vertical-align:top; }
+section.content > a { display:none; }
+
+aside { display:table-cell; padding:0px 8px; }
+
+body > footer { margin-top:41px; background:#1C2B54; height:30px; }
+body > footer nav a { float:left; font-family:Univers,"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:13px; font-weight:bold; color:#FFFFFF; text-decoration:none; margin-top:8px; }
+
+footer .forms { margin-left:26px; }
+footer .hosted { float:right; width:160px; font-size:11px; font-weight:normal; }
+footer .middlebury { display:block; float:right; width:104px; height:20px; background-image:url('//cdn.middlebury.edu/middlebury.edu/2010/images/uwc/wordmark_footer.png'); font-size:0px; margin-top:-3px; }
+
+.scholar-list-item { width:100%; display:table; padding:21px 8px; }
+.scholar-list-item aside { display:table-cell; width:150px; }
+.scholar-list-item section { display:table-cell; vertical-align:top; }
+.scholar-list-item a { text-decoration:none; }
+.scholar-list-item h1 { font-size:22px; color:#1D4468; margin:0px; }
+.scholar-list-item h2, .scholar h2 { color:#50473B; margin:0px; font-weight:normal; }
+
+.scholar h1 { margin:0px; }
+.scholar aside { float:left; margin:16px 8px 16px -8px; width:279px; }
+
+.node-student aside { display:table-cell; width:125px; }
+.node-student header { display:table-cell; vertical-align:top; }
+.node-student h1 { margin:0px; }
+.node-student .country, .node-student .uwc_school, .node-student .school { color:#61584B; font-size:1.2em; font-weight:normal; margin:0px; }
+
+.feature .views-row { display:none; }
+.feature .views-row:first-child { display:block; }
+.views-row .caption { color:#4A4B4C; font-family:"Helvetica Neue",sans-serif; font-size:13px; margin-right:10px; position:absolute; right:0px; top:325px; width:520px; }
+.views-row .feature { position:relative;; background-repeat:no-repeat; height:400px; margin-top:-11px; }
+.views-row img.readmore { position:absolute; right:24px; bottom:12px; }
+
+.columns { margin-top:12px; font-family:Univers,"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:14px; }
+.columns article { background:#FFFFFF; border-top:6px solid #89A721; width:294px; height:304px; float:left; }
+.columns article header { margin:8px 0px 0px 0px; }
+.columns article header h1 { font-weight:normal; margin-top:0px; }
+.columns article.impact header h1 { margin-top:24px; }
+article.numbers { padding-left:22px; width:272px; }
+.columns img, article.numbers p { margin-top:-10px; }
+article.stories header, article.stories p, article.impact p { margin-left:12px; }
+article.stories img { margin-left:6px; }
+article.numbers, article.stories { margin-right:39px; }
+article.impact header { width:265px; text-align:center; margin-top:-14px; }
+article.impact header span { display:block; }
+article.impact img { margin-left:8px; }
+span.world { margin-left:78px; padding-top:26px; }
+span.impact { margin-left:114px; }
+.columns .readmore { float:right; margin:4px; }
+
+.mm-gallery-single { position:relative; }
+.mm-gallery-single img { max-width:300px; }
+.mm-gallery-single .play-icon { display:none; position:absolute; left:40%; top:35%; pointer-events:none; }
+
+.clear { clear:both; }
