@@ -1,7 +1,4 @@
 jQuery(document).ready(function(jQuery) {
-  jQuery('#uwc_scholars').cycle({
-    delay:-11000
-  });
   jQuery('article header h1').each(function(i, el) {
     html = jQuery(el).html().replace(/\s+/, "");
     if (jQuery(el).is(":empty") || html.length == 0)
