@@ -126,6 +126,7 @@ section.content { padding:30px; background-color:#FFFFFF; }
   .front ul.pager li { width: 269px; margin:0px; padding:0px;}
   .front ul.pager li.first { float: left; display:block; text-align: left;}
   .front ul.pager li.last { float: right; text-align: right;}
+  .front ul.pager li.pager-current { display:none; }
   .front .view { width:524px;}
 
 /* Project Profile page */
