@@ -86,15 +86,15 @@ footer .forms { margin-left:26px; }
 footer .hosted { float:right; width:160px; font-size:11px; font-weight:normal; }
 footer .middlebury { display:block; float:right; width:104px; height:20px; background-image:url('//cdn.middlebury.edu/middlebury.edu/2010/images/uwc/wordmark_footer.png'); font-size:0px; margin-top:-3px; }
 
+.node-scholar h1 { margin:0px; }
+.node-scholar aside { float:left; margin:16px 8px 16px -8px; width:279px; }
+
 .scholar-list-item { width:100%; display:table; padding:21px 8px; }
-.scholar-list-item aside { display:table-cell; width:150px; }
+.scholar-list-item aside { display:table-cell; width:150px; margin:0px; float:none; }
 .scholar-list-item section { display:table-cell; vertical-align:top; }
 .scholar-list-item a { text-decoration:none; }
 .scholar-list-item h1 { font-size:22px; color:#1D4468; margin:0px; }
-.scholar-list-item h2, .scholar h2 { color:#50473B; margin:0px; font-weight:normal; }
-
-.scholar h1 { margin:0px; }
-.scholar aside { float:left; margin:16px 8px 16px -8px; width:279px; }
+.scholar-list-item h2, .node-scholar h2 { color:#50473B; margin:0px; font-weight:normal; }
 
 .node-student aside { display:table-cell; width:125px; }
 .node-student header { display:table-cell; vertical-align:top; }
