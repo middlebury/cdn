@@ -289,7 +289,7 @@ body { background:#071427 url(//cdn.middlebury.edu/middlebury.edu/2010/images/bl
           .gray.active h1 { background-color:#8C8C8C; color:#222222; }
 
     /* Banner Image */
-    .banner { position:relative; }
+    .banner { position:relative; clear:left; }
       .banner a { margin:0px; padding:0px; border:none; }
       .banner a img { display:block; }
       .banner p { margin:0px; padding:0px; }
