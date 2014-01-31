@@ -293,6 +293,7 @@ body { background:#071427 url(//cdn.middlebury.edu/middlebury.edu/2010/images/bl
       .banner a { margin:0px; padding:0px; border:none; }
       .banner a img { display:block; }
       .banner p { margin:0px; padding:0px; }
+      .banner .node header { display:none; }
 
     /* Left Column */
     .left { float:left; width:204px; padding:18px 18px 15em; color:#FFFFFF; font-size:0.929em; }
