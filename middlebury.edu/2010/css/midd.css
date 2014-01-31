@@ -443,7 +443,7 @@ body { background:#071427 url(//cdn.middlebury.edu/middlebury.edu/2010/images/bl
   /* Department */
   .midd_department .pagecontent { background-color:#FFFFFF; }
   .midd_department .left, .midd_department .region-address { color:#221100; }
-    .midd_department .left a, .midd_department .region-address a { color:#272C6F; border-bottom-color:#114477; }
+    .midd_department #block-monster-menus-1 a, .midd_department #block-monster-menus-6 a, .midd_department #block-monster-menus-8 a { color:#272C6F; border-bottom-color:#114477; }
     .midd_department .left a:hover, .midd_department .region-address a:hover { background-color:#EEFFCC; color:#333300; }
   .midd_department .page { border-top:0px; }
   .midd_department ul.menu { margin-left:0px; background:#FFFFFF; }
