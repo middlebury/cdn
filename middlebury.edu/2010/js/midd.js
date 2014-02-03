@@ -35,6 +35,9 @@ jQuery(document).ready(function(jQuery) {
 
   jQuery.easing.def = 'easeInOutQuad'; //set the default easing
 
+  // Fix for Address height
+  jQuery('#midd_content nav.left').css('padding-bottom',Math.max(195,jQuery('#midd_content .region-address').height()+40));
+
   function getFirstChild(el){
     var firstChild = el.firstChild;
     while(firstChild != null && firstChild.nodeType == 3){ // skip TextNodes
