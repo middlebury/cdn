@@ -65,6 +65,7 @@ dd { width:250px; float:left; margin:0px; padding:.5em; border-top:1px solid #66
   .navigation { float:left; font-size:1.1em; padding-right:10px; list-style-type:none; margin:0px 0px 0px -15px; }
     .navigation li { float:left; margin:0px; }
       .navigation li a { font-weight:bold; display:block; padding:0px 15px; color:#FFFFFF; text-decoration:none; }
+        .kwd_fellows .navigation li a { padding:0px 32px; }
         .navigation li.active a { background-color:#0C284B; }
       .navigation li a:hover { color:#CFDA24; }
   .search { padding-top:8px; height:36px; overflow:hidden; line-height:16px; margin:0px; }
