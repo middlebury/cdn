@@ -60,18 +60,19 @@ jQuery(function() { // on DOM ready
   jQuery('.coursetitle').css('cursor','pointer').click(function() { // Sep2-fix
     jQuery(this).next().slideToggle();
   });
-	if (!jQuery.browser.webkit) {
-	  jQuery('details section').hide(); // Sep2-fix
-	  jQuery('details summary').css('cursor','pointer').click(function() { // Sep2-fix
-	  	var dets = jQuery(this).parent();
-	    dets.find('section').slideToggle();
-	    if (dets.attr('open'))
-	    	dets.removeAttr('open');
-	    else
-	    	dets.attr('open', 'open');
-	    return false;
-	  });
-	 }
+  jQuery('details section').hide(); // Sep2-fix
+  jQuery('details summary').css('cursor','pointer').click(function(e) { // Sep2-fix
+  	var dets = jQuery(this).parent();
+    dets.find('section').slideToggle();
+    if (dets.attr('open'))
+    	dets.removeAttr('open');
+    else
+    	dets.attr('open', 'open');
+    e.preventDefault();
+    e.stopPropagation();
+    return false;
+  });
+ }
     // Sidebar Images
     jQuery('#miis_sidebar a img').parents('a').hover(
       function() {
