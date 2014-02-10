@@ -10,7 +10,7 @@ input[disabled],select[disabled],textarea[disabled],button[disabled] { opacity:0
 .skiplink:focus { left:0px; }
 .clear { height:0px; clear:both; }
 
-body { background:#001534 url('//cdn.middlebury.edu/middlebury.edu/2010/images/museum/gradient.jpg') no-repeat left top; font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; color:#221100; font-size:0.875em; line-height:1.4em; }
+body { background:#001534 url('//cdn.middlebury.edu/middlebury.edu/2010/images/museum/gradient.jpg') no-repeat left top; font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; color:#221100; font-size:0.875em; line-height:1.4; }
 a { color:#5FA7FF; text-decoration:none; border-bottom:1px dotted #5FA7FF; padding:0.07em; }
   a:hover { color:#003366; border-bottom:1px dotted #003366; }
   a.noborder,a.noborder:hover { border:none; background-color:transparent !important; padding:0; }
@@ -104,6 +104,55 @@ form { margin-bottom:1em; }
       .gallery_nav a:hover { color:#FFFFFF; }
       .gallery_nav a.selected,.gallery_nav a.selected:hover { color:#CCCCDD !important; cursor:default; }
 
+.title { background-color:#45546D; padding:10px 0px 10px 0px; width:100%; overflow:hidden; }
+  .title h1 { color:#FFFFFF; position:relative; width:920px; margin:0px auto 0px auto; }
+
+.content { background-color:#FFFFFF; }
+  .content a { color:#272C6F; border-bottom:1px dotted #272C6F; }
+  .content a:hover { color:#333333; border-bottom:1px solid #333333; background:#FAF9D5; }
+
+.region-left { float:left; width:204px; padding:18px; color:#FFFFFF; font-size:0.929em; }
+  .region-left a { color:#00B0FA; }
+  .region-left a:hover { color:#FFFFFF; }
+  .region-left ul.menu { margin:0px; width:204px; list-style-type:none; }
+    .region-left ul.menu a { text-decoration:none; color:#272C6F; border:0px; }
+    .region-left ul.menu a:hover { text-decoration:underline; color:#333300; background-color:transparent; }
+    .region-left ul.menu li { list-style-type:none; list-style-image:none; }
+    .region-left div.content > ul.menu { margin:0px 0px 36px 0px; }
+      .region-left div.content > ul.menu > li { margin:0px; border-top:1px solid #CCCCCC; }
+        .region-left div.content > ul.menu > li > a { display:none; }
+    .region-left ul.menu > li > ul.menu > li { padding:4px 12px 4px 12px; margin:0px; border-bottom:1px solid #CCCCCC; }
+      .region-left ul.menu > li > ul.menu > li > a { font-weight:bold; }
+    .region-left ul.menu > li > ul.menu > li.expanded > a { color:#272C6F; }
+    .region-left ul.menu > li > ul.menu > li.expanded > ul > li { list-style-type:none; border-bottom:0; }
+    .region-left ul.menu > li > ul.menu > li.expanded > ul.menu { margin-left:18px; }
+      .region-left ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu { color:#CCCCCC; list-style-type:circle; margin-left:18px; }
+      .region-left ul.menu > li > ul.menu > li.expanded > ul.menu li.here { color:#660000; }
+      .region-left ul.menu > li > ul.menu > li.expanded > ul.menu li.here > a { color:#660000; }
+
+.region-right { float:right; width:196px; margin:40px 0px 20px 18px; border:3px solid #FFFFFF; padding:18px 8px 18px 18px; background-color:#EEEEEE; }
+  .region-right .content { background-color:inherit; }
+  .region-right img { border:none; text-decoration:none; margin-bottom:10px; }
+  .region-right a img { border:none; text-decoration:none; }
+  .region-right a:hover img { border:none; text-decoration:none; }
+
+.page { float:left; width:720px; }
+  .body { float:left; padding:18px; width:680px; }
+    .body div.content > a { display:none; }
+
+.breadcrumb { color:#666666; font-size:0.857em; margin-bottom:18px; }
+  .breadcrumb a { color:#333333; padding-bottom:0px; }
+  .breadcrumb a:hover { color:#333333; }
+
+.carousel_arrow { position:absolute; left:258px; bottom:-43px; width:49px; height:43px; background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/carousel_arrow.png); z-index:100; }
+.carousel { color:#FFFFFF; height:240px; margin:18px 0px; position:relative; overflow:hidden; }
+  .carousel a { color:#CCFF66; text-decoration:none; border:none; padding:0px; }
+  .carousel a:hover { color:#A9D4FF; text-decoration:underline; border:none; background-color:transparent; border-bottom:1px dotted; }
+  .carousel h2, .carousel h3, .carousel h4, .carousel h5, .carousel h6 { color:#83B2F9; }
+.carousel .block { border:dashed #FFFFFF; border-width:1px 1px 1px 0px; list-style-type:none; height:238px; margin:0px; }
+  .carousel .node, .carousel .link-wrapper { border-left:1px dashed #FFFFFF; height:180px; padding:30px; margin:0px; float:left; }
+  .carousel .content > a { display:none; }
+
 .footer { background-color:#1A2D49; color:#FFFFFF; font-size:0.92em; }
   .footer a { color:#6A93AE; border:none; }
     .footer a:hover { color:#FFFFFF; }
@@ -131,31 +180,16 @@ form { margin-bottom:1em; }
     .address_mailing { float:left; margin-right:15px; }
   .footer_nav { list-style-type:none; float:left; margin:0px 24px 0px 24px; }
 
+/* Homepage Styles */
+body.front { color:#FFFFFF; }
+  .front .content { background-color:transparent; }
+  .front .content a:hover { border-bottom:none; background:none; }
+  .front .content > section, .front .content > aside { display:table-cell; }
+
+.events { padding:15px 28px 0px 28px; width:364px; position:relative; }
+
 
 /** Old styles
-header { background-color:#45546d; color:#fff; padding:10px 0; width:100%; overflow:hidden; }
-        header h1 { color:#fff; font-weight:bold; position:relative; width:920px; margin:0 auto; }
-
-#left { float:left; width:204px; padding:18px; color:#fff; font-size:0.929em;  }
-        #left a { color:#00b0fa; }
-        #left a:hover { color:#fff; }
-#left ul.menu { margin:0; width:204px; list-style-type:none; }
-        #left ul.menu a { text-decoration:none; color:#272C6F; border:0; }
-        #left ul.menu a:hover { text-decoration:underline; color:#330; background-color:transparent; }
-        #left div.content > ul.menu { margin:0 0 36px; }
-                #left div.content > ul.menu > li {margin:0px; border-top:1px solid #ccc; }
-                #left div.content > ul.menu > li > a { display:none; }
-                #left ul.menu > li > ul.menu > li { padding:4px 12px; margin:0; border-bottom:1px solid #ccc; }
-                        #left ul.menu > li > ul.menu > li > a {font-weight:bold; }
-                #left ul.menu > li > ul.menu > li.expanded > ul > li {list-style-type:none; border-bottom:0; }
-                        #left ul.menu > li > ul.menu > li.expanded > a {color:#272C6F; }
-                        #left ul.menu > li > ul.menu > li.expanded > ul.menu {margin-left:18px; }
-                                #left ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu {color:#ccc; list-style-type:circle; margin-left:18px; }
-                                #left ul.menu > li > ul.menu > li.expanded > ul.menu li.here {color:#600; }
-                                        #left ul.menu > li > ul.menu > li.expanded > ul.menu li.here > a {color:#600; }
-
-#page { float:left; width:720px; }
-
         #body { float:left; padding:18px; width:680px; }
                 #body>a { display:none; }
                 #breadcrumb { color:#666; font-size:0.857em; margin-bottom:18px; }
@@ -175,17 +209,6 @@ header { background-color:#45546d; color:#fff; padding:10px 0; width:100%; overf
 #left .feature p {font-size:1.2em;}
 .feature img { display:block; margin-left:auto; margin-right:auto; }
 .box { padding:11px; border:1px dashed #996; margin-bottom:18px; position:relative; }
-  
-.columns { }
-  .columns .column { float:left; margin:0 18px; min-height:1px; }
-  .columns .column.first { margin-left:0; }
-  .columns .column.last { margin-right:0; }
-.columns.two { }
-  .fullwidth .columns.two .column { width:444px; }
-.columns.three { }
-  .fullwidth .columns.three .column { width:284px; }
-.column.gray { background-color:#ededed; }
-
 
 .result { border:1px solid #ccc; min-height: 200px; text-align: left; width:684px; clear:both; }
 .photocaption {font-size: 0.88em; font-family:Georgia, serif; color:#666; font-style: italic; }
