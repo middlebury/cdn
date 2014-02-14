@@ -1,3 +1,4 @@
+/* Reset Styles */
 html { font-size:100%; }
 body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,img,form,label,iframe { margin:0px; padding:0px; font-size:1em; line-height:inherit; font-weight:inherit; color:inherit; border:none; }
 h1,h2,h3,h4,h5,h6 { font-weight:normal; }
@@ -10,6 +11,7 @@ input[disabled],select[disabled],textarea[disabled],button[disabled] { opacity:0
 .skiplink:focus { left:0px; }
 .clear { height:0px; clear:both; }
 
+/* General Element Styles */
 body { background:#001534 url('//cdn.middlebury.edu/middlebury.edu/2010/images/museum/gradient.jpg') no-repeat left top; font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; color:#221100; font-size:0.875em; line-height:1.4; }
 a { color:#5FA7FF; text-decoration:none; border-bottom:1px dotted #5FA7FF; padding:0.07em; }
   a:hover { color:#003366; border-bottom:1px dotted #003366; }
@@ -41,6 +43,7 @@ form { margin-bottom:1em; }
   input { padding:2px; }
   input[type=radio], input[type=checkbox] { margin-right:10px; }
 
+/* General Type Styles */
 .image_left { float:left; width:204px; margin:6px 18px 6px 0px; }
 .image_right { float:right; width:204px; margin:6px 0px 6px 18px; }
 .caption { font-style:italic; font-size:0.929em; color:#888888; line-height:1.25em; margin:3px; }
@@ -57,14 +60,17 @@ form { margin-bottom:1em; }
   .tags a { -moz-border-radius-bottomleft:3px; -moz-border-radius-bottomright:3px; -moz-border-radius-topleft:3px; -moz-border-radius-topright:3px; background-color:#F4F4EA; border:1px solid #CCCCCC; cursor:default; display:inline-block; margin:2px 0.2em 2px 0.2em; padding:0.1em 0.2em 0.1em 0.2em; }
   .tags a:hover { text-decoration:none; background-color:#E9E9C9; }
 
+/* Page Container */
 .container { width:960px; margin:0px auto; position:relative; clear:both; }
 
+/* Header */
 .header { background:url('//cdn.middlebury.edu/middlebury.edu/2010/images/museum/roof.gif') left bottom no-repeat; padding:30px 0px; }
   .header a { border:none; background-color:transparent; }
   .wordmark { padding-top:50px; font-size:1em; font-weight:bold; float:left; }
   .search { position:absolute; top:0px; right:0px; border:1px solid #45546D; padding:1px; height:1.8em; }
     .search_query { background-color:#45546D; border:none; display:block; width:9.4em; padding:0px 0px 0px 0.8em; height:1.8em; line-height:1.5em; font-style:italic; color:#8FD4FF; }
 
+/* Header Navigation */
 .navigation { float:right; width:34em; list-style-type:none; margin:0px; }
   .navigation li { float:left; margin:0px 0px 0px 1em; border-bottom:1px solid #45546D; }
     .navigation li a { color:#FFFFFF; line-height:14px; padding:7px 0px 7px 14px; height:14px; display:block; position:relative; }
@@ -91,6 +97,7 @@ form { margin-bottom:1em; }
     .nav_news a span { background-position:-322px -60px; }
       .nav_news a:hover span,.nav_news.active a span { background-position:-322px -160px; }
 
+/* Image Gallery */
 .gallery { background-color:#45546D; color:#FFFFFF; padding:15px 0px 10px 0px; width:100%; overflow:hidden; }
   .gallery a { border:none; }
   .gallery .container { padding-top:302px; }
@@ -104,13 +111,16 @@ form { margin-bottom:1em; }
       .gallery_nav a:hover { color:#FFFFFF; }
       .gallery_nav a.selected,.gallery_nav a.selected:hover { color:#CCCCDD !important; cursor:default; }
 
+/* Section Title */
 .title { background-color:#45546D; padding:10px 0px 10px 0px; width:100%; overflow:hidden; }
   .title h1 { color:#FFFFFF; position:relative; width:920px; margin:0px auto 0px auto; }
 
+/* Page Content */
 .content { background-color:#FFFFFF; }
   .content a { color:#272C6F; border-bottom:1px dotted #272C6F; }
   .content a:hover { color:#333333; border-bottom:1px solid #333333; background:#FAF9D5; }
 
+/* Left Sidebar and Navigation */
 .region-left { float:left; width:204px; padding:18px; color:#FFFFFF; font-size:0.929em; }
   .region-left a { color:#00B0FA; }
   .region-left a:hover { color:#FFFFFF; }
@@ -130,20 +140,24 @@ form { margin-bottom:1em; }
       .region-left ul.menu > li > ul.menu > li.expanded > ul.menu li.here { color:#660000; }
       .region-left ul.menu > li > ul.menu > li.expanded > ul.menu li.here > a { color:#660000; }
 
+/* Right Sidebar */
 .region-right { float:right; width:196px; margin:40px 0px 20px 18px; border:3px solid #FFFFFF; padding:18px 8px 18px 18px; background-color:#EEEEEE; }
   .region-right .content { background-color:inherit; }
   .region-right img { border:none; text-decoration:none; margin-bottom:10px; }
   .region-right a img { border:none; text-decoration:none; }
   .region-right a:hover img { border:none; text-decoration:none; }
 
+/* Content Container */
 .page { float:left; width:720px; }
   .body { float:left; padding:18px; width:680px; }
     .body div.content > a { display:none; }
 
+/* Breadcrumb */
 .breadcrumb { color:#666666; font-size:0.857em; margin-bottom:18px; }
   .breadcrumb a { color:#333333; padding-bottom:0px; }
   .breadcrumb a:hover { color:#333333; }
 
+/* Carousel */
 .carousel_arrow { position:absolute; left:258px; bottom:-43px; width:49px; height:43px; background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/carousel_arrow.png); z-index:100; }
 .carousel { color:#FFFFFF; height:240px; margin:18px 0px; position:relative; overflow:hidden; }
   .carousel a { color:#CCFF66; text-decoration:none; border:none; padding:0px; }
@@ -153,6 +167,7 @@ form { margin-bottom:1em; }
   .carousel .node, .carousel .link-wrapper { border-left:1px dashed #FFFFFF; height:180px; padding:30px; margin:0px; float:left; }
   .carousel .content > a { display:none; }
 
+/* Footer */
 .footer { background-color:#1A2D49; color:#FFFFFF; font-size:0.92em; }
   .footer a { color:#6A93AE; border:none; }
     .footer a:hover { color:#FFFFFF; }
@@ -188,6 +203,24 @@ body.front { color:#FFFFFF; }
 
 .events { padding:15px 28px 0px 28px; width:364px; position:relative; }
 
+/* News Postings */
+.node-news > header { float:left; width:456px; }
+.node-news aside { float:right; margin-right:-20px; margin-left:8px; width:204px; background-color:#EEEEEE; border:3px solid #FFFFFF; padding:18px 8px 18px 18px; }
+.node-news aside a.thickbox { border:none; }
+.node-news aside img { border:1px solid #D4D6C8; margin-top:30px; margin-left:0px; }
+.node-news aside h2.links { color:#666666; font-size:1.2em; font-weight:bold; }
+.node-news aside h2.contact { color:#222222; font-size:1.4em; font-weight:normal; }
+.node-news aside section.contact { border:1px dashed #999966; margin-bottom:18px; padding:11px; }
+.node-news aside section.contact h3 { color:#666666; font-weight:bold; font-size:1em; }
+
+/* News Postings List */
+.newslist { width:100%; display:table; padding:21px 8px; }
+.newslist aside { display:table-cell; vertical-align:top; width:140px; margin:0px; padding:0px; border:0px; float:none; background:transparent; }
+.newslist aside img { border:0px; margin:0px; }
+.newslist section { display:table-cell; vertical-align:top; font-size:0.929em; line-height:1.3em; }
+.newslist h1 { font-size:1.295em; line-height:inherit; }
+.newslist .date { color:#221100; font-size:1em; font-weight:bold; }
+.newslist p { display:inline; }
 
 /** Old styles
         #body { float:left; padding:18px; width:680px; }
@@ -263,22 +296,6 @@ body#homepage { color:#fff; }
   
 .card { background-color:#eaeef1; border:1px solid #bbccdb; padding:16px 16px 8px 16px; margin:0px; line-height:1.5em; font-size:0.88em; margin-bottom:10px; }
 
-.news { float: left; }
-.news.node { width: 678px; }
-.news div.sidebar { width: 204px; float: right; margin-top: -30px; margin-right:-20px; }
-.news div.sidebar img { border:1px solid #d4d6c8; margin-top:30px; margin-left:0px; }
-
-.newslist img { float: left; margin-bottom: 10px; border:1px solid #d4d6c8; margin-left:0px; }
-.newslist .node { margin-left: 140px; margin-right: 18px; margin-bottom: 10px; }
-.newslist .node p { display:inline; }
-.newslist .summary .teaser p:first-child { display:inline; }
-
-.newslist { list-style-type:none; margin:0; }
-  .newslist li { clear:left; margin-bottom:1em; }
-    .headline { margin-bottom:1em; }
-  .newslist li.has_image { padding-left:138px; }
-    .newslist li.has_image .date { margin-left:-138px; }
-    .newslist li.has_image img { float:left; margin:0 0 18px -138px; border:1px solid #600; }
 
   
 #block-monster_menus-5 { height:0; margin:-10px; padding:0; line-height:0; }
