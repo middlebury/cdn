@@ -203,6 +203,18 @@ body.front { color:#FFFFFF; }
 
 .events { padding:15px 28px 0px 28px; width:364px; position:relative; }
 
+/* Collection Postings */
+.node-collection { border:1px solid #ccc; min-height: 200px; text-align: left; width:684px; clear:both; }
+.node-collection .first { width:260px; }
+.node-collection .second, .node-collection .third { width:210px; vertical-align:top; }
+.node-collection .photocaption {font-size: 0.88em; font-family:Georgia, serif; color:#666; font-style: italic; }
+.node-collection .value { font-weight:bold; }
+
+/* Events Postings */
+.node-event { background-color:#eaeef1; border:1px solid #bbccdb; padding:16px 16px 8px 16px; margin:0px; line-height:1.5em; font-size:0.88em; margin-bottom:10px; }
+.node-event h2 { color:#666666; font-weight:bold; font-size:1em; }
+.node-event .label { font-weight:bold; }
+
 /* News Postings */
 .node-news > header { float:left; width:456px; }
 .node-news aside { float:right; margin-right:-20px; margin-left:8px; width:204px; background-color:#EEEEEE; border:3px solid #FFFFFF; padding:18px 8px 18px 18px; }
@@ -243,8 +255,7 @@ body.front { color:#FFFFFF; }
 .feature img { display:block; margin-left:auto; margin-right:auto; }
 .box { padding:11px; border:1px dashed #996; margin-bottom:18px; position:relative; }
 
-.result { border:1px solid #ccc; min-height: 200px; text-align: left; width:684px; clear:both; }
-.photocaption {font-size: 0.88em; font-family:Georgia, serif; color:#666; font-style: italic; }
+
 
 
 body#homepage { color:#fff; }
@@ -293,8 +304,7 @@ body#homepage { color:#fff; }
   #carousel .content > a { display:none; }
   #carousel a:hover { background: transparent; border-bottom: 1px dotted; }
   #carousel_arrow { z-index: 100; }
-  
-.card { background-color:#eaeef1; border:1px solid #bbccdb; padding:16px 16px 8px 16px; margin:0px; line-height:1.5em; font-size:0.88em; margin-bottom:10px; }
+
 
 
   
