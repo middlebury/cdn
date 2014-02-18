@@ -198,10 +198,33 @@ form { margin-bottom:1em; }
 /* Homepage Styles */
 body.front { color:#FFFFFF; }
   .front .content { background-color:transparent; }
-  .front .content a:hover { border-bottom:none; background:none; }
+  .front .content a { border:none; background-color:transparent; color:#C4C47F; }
+  .front .content a:hover { border-bottom:none; background:none; color:#EEEEFF; }
   .front .content > section, .front .content > aside { display:table-cell; }
 
+.feature { width:350px; padding-top:15px; }
+  .feature h1 { font-size:1.4em; color:#FFFFFF; }
+  .feature img { margin-bottom:12px; }
+  .feature .content > a { display:none; }
+
 .events { padding:15px 28px 0px 28px; width:364px; position:relative; }
+  .events h1 { font-weight:normal; color:#FFFFFF; font-size:1.4em; }
+  .events h2 { font-weight:bold; font-size:1.2em; margin-bottom:0px; }
+    .events h2 a { color:#C4C47F; border:none; }
+  .events .views-row { margin-bottom:1.2em; padding-left:34px; position:relative; }
+  .events .event_day { border:1px solid #9999AA; background-color:#45546D; width:20px; padding:5px 1px 1px 1px; position:absolute; left:0px; top:0px; }
+    .events .event_day a { outline:none; padding:0px; }
+    .events .event_day span { background-color:#FFFFFF; display:block; font-family:serif; color:#45546D; font-size:0.88em; font-weight:bold; line-height:1em; padding:2px; text-align:center; }
+  .events .event_date { font-weight:bold; }
+  .events .event_category { color:#BBBBBB; }
+  .events .event_location { font-size:0.9em; font-family:Georgia,serif; }
+
+.news { width:170px; padding:15px 10px 15px 10px; background:#1A2D49 url('//cdn.middlebury.edu/middlebury.edu/2010/images/fpright_grad.png') top left repeat-x; font-size:0.9em; }
+  .news h1 { font-size:1.6em; color:#C4C47F; }
+  .news .item-list ul { margin-top:20px; margin-left:0; margin-bottom:0px; list-style-type:none; }
+  .news .item-list li { margin:0px; }
+  .news .item-list ul a { font-weight:bold; color:#FFFFFF; margin-bottom:12px; display:block; border:none; }
+  .news .item-list ul a:hover { border:none; }
 
 /* Collection Postings */
 .node-collection { border:1px solid #ccc; min-height: 200px; text-align: left; width:684px; clear:both; }
@@ -226,87 +249,10 @@ body.front { color:#FFFFFF; }
 .node-news aside section.contact h3 { color:#666666; font-weight:bold; font-size:1em; }
 
 /* News Postings List */
-.newslist { width:100%; display:table; padding:21px 8px; }
-.newslist aside { display:table-cell; vertical-align:top; width:140px; margin:0px; padding:0px; border:0px; float:none; background:transparent; }
-.newslist aside img { border:0px; margin:0px; }
-.newslist section { display:table-cell; vertical-align:top; font-size:0.929em; line-height:1.3em; }
-.newslist h1 { font-size:1.295em; line-height:inherit; }
-.newslist .date { color:#221100; font-size:1em; font-weight:bold; }
-.newslist p { display:inline; }
-
-/** Old styles
-        #body { float:left; padding:18px; width:680px; }
-                #body>a { display:none; }
-                #breadcrumb { color:#666; font-size:0.857em; margin-bottom:18px; }
-                        #breadcrumb a { color:#333; padding-bottom:0; }
-                        #breadcrumb a:hover { color:#333; }
-        body.sidebar #body form { width:420px; }
-        body.sidebar #body form .standard { clear:none; }
-        .clear-block::after { clear:none; }
-        div.sidebar { float:right; width:196px; margin:40px 0 20px 18px; border:3px solid #fff; padding:18px 8px 18px 18px; background-color:#eeeeee; }
-                div.sidebar img { border:none; text-decoration: none; margin-bottom: 10px; }
-                div.sidebar a img { border:none; text-decoration: none;  }
-                div.sidebar a:hover img { border: none; text-decoration:none; }
-
-
-.feature { margin-bottom:18px; }
-#left .feature { margin:60px 0; }
-#left .feature p {font-size:1.2em;}
-.feature img { display:block; margin-left:auto; margin-right:auto; }
-.box { padding:11px; border:1px dashed #996; margin-bottom:18px; position:relative; }
-
-
-
-
-body#homepage { color:#fff; }
-  #homepage #footer a { color:#6a93ae; border:none; }
-  #homepage #footer a:hover { color:#fff; }
-#homepage #content { background-color:transparent; }
-#homepage #content > div { display:table-cell; }
-#homepage h1 { font-size:1.4em; color:#fff; }
-#homepage h2 { color:#fff; }
-#homepage h3 { margin:0; }
-  #homepage h3 a { font-weight:bold; color:#c4c47f; }
-#homepage a, #gallery a { border:none; background-color:transparent; color:#c4c47f; }
-#homepage a:hover { color:#eef; }
-#feature { width:350px; padding-top:15px; }
-  #feature img { margin-bottom:12px; }
-        #feature > a { display: none; }
-#events { padding:15px 28px 0; width:364px; position:relative; }
-        #events .view_date { display: none; }
-  #events_ical { position:absolute; top:16px; right:24px; }
-  #events ul { list-style-type:none; margin:0; }
-    #events ul li { margin-bottom:1.2em; padding-left:34px; position:relative; }
-      #events ul li .event_day { border:1px solid #99a; background-color:#45546d; width:20px; padding:5px 1px 1px; position:absolute; left:0; top:0; }
-        #events ul li .event_day a { outline:none; padding:0; }
-        #events ul li .event_day span { background-color:#fff; display:block; font-family:serif; color:#45546d; font-size:0.88em; font-weight:bold; line-height:1em; padding:2px; text-align:center; }
-      #events ul li .event_date { font-weight:bold; } 
-      #events ul li .event_category { color:#bbb; } 
-      #events ul li h3 { font-weight:bold; font-size:1.2em;  }  
-      #events ul li .event_location { font-size:0.9em; font-family:Georgia,serif; } 
-#friends { width:170px; padding:15px 10px; background:#1a2d49 url(images/fpright_grad.png) top left repeat-x; font-size:0.9em; }
-  #friends h1 { font-size:1.6em; color:#C4C47F; }
-  #friends ul { margin-top:20px; margin-left:0; margin-bottom:0; list-style-type:none; }
-    #friends a { font-weight:bold; color:#FFFFFF; margin-bottom:12px; display:block; }
-    #friends a:hover { border-bottom:1px solid #FFFFFF; }
-#subscribe { float:right; width:190px; margin-top:5px; font-size:0.9em; font-family:Georgia,serif; padding:12px 0; color:#ccd; }
-  #subscribe a { font-style:italic; }
-
-.slider { position:absolute; left:0; top:0; height:100%; margin-right:-12000px; }
-#carousel { color:#fff; height:240px; margin:18px 0; position:relative; overflow:hidden; }
-    #carousel_features a  { color:#cf6; text-decoration:none; border:none; padding:0; }
-    #carousel_features a:hover  { color:#a9d4ff; text-decoration:underline; border:none; background-color:transparent; }
-    #carousel_features h2, #carousel_features h3, #carousel_features h4, #carousel_features h5, #carousel_features h6  { color:#83B2F9 !important; }
-#carousel_arrow { position:absolute; left:258px; bottom:-43px; width:49px; height:43px; background-image:url(images/carousel_arrow.png); }
-#carousel .block { border:dashed #fff; border-width:1px 1px 1px 0; list-style-type:none; height:238px; margin:0; }
-  #carousel article, #carousel .mm-block-links { border-left:1px dashed #fff; height:180px; padding:30px; margin:0; float:left; }
-  #carousel .carousel_image { border-left: 1px dashed #fff; margin:0; float:left; height: 238px; }
-  #carousel .content > a { display:none; }
-  #carousel a:hover { background: transparent; border-bottom: 1px dotted; }
-  #carousel_arrow { z-index: 100; }
-
-
-
-  
-#block-monster_menus-5 { height:0; margin:-10px; padding:0; line-height:0; }
-#block-monster_menus-5 .mm-block-links { height:20px; margin:10px; display:block; } **/
+.newslist, .exhibitionlist { width:100%; display:table; padding:21px 8px; }
+.newslist aside, .exhibitionlist aside { display:table-cell; vertical-align:top; width:140px; margin:0px; padding:0px; border:0px; float:none; background:transparent; }
+.newslist aside img, .exhibitionlist aside img { border:0px; margin:0px; }
+.newslist section, .exhibitionlist section { display:table-cell; vertical-align:top; font-size:0.929em; line-height:1.3em; }
+.newslist h1, .exhibitionlist h1 { font-size:1.295em; line-height:inherit; }
+.newslist .date, .exhibitionlist .date { color:#221100; font-size:1em; font-weight:bold; }
+.newslist p, .exhibitionlist p { display:inline; }
