@@ -256,3 +256,6 @@ body.front { color:#FFFFFF; }
 .newslist h1, .exhibitionlist h1 { font-size:1.295em; line-height:inherit; }
 .newslist .date, .exhibitionlist .date { color:#221100; font-size:1em; font-weight:bold; }
 .newslist p, .exhibitionlist p { display:inline; }
+
+/* Museum Fullwidth Theme */
+.museum_fullwidth .body, .museum_fullwidth .page { width:920px; }
