@@ -259,3 +259,10 @@ body.front { color:#FFFFFF; }
 
 /* Museum Fullwidth Theme */
 .museum_fullwidth .body, .museum_fullwidth .page { width:920px; }
+
+/* 404 Page */
+.page-mm-89923 .header { background:transparent; }
+.content { background:transparent; position:relative; }
+.region-content { position:absolute; top:160px; left:60px; }
+.region-content, .region-content h1, .region-content a { color:#FFFFFF; font-size:18px; }
+  .region-content h1 { font-size:30px; }
