@@ -16,6 +16,26 @@ var settings = {
 jQuery(document).ready(function(jQuery) {
   jQuery.easing.def = 'easeInOutQuad'; //set the default easing
 
+  // Gallery
+  var slides = jQuery('#museum_gallery .node');
+  if (slides.length) {
+    // Add the next slide's caption to the current slide, except for the last slide.
+    var captions = jQuery('#museum_gallery figcaption');
+    for (i = 0; i < slides.length; i++) {
+      if (typeof captions[i+1] != 'undefined') {
+        jQuery(slides[i]).append('<div class="cycle-next"><a href="#">Next:</a> ' + captions[i+1].innerHTML + '</div>');
+      }
+    }
+    // Add the Cycle2 plugin's next action as the click event on the next slide's caption.
+    jQuery('.cycle-next').click(function() {
+      jQuery('.cycle-slideshow').cycle('next');
+    });
+    // Hide the pager if there's only one slide.
+    if (slides.length == 1) {
+      jQuery('.cycle-pager').hide();
+    }
+  }
+
   // Carousel
   var carousel = jQuery('#museum_carousel');
   if (carousel.length) {

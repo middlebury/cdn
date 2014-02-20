@@ -98,18 +98,20 @@ form { margin-bottom:1em; }
       .nav_news a:hover span,.nav_news.active a span { background-position:-322px -160px; }
 
 /* Image Gallery */
-.gallery { background-color:#45546D; color:#FFFFFF; padding:15px 0px 10px 0px; width:100%; overflow:hidden; }
+.gallery { background-color:#45546D; color:#FFFFFF; width:100%; position:relative; padding:15px 0px 0px 0px; }
+  .gallery header { display:none; }
   .gallery a { border:none; }
-  .gallery .container { padding-top:302px; }
-  .gallery img { border:2px solid #656F81; position:absolute; top:0px; left:0px; }
-  .gallery_caption,.gallery_nextcaption,.gallery_caption p,.gallery_nextcaption p { font-family:Georgia,serif; font-style:italic; display:inline; }
-  .gallery_controls,.gallery_nextarea { width:420px; font-size:0.9em; float:left; }
-  .gallery_nextarea { float:right; text-align:right; }
-  .gallery_prev,.gallery_next { margin-right:6px; font-weight:bold; }
-  .gallery_nav { text-align:center; position:absolute; left:50%; top:302px; margin-left:-50px; width:100px; }
-    .gallery_nav a { padding:0px 5px 0px 5px; color:#00B0FA; outline:none; }
-      .gallery_nav a:hover { color:#FFFFFF; }
-      .gallery_nav a.selected,.gallery_nav a.selected:hover { color:#CCCCDD !important; cursor:default; }
+  .gallery img { border:2px solid #656F81; }
+  .gallery figure { margin:15px 0px 0px 0px; }
+  .gallery figcaption,.gallery figcaption p,.gallery .cycle-next { font-family:Georgia,serif; font-style:italic; font-size:12px; }
+    .gallery figcaption p,.gallery .cycle-next div,.gallery .cycle-next p { display:inline; }
+    .gallery .cycle-next a { color:#C4C47F; font-style:normal; font-weight:bold; }
+  .gallery .content { background:transparent; }
+  .cycle-next { position:absolute; right:0px; top:314px; }
+  .cycle-pager { text-align:center; position:absolute; left:50%; top:314px; margin-left:-50px; width:100px; z-index:200; }
+    .cycle-pager a { padding:0px 5px 0px 5px; color:#C4C47F; outline:none; }
+      .cycle-pager a:hover { color:#FFFFFF; }
+      .cycle-pager a.cycle-pager-active,.cycle-pager a.cycle-pager-active:hover { color:#CCCCDD; cursor:default; }
 
 /* Section Title */
 .title { background-color:#45546D; padding:10px 0px 10px 0px; width:100%; overflow:hidden; }
@@ -219,7 +221,7 @@ body.front { color:#FFFFFF; }
   .events .event_category { color:#BBBBBB; }
   .events .event_location { font-size:0.9em; font-family:Georgia,serif; }
 
-.news { width:170px; padding:15px 10px 15px 10px; background:#1A2D49 url('//cdn.middlebury.edu/middlebury.edu/2010/images/fpright_grad.png') top left repeat-x; font-size:0.9em; }
+.news { width:170px; padding:15px 10px 15px 10px; background:#1A2D49 url('//cdn.middlebury.edu/middlebury.edu/2010/images/museum/fpright_grad.png') top left repeat-x; font-size:0.9em; }
   .news h1 { font-size:1.6em; color:#C4C47F; }
   .news .item-list ul { margin-top:20px; margin-left:0; margin-bottom:0px; list-style-type:none; }
   .news .item-list li { margin:0px; }
