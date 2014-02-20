@@ -160,6 +160,7 @@ form { margin-bottom:1em; }
   .breadcrumb a:hover { color:#333333; }
 
 /* Carousel */
+.slider { position:absolute; left:0; top:0; height:100%; margin-right:-12000px; }
 .carousel_arrow { position:absolute; left:258px; bottom:-43px; width:49px; height:43px; background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/carousel_arrow.png); z-index:100; }
 .carousel { color:#FFFFFF; height:240px; margin:18px 0px; position:relative; overflow:hidden; }
   .carousel a { color:#CCFF66; text-decoration:none; border:none; padding:0px; }
@@ -174,6 +175,7 @@ form { margin-bottom:1em; }
   .footer a,.footer .region-login a.login { color:#6A93AE; border:none; }
     .footer a:hover,.footer .region-login a.login:hover { color:#FFFFFF; }
     .footer .region-login h2 { margin:0px; }
+    .footer .region-login .content { background:transparent; }
     .footer .region-login a { border-bottom:none; float:none; margin-top:0px; padding:0px; text-decoration:none; }
     .footer .region-login a:hover { background:transparent; }
       .block-cas_midd { padding-top:2px; }
