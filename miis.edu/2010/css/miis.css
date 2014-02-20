@@ -146,39 +146,37 @@ div.terms li { display: inline; padding-right: 10px; }
     #miis_nav_why a:hover span,.has_dropdowns #miis_nav_why.hover a span  { background-position:-8px -35px; }
     #miis_nav_why.active a span { background-position:-8px -70px; }
     #miis_nav_why .nav_dropdown { left:-1px; }
+  #miis_nav_about a { width:64px; }
+    #miis_nav_about a span,.has_dropdowns #miis_nav_about a:hover span { background-position:-125px 0; }
+    #miis_nav_about a:hover span,.has_dropdowns #miis_nav_about.hover a span  { background-position:-125px -35px; }
+    #miis_nav_about.active a span { background-position:125px -70px; }
+    #miis_nav_about .nav_dropdown { left:-1px; }
   #miis_nav_admissions a { width:90px; } 
-    #miis_nav_admissions a span,.has_dropdowns #miis_nav_admissions a:hover span { background-position:-130px 0; }
-    #miis_nav_admissions a:hover span,.has_dropdowns #miis_nav_admissions.hover a span  { background-position:-130px -35px; }
-    #miis_nav_admissions.active a span { background-position:-130px -70px; }
+    #miis_nav_admissions a span,.has_dropdowns #miis_nav_admissions a:hover span { background-position:-218px 0; }
+    #miis_nav_admissions a:hover span,.has_dropdowns #miis_nav_admissions.hover a span  { background-position:-218px -35px; }
+    #miis_nav_admissions.active a span { background-position:-218px -70px; }
     #miis_nav_admissions .nav_dropdown { left:-75px; }
   #miis_nav_academics a { width:95px; }
-    #miis_nav_academics a span,.has_dropdowns #miis_nav_academics a:hover span { background-position:-250px 0; }
-    #miis_nav_academics a:hover span,.has_dropdowns #miis_nav_academics.hover a span  { background-position:-250px -35px; }
-    #miis_nav_academics.active a span { background-position:-250px -70px; }
+    #miis_nav_academics a span,.has_dropdowns #miis_nav_academics a:hover span { background-position:-337px 0; }
+    #miis_nav_academics a:hover span,.has_dropdowns #miis_nav_academics.hover a span  { background-position:-337px -35px; }
+    #miis_nav_academics.active a span { background-position:-337px -70px; }
     #miis_nav_academics .nav_dropdown { left:-75px; }
   #miis_nav_studentlife a { width:105px; }
-    #miis_nav_studentlife a span,.has_dropdowns #miis_nav_studentlife a:hover span { background-position:-375px 0; }
-    #miis_nav_studentlife a:hover span,.has_dropdowns #miis_nav_studentlife.hover a span  { background-position:-375px -35px; }
-    #miis_nav_studentlife.active a span { background-position:-375px -70px; }
+    #miis_nav_studentlife a span,.has_dropdowns #miis_nav_studentlife a:hover span { background-position:-460px 0; }
+    #miis_nav_studentlife a:hover span,.has_dropdowns #miis_nav_studentlife.hover a span  { background-position:-460px -35px; }
+    #miis_nav_studentlife.active a span { background-position:-460px -70px; }
     #miis_nav_studentlife .nav_dropdown { left:-75px; }
   #miis_nav_careers a { width:75px; }
-    #miis_nav_careers a span,.has_dropdowns #miis_nav_careers a:hover span { background-position:-505px 0; }
-    #miis_nav_careers a:hover span,.has_dropdowns #miis_nav_careers.hover a span  { background-position:-505px -35px; }
-    #miis_nav_careers.active a span { background-position:-505px -70px; }
+    #miis_nav_careers a span,.has_dropdowns #miis_nav_careers a:hover span { background-position:-595px 0; }
+    #miis_nav_careers a:hover span,.has_dropdowns #miis_nav_careers.hover a span  { background-position:-595px -35px; }
+    #miis_nav_careers.active a span { background-position:-595px -70px; }
     #miis_nav_careers .nav_dropdown { left:-75px; }
   #miis_nav_giving a { width:58px; }
-    #miis_nav_giving a span,.has_dropdowns #miis_nav_giving a:hover span { background-position:-610px 0; }
-    #miis_nav_giving a:hover span,.has_dropdowns #miis_nav_giving.hover a span { background-position:-610px -35px; }
-    #miis_nav_giving.active a span { background-position:-610px -70px; }
-    #miis_nav_giving .nav_dropdown { left:-75px; }
-  #miis_navigation li#miis_nav_offices { margin-right:0; }
-  #miis_nav_offices a { width:57px; }
-    #miis_nav_offices a span,.has_dropdowns #miis_nav_offices a:hover span { background-position:-700px 0; }
-    #miis_nav_offices a:hover span,.has_dropdowns #miis_nav_offices.hover a span  { background-position:-700px -35px; }
-    #miis_nav_offices.active a span { background-position:-700px -70px; }
-    #miis_nav_offices .nav_dropdown { right:-1px; }
-      #miis_nav_offices a.searchResult { font-size:1em; color:#000; }
-      #miis_nav_offices .gsc-search-button, #miis_nav_offices .gsc-clear-button { display: none; }
+    #miis_nav_giving a span,.has_dropdowns #miis_nav_giving a:hover span { background-position:-696px 0; }
+    #miis_nav_giving a:hover span,.has_dropdowns #miis_nav_giving.hover a span { background-position:-696px -35px; }
+    #miis_nav_giving.active a span { background-position:-696px -70px; }
+    #miis_nav_giving .nav_dropdown { left:-225px; }
+  #miis_navigation li#miis_nav_giving { margin-right:0; }
 
 /* Nav features */
 .nav_feature h3 { font-weight:bold; font-size:1.1em; color:#666; }
