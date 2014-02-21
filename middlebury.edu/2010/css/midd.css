@@ -323,7 +323,7 @@ body { background:#071427 url(//cdn.middlebury.edu/middlebury.edu/2010/images/bl
       .left.blue #block-monster-menus-8 a:hover { background-color:#003466; }
 
       /* Address */
-      .region-address { position:absolute; bottom:0; left:0; padding:18px; color:#FFFFFF; width:240px; }
+      .region-address { position:absolute; bottom:0; left:0; padding:18px; color:#FFFFFF; width:204px; }
         .region-address a { border-bottom-color:#CCFF66; }
         .region-address a:hover{ background-color:#003466; }
         .region-address h1 { font-size:14px; font-weight:bold; color:#221100; }
