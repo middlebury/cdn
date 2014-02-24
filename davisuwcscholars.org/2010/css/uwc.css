@@ -1,4 +1,4 @@
-body { background:#0079BD url('//cdn.middlebury.edu/middlebury.edu/2010/images/uwc/background.png') repeat-x center top; margin:0px; font-size:16px; font-family:Garamond,"Times New Roman",serif; }
+body { background:#0079BD url('//cdn.middlebury.edu/davisuwcscholars.org/2010/images/background.png') repeat-x center top; margin:0px; font-size:16px; font-family:Garamond,"Times New Roman",serif; }
 article, aside, figure, footer, header, hgroup, nav, section { display:block; }
 h1, h2, h3, h4, h5, h6 { font-weight:bold; }
 h1 { font-size:28.39px; color:#50473B; }
@@ -22,15 +22,15 @@ table { margin-bottom:1em; }
 .fullwidth { width:960px; }
 
 .wordmark img { display:block; margin-top:15px; }
-.wordmark h1 { width:392px; height:26px; background-image:url('//cdn.middlebury.edu/middlebury.edu/2010/images/uwc/wordmark_h1.png'); font-size:0px; }
-.wordmark h2 { width:100px; height:11px; background-image:url('//cdn.middlebury.edu/middlebury.edu/2010/images/uwc/wordmark_h2.png'); font-size:0px; }
+.wordmark h1 { width:392px; height:26px; background-image:url('//cdn.middlebury.edu/davisuwcscholars.org/2010/images/wordmark_h1.png'); font-size:0px; }
+.wordmark h2 { width:100px; height:11px; background-image:url('//cdn.middlebury.edu/davisuwcscholars.org/2010/images/wordmark_h2.png'); font-size:0px; }
 
 .topnav { width:100%; height:45px; border:1px solid #A1A2A2; background:#518C8C; margin-top:23px; }
   .topnav ul { list-style-type:none; background:#FFFFFF; height:46px; padding:0px; width:960px; border-right:2px solid #518C8C; }
   .topnav li { float:left; height:35px; background:#518C8C; padding:0px 1px; }
     .topnav li.active, .topnav li:hover { background:#FFFFFF; color:#FFFFFF; }
     .topnav li a { position:relative; height:35px !important; color:#518C8C; }
-      .topnav li a span { display:block; height:35px; left:0px; position:absolute; top:0px; width:100%; background-image:url('//cdn.middlebury.edu/middlebury.edu/2010/images/uwc/nav.png'); }
+      .topnav li a span { display:block; height:35px; left:0px; position:absolute; top:0px; width:100%; background-image:url('//cdn.middlebury.edu/davisuwcscholars.org/2010/images/nav.png'); }
     .topnav li.program { width:118px; }
       .topnav li.program a span { width:118px; background-position:0px 0px; }
       .topnav li.program a:hover span,
@@ -84,7 +84,7 @@ body > footer nav a { float:left; font-family:Univers,"Helvetica Neue",Arial,Hel
 
 footer .forms { margin-left:26px; }
 footer .hosted { float:right; width:160px; font-size:11px; font-weight:normal; }
-footer .middlebury { display:block; float:right; width:104px; height:20px; background-image:url('//cdn.middlebury.edu/middlebury.edu/2010/images/uwc/wordmark_footer.png'); font-size:0px; margin-top:-3px; }
+footer .middlebury { display:block; float:right; width:104px; height:20px; background-image:url('//cdn.middlebury.edu/davisuwcscholars.org/2010/images/wordmark_footer.png'); font-size:0px; margin-top:-3px; }
 
 .node-scholar h1 { margin:0px; }
 .node-scholar aside { float:left; margin:16px 8px 16px -8px; width:279px; }
