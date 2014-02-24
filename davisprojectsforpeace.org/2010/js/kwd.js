@@ -22,7 +22,7 @@ jQuery(document).ready(function(jQuery) {
       }
       overlay.css('top',(jQuery(window).height() / 2 - 151 + jQuery(window).scrollTop()) + 'px');
       jQuery('#youtube_embed').load(
-        'http://www.davisprojectsforpeace.org/middmedia_video_filter/embed?video=' + video + '&width=607&height=320&ratio=607/320' + image);
+        Drupal.settings.basePath + 'middlebury_video_filter/embed?video=' + video + '&width=607&height=320&ratio=607/320' + image);
       blackout.add('.close_overlay').click(function() {
         blackout.add(overlay).remove();
       });
