@@ -345,6 +345,7 @@ body { background:#071427 url(//cdn.middlebury.edu/middlebury.edu/2010/images/bl
         .breadcrumb a:hover { border-bottom:1px solid #999999; background-color:#EEEEEE; color:#333333; }
 
       .block > .content > a { display:none; }
+        .block > .content > a.login { display:inline; color:#272C6F; float:none; }
 
   /* Carousel */
   .carousel_arrow { position:absolute; left:258px; bottom:-43px; width:49px; height:43px; background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/carousel_arrow.png); z-index:100; }
