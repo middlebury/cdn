@@ -20,6 +20,7 @@ table { margin-bottom:1em; }
 .opening { font-size:22px; color:#50473B; }
 .centered, .wordmark * { margin:0px auto; }
 .fullwidth { width:960px; }
+.mm-gallery-caption { color:#666666; font-family:Verdana; font-size:10px; }
 
 .wordmark img { display:block; margin-top:15px; }
 .wordmark h1 { width:392px; height:26px; background-image:url('//cdn.middlebury.edu/davisuwcscholars.org/2010/images/wordmark_h1.png'); font-size:0px; }
