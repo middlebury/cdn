@@ -113,7 +113,7 @@ div.terms li { display: inline; padding-right: 10px; }
     #miis_gateways .full { width:100%; }
   #miis_header_caption { background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/black_trans.png); float:right; clear:both; color: #bbb; width:196px; position:absolute; bottom:0; right:0; }/* DT-fix */
   #miis_content #miis_header_caption { padding:10px 12px; }
-  #miis_homepage #miis_header_caption { background-image:url(); float:right; clear:both; width:220px; color:#222; padding-top:12px; position:relative; visibility:hidden; } /* KB fix */
+  .front #miis_header_caption { background-image:url(); float:right; clear:both; width:220px; color:#222; padding-top:12px; position:relative; visibility:hidden; } /* KB fix */
     #miis_header_caption #miis_header_caption_location {  }/* DT-fix */
     #miis_titlecard #miis_header_caption a, #miis_header_caption_more { font-weight:bold; font-size:1.1em; line-height:1em; border-bottom:1px dotted #222; outline:none; color:#BBB; }/* DT-fix */
     #miis_titlecard #miis_header_caption a, #miis_header_caption_more:hover { border-bottom-style:solid; text-decoration: none; color:#fff; }/* DT-fix */
@@ -132,7 +132,7 @@ div.terms li { display: inline; padding-right: 10px; }
         #miis_navigation li .nav_dropdown { position:absolute; top:34px; border:solid #5e6676; border-width:0 1px 1px; background-color:#f9f9f9; width:320px; padding:12px; display:none; }
         #miis_navigation li.hover .nav_dropdown { display:block;  z-index:500; }
           #miis_navigation li .nav_feature { display:none; position:absolute; bottom:100%; margin-bottom:34px; left:-1px; padding:12px; border:solid #5e6676; border-width:1px 1px 0; background-color:#f9f9f9; width:320px; height:155px; }
-          #miis_homepage #miis_navigation li .nav_feature { display:block; }
+          .front #miis_navigation li .nav_feature { display:block; }
           #miis_navigation li .nav_dropdown ul { margin:0; list-style-type:none; }
             #miis_navigation li .nav_dropdown li { float:none; margin:0.1em 0 0.3em 0; }
               #miis_navigation li .nav_dropdown li a { color:#039; text-decoration:none; } /* KB fix */
@@ -334,60 +334,60 @@ p.intro { font-size:1.3em;  line-height:1.4em;}
 .fullbleed { margin:0 -20px; display:block; }
 
 /* Solutions */
-#miis_solutions { color:#eee; margin-bottom:50px; }/* DT-fix */
-#miis_solutions h2 { font-size:2.3em; font-weight:normal; font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; color:#76db5b; white-space:nowrap; }/* DT-fix */
-#miis_solutions a { color:#76db5b; border:none; font-weight:bold;}/* DT-fix */
-#miis_solutions a:hover { text-decoration:underline; }/* DT-fix */
-    
+.solutions { color:#eee; margin-bottom:50px; }
+.solutions h1 { font-size:2.3em; font-weight:normal; font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; color:#76db5b; white-space:nowrap; }
+.solutions a { color:#76db5b; border:none; font-weight:normal;}
+.solutions a:hover { text-decoration:underline; }
+
 /* Homepage */
-#miis_homepage #miis_header { height:300px; }
-#miis_homepage #miis_content { margin:30px auto 0; color:#eee; }
-  #miis_homepage .column { padding:0 30px; }
-    #miis_homepage .two .first { padding-left:12px; width:584px; }/* DT-fix */
-    #miis_homepage .two .last { padding-right:12px; width:292px; }/* DT-fix */
-#miis_homepage #miis_solutions p.intro { font-size:1.2em; }/* DT-fix */
-#miis_homepage #miis_solutions ul { list-style-type:none; margin:0; }/* DT-fix */
-  #miis_homepage #miis_solutions li { float:left; margin:0; width:194px; padding:0; font-size:20px; font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; }    /* DT-fix */
-    #miis_homepage #miis_solutions a { font-weight:normal; }/* DT-fix */
-    #miis_homepage #miis_solutions li.third { width:170px; padding-left:24px; }
+.front #miis_header { height:300px; }
+.front #miis_content { margin:30px auto 0; color:#eee; }
+.front .column { padding:0 30px; }
+  .front .two .first { padding-left:12px; width:584px; }
+  .front .two .last { padding-right:12px; width:292px; }
 
-  #miis_homepage #miis_news h2 { font-size:1.3em; font-weight:bold; border-bottom:1px solid #5878a7; margin-bottom:0.8em; color:#83b2f9; position:relative; }  /* DT-fix */
-    #miis_homepage #miis_news h2 .rss_icon { position:absolute; top:8px; right:-38px; } /* DT-fix */
-  #miis_homepage #miis_news a { color:#83b2f9; border:none; font-weight:bold; }
-  #miis_homepage #miis_news a:hover { text-decoration: underline; }
-        #miis_homepage #miis_news .summary { display: none; }
-  #miis_homepage #miis_news .featured { width:277px; }
-    #miis_homepage #miis_news .featured .headline { font-size:1.2em; margin-bottom:0.5em; margin-top:1em; } /* KB-fix */
-      #miis_homepage #miis_news .featured .headline a { font-weight:normal; color:#eee; } /* DT-fix */
-      #miis_homepage #miis_news .featured .headline a:hover { text-decoration: underline; } /* DT-fix */
-    #miis_homepage #miis_news .media { text-align: center; }
-    #miis_homepage #miis_news .media p { display: inline; }
-    #miis_homepage #miis_news .media a:hover { text-decoration: none; } /* KB fix */
-    #miis_homepage #miis_news .featured .summary { display: inline; } /* DT-fix */
-    #miis_homepage #miis_news .featured .summary p { display: inline; } /* DT-fix */
-  #miis_homepage #miis_news .more {  width:277px; margin: 20px 0px 0px 0px; }
-    #miis_homepage #miis_news ul { margin-left: 0px; list-style-type:none;}
-         #miis_homepage #miis_news .links {display:none;}
-    #miis_homepage #miis_news li { margin-bottom:1em; }
+.front .solutions .region-highlighted { font-size:1.2em; }
+.front .solutions ul { list-style-type:none; margin:0; }
+  .front .solutions li { float:left; margin:0; width:194px; padding:0; font-size:20px; font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; }
+    .front .solutions li:nth-child(3n) { width:170px; padding-left:24px; }
+    .front .solutions a { font-weight:normal; }
 
-#miis_homepage #miis_left h2 { font-size:1.3em; font-weight:bold; border-bottom:1px solid #ab8d24; margin-bottom:0.8em; color:#ffd231; }
-#miis_homepage #miis_left h3 { font-size:1.2em; color:#ffd231; margin:1.5em 0 0 0; }
-#miis_homepage #miis_left a { color:#ffd231; border:none; font-weight:bold; }
-#miis_homepage #miis_left h3 a { font-weight:normal; color:#ffd231; }
-#miis_homepage #miis_left a:hover { text-decoration: underline; }
-#miis_homepage #miis_left div.quote { font-size:1.05em; }
-#miis_homepage #miis_left img.fullbleed { margin-left: 0px; }
-#miis_homepage #miis_spotlight { float: left; width:258px;}
-#miis_homepage #miis_spotlight .pager-dots { margin-top:-5px; margin-bottom:-1.5em; text-align:center; }
-#miis_homepage #miis_spotlight .pager-dots #miis_active-dot { display: none; }
-#miis_homepage #miis_spotlight div.item-list { margin:0; width: 258px; }
-#miis_homepage #miis_spotlight div.item-list li { width: 128px; margin:0; padding:0; display:block; }
-#miis_homepage #miis_spotlight div.item-list li.first { float: left; text-align: left;}
-#miis_homepage #miis_spotlight div.item-list li.last { float: right; text-align: right;}
+.front .news h1 { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:1.3em; font-weight:bold; border-bottom:1px solid #5878a7; margin-bottom:0.8em; color:#83b2f9; position:relative; line-height:1.25em; }
+.front .news a { color:#83b2f9; border:none; font-weight:bold; }
+  .front .news a:hover { text-decoration: underline; }
+.front .news ul { margin-left: 0px; list-style-type:none;}
+  .front .news li { margin-bottom:1em; margin-left:0px; }
+.front .news .views-field-title { display:block; }
+.front .news .views-row-1 .views-field-title { font-size:1.2em; margin-bottom:0.5em; margin-top:1em; }
+  .front .news .views-row-1 .views-field-title a { font-weight:normal; color:#eee; }
+  .front .news .views-row-1 .views-field-title a:hover { text-decoration: underline; }
+.front .news .views-field-field-teaser { display: inline; }
+  .front .news .views-field-field-teaser a { width:277px; margin: 20px 0px 0px 0px; }
+  .front .news .views-field-field-teaser p { display: inline; }
+.front .news .views-field-field-media { text-align: center; }
+  .front .news .views-field-field-media a:hover { text-decoration: none; }
+.front .news .block-system, .front .news .links { display:none; }
 
-#miis_homepage #miis_dates { float: right; width:258px; }
-/* #miis_homepage #miis_dates img { width: 258px; height:153px; } */
-#miis_homepage #miis_dates ul { margin-top: 1.5em; }
+.front .bottom a { color:#ffd231; border:none; font-weight:bold; }
+  .front .bottom a:hover { text-decoration: underline; }
+.front .bottom h2 { font-size:1.3em; font-weight:bold; border-bottom:1px solid #ab8d24; margin-bottom:0.8em; color:#ffd231; }
+.front .bottom h3 { font-size:1.2em; color:#ffd231; margin:1.5em 0 0 0; }
+  .front .bottom h3 a { font-weight:normal; color:#ffd231; }
+.front .bottom div.quote { font-size:1.05em; }
+.front .bottom img.fullbleed { margin-left: 0px; }
+
+.front .spotlight { float:left; width:258px; }
+  .front .spotlight .views-field-counter { margin-top:-5px; text-align:center; }
+  .front .spotlight .views-field-title { display:block; font-size:1.2em; line-height:1.25em; }
+    .front .spotlight .views-field-title a { font-weight:normal; }
+  .front .spotlight div.item-list { margin:0; width: 258px; }
+    .front .spotlight div.item-list li { width: 128px; margin:0; padding:0; display:block; }
+      .front .spotlight div.item-list li.first { float:left; text-align:left; }
+      .front .spotlight div.item-list li.pager-current { display:none; }
+      .front .spotlight div.item-list li.last { float:right; text-align:right; }
+
+.front .dates { float: right; width:258px; }
+  .front .dates ul { margin-top: 1.5em; }
 
 /* Theme pages */
 #miis_theme_wrapper { width:100%; height:auto; overflow:hidden; }
@@ -575,16 +575,16 @@ div.comment div.date { float:right; color:#999; font-weight:bold; }
 .view-careers-stories h1 a { color: #miis_272C6F; border-bottom: 1px dotted #miis_147; text-decoration:none; }
 .view-careers-stories section section, .view-careers-stories aside { border-top:1px solid #E4EAF3; padding:8px; }
 
-#miis_homepage .view-blue-homepage h1 { font-weight:bold; font-size:1.2em; }
-#miis_homepage .view-blue-homepage h1 a { color: #miis_83B2F9; text-decoration:none; }
-#miis_homepage .view-blue-homepage h1 a:hover { text-decoration:underline; }
+.front .view-blue-homepage h1 { font-weight:bold; font-size:1.2em; }
+.front .view-blue-homepage h1 a { color: #miis_83B2F9; text-decoration:none; }
+.front .view-blue-homepage h1 a:hover { text-decoration:underline; }
 .view-blue-homepage p {font-size:1em }
 .view-blue-homepage aside, .view-all-iep #miis_tags, .view-all-iep section { display:block; padding:0px 10px 5px 10px; }
 .view-blue-homepage aside { width: 238px; }
 
-#miis_homepage .view-blue-homepage-ccs h1 { font-weight:bold; font-size:1.2em; }
-#miis_homepage .view-blue-homepage-ccs h1 a { color: #miis_83B2F9; text-decoration:none; }
-#miis_homepage .view-blue-homepage-ccs h1 a:hover { text-decoration:underline; }
+.front .view-blue-homepage-ccs h1 { font-weight:bold; font-size:1.2em; }
+.front .view-blue-homepage-ccs h1 a { color: #miis_83B2F9; text-decoration:none; }
+.front .view-blue-homepage-ccs h1 a:hover { text-decoration:underline; }
 .view-blue-homepage-ccs p {font-size:1em }
 .view-blue-homepage-ccs aside, .view-all-iep #miis_tags, .view-all-iep section { display:block; padding:0px 10px 5px 10px; }
 .view-blue-homepage-ccs aside { width: 238px; }
