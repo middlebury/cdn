@@ -46,13 +46,13 @@ jQuery(function() { // on DOM ready
 
   // Header photo caption popup
   jQuery('#miis_header_caption_more').click(function() {
-    jQuery('#miis_header_caption_location,#miis_header_caption_more,#miis_header_caption_about').toggle();
+    jQuery('#miis_header_caption_more,#miis_header_caption_about').toggle();
     jQuery('#miis_header_caption').css('background-image', 'url()');
     return false;
   });
   jQuery('#miis_header_caption_close').click(function() { /* DT-fix */
     jQuery('#miis_header_caption_more').click();
-    jQuery('#miis_header_caption').css('background-image', 'url(http://www.miis.edu/sites/all/themes/miis/images/black_trans.png)');
+    jQuery('#miis_header_caption').css('background-image', 'url(//cdn.middlebury.edu/miis.edu/2010/images/black_trans.png)');
     return false;
   });
 
