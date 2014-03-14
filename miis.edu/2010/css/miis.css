@@ -206,7 +206,7 @@ div.terms li { display: inline; padding-right: 10px; }
   #miis_gray_sidebar { float:right; margin-right:-300px; width:278px; } /* Aug31-fix */
   .titlecard { width:470px; margin-right:-12px; float:left; }
         .wide.titlecard { width:696px; } /* Sep1-fix */
-    #miis_breadcrumb {margin-top:-24px; width:458px; color:#ccc; font-size:0.857em; font-weight:normal; padding:5px 6px; background:#036 url(//cdn.middlebury.edu/miis.edu/2010/images/seal_watermark_dk.gif) no-repeat left top; -moz-box-shadow:3px 3px 3px #miis_131E30;  -webkit-box-shadow:3px 3px 3px #miis_131E30; position:relative; z-index:100;  }
+    #miis_breadcrumb {margin-top:-24px; width:458px; color:#ccc; font-size:0.857em; font-weight:normal; padding:5px 6px; background:#036 url(//cdn.middlebury.edu/miis.edu/2010/images/seal_watermark_dk.gif) no-repeat left top; -moz-box-shadow:3px 3px 3px #131E30;  -webkit-box-shadow:3px 3px 3px #131E30; position:relative; z-index:100;  }
       #miis_breadcrumb a {color:#ccc; padding:0 6px; border: none; }
       #miis_breadcrumb a:hover {color:#ffd231; text-decoration:underline;}
 
@@ -229,11 +229,6 @@ div.terms li { display: inline; padding-right: 10px; }
 
 p.intro { font-size:1.3em;  line-height:1.4em;}
 
-.bottom_edge { background-color:#ddd; padding:24px 24px 12px; clear:left; min-height:40px; vertical-align:middle;clear:both; }
-  .bottom_edge .tenquestions { background: url(//cdn.middlebury.edu/miis.edu/2010/images/10questions.gif) top left  no-repeat; height:62px; padding:18px 12px 12px 120px; }
-  .bottom_edge .tenquestions a { font-size:1.4em; line-height:1.3em; color:#790e39; }
-  .bottom_edge h3 { font-size:1.5em; }
-    
 #miis_right {width:200px; margin:24px 12px; padding:0; float:right; }
 #miis_right ul.menu { list-style-type:none; margin:0; }
 #miis_right ul.menu > li { margin:0px; list-style-type:none; list-style-image:none; padding:0px; }
@@ -331,7 +326,18 @@ p.intro { font-size:1.3em;  line-height:1.4em;}
   .bordered .last { border-right:none; }
 .fullbleed { margin:0 -20px; display:block; }
 
-/* Solutions */
+/* 10 Questions */
+.node-10questions header { background:url(//cdn.middlebury.edu/miis.edu/2010/images/10questions_header.gif) no-repeat left top; padding:77px 24px 0px 24px; margin:0px -24px 0px -24px; }
+.node-10questions h1 { font-size:1.2em; color:#003366; font-weight:bold; letter-spacing:2px; }
+.node-10questions h2 { font-size:2.0em; color:#666666; font-weight:normal; margin-top:32px; }
+.node-10questions h5 { color:#790E39; font-weight:bold; font-size:1.3em; }
+
+.node-10questionslist { background-color:#DDDDDD; padding:24px 24px 12px; margin:0px -24px -36px -24px; clear:left; min-height:40px; vertical-align:middle; clear:both; }
+  .node-10questionslist header { background: url(//cdn.middlebury.edu/miis.edu/2010/images/10questions.gif) top left no-repeat; height:62px; padding:18px 12px 12px 120px; margin:0px 0px 0px 0px; }
+  .node-10questionslist header h1 { font-size:1.4em; line-height:1.3em; }
+  .node-10questionslist header h1 a { color:#790E39; }
+
+/* Be the Solution */
 .be-the-solution { color:#eee; margin-bottom:50px; }
 #block-views-be-the-solution-homepage h2, #block-views-be-the-solution-sidebar h2 { font-size:2.3em; font-weight:normal; font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; color:#76db5b; white-space:nowrap; }
 .be-the-solution a { color:#76db5b; border:none; font-weight:normal;}
@@ -466,12 +472,6 @@ summary:before { font-size: 1.4em; color:#790e39; font-weight:bold; margin-botto
 details[open] summary:before { content:'x'; color:#5d6878; }
 details p.tags { padding-left:24px; margin-bottom:0; }
 details p.tags a {color:#369;}
-
-/* 10 Questions */
-div.tenquestions .body { background:url(//cdn.middlebury.edu/miis.edu/2010/images/10questions_header.gif) no-repeat left top; padding-top:77px; }
-div.tenquestions .body h3 { font-size:1.2em; color:#003366;font-weight:bold; letter-spacing:2px; }
-div.tenquestions .body h4 { font-size:2.0em; color:#666666;font-weight:normal; }
-div.tenquestions .body h5 { color:#790e39; font-weight:bold; font-size:1.3em; }
 
 /* Tweets */
 .twitter { margin-top:140px; }
