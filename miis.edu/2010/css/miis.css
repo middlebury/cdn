@@ -34,6 +34,10 @@ h5 { font-size:1.1em;  line-height:1.25em;color:#369; }
 h6 { font-weight:bold; color:#790e39; }
 h2, h3, h4, h5 { margin-bottom:14px; }
 blockquote {margin:0 2em; font-size:1.3em; color:#790e39; font-weight:bold; font-style:italic; }
+dl { width:41.1em; margin:0.6em 0px 0.6em 0px; padding:0px; }
+dt { width:15em; clear:both; font-weight: bold; }
+dd { width:24em; font-family:Georgia, serif; color:#333366; margin-bottom: 10px; }
+dt, dd { float:left; margin:0px; padding:0.5em; border-top:1px solid #666666; }
 .more { margin-left:2em; }
 .pdf { padding-right:18px; background:url(//cdn.middlebury.edu/miis.edu/2010/images/pdf.gif) no-repeat right center; }
 
@@ -79,9 +83,6 @@ input[type=submit]:hover,input[type=button]:hover { cursor:pointer; background-c
 body#tinymce { background-color: #fff; background-image: url(); color: #000; }
 body.browser { position: relative; background: #fff; }
 div#TB_window { z-index: 600; }
-#miis_page dl { margin: 10px; }
-#miis_page dt { font-weight: bold; }
-#miis_page dd { margin-left: 10px; margin-bottom: 10px; }
 #miis_page>form { margin: 10px; }
 #miis_page fieldset { margin: 10px; }
 table#mm-permissions h2 { color:#fff; }
@@ -218,10 +219,7 @@ div.terms li { display: inline; padding-right: 10px; }
       .opening a { color:#147; font-weight:normal; border:none; }
       .opening a:hover { text-decoration:underline ; }
   .leadimage { float:right; margin:0; background-color:#E4EAF3; overflow:hidden; width:238px; margin:-14px -12px 5px 12px; }
-  .storyimage { float:right; overflow:hidden; margin:12px; border:2px dashed #E4EAF3; width:310px; }
-    .storyimage>div, .storyimage>p { padding:8px 10px; margin-bottom:0; }
-    .caption { color:#666; font-style:italic; font-size: .9em; line-height:1.2em; padding:8px 10px; }
-    .storycaption { color:#666; padding:8px 10px; font-style:italic; font-size: .9em; line-height:1.2em; }
+  .caption { color:#666; font-style:italic; font-size: .9em; line-height:1.2em; padding:8px 10px; }
   .body { padding:24px; padding-bottom:36px; clear:left; }
         .view-miis-locations, .view-miis-around-the-world .view-content { margin: 0px -24px 0px -24px; }
   .body.has_sidebar { float:left; width:410px; }
@@ -343,6 +341,19 @@ p.intro { font-size:1.3em;  line-height:1.4em;}
 .be-the-solution a { color:#76db5b; border:none; font-weight:normal;}
 .be-the-solution a:hover { text-decoration:underline; }
 .be-the-solution .view-header { font-size:1.2em; }
+
+/* Story */
+.node-story h1 { float:left; width:338px; }
+.node-story figure { float:right; overflow:hidden; margin:-12px -12px 0px 0px; border:2px dashed #E4EAF3; width:310px; }
+  .node-story figure>div, .node-story figure>p { padding:8px 10px; margin-bottom:0; }
+  .node-story figcaption { color:#666; padding:8px 10px; font-style:italic; font-size: .9em; line-height:1.2em; }
+
+.node-storylist h1 { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:1.2em; font-weight:bold; float:none; width:100%; }
+.node-storylist section, .node-storylist aside { display:table-cell; vertical-align: top; padding:0px 18px 10px 20px; }
+.node-storylist aside { width: 140px; }
+.node-storylist time { font-weight:bold; display:inline; }
+.node-storylist time+p, .node-storylist time+div, .node-storylist time *, .node-storylist time+div * { display:inline; }
+  .node-storylist aside .mm-gallery-caption { display:none; }
 
 /* Homepage */
 .front #miis_header { height:300px; }
@@ -559,13 +570,6 @@ div.comment ul.links { float:left; list-style-type:none; list-style-image:url('/
 div.comment div.date { float:right; color:#999; font-weight:bold; }
 
 /* View Specific Styles */
-.view-stories h1 { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:1.2em; font-weight:bold; }
-.view-stories section, .view-stories aside { display:table-cell; vertical-align: top; padding:0px 18px 10px 20px; }
-.view-stories aside { width: 140px; }
-.view-stories time { font-weight:bold; display:inline; }
-.view-stories time+p { display:inline; }
-  .view-stories aside .mm-gallery-caption { display:none; }
-
 .content_sidebar .view-stories section, .content_sidebar .view-stories aside { display:block; }
 
 .view-careers-stories h1 { font-weight:bold; font-size:1.2em; }
