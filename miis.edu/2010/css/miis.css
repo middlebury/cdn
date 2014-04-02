@@ -342,6 +342,17 @@ p.intro { font-size:1.3em;  line-height:1.4em;}
 .be-the-solution a:hover { text-decoration:underline; }
 .be-the-solution .view-header { font-size:1.2em; }
 
+/* Quickaccess */
+.body .node-qa input { width:20em; font-size:1.2em; margin-top:0.2em; }
+.qa_blur, .qa_noquery { display:none; }
+.qa_toomany, .qa_nonefound { font-style:italic; }
+.node-qa form label { display:inline; font-weight:normal; margin:0px; }
+.node-qa form div { width:20em; position:relative; z-index:800; }
+.node-qa form ul { margin:0px; position:absolute; top:0px; left:0px; width:100%; border:1px solid #999999; border-top:none; background-color:#FFFFFF; list-style-type:none; }
+  .node-qa form li { padding:2px 0.5em 2px 0.5em; margin:0px; }
+    .qa_highlight { background-color:#FFEE88; border:solid #FFBB44; border-width:1px 0px; text-decoration:underline; }
+    .qa_selected { background-color:#DDDDEE; }
+
 /* Story */
 .node-story h1 { float:left; width:338px; }
 .node-story figure { float:right; overflow:hidden; margin:-12px -12px 0px 0px; border:2px dashed #E4EAF3; width:310px; }
@@ -536,19 +547,6 @@ div#miis_tabs-content { background: #miis_fff; border: solid 2px #miis_5a8a84; }
 .subpglist td>ul { list-style-type: none; margin: 0; padding: 0; }
 .subpglist td>ul>li>a { border: none; font-size:1.3em; color:#369; }
 .subpglist td>ul>li>a:hover { color:#36a; border-color:#47c; text-decoration:underline; }
-
-/* Quickaccess */ /* DT-fix */
-.body .quickaccess { width:20em; font-size:1.2em; margin-top:0.2em; } /* Sep1-fix */
-.qa_hidden { display:none; } /* DT-fix */
-#miis_qa_results { width:20em; position:relative; z-index:800; } /* DT-fix */
-        .qa_blur { display:none; } /* DT-fix */
-        .qa_noquery { display:none; } /* DT-fix */
-        .qa_toomany { font-style:italic; } /* DT-fix */
-        .qa_nonefound { font-style:italic; } /* DT-fix */
-                #miis_qa_results_list { margin:0; position:absolute; top:0; left:0; width:100%; border:1px solid #999; border-top:none; background-color:#fff; list-style-type:none; } /* DT-fix */
-                        #miis_qa_results_list li { padding:2px 0.5em; margin:0 !important;} /* DT-fix */
-        .qa_highlight { background-color:#fe8; border:solid #fb4; border-width:1px 0; text-decoration:underline; } /* DT-fix */
-        .qa_selected { background-color:#dde; } /* DT-fix */
 
 /* Facebook Elements */
 .fb_element { background:#fff; padding:18px; }
