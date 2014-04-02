@@ -19,7 +19,7 @@ jQuery(document).ready(function(jQuery) {
 
   jQuery('ul#catalogs a').click(function() {
     if(q2) {
-      jQuery.getJSON("middlebury_google_custom_search/catalog/" + this.id + '/' + q2,
+      jQuery.getJSON("middlebury_catalog/query/" + this.id + '/' + q2,
         function(data){
           jQuery("#midd_catalog_directory_results").empty();
           jQuery.each(data, function(j, val){
@@ -40,7 +40,7 @@ jQuery(document).ready(function(jQuery) {
 
   jQuery('ul#directories a').click(function() {
     if(q2) {
-      jQuery.getJSON("middlebury_google_custom_search/directory/" + this.id + '/' + q2,
+      jQuery.getJSON("middlebury_directory/query/" + this.id + '/' + q2,
         function(data){
           jQuery("#midd_catalog_directory_results").empty();
           jQuery.each(data, function(j, val){
