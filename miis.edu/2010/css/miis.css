@@ -1,118 +1,298 @@
 /* Monterey Insitute styles */
-/* by White Whale Web Services */
+/* by White Whale Web Services */ 
+/* modified by Middlebury College Web Development */
 
-/* Reset browser defaults  */
+/* Reset defaults */
 html { font-size:100%; }
 body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,blockquote,dl,dt,dd,table,th,td,pre,img,form,fieldset,legend,label,iframe { margin:0; padding:0; font-size:1em; line-height:inherit; font-weight:inherit; border:none; }
 input,select,textarea,button { font-size:1em; line-height:inherit; font-family:inherit; color:#222; margin:0; }
 input[type=button],input[type=submit],button { overflow:visible; }
 input[disabled],select[disabled],textarea[disabled],button[disabled] { opacity:0.75; }
-.skiplink { position:absolute; top:0; left:-9999px; width:9em; padding:5px; color:#00f; background-color:#ff9; border:1px solid #993; text-align:center; z-index:9999; }
-.skiplink:focus { left:0; }
-.clear { height:0; clear:both; }
 
 /* HTML5 reset */
 article, aside, figure, footer, header, hgroup, nav, section { display:block; }
 
-/* Basic elements and type */
-body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em; line-height:1.4; background-color:#071427; /* JP-fix */  background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/bluegradient.jpg); background-position: center 194px; background-repeat:repeat-x; color:#333;}
-a { color:#147; text-decoration:none; }
-p a { text-decoration:none; font-weight:bold; }
-a:hover { color:#003; text-decoration:underline; }
-p { margin-bottom:1em; }
-ul,ol { margin-left:1.5em; margin-bottom:0.8em; }
-  li { margin:0.4em 0; }
-h1 { font-family: Arial, Helvetica, sans-serif; font-size:2.4em; color:#147; font-weight:normal; line-height:1.1em; margin-bottom:0.4em; } /* KB fix */
-h2 { font-size:1.6em; font-weight:bold; color:#790e39; line-height:1.25em;}
-h2 a { color:#790e39; }
-h2 a:hover { color:#147; text-decoration:none; }
-h3 { font-size:1.3em; font-weight:bold; color:#369; line-height:1.25em; }
-h3 a { color:#369; }
-h3 a:hover { color:#147; text-decoration:none; }
-h4 { font-size:1.2em; line-height:1.25em; color:#369; }
-h5 { font-size:1.1em;  line-height:1.25em;color:#369; }
-h6 { font-weight:bold; color:#790e39; }
-h2, h3, h4, h5 { margin-bottom:14px; }
+/* Global styles */
+a { color:#114477; text-decoration:none; }
+  a:hover { color:#000033; text-decoration:underline; }
 blockquote {margin:0 2em; font-size:1.3em; color:#790e39; font-weight:bold; font-style:italic; }
 dl { width:41.1em; margin:0.6em 0px 0.6em 0px; padding:0px; }
 dt { width:15em; clear:both; font-weight: bold; }
-dd { width:24em; font-family:Georgia, serif; color:#333366; margin-bottom: 10px; }
+dd { width:24em; font-family:Georgia, serif; color:#333366; margin-bottom:10px; }
 dt, dd { float:left; margin:0px; padding:0.5em; border-top:1px solid #666666; }
+h1 { font-family: Arial, Helvetica, sans-serif; font-size:2.4em; color:#114477; font-weight:normal; line-height:1.1em; margin-bottom:0.4em; }
+h2 { font-size:1.6em; font-weight:bold; color:#790E39; line-height:1.25em;}
+  h2 a { color:#790E39; }
+    h2 a:hover { color:#114477; text-decoration:none; }
+h3 { font-size:1.3em; font-weight:bold; color:#336699; line-height:1.25em; }
+  h3 a { color:#336699; }
+    h3 a:hover { color:#114477; text-decoration:none; }
+h4 { font-size:1.2em; line-height:1.25em; color:#336699; }
+h5 { font-size:1.1em;  line-height:1.25em;color:#336699; }
+h6 { font-weight:bold; color:#790E39; }
+h2, h3, h4, h5 { margin-bottom:14px; }
+input[type=text], textarea { border:1px solid #999999; padding:4px; }
+input[type=submit], input[type=button] { background-color:#EEEEEE; border:1px solid; border-color:#AAAAAA #888888 #888888 #AAAAAA; padding:5px; outline:none; }
+  input[type=submit]:hover, input[type=button]:hover { cursor:pointer; background-color:#E3E3E3; border-color:#888888 #AAAAAA #AAAAAA #888888; }
+label { font-weight:bold; margin:2px; }
+p { margin-bottom:1em; }
+  p a { text-decoration:none; font-weight:bold; }
+table { margin:0px; border-spacing:0px; }
+  tbody { border-top:none; }
+  tr+tr td,tr+tr th { border-top:1px solid #FFFFFF; }
+  th { padding:10px; font-size:1.2em; font-weight:bold; background-color:#FFFFFF; color:#790E39; }
+    th a { color:#FFFFFF; }
+  td { padding:10px; background-color:#FFFFFF; border-left:1px solid #FFFFFF; border-right:1px solid #FFFFFF; }
+    td p { margin-bottom:0px; }
+ul, ol { margin-left:1.5em; margin-bottom:0.8em; }
+  li { margin:0.4em 0; }
+
+/* Type class styles */
 .more { margin-left:2em; }
 .pdf { padding-right:18px; background:url(//cdn.middlebury.edu/miis.edu/2010/images/pdf.gif) no-repeat right center; }
 
+/* Columns */
+.columns { clear:left; min-width:100%; margin-bottom:1em; }
+  .columns .column { float:left; min-height:1px; padding:0px 12px 0px 12px; }
+  .columns .first { padding-left:0px; }
+  .columns .last { padding-right:0px; }
+.two { }
+  .two .column { width:312px; }
+  .split33 .first { width:200px; }
+  .split33 .last { width:424px; }
+.three { }
+  .three .column { width:196px; }
+.four { }
+  .fullwidth .four .column { width:201px; }
+.bordered { }
+  .bordered .column { padding-left:19px; padding-bottom:10px; border:solid #C3C3C3; border-width:0px 1px; margin-left:-1px;  }
+    .bordered .column .head { border-left:1px solid #C0C0C0; margin-left:-20px; padding-left:19px; }
+  .bordered .first { padding-left:20px; border-left:none; margin-left:0px; }
+    .bordered .first .head { padding-left:20px; border-left:0px; }
+  .bordered .last { border-right:none; }
+.fullbleed { margin:0px -20px 0px -20px; display:block; }
 
-/* Emergency Alerts */
-#alert_bar { margin:0px; padding:0 18px; height:30px; line-height:30px; font-size: 1em; font-family:Verdana,"Lucida Grande",Lucida,sans-serif; }
-#alert_bar a { color:inherit; border:0; }
-#alert_bar a:hover { color:inherit; background:transparent; }
-
-/* Tables */
-table { margin: 0; border-spacing:0; }/* DT-fix */
-  tbody { border-top:none; }
-  tr+tr td,tr+tr th { border-top:1px solid #fff; }/* DT-fix */
-  th { padding:10px; font-size:1.2em; font-weight:bold; background-color:#fff; color:#790e39; }/* DT-fix */
-        th a { color:#fff; }
-  td { padding:10px; background-color:#fff; border-left:1px solid #fff; border-right:1px solid #fff; }/* DT-fix */
-    td p { margin-bottom:0; }/* DT-fix */
-.subpglist table, .subpglist tr, .subpglist th, .subpglist td { background-color:#fff; vertical-align: top; }
-
-/* Forms */
-form#middlebury-google-custom-search, div#cse, div#catalog-directory-results, div.box.filled { margin:0px 18px 0px 18px; }
-div#content form#middlebury-google-custom-search, div#content div#page>h1 { margin:18px; }
-label { font-weight:bold; margin:2px; }  /* DT-fix */
-input[type=text],textarea { border:1px solid #999; padding:4px; } /* DT-fix */
-input[type=submit],input[type=button] { background-color:#eee; border:1px solid; border-color:#aaa #888 #888 #aaa; padding:5px; outline:none; } /* DT-fix */
-input[type=submit]:hover,input[type=button]:hover { cursor:pointer; background-color:#e3e3e3; border-color:#888 #aaa #aaa #888; } /* DT-fix */
-
-.linklist { list-style-type:none; margin:0; }
-  .linklist li { margin:0; }
-    .linklist li a { font-weight:bold; }
-
-.excerpt { }
-  .excerpt_title { font-weight:bold; }
-  .excerpt_links a { font-weight:bold; }
-
-.open_video { border:none !important; outline:none; }/* DT-fix */
-.blackout { position:fixed; top:0; left:0; width:100%; height:100%; background-color:#000; z-index:1000; }/* DT-fix */
-.video_overlay { position:absolute; left:50%; margin-left:-280px; width:560px; height:320px; z-index:1100; background-color:#000; color:#fff; }/* DT-fix */
-  .close_overlay { position:absolute; top:-10px; right:-10px; -moz-border-radius:20px; -webkit-border-radius:20px; width:20px; height:20px; font-size:18px; line-height:15px; text-align:center; background-color:#e33; border:3px solid #999; font-weight:bold;  }/* DT-fix */
-  .close_overlay:hover { background-color:#b22; color:#eee; border-color:#777; cursor:pointer; }/* DT-fix */
-
-/* Editing Interface */
-body#tinymce { background-color: #fff; background-image: url(); color: #000; }
-body.browser { position: relative; background: #fff; }
-div#TB_window { z-index: 600; }
-#miis_page>form { margin: 10px; }
-#miis_page fieldset { margin: 10px; }
-table#mm-permissions h2 { color:#fff; }
-table#mm-permissions h4 { color:#fff; font-size:0.8em; }
-
-/* Tags */
-div.terms ul { list-style-type: none; display: inline; }
-div.terms li { display: inline; padding-right: 10px; }
-  
-/* Page structure */
+/* Body top to bottom */
+body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em; line-height:1.4; background-color:#071427;  background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/bluegradient.jpg); background-position:center 194px; background-repeat:repeat-x; color:#333333; }
+.skiplink { position:absolute; top:0; left:-9999px; width:9em; padding:5px; color:#00f; background-color:#ff9; border:1px solid #993; text-align:center; z-index:9999; }
+.skiplink:focus { left:0; }
 .container { width:960px; position:relative; margin:0 auto; }
+.clear { height:0; clear:both; }
 
-#miis_header { height:160px; background-color:#b0b0b0; color:#fff; background-position:center top; background-repeat:no-repeat; background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/flags.jpg);/* JP-fix */}
-  #miis_header a { color:#fff; text-decoration:none; border:none; font-weight:normal; }
-  #miis_header a:hover {text-decoration:none; color:#76db5b; font-weight:normal; }
-  #miis_wordmark { font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; display:block;  position:absolute; left:12px; top:16px; width:360px; height:100px; font-size:2.5em; line-height:1em; }
-  #miis_header #miis_wordmark:hover { border:none; color:#ddd; }
-  #miis_languages,#miis_search,#miis_gateways { background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/black_trans.png); padding:10px 12px; }
-  #miis_search { width:200px; float:right; padding:7px 10px 12px; }
-    #miis_search_query { border:1px solid #445; -moz-border-radius:5px; -webkit-border-radius:5px; width:11em; padding:0.2em 0.5em; }
-    #miis_search_submit { background-color:transparent; border:none; color:#fff; font-weight:bold; padding:0; margin:0; }
-  #miis_gateways { width:196px; list-style-type:none; clear:right; float:right; margin-top:10px; padding:12px 12px; }
-  #miis_languages { width:146px; list-style-type:none; position:absolute; right:229px; top:0; height:112px; padding-top:20px; display:none; } /* KB fix */
-    #miis_languages li,#miis_gateways li { width:50%; margin:0 0 2px; }
-    #miis_languages .left,#miis_gateways .left { float:left; }
-    #miis_languages .right,#miis_gateways .right { float:right; text-align:right; }
-      #miis_gateways li.left { width:115px; }
-      #miis_gateways li.right { width:70px; }
-    #miis_gateways .full { width:100%; }
-  #miis_header #miis_languages,body.language #miis_languages { display:block; }/* DT-fix */
+  /* Header */
+  .header { height:160px; background-color:#B0B0B0; color:#FFFFFF; background-position:center top; background-repeat:no-repeat; background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/flags.jpg); }
+    .header a { color:#FFFFFF; text-decoration:none; border:none; font-weight:normal; }
+      .header a:hover { text-decoration:none; color:#76DB5B; font-weight:normal; }
+  .wordmark { font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; display:block;  position:absolute; left:12px; top:16px; width:360px; height:100px; font-size:2.5em; line-height:1em; }
+    .wordmark:hover { border:none; color:#DDDDDD; }
+  .languages, .search, .gateways { background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/black_trans.png); padding:10px 12px 10px 12px; }
+  .search { width:200px; float:right; padding:7px 10px 12px 10px; }
+    .search input { border:1px solid #444455; -moz-border-radius:5px; -webkit-border-radius:5px; width:11em; padding:0.2em 0.5em 0.2em 0.5em; }
+    .search button { background-color:transparent; border:none; color:#FFFFFF; font-weight:bold; padding:0px; margin:0px; }
+  .gateways { width:196px; list-style-type:none; clear:right; float:right; margin-top:10px; padding:12px 12px; }
+  .languages { width:146px; list-style-type:none; position:absolute; right:229px; top:0px; height:112px; padding-top:20px; }
+    .languages li, .gateways li { width:50%; margin:0px 0px 2px 0px; }
+    .languages .left, .gateways .left { float:left; }
+    .languages .right, .gateways .right { float:right; text-align:right; }
+      .gateways li.left { width:115px; }
+      .gateways li.right { width:70px; }
+    .gateways .full { width:100%; }
+
+  /* Navigation */
+  .navigation { height:34px; background-color:#5E6676; position:relative; z-index:500; }
+    .navigation ul { list-style-type:none; }
+    .navigation li { float:left; margin:0px; position:relative; margin-right:34px; }
+      .navigation li a.tab { color:#FFFFFF; text-decoration:none; padding:0px 12px; display:block; position:relative; text-align:center; font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; font-size:1.3em; line-height:34px; border:none; white-space:nowrap; }
+        .navigation li a.tab:hover { background-color:#FFFFFF; color:#131E30; }
+        .navigation li a.tab span { position:absolute; top:0px; left:0px; width:100%; height:100%; background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/nav_main.gif); }
+      .navigation li .nav_feature { display:none; position:absolute; bottom:100%; margin-bottom:34px; left:-1px; padding:12px; border:solid #5E6676; border-width:1px 1px 0px 1px; background-color:#F9F9F9; width:320px; height:155px; }
+        .front .navigation li .nav_feature { display:block; }
+      .navigation li .nav_dropdown { position:absolute; top:34px; border:solid #5E6676; border-width:0px 1px 1px; background-color:#F9F9F9; width:320px; padding:12px; display:none; }
+        .navigation li.hover .nav_dropdown { display:block;  z-index:500; }
+        .navigation li .nav_dropdown ul { margin:0px; }
+          .navigation li .nav_dropdown li { float:none; margin:0.1em 0px 0.3em 0px; }
+            .navigation li .nav_dropdown li a { color:#003399; text-decoration:none; }
+              .navigation li .nav_dropdown li a:hover { text-decoration:underline; }
+            .navigation li .nav_dropdown li.main { font-weight:bold; }
+            .navigation li .nav_dropdown li.full { font-size:1.1em; border-bottom:1px solid #CCCCCC; text-align:center; padding-bottom:3px; margin-bottom:5px; }
+          .navigation li .nav_dropdown .left { float:left; clear:left; width:150px; }
+          .navigation li .nav_dropdown .right { float:right; text-align:right; width:170px; }
+    .navigation_why a { width:94px; }
+      .navigation_why a span, .has_dropdowns .navigation_why a:hover span { background-position:-8px 0px; }
+      .navigation_why a:hover span, .has_dropdowns .navigation_why.hover a span  { background-position:-8px -35px; }
+      .navigation_why.active a span { background-position:-8px -70px; }
+      .navigation_why .nav_dropdown { left:-1px; }
+    .navigation_about a { width:64px; }
+      .navigation_about a span, .has_dropdowns .navigation_about a:hover span { background-position:-125px 0px; }
+      .navigation_about a:hover span, .has_dropdowns .navigation_about.hover a span { background-position:-125px -35px; }
+      .navigation_about.active a span { background-position:125px -70px; }
+      .navigation_about .nav_dropdown { left:-1px; }
+    .navigation_admissions a { width:90px; } 
+      .navigation_admissions a span, .has_dropdowns .navigation_admissions a:hover span { background-position:-218px 0px; }
+      .navigation_admissions a:hover span, .has_dropdowns .navigation_admissions.hover a span { background-position:-218px -35px; }
+      .navigation_admissions.active a span { background-position:-218px -70px; }
+      .navigation_admissions .nav_dropdown { left:-75px; }
+    .navigation_academics a { width:95px; }
+      .navigation_academics a span, .has_dropdowns .navigation_academics a:hover span { background-position:-337px 0px; }
+      .navigation_academics a:hover span, .has_dropdowns .navigation_academics.hover a span { background-position:-337px -35px; }
+      .navigation_academics.active a span { background-position:-337px -70px; }
+      .navigation_academics .nav_dropdown { left:-75px; }
+    .navigation_studentlife a { width:105px; }
+      .navigation_studentlife a span, .has_dropdowns .navigation_studentlife a:hover span { background-position:-460px 0px; }
+      .navigation_studentlife a:hover span, .has_dropdowns .navigation_studentlife.hover a span { background-position:-460px -35px; }
+      .navigation_studentlife.active a span { background-position:-460px -70px; }
+      .navigation_studentlife .nav_dropdown { left:-75px; }
+    .navigation_careers a { width:75px; }
+      .navigation_careers a span, .has_dropdowns .navigation_careers a:hover span { background-position:-595px 0px; }
+      .navigation_careers a:hover span, .has_dropdowns .navigation_careers.hover a span { background-position:-595px -35px; }
+      .navigation_careers.active a span { background-position:-595px -70px; }
+      .navigation_careers .nav_dropdown { left:-75px; }
+    .navigation_giving a { width:58px; }
+      .navigation_giving a span, .has_dropdowns .navigation_giving a:hover span { background-position:-696px 0px; }
+      .navigation_giving a:hover span, .has_dropdowns .navigation_giving.hover a span { background-position:-696px -35px; }
+      .navigation_giving.active a span { background-position:-696px -70px; }
+      .navigation_giving .nav_dropdown { left:-225px; }
+      .navigation_giving .nav_feature img { border:none; margin-bottom:-12px; }
+    .navigation li.navigation_giving { margin-right:0; }
+    .nav_feature h3 { font-weight:bold; font-size:1.1em; color:#666666; }
+    .nav_feature a, .nav_dropdown .note a { color:#790E39; border:none; font-weight:bold; } 
+      .nav_feature a:hover, .nav_dropdown .note a:hover { color:#790E39; font-decoration:underline; }
+      .nav_feature a img { color:#790E39; border:none; font-weight:bold; border:1px solid #790E39; }
+        .nav_feature a:hover img { border-color:#790E39; }
+    .nav_feature .summary { font-size:0.929em; }
+    .nav_feature .title.subhead { font-size:1.5em; }
+    .nav_feature .fullbleed { margin:0px -12px 0px -12px; }
+    .nav_feature .quickaccess { width:310px; font-size:1.5em; }
+    .nav_feature .image_left img { float:left; margin-right:12px; }
+    .nav_feature .image_right img { float:right; margin-left:12px; }
+    .nav_feature .questions a img { border:none; }
+    .nav_feature .questions .subhead { float:right; margin-top:-20px; }
+    .nav_feature table, .nav_feature tr, .nav_feautre td, .nav_feature tbody { border: none; }
+    .nav_dropdown .note { color:#666666; }
+    .nav_dropdown .title { font-size:1.1em; }
+      .nav_dropdown .title a { font-weight:normal; }
+    .nav_dropdown .date { font-weight:bold; }
+
+  /* Page Content */
+  .page { margin-top:24px; }
+  .breadcrumb { margin:-24px 0px 0px 0px; width:458px; color:#CCCCCC; font-size:0.857em; font-weight:normal; padding:5px 6px 5px 6px; background:#003366 url(//cdn.middlebury.edu/miis.edu/2010/images/seal_watermark_dk.gif) no-repeat left top; -moz-box-shadow:3px 3px 3px #131E30; -webkit-box-shadow:3px 3px 3px #131E30; position:relative; z-index:100; }
+    .breadcrumb a { color:#CCCCCC; padding:0px 6px 0px 6px; border: none; }
+      .breadcrumb a:hover { color:#FFD231; text-decoration:underline; }
+  .body { border:12px solid #DDDDDD; background-color:#FFFFFF; width:696px; float:left; }
+    .body.fullwidth { width:936px; }
+    .body > a { display:none; }
+    .body .content { padding:24px; padding-bottom:36px; clear:left; }
+
+  /* Tags */
+  .field-type-taxonomy-term-reference .field-label, .field-type-taxonomy-term-reference .field-items, .field-type-taxonomy-term-reference .field-item { display: inline; }
+  .field-type-taxonomy-term-reference .field-label { padding-right:1.5em; }
+  .field-type-taxonomy-term-reference .field-item { padding-right:10px; }
+
+  /* Right Sidebar */
+  .sidebar { width:200px; margin:24px 12px; padding:0px; float:right; }
+  .sidebar ul.menu { list-style-type:none; margin:0px; }
+  .sidebar ul.menu > li { margin:0px; list-style-type:none; list-style-image:none; padding:0px; }
+  .sidebar div.content > ul.menu > li > a { display:none; }
+  .sidebar div.content > ul.menu > li > ul.menu > li { margin:0px; background-color:#061830; border:1px solid #18293A; margin-bottom:5px; }
+  .sidebar div.content > ul.menu > li > ul.menu > li > a { display:block; border:none; padding:8px 10px; text-decoration: none; font-size:0.929em; line-height:1.1em; font-weight:bold; color: #DDDDEE; }
+    .sidebar div.content > ul.menu > li > ul.menu > li > a:hover { background-color:#18447C; text-decoration: none; color:#FFFFFF; }
+    .sidebar div.content > ul.menu > li > ul.menu > li > ul { margin:10px 0px 10px 10px; }
+    .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul > li { padding:0px 10px 0px 10px; margin:0px 0px 5px 0px; }
+    .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul > li > a { color:#FFFFFF; border:none; }
+    .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul > li > a:hover { text-decoration:underline; }
+  .sidebar div.content > ul.menu > li > ul.menu > li.expanded { border:2px solid #18293A; background-color:#061830; }
+    .sidebar div.content > ul.menu > li > ul.menu > li.expanded > a { background-color:#18447C; color:#FFFFFF; border:none; }
+    .sidebar div.content > ul.menu > li > ul.menu > li.expanded > a:hover { color:#FFFFFF; }
+  .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu { list-style-type:disc; color:#CCEEFF; font-size:0.929em; margin-left:1.2em; }
+  .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li { margin-top:0.2em; }
+  .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li > a { list-style-type:disc; color:#CCEEFF; border-color:#CCEEFF; }
+  .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu li.here { color:#FFFFFF; }
+    .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.here > a { font-weight:bold; color:#FFFFFF; border:none; }
+  .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.here > a:hover { border: none; }
+
+  /* Footer */
+  .footer { clear:both; padding-top:12px; width:960px; margin:24px auto; color:#999999; }
+    .footer h6 { color:#999999; font-weight:normal; }
+    .footer a { font-weight:bold; color:#FFFFFF; border:none; }
+      .footer a:hover { color:#76DB5B; }
+    .footer .name { font-size:1.4em; font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; margin-bottom:10px; padding-bottom:5px; color:#999999; border-bottom:1px solid #999999; }
+      .footer .name a { font-weight:normal; color:#999999; }
+        .footer .name a:hover { color:#FFFFFF; }
+    .footer .address { float:left; }
+      .footer .address a { color:#FFFFFF; font-weight:bold; border:none; }
+        .footer .address a:hover { text-decoration:underline; }
+    .footer .right { float:right; text-align:right; margin-left:60px; }
+    .footer ul { list-style-type:none; margin:0; }
+      .footer li { margin:0; }
+
+/* Homepage */
+.front .header { height:300px; }
+.front .page { margin:30px auto 0px auto; color:#EEEEEE; }
+.front .column { padding:0px 30px 0px 30px; }
+  .front .two .first { padding-left:12px; width:584px; }
+  .front .two .last { padding-right:12px; width:292px; }
+
+.front .be-the-solution ul { list-style-type:none; margin:0; }
+  .front .be-the-solution li { float:left; margin:0px; width:194px; padding:0px; font-size:20px; font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; }
+    .front .be-the-solution li:nth-child(3n) { width:170px; padding-left:24px; }
+  .front .be-the-solution a { font-weight:normal; }
+
+.front .news h1 { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:1.3em; font-weight:bold; border-bottom:1px solid #5878A7; margin-bottom:0.8em; color:#83B2F9; position:relative; line-height:1.25em; }
+.front .news a { color:#83B2F9; border:none; font-weight:bold; }
+  .front .news a:hover { text-decoration: underline; }
+.front .news ul { margin-left: 0px; list-style-type:none;}
+  .front .news li { margin-bottom:1em; margin-left:0px; }
+.front .news .views-field-title { display:block; }
+.front .news .views-row-1 .views-field-title { font-size:1.2em; margin-bottom:0.5em; margin-top:1em; }
+  .front .news .views-row-1 .views-field-title a { font-weight:normal; color:#EEEEEE; }
+  .front .news .views-row-1 .views-field-title a:hover { text-decoration: underline; }
+.front .news .views-field-field-teaser { display: inline; }
+  .front .news .views-field-field-teaser a { width:277px; margin: 20px 0px 0px 0px; }
+  .front .news .views-field-field-teaser p { display: inline; }
+.front .news .views-field-field-media { text-align: center; }
+  .front .news .views-field-field-media a:hover { text-decoration: none; }
+.front .news .block-system, .front .news .links { display:none; }
+
+.front .bottom a { color:#FFD231; border:none; font-weight:bold; }
+  .front .bottom a:hover { text-decoration: underline; }
+.front .bottom h2 { font-size:1.3em; font-weight:bold; border-bottom:1px solid #AB8D24; margin-bottom:0.8em; color:#FFD231; }
+.front .bottom h3 { font-size:1.2em; color:#FFD231; margin:1.5em 0px 0px 0px; }
+  .front .bottom h3 a { font-weight:normal; color:#FFD231; }
+.front .bottom div.quote { font-size:1.05em; }
+.front .bottom img.fullbleed { margin-left:0px; }
+
+.front .spotlight { float:left; width:258px; }
+  .front .spotlight .views-field-counter { margin-top:-5px; text-align:center; }
+  .front .spotlight .views-field-title { display:block; font-size:1.2em; line-height:1.25em; }
+    .front .spotlight .views-field-title a { font-weight:normal; }
+  .front .spotlight div.item-list { margin:0px; width: 258px; }
+    .front .spotlight div.item-list li { width: 128px; margin:0px; padding:0px; display:block; }
+      .front .spotlight div.item-list li.first { float:left; text-align:left; }
+      .front .spotlight div.item-list li.pager-current { display:none; }
+      .front .spotlight div.item-list li.last { float:right; text-align:right; }
+
+.front .dates { float:right; width:258px; }
+  .front .dates ul { margin-top:1.5em; }
+
+/* 10 Questions */
+.node-10questions header { background:url(//cdn.middlebury.edu/miis.edu/2010/images/10questions_header.gif) no-repeat left top; padding:77px 24px 0px 24px; margin:0px -24px 0px -24px; }
+.node-10questions h1 { font-size:1.2em; color:#003366; font-weight:bold; letter-spacing:2px; }
+.node-10questions h2 { font-size:2.0em; color:#666666; font-weight:normal; margin-top:32px; }
+.node-10questions h5 { color:#790E39; font-weight:bold; font-size:1.3em; }
+
+.node-10questionslist { background-color:#DDDDDD; padding:24px 24px 12px 24px; margin:0px -24px -36px -24px; clear:left; min-height:40px; vertical-align:middle; clear:both; }
+  .node-10questionslist header { background: url(//cdn.middlebury.edu/miis.edu/2010/images/10questions.gif) top left no-repeat; height:62px; padding:18px 12px 12px 120px; margin:0px 0px 0px 0px; }
+  .node-10questionslist header h1 { font-size:1.4em; line-height:1.3em; }
+  .node-10questionslist header h1 a { color:#790E39; }
+
+/* Be the Solution */
+.node-bethesolution header { float:left; width:696px; height:267px; margin:-50px 0px 0px -24px; position:relative; z-index:100;}
+  .node-bethesolution header  h1 { padding:24px 24px 6px 24px; margin-top:0px; background:transparent url(//cdn.middlebury.edu/miis.edu/2010/images/blue_titleoverlay_trans.png) repeat-x; height:58px; font-size: 2.6em; color:#FFFFFF; }
+.be-the-solution { color:#EEEEEE; margin-bottom:50px; }
+  #block-views-be-the-solution-homepage h2, #block-views-be-the-solution-sidebar h2 { font-size:2.3em; font-weight:normal; font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; color:#76DB5B; white-space:nowrap; }
+  .be-the-solution a { color:#76DB5B; border:none; font-weight:normal;}
+    .be-the-solution a:hover { text-decoration:underline; }
+  .be-the-solution .view-header { font-size:1.2em; }
 
 #miis_header_caption { background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/black_trans.png); }
 .header_caption { float:right; clear:both; color: #BBBBBB; width:196px; position:absolute; bottom:0px; right:0px; padding:10px 12px; display:block; }
@@ -121,229 +301,17 @@ div.terms li { display: inline; padding-right: 10px; }
   .header_caption_about { background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/black_trans.png); padding:10px 12px; color:#FFFFFF; font-size:0.929em; color:#BBBBBB; position:absolute; width:196px; bottom:0px; right:0px; display:none; }
   .header_caption_close { position:absolute; top:3px; right:0px; display:block; height:12px; width:24px; line-height:12px; font-weight:bold; border-bottom:none; text-align:center; outline:none; }
 
-
-#miis_navbar { height:34px; background-color:#5e6676; position:relative; z-index:500; }
-  #miis_navigation { list-style-type:none; }
-    #miis_navigation li { float:left; margin:0; position:relative; margin-right:34px; }
-        #miis_navigation li a.tab { color:#fff; text-decoration:none; padding:0 12px; display:block; position:relative; text-align:center; font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; font-size:1.3em; line-height:34px; border:none; white-space:nowrap; }
-        #miis_navigation li a.tab:hover { background-color:#fff; color:#131E30; }
-                                        #miis_navigation li a.tab span { position:absolute; top:0; left:0; width:100%; height:100%; /* JP-fix */  background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/nav_main.gif); }
-        #miis_navigation li .nav_dropdown { position:absolute; top:34px; border:solid #5e6676; border-width:0 1px 1px; background-color:#f9f9f9; width:320px; padding:12px; display:none; }
-        #miis_navigation li.hover .nav_dropdown { display:block;  z-index:500; }
-          #miis_navigation li .nav_feature { display:none; position:absolute; bottom:100%; margin-bottom:34px; left:-1px; padding:12px; border:solid #5e6676; border-width:1px 1px 0; background-color:#f9f9f9; width:320px; height:155px; }
-          .front #miis_navigation li .nav_feature { display:block; }
-          #miis_navigation li .nav_dropdown ul { margin:0; list-style-type:none; }
-            #miis_navigation li .nav_dropdown li { float:none; margin:0.1em 0 0.3em 0; }
-              #miis_navigation li .nav_dropdown li a { color:#039; text-decoration:none; } /* KB fix */
-              #miis_navigation li .nav_dropdown li a:hover { text-decoration:underline; } /* KB fix */
-            #miis_navigation li .nav_dropdown li.main { font-weight:bold; }
-            #miis_navigation li .nav_dropdown li.header { font-size:1.1em; border-bottom:1px solid #ccc; text-align:center; padding-bottom:3px; margin-bottom:5px; }
-            #miis_navigation li .nav_dropdown .left { float:left; clear:left; width:150px; }
-            #miis_navigation li .nav_dropdown .right { float:right; text-align:right; width:170px; }
-  #miis_nav_why a { width:94px; }
-    #miis_nav_why a span,.has_dropdowns #miis_nav_why a:hover span { background-position:-8px 0; }
-    #miis_nav_why a:hover span,.has_dropdowns #miis_nav_why.hover a span  { background-position:-8px -35px; }
-    #miis_nav_why.active a span { background-position:-8px -70px; }
-    #miis_nav_why .nav_dropdown { left:-1px; }
-  #miis_nav_about a { width:64px; }
-    #miis_nav_about a span,.has_dropdowns #miis_nav_about a:hover span { background-position:-125px 0; }
-    #miis_nav_about a:hover span,.has_dropdowns #miis_nav_about.hover a span  { background-position:-125px -35px; }
-    #miis_nav_about.active a span { background-position:125px -70px; }
-    #miis_nav_about .nav_dropdown { left:-1px; }
-  #miis_nav_admissions a { width:90px; } 
-    #miis_nav_admissions a span,.has_dropdowns #miis_nav_admissions a:hover span { background-position:-218px 0; }
-    #miis_nav_admissions a:hover span,.has_dropdowns #miis_nav_admissions.hover a span  { background-position:-218px -35px; }
-    #miis_nav_admissions.active a span { background-position:-218px -70px; }
-    #miis_nav_admissions .nav_dropdown { left:-75px; }
-  #miis_nav_academics a { width:95px; }
-    #miis_nav_academics a span,.has_dropdowns #miis_nav_academics a:hover span { background-position:-337px 0; }
-    #miis_nav_academics a:hover span,.has_dropdowns #miis_nav_academics.hover a span  { background-position:-337px -35px; }
-    #miis_nav_academics.active a span { background-position:-337px -70px; }
-    #miis_nav_academics .nav_dropdown { left:-75px; }
-  #miis_nav_studentlife a { width:105px; }
-    #miis_nav_studentlife a span,.has_dropdowns #miis_nav_studentlife a:hover span { background-position:-460px 0; }
-    #miis_nav_studentlife a:hover span,.has_dropdowns #miis_nav_studentlife.hover a span  { background-position:-460px -35px; }
-    #miis_nav_studentlife.active a span { background-position:-460px -70px; }
-    #miis_nav_studentlife .nav_dropdown { left:-75px; }
-  #miis_nav_careers a { width:75px; }
-    #miis_nav_careers a span,.has_dropdowns #miis_nav_careers a:hover span { background-position:-595px 0; }
-    #miis_nav_careers a:hover span,.has_dropdowns #miis_nav_careers.hover a span  { background-position:-595px -35px; }
-    #miis_nav_careers.active a span { background-position:-595px -70px; }
-    #miis_nav_careers .nav_dropdown { left:-75px; }
-  #miis_nav_giving a { width:58px; }
-    #miis_nav_giving a span,.has_dropdowns #miis_nav_giving a:hover span { background-position:-696px 0; }
-    #miis_nav_giving a:hover span,.has_dropdowns #miis_nav_giving.hover a span { background-position:-696px -35px; }
-    #miis_nav_giving.active a span { background-position:-696px -70px; }
-    #miis_nav_giving .nav_dropdown { left:-225px; }
-  #miis_navigation li#miis_nav_giving { margin-right:0; }
-
-/* Nav features */
-.nav_feature h3 { font-weight:bold; font-size:1.1em; color:#666; }
-.nav_feature a,.nav_dropdown .note a { color:#790e39; border:none; font-weight:bold; } /* KB fix */
-.nav_feature a:hover,.nav_dropdown .note a:hover { color:#790e39; font-decoration:underline; } /* KB fix */
-.nav_feature a img { color:#790e39; border:none; font-weight:bold; border:1px solid #790e39; }
-.nav_feature a:hover img { border-color:#790e39; } /* KB fix */
-.nav_feature .summary { font-size:0.929em; }
-.nav_feature .title.subhead { font-size:1.5em; }
-.nav_feature .fullbleed { margin:0 -12px; }
-.nav_feature .quickaccess, .nav_feature .gsc-input { width:310px; font-size:1.5em; }
-.nav_feature table, .nav_feature tr, .nav_feautre td, .nav_feature tbody { border: none; }
-.nav_dropdown .note { color:#666; }
-  .nav_dropdown .title { font-size:1.1em; }
-  .nav_dropdown .title a { font-weight:normal; }
-  .nav_dropdown .date { font-weight:bold; }
-.nav_feature .image_left img { float:left; margin-right:12px; }
-.nav_feature .image_right img { float:right; margin-left:12px; }
-#miis_feature_questions a img { border:none; }
-#miis_feature_questions .subhead { float:right; margin-top:-20px; }
-
-#miis_nav_giving .nav_feature img { border:none; margin-bottom:-12px; }
-
-#miis_page { border:12px solid #ddd; background-color:#fff; margin-top:24px; width:696px; float:left; }
-#miis_page>a { display:none; }
-#miis_page.fullwidth { width:926px; } /* Aug31-fix */
-#miis_page.gray_sidebar { width:626px; border-right-width:312px; } /* Aug31-fix */
-  #miis_page.gray_sidebar .body { float:left; width:578px; } /* Aug31-fix */
-  #miis_gray_sidebar { float:right; margin-right:-300px; width:278px; } /* Aug31-fix */
-  .titlecard { width:470px; margin-right:-12px; float:left; }
-        .wide.titlecard { width:696px; } /* Sep1-fix */
-    #miis_breadcrumb {margin-top:-24px; width:458px; color:#ccc; font-size:0.857em; font-weight:normal; padding:5px 6px; background:#036 url(//cdn.middlebury.edu/miis.edu/2010/images/seal_watermark_dk.gif) no-repeat left top; -moz-box-shadow:3px 3px 3px #131E30;  -webkit-box-shadow:3px 3px 3px #131E30; position:relative; z-index:100;  }
-      #miis_breadcrumb a {color:#ccc; padding:0 6px; border: none; }
-      #miis_breadcrumb a:hover {color:#ffd231; text-decoration:underline;}
-
-    #miis_page .title { padding:36px 24px 6px 24px; }
-      #miis_page .title h1, #miis_page .body.webform h2:first-child {font-family:Arial, Helvetica, sans-serif; color:#147; font-size:3em; padding-bottom:5px; border-bottom:1px solid #000; margin-bottom:0; }
-    .opening {font-family:Georgia, Times, serif; color:#5E6676; padding:12px 24px; font-size:1.5em; line-height:1.3em;   }
-      #miis_page .body.webform h2:first-child a { color:#114477; font-weight:normal; }
-                        .opening p { display: inline; }
-      .opening a { color:#147; font-weight:normal; border:none; }
-      .opening a:hover { text-decoration:underline ; }
-  .leadimage { float:right; margin:0; background-color:#E4EAF3; overflow:hidden; width:238px; margin:-14px -12px 5px 12px; }
-  .caption { color:#666; font-style:italic; font-size: .9em; line-height:1.2em; padding:8px 10px; }
-  .body { padding:24px; padding-bottom:36px; clear:left; }
-        .view-miis-locations, .view-miis-around-the-world .view-content { margin: 0px -24px 0px -24px; }
-  .body.has_sidebar { float:left; width:410px; }
-  .content_sidebar { width:200px; clear:right; float:right; padding:0; margin: 24px 12px 24px 12px;}
-
-p.intro { font-size:1.3em;  line-height:1.4em;}
-
-#miis_right {width:200px; margin:24px 12px; padding:0; float:right; }
-#miis_right ul.menu { list-style-type:none; margin:0; }
-#miis_right ul.menu > li { margin:0px; list-style-type:none; list-style-image:none; padding:0px; }
-  #miis_right div.content > ul.menu > li > a { display:none; }
-  #miis_right div.content > ul.menu > li > ul.menu > li { margin:0; /* JP-fix */  background-color:#061830; /* JP-fix */  border:1px solid #18293a; margin-bottom:5px;}
-  #miis_right div.content > ul.menu > li > ul.menu > li > a {
-      display:block; border:none; padding:8px 10px; text-decoration: none;
-      font-size:0.929em; line-height:1.1em; font-weight:bold; color: #DDDDEE; }
-    #miis_right div.content > ul.menu > li > ul.menu > li > a:hover {  /* JP-fix */  background-color:#18447c; text-decoration: none; color: #miis_fff;}
-    #miis_right div.content > ul.menu > li > ul.menu > li > ul {margin:10px 0px 10px 10px;}
-    #miis_right div.content > ul.menu > li > ul.menu > li.expanded > ul > li {padding:0 10px; margin:0 0 5px 0;}
-    #miis_right div.content > ul.menu > li > ul.menu > li.expanded > ul > li > a {color:#fff; border:none; }
-    #miis_right div.content > ul.menu > li > ul.menu > li.expanded > ul > li > a:hover { text-decoration:underline;}
-  #miis_right div.content > ul.menu > li > ul.menu > li.expanded  {border:2px solid #18293a; background-color:#061830}
-    #miis_right div.content > ul.menu > li > ul.menu > li.expanded > a {background-color:#18447c; color:#fff; border:none; }
-    #miis_right div.content > ul.menu > li > ul.menu > li.expanded > a:hover { color:#fff; }
-  #miis_right div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu { list-style-type:disc; color:#cef;  font-size:0.929em; margin-left:1.2em; }/* DT-fix */
-  #miis_right div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li { margin-top:0.2em; }/* DT-fix */
-  #miis_right div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li > a { list-style-type:disc; color:#cef; border-color:#cef; }/* DT-fix */
-  #miis_right div.content > ul.menu > li > ul.menu > li.expanded > ul.menu li.here { color:#fff; }/* DT-fix */
-        #miis_right div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.here > a {font-weight:bold; color:#fff !important; border:none; }
-  #miis_right div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.here > a:hover { border: none !important; }
-
-/* Navigation Sidebar */
-#miis_sidebar {color:#fff; margin-top:23px;}
-    #miis_sidebar h2 {color:#83b2f9;} /* KB fix Sep-21 */
-  #miis_sidebar h3 {font-size:1.229em; font-weight:bold; color:#ffd231; } /* KB fix Sep-21 */
-  #miis_sidebar h4 {font-size:1.0em; color:#83b2f9;} /* KB fix Sep-27 */
-  #miis_sidebar a {border:none; font-weight:bold;}
-  #miis_sidebar a:hover { text-decoration:underline; }
-  #miis_sidebar ul {list-style-type:none; margin-left:0; }
-        #miis_sidebar a {color:#76db5b;}
-  #miis_sidebar .newslist h3 {color:#ffd231;} /* KB fix Sep-21 */
-    #miis_sidebar .newslist a { font-weight:normal; color:#fff; }
-  #miis_sidebar .spotlight h3, #miis_sidebar .spotlight a {color:#ffd231;}
-  #miis_sidebar .feature h3, #miis_sidebar .feature a {color:#ffca27;}
-        #miis_sidebar p a, #miis_sidebar li a {color:#76db5b;}
-
-#miis_footer { clear:both; padding-top:12px; width:960px; margin:24px auto; color:#999; }
-  #miis_footer h6 { color:#999; font-weight:normal; }
-  #miis_footer a { font-weight:bold; color:#fff; border:none; }
-  #miis_footer a:hover { color:#76db5b; }
-  #miis_footer .name { font-size:1.4em; font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; margin-bottom:10px; padding-bottom:5px; color:#999; border-bottom:1px solid #999999;}
-  #miis_footer .name a {font-weight:normal; color:#999;}
-  #miis_footer .name a:hover {color:#fff;}
-  #miis_footer .address { float:left; }
-    #miis_footer .address a { color:#fff; font-weight:bold; border:none; }
-    #miis_footer .address a:hover { text-decoration:underline; }
-  #miis_footer .right { float:right; text-align:right; margin-left:60px; }
-  #miis_footer ul { list-style-type:none; margin:0; }
-    #miis_footer li { margin:0; }
-    
-/* Carousel */
-.slider { position:absolute; left:0; top:0; height:100%; margin-right:-12000px; } 
-#miis_carousel { color:#fff; height:240px; margin:18px 0; position:relative; overflow:hidden; clear:both; }
-    #miis_carousel_features a  { color:#6af346; text-decoration:none; border:none; padding:0; }
-    #miis_carousel_features a:hover  { color:#6af346; border:none !important; background-color:transparent; }
-    #miis_carousel_features h2, #miis_carousel_features h3, #miis_carousel_features h4, #miis_carousel_features h5, #miis_carousel_features h6  { color:#83B2F9 !important; }
-#miis_carousel_arrow { position:relative; left:258px; bottom:12px; margin-bottom:-55px; width:49px; height:43px; background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/carousel_arrow.png); }
-#miis_carousel .block { border:dashed #fff; border-width:1px 1px 1px 0; list-style-type:none; height:238px; margin:0; }
-  #miis_carousel .node, #miis_carousel .mm-block-links { border-left:1px dashed #fff; height:225px; padding:10px 30px 5px; margin:0; float:left; }
-  #miis_carousel .carousel_image { border-left: 1px dashed #fff; margin:0; float:left; height: 238px; }
-  #miis_carousel .content > a { display:none; }
-  #miis_carousel a:hover { background: transparent; border-bottom: 1px dotted; }
-  #miis_carousel_arrow { z-index: 100; }
-
-/* Carousel RSS Page */
-#miis_carousel #miis_carousel_features div.item-list>ul,
-#miis_carousel #miis_carousel_features fieldset.collapsible legend,
-#miis_carousel #miis_carousel_features div.fieldset-wrapper>div>a,
-#miis_carousel #miis_carousel_features div.feed-item-body
-  {display:none;}
-
-#miis_carousel #miis_carousel_features h3.feed-item-title a { color:#fff; text-decoration:none; }
-#miis_carousel #miis_carousel_features div.feed-item-meta span.feed-item-date { color:#fff; }
-
-/* Columns */
-.columns { clear:left; min-width:100%; margin-bottom:1em; }
-  .columns .column { float:left; min-height:1px; padding:0 12px; }
-  .columns .first { padding-left:0; }
-  .columns .last { padding-right:0; }
-.two { }
-  .two .column { width:312px; }
-  .split33 .first { width:200px; } /* 1/3:2/3 column split */
-  .split33 .last { width:424px; }
-.three { }
-  .three .column { width:196px; }
-.four { }
-  .fullwidth .four .column { width:201px; }
-.bordered { }
-  .bordered .column { padding-left:19px; padding-bottom:10px; border:solid #c3c3c3; border-width:0 1px; margin-left:-1px;  }
-    .bordered .column .head { border-left:1px solid #c0c0c0; margin-left:-20px; padding-left:19px; }
-  .bordered .first { padding-left:20px; border-left:none; margin-left:0; }
-    .bordered .first .head { padding-left:20px; border-left:0; }
-  .bordered .last { border-right:none; }
-.fullbleed { margin:0 -20px; display:block; }
-
-/* 10 Questions */
-.node-10questions header { background:url(//cdn.middlebury.edu/miis.edu/2010/images/10questions_header.gif) no-repeat left top; padding:77px 24px 0px 24px; margin:0px -24px 0px -24px; }
-.node-10questions h1 { font-size:1.2em; color:#003366; font-weight:bold; letter-spacing:2px; }
-.node-10questions h2 { font-size:2.0em; color:#666666; font-weight:normal; margin-top:32px; }
-.node-10questions h5 { color:#790E39; font-weight:bold; font-size:1.3em; }
-
-.node-10questionslist { background-color:#DDDDDD; padding:24px 24px 12px; margin:0px -24px -36px -24px; clear:left; min-height:40px; vertical-align:middle; clear:both; }
-  .node-10questionslist header { background: url(//cdn.middlebury.edu/miis.edu/2010/images/10questions.gif) top left no-repeat; height:62px; padding:18px 12px 12px 120px; margin:0px 0px 0px 0px; }
-  .node-10questionslist header h1 { font-size:1.4em; line-height:1.3em; }
-  .node-10questionslist header h1 a { color:#790E39; }
-
-/* Be the Solution */
-.be-the-solution { color:#eee; margin-bottom:50px; }
-#block-views-be-the-solution-homepage h2, #block-views-be-the-solution-sidebar h2 { font-size:2.3em; font-weight:normal; font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; color:#76db5b; white-space:nowrap; }
-.be-the-solution a { color:#76db5b; border:none; font-weight:normal;}
-.be-the-solution a:hover { text-decoration:underline; }
-.be-the-solution .view-header { font-size:1.2em; }
+/*  FAQs */
+details { padding:0px; color:#444444; display:block; }
+details summary { font-size:1.4em; color:#790E39; margin-bottom:0.2em; margin-top:0.6em; }
+summary::-webkit-details-marker { display:none; }
+summary:before { font-size: 1.4em; color:#790E39; font-weight:bold; margin-bottom:0.2em; margin-top:0.6em; margin-right:12px; content:'+'; color:#004A81; }
+details[open] summary:before { content:'x'; color:#5D6878; }
+details p.tags { padding-left:24px; margin-bottom:0px; }
+details p.tags a {color:#336699;}
 
 /* Quickaccess */
-.body .node-qa input { width:20em; font-size:1.2em; margin-top:0.2em; }
+.node-qa input { width:20em; font-size:1.2em; margin-top:0.2em; }
 .qa_blur, .qa_noquery { display:none; }
 .qa_toomany, .qa_nonefound { font-style:italic; }
 .node-qa form label { display:inline; font-weight:normal; margin:0px; }
@@ -366,63 +334,109 @@ p.intro { font-size:1.3em;  line-height:1.4em;}
 .node-storylist time+p, .node-storylist time+div, .node-storylist time *, .node-storylist time+div * { display:inline; }
   .node-storylist aside .mm-gallery-caption { display:none; }
 
-/* Homepage */
-.front #miis_header { height:300px; }
-.front #miis_content { margin:30px auto 0; color:#eee; }
-.front .column { padding:0 30px; }
-  .front .two .first { padding-left:12px; width:584px; }
-  .front .two .last { padding-right:12px; width:292px; }
+/* Emergency Alerts 
+#alert_bar { margin:0px; padding:0 18px; height:30px; line-height:30px; font-size: 1em; font-family:Verdana,"Lucida Grande",Lucida,sans-serif; }
+#alert_bar a { color:inherit; border:0; }
+#alert_bar a:hover { color:inherit; background:transparent; }
 
-.front .be-the-solution ul { list-style-type:none; margin:0; }
-  .front .be-the-solution li { float:left; margin:0; width:194px; padding:0; font-size:20px; font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; }
-    .front .be-the-solution li:nth-child(3n) { width:170px; padding-left:24px; }
-    .front .be-the-solution a { font-weight:normal; }
+/* Tables 
+.subpglist table, .subpglist tr, .subpglist th, .subpglist td { background-color:#fff; vertical-align: top; }
 
-.front .news h1 { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:1.3em; font-weight:bold; border-bottom:1px solid #5878a7; margin-bottom:0.8em; color:#83b2f9; position:relative; line-height:1.25em; }
-.front .news a { color:#83b2f9; border:none; font-weight:bold; }
-  .front .news a:hover { text-decoration: underline; }
-.front .news ul { margin-left: 0px; list-style-type:none;}
-  .front .news li { margin-bottom:1em; margin-left:0px; }
-.front .news .views-field-title { display:block; }
-.front .news .views-row-1 .views-field-title { font-size:1.2em; margin-bottom:0.5em; margin-top:1em; }
-  .front .news .views-row-1 .views-field-title a { font-weight:normal; color:#eee; }
-  .front .news .views-row-1 .views-field-title a:hover { text-decoration: underline; }
-.front .news .views-field-field-teaser { display: inline; }
-  .front .news .views-field-field-teaser a { width:277px; margin: 20px 0px 0px 0px; }
-  .front .news .views-field-field-teaser p { display: inline; }
-.front .news .views-field-field-media { text-align: center; }
-  .front .news .views-field-field-media a:hover { text-decoration: none; }
-.front .news .block-system, .front .news .links { display:none; }
+/* Forms 
+form#middlebury-google-custom-search, div#cse, div#catalog-directory-results, div.box.filled { margin:0px 18px 0px 18px; }
+div#content form#middlebury-google-custom-search, div#content div#page>h1 { margin:18px; }
 
-.front .bottom a { color:#ffd231; border:none; font-weight:bold; }
-  .front .bottom a:hover { text-decoration: underline; }
-.front .bottom h2 { font-size:1.3em; font-weight:bold; border-bottom:1px solid #ab8d24; margin-bottom:0.8em; color:#ffd231; }
-.front .bottom h3 { font-size:1.2em; color:#ffd231; margin:1.5em 0 0 0; }
-  .front .bottom h3 a { font-weight:normal; color:#ffd231; }
-.front .bottom div.quote { font-size:1.05em; }
-.front .bottom img.fullbleed { margin-left: 0px; }
+.linklist { list-style-type:none; margin:0; }
+  .linklist li { margin:0; }
+    .linklist li a { font-weight:bold; }
 
-.front .spotlight { float:left; width:258px; }
-  .front .spotlight .views-field-counter { margin-top:-5px; text-align:center; }
-  .front .spotlight .views-field-title { display:block; font-size:1.2em; line-height:1.25em; }
-    .front .spotlight .views-field-title a { font-weight:normal; }
-  .front .spotlight div.item-list { margin:0; width: 258px; }
-    .front .spotlight div.item-list li { width: 128px; margin:0; padding:0; display:block; }
-      .front .spotlight div.item-list li.first { float:left; text-align:left; }
-      .front .spotlight div.item-list li.pager-current { display:none; }
-      .front .spotlight div.item-list li.last { float:right; text-align:right; }
+.excerpt { }
+  .excerpt_title { font-weight:bold; }
+  .excerpt_links a { font-weight:bold; }
 
-.front .dates { float: right; width:258px; }
-  .front .dates ul { margin-top: 1.5em; }
+.open_video { border:none !important; outline:none; }/* DT-fix 
+.blackout { position:fixed; top:0; left:0; width:100%; height:100%; background-color:#000; z-index:1000; }/* DT-fix 
+.video_overlay { position:absolute; left:50%; margin-left:-280px; width:560px; height:320px; z-index:1100; background-color:#000; color:#fff; }/* DT-fix 
+  .close_overlay { position:absolute; top:-10px; right:-10px; -moz-border-radius:20px; -webkit-border-radius:20px; width:20px; height:20px; font-size:18px; line-height:15px; text-align:center; background-color:#e33; border:3px solid #999; font-weight:bold;  }/* DT-fix 
+  .close_overlay:hover { background-color:#b22; color:#eee; border-color:#777; cursor:pointer; }/* DT-fix 
 
-/* Theme pages */
+/* Editing Interface 
+body#tinymce { background-color: #fff; background-image: url(); color: #000; }
+body.browser { position: relative; background: #fff; }
+div#TB_window { z-index: 600; }
+#miis_page>form { margin: 10px; }
+#miis_page fieldset { margin: 10px; }
+table#mm-permissions h2 { color:#fff; }
+table#mm-permissions h4 { color:#fff; font-size:0.8em; }
+
+
+  
+
+  .titlecard { width:470px; margin-right:-12px; float:left; }
+        .wide.titlecard { width:696px; } /* Sep1-fix 
+
+    #miis_page .title { padding:36px 24px 6px 24px; }
+      #miis_page .title h1, #miis_page .body.webform h2:first-child {font-family:Arial, Helvetica, sans-serif; color:#147; font-size:3em; padding-bottom:5px; border-bottom:1px solid #000; margin-bottom:0; }
+    .opening {font-family:Georgia, Times, serif; color:#5E6676; padding:12px 24px; font-size:1.5em; line-height:1.3em;   }
+      #miis_page .body.webform h2:first-child a { color:#114477; font-weight:normal; }
+                        .opening p { display: inline; }
+      .opening a { color:#147; font-weight:normal; border:none; }
+      .opening a:hover { text-decoration:underline ; }
+  .leadimage { float:right; margin:0; background-color:#E4EAF3; overflow:hidden; width:238px; margin:-14px -12px 5px 12px; }
+  .caption { color:#666; font-style:italic; font-size: .9em; line-height:1.2em; padding:8px 10px; }
+
+        .view-miis-locations, .view-miis-around-the-world .view-content { margin: 0px -24px 0px -24px; }
+  .body.has_sidebar { float:left; width:410px; }
+  .content_sidebar { width:200px; clear:right; float:right; padding:0; margin: 24px 12px 24px 12px;}
+
+p.intro { font-size:1.3em;  line-height:1.4em;}
+
+/* Navigation Sidebar 
+#miis_sidebar {color:#fff; margin-top:23px;}
+    #miis_sidebar h2 {color:#83b2f9;} /* KB fix Sep-21 
+  #miis_sidebar h3 {font-size:1.229em; font-weight:bold; color:#ffd231; } /* KB fix Sep-21 
+  #miis_sidebar h4 {font-size:1.0em; color:#83b2f9;} /* KB fix Sep-27 
+  #miis_sidebar a {border:none; font-weight:bold;}
+  #miis_sidebar a:hover { text-decoration:underline; }
+  #miis_sidebar ul {list-style-type:none; margin-left:0; }
+        #miis_sidebar a {color:#76db5b;}
+  #miis_sidebar .newslist h3 {color:#ffd231;} /* KB fix Sep-21 
+    #miis_sidebar .newslist a { font-weight:normal; color:#fff; }
+  #miis_sidebar .spotlight h3, #miis_sidebar .spotlight a {color:#ffd231;}
+  #miis_sidebar .feature h3, #miis_sidebar .feature a {color:#ffca27;}
+        #miis_sidebar p a, #miis_sidebar li a {color:#76db5b;}
+
+   
+/* Carousel 
+.slider { position:absolute; left:0; top:0; height:100%; margin-right:-12000px; } 
+#miis_carousel { color:#fff; height:240px; margin:18px 0; position:relative; overflow:hidden; clear:both; }
+    #miis_carousel_features a  { color:#6af346; text-decoration:none; border:none; padding:0; }
+    #miis_carousel_features a:hover  { color:#6af346; border:none !important; background-color:transparent; }
+    #miis_carousel_features h2, #miis_carousel_features h3, #miis_carousel_features h4, #miis_carousel_features h5, #miis_carousel_features h6  { color:#83B2F9 !important; }
+#miis_carousel_arrow { position:relative; left:258px; bottom:12px; margin-bottom:-55px; width:49px; height:43px; background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/carousel_arrow.png); }
+#miis_carousel .block { border:dashed #fff; border-width:1px 1px 1px 0; list-style-type:none; height:238px; margin:0; }
+  #miis_carousel .node, #miis_carousel .mm-block-links { border-left:1px dashed #fff; height:225px; padding:10px 30px 5px; margin:0; float:left; }
+  #miis_carousel .carousel_image { border-left: 1px dashed #fff; margin:0; float:left; height: 238px; }
+  #miis_carousel .content > a { display:none; }
+  #miis_carousel a:hover { background: transparent; border-bottom: 1px dotted; }
+  #miis_carousel_arrow { z-index: 100; }
+
+/* Carousel RSS Page 
+#miis_carousel #miis_carousel_features div.item-list>ul,
+#miis_carousel #miis_carousel_features fieldset.collapsible legend,
+#miis_carousel #miis_carousel_features div.fieldset-wrapper>div>a,
+#miis_carousel #miis_carousel_features div.feed-item-body
+  {display:none;}
+
+#miis_carousel #miis_carousel_features h3.feed-item-title a { color:#fff; text-decoration:none; }
+#miis_carousel #miis_carousel_features div.feed-item-meta span.feed-item-date { color:#fff; }
+
+/* Theme pages 
 #miis_theme_wrapper { width:100%; height:auto; overflow:hidden; }
 #miis_theme_wrapper .column p { margin-top:12px; }
 #miis_theme_wrapper .column p img { margin:0px 12px 12px 0px; }
-.node-bethesolution header { float: left; width:696px; height:267px; margin:-50px 0px 0px -24px; position:relative; z-index:100;}
-  .node-bethesolution header  h1 { padding:24px 24px 6px 24px; margin-top:0px; background:transparent url(//cdn.middlebury.edu/miis.edu/2010/images/blue_titleoverlay_trans.png) repeat-x; height:58px; font-size: 2.6em; color:#FFFFFF; }
 
-/* News */
+/* News 
 .newslist { list-style-type:none; margin-left:0; }
   .newslist li { margin-bottom:1em; }
     .newslist li .date { font-weight:bold; color:#666; font-size:0.929em; }
@@ -434,51 +448,51 @@ p.intro { font-size:1.3em;  line-height:1.4em;}
 .newslist .summary .teaser p:first-child { display:inline; }
 
 
-/* News in Content */
+/* News in Content 
 div.newsitem { margin-bottom:1em; padding: 10px 24px 0px 24px; }
          div.newsitem div.date { font-weight:bold; color:#666; font-size:0.929em; }
          div.newslist div.headline { font-size:1.2em; }
 
-/* Courses in Content */
-div.courseitem { margin:0.5em 24px; border-bottom:1px solid #ccc; } /* Sep2-fix */
+/* Courses in Content 
+div.courseitem { margin:0.5em 24px; border-bottom:1px solid #ccc; } /* Sep2-fix 
   div.courseitem div.coursecode { font-weight:bold; color:#666; font-size:0.929em; }
   div.courseitem div.coursecode { font-size:1.2em; }
 .body div.courseitem { margin-left: 0px; }
-.coursetitle { cursor:pointer; } /* Sep2-fix */
-  h5.coursetitle{ font-size:1.3em; font-weight:bold; line-height:1.25em; margin-bottom:0.5em; } /* Sep2-fix */
-  h5.coursetitle:hover { color:#58b; } /* Sep2-fix */
-  .coursetitle p { display:inline; font-weight:bold; font-size:0.857em; } /* Sep2-fix */
+.coursetitle { cursor:pointer; } /* Sep2-fix 
+  h5.coursetitle{ font-size:1.3em; font-weight:bold; line-height:1.25em; margin-bottom:0.5em; } /* Sep2-fix 
+  h5.coursetitle:hover { color:#58b; } /* Sep2-fix 
+  .coursetitle p { display:inline; font-weight:bold; font-size:0.857em; } /* Sep2-fix 
 .course_sections th a { color:#114477; }
 .course_sections .sectiondesc, .course_sections .sectioninfo { display:none; }
   h5.sectiontitle { font-size:1.3em; font-weight:bold; color:#369; line-height:1.25em; }
   h5.sectiontitle:hover { color:#147; }
 
-/* Gateways */
+/* Gateways 
 .gateway .columns h3 { font-size:1em; padding:5px 8px; border:1px solid #666; background-color:#369; color:#fff; }
 .gateway .columns h4 { padding:4px 6px; font-size:0.857em; background-color:#ebebeb; color:#036; font-weight:bold; }
   .gateway .columns .third h3 { background-color:#036; }
   .gateway .columns .last h3 { background-color:#cf6; border-color:#ccc; color:#036; }
 .gateway .columns ul { list-style-type:none; margin:0 1em 0.8em; }
 
-/* Profile Pages */
+/* Profile Pages 
 .profile { float:none; margin-top: 0px; }
 .profile .body { clear:none; padding-left:240px; }
 .profile h3 { font-family:Georgia, Times, serif; color:#5E6676; font-size:1.5em; font-weight:normal;}
 .profile h4 { font-size:1.3em; font-weight:bold; color:#369; line-height:1.25em;} 
-.profileimage { float:left; width:214px; margin:0; background-color:#192E6D; overflow:hidden; } /* DT-fix */
-  .profileimage img { display:block; margin:0 auto; } /* DT-fix */
-  #miis_content .profileimage a { color:#ffd231; } /* KB fix */
+.profileimage { float:left; width:214px; margin:0; background-color:#192E6D; overflow:hidden; } /* DT-fix 
+  .profileimage img { display:block; margin:0 auto; } /* DT-fix 
+  #miis_content .profileimage a { color:#ffd231; } /* KB fix 
   #miis_content .profileimage a:hover { color:#ffd231; background:transparent; }
   .profilecontact { color:#fff; padding:14px 8px; font-size: 1.0em; line-height:1.2em; background-color:#192E6D; }
     .profilecontact strong { font-size:0.857em; padding-bottom:6px;}
   .profile_extras p { margin:10px 15px; font-size: 0.929em; }
-    .profile_extras h4 { font-size:1.3em; font-weight:bold; color:#369; line-height:1.25em;} /* KB fix-Aug20 */
+    .profile_extras h4 { font-size:1.3em; font-weight:bold; color:#369; line-height:1.25em;} /* KB fix-Aug20 
     .profile_extras ul { list-style-type:none; margin: 0 1.0em 0 0.8em; }
 .views-field-title { display: none; }
 table.board td { width: 210px; vertical-align:top; }
 table.board td h3 { height:40px; }
 
-/* Profile Lists */
+/* Profile Lists 
 table.profiles { margin-left:-15px; }
 tbody.profiles { border:0; }
 tbody.profiles td { border:0; background:#fff; vertical-align:top; }
@@ -486,16 +500,7 @@ tbody.profiles div.card { background-color:#efeee9; border:1px solid #d4d6c8; pa
 tbody.profiles div.card div.image { float:right; margin:-4px -4px 5px 8px; }
 tbody.profiles div.card h1 { line-height: 1.6em; height: auto; }
 
-/*  FAQs */
-details { margin: 24px; padding: 0px; color:#444; display:block; }
-details summary { font-size: 1.4em; color:#790e39; margin-bottom:0.2em; margin-top:0.6em; }
-summary::-webkit-details-marker { display:none; }
-summary:before { font-size: 1.4em; color:#790e39; font-weight:bold; margin-bottom:0.2em; margin-top:0.6em; margin-right:12px; content:'+'; color:#004a81; }
-details[open] summary:before { content:'x'; color:#5d6878; }
-details p.tags { padding-left:24px; margin-bottom:0; }
-details p.tags a {color:#369;}
-
-/* Tweets */
+/* Tweets 
 .twitter { margin-top:140px; }
   .twitter a { font-weight:bold; }
   .twitter .twitter_user { position:relative; display:inline; }
@@ -503,15 +508,15 @@ details p.tags a {color:#369;}
     .twitter .tweet a { color:#ffd231; border-color:#ffd231; }
     .twitter .tweet .tweet_stem { position:absolute; bottom:-23px; left:90px; width:38px; height:23px; background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/tweet_stem.gif); }
 
-/* Edit Console */
+/* Edit Console 
 div#miis_tabs-wrapper { position: absolute; left: 0; float: left; z-index: 600; }
 span#miis_tabs-title { background: #miis_5a8a84; color: #miis_fff; width: 100px; padding: 2px; }
 div#miis_tabs-content { background: #miis_fff; border: solid 2px #miis_5a8a84; }
 
-/* RSS icon */
-.rss_icon { width:26px; height:25px; background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/rss_icon.gif); overflow:hidden; text-indent:-100px; border:none !important; } /* DT-fix */ 
+/* RSS icon 
+.rss_icon { width:26px; height:25px; background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/rss_icon.gif); overflow:hidden; text-indent:-100px; border:none !important; } /* DT-fix  
 
-/* Sidebar RSS Page */
+/* Sidebar RSS Page 
 #miis_right .newslist div.item-list>ul,
 #miis_right .newslist span.feed-item-date,
 #miis_right .newslist span.feed-item-body,
@@ -525,7 +530,7 @@ div#miis_tabs-content { background: #miis_fff; border: solid 2px #miis_5a8a84; }
 #miis_right .newslist .newsitem .date { display:none; }
 #miis_right .newslist .newsitem div>a { display:inline; }
 
-/* Content Area RSS Page */
+/* Content Area RSS Page 
 .rss_page div.item-list>ul,
 .rss_page fieldset.collapsible legend,
 .rss_page div>a
@@ -543,19 +548,19 @@ div#miis_tabs-content { background: #miis_fff; border: solid 2px #miis_5a8a84; }
 .body .rss_page .feed-item-body p img { display:none; }
 .body .rss_page #miis_rss-page .feed-item-body img { position:absolute; top:0; left:0; max-width:140px; border:0; }
 
-/* Sub Page List */
+/* Sub Page List 
 .subpglist td>ul { list-style-type: none; margin: 0; padding: 0; }
 .subpglist td>ul>li>a { border: none; font-size:1.3em; color:#369; }
 .subpglist td>ul>li>a:hover { color:#36a; border-color:#47c; text-decoration:underline; }
 
-/* Facebook Elements */
+/* Facebook Elements 
 .fb_element { background:#fff; padding:18px; }
   #miis_right .fb_element { padding:0px; }
         
-/* ThickBox Module*/
+/* ThickBox Module
 #miis_TB_caption { height: auto; }
 
-/* Comments */
+/* Comments 
 #miis_page .box { margin:18px; }
 h2.comments { margin: -30px 0px 0px 18px; }
 div.links.comments ul { list-style-type: none; margin-left:0px; }
@@ -567,7 +572,7 @@ div.comment h3 a, div.comment h3 { color:#5FA068; }
 div.comment ul.links { float:left; list-style-type:none; list-style-image:url('//cdn.middlebury.edu/miis.edu/2010/images/reply_button.png'); }
 div.comment div.date { float:right; color:#999; font-weight:bold; }
 
-/* View Specific Styles */
+/* View Specific Styles 
 .content_sidebar .view-stories section, .content_sidebar .view-stories aside { display:block; }
 
 .view-careers-stories h1 { font-weight:bold; font-size:1.2em; }

@@ -61,7 +61,7 @@ jQuery(function() { // on DOM ready
   jQuery('.coursetitle').css('cursor','pointer').click(function() { // Sep2-fix
     jQuery(this).next().slideToggle();
   });
-  jQuery('details section').hide(); // Sep2-fix
+  jQuery('details:not([open]) section').hide(); // Sep2-fix
   jQuery('details summary').css('cursor','pointer').click(function(e) { // Sep2-fix
     var dets = jQuery(this).parent();
     dets.find('section').slideToggle();
