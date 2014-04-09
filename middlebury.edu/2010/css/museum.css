@@ -226,7 +226,7 @@ body.front { color:#FFFFFF; }
   .events .event_category { color:#BBBBBB; }
   .events .event_location { font-size:0.9em; font-family:Georgia,serif; }
 
-.news { width:170px; padding:15px 10px 15px 10px; background:#1A2D49 url('//cdn.middlebury.edu/middlebury.edu/2010/images/museum/fpright_grad.png') top left repeat-x; font-size:0.9em; }
+.news { width:172px; padding:15px 10px 15px 10px; background:#1A2D49 url('//cdn.middlebury.edu/middlebury.edu/2010/images/museum/fpright_grad.png') top left repeat-x; font-size:0.9em; }
   .news h1 { font-size:1.6em; color:#C4C47F; }
   .news .content > a { display:none; }
   .news .item-list ul { margin-top:20px; margin-left:0; margin-bottom:0px; list-style-type:none; }
