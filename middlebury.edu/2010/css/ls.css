@@ -142,6 +142,7 @@ table.layout tbody, table.layout tr, table.layout td, table.layout { border: non
 	.midd_ls_inside ul.menu li.active ul, .midd_ls_grad ul.menu li.active ul { margin-left:18px; }
 	.midd_ls_inside ul.menu li.active ul li a, .midd_ls_grad ul.menu li.active ul li a { color:#272C6F; }
 	.midd_ls_inside ul.menu li.current a, .midd_ls_inside ul.menu li.active ul li.current a, .midd_ls_grad ul.menu li.current a, .midd_ls_grad ul.menu li.active ul li.current a { color:#660000; }
+	.midd_ls_inside div.content ul.menu li ul.menu li.expanded a, .midd_ls_grad div.content ul.menu li ul.menu li.expanded a { color:#272C6F; }
 
 h2 { color:#2BACC2 !important; font-family:Georgia,serif; margin-bottom:8px; }
 h4 { color:#666666; font-size:1.2em; line-height:1em; }
