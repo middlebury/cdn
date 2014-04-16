@@ -63,7 +63,6 @@ ul, ol { margin-left:1.5em; margin-bottom:0.8em; }
 .three { }
   .three .column { width:196px; }
 .four { }
-  .fullwidth .four .column { width:201px; }
 .bordered { }
   .bordered .column { padding-left:19px; padding-bottom:10px; border:solid #C3C3C3; border-width:0px 1px; margin-left:-1px;  }
     .bordered .column .head { border-left:1px solid #C0C0C0; margin-left:-20px; padding-left:19px; }
@@ -179,7 +178,7 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
     .breadcrumb a { color:#CCCCCC; padding:0px 6px 0px 6px; border: none; }
       .breadcrumb a:hover { color:#FFD231; text-decoration:underline; }
   .body { border:12px solid #DDDDDD; background-color:#FFFFFF; width:696px; float:left; }
-    .body.fullwidth { width:936px; }
+    .miis_fullwidth .body { width:936px; }
     .body > a { display:none; }
     .body #miis_content { padding:24px; padding-bottom:36px; clear:left; }
 
@@ -274,6 +273,23 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
 .front .dates { float:right; width:258px; }
   .front .dates ul { margin-top:1.5em; }
 
+/* Fullwidth */
+.miis_fullwidth .node-subpglist a, .miis_fullwidth .node-subpglist a:hover { display:inline; }
+.miis_fullwidth .node-subpglist table, .miis_fullwidth .node-subpglist tr, .miis_fullwidth .node-subpglist td, .miis_fullwidth .node-subpglist li, .miis_fullwidth .node-subpglist a.h3, .miis_fullwidth .node-subpglist li.h4 > a { display:block; }
+.miis_fullwidth .columns a { display:block; }
+  .miis_fullwidth .two .column, .miis_fullwidth .two a { width:404px; }
+  .miis_fullwidth .three .column, .miis_fullwidth .three a { width:254px; }
+  .miis_fullwidth .four .column, .miis_fullwidth .four a { width:179px; }
+.miis_fullwidth .node-subpglist td { margin-right:20px; }
+  .miis_fullwidth .node-subpglist td ul { list-style-type:none; margin:20px 0px 20px 0px; }
+  .miis_fullwidth .node-subpglist td.last { margin-right:0px; }
+.miis_fullwidth .node-subpglist a.h3 { font-size:1em; padding:5px 8px; border:1px solid #666666; background-color:#336699; color:#FFFFFF; font-weight:normal; }
+  .miis_fullwidth .node-subpglist a.h3:hover { color:#EEEEEE; }
+  .miis_fullwidth .third .third a.h3 { background-color:#003366; }
+  .miis_fullwidth .last a.h3 { background-color:#CCFF66; border-color:#CCCCCC; color:#003366; }
+.miis_fullwidth li.h4 > a { padding:4px; font-size:0.857em; background-color:#EBEBEB; color:#003366; font-weight:bold; }
+.miis_fullwidth .node-subpglist td > ul > li > ul > li > a, .miis_fullwidth .node-subpglist li.h4 > ul > li > a { padding-left:12px; }
+
 /* 10 Questions */
 .node-10questions header { background:url(//cdn.middlebury.edu/miis.edu/2010/images/10questions_header.gif) no-repeat left top; padding:77px 24px 0px 24px; margin:0px -24px 0px -24px; }
 .node-10questions h1 { font-size:1.2em; color:#003366; font-weight:bold; letter-spacing:2px; }
@@ -367,6 +383,9 @@ details p.tags a { color:#336699; }
     .twitter .tweet a { color:#FFD231; border-color:#FFD231; }
     .twitter .tweet .tweet_stem { position:absolute; bottom:-23px; left:90px; width:38px; height:23px; background-image:url(//cdn.middlebury.edu/miis.edu/2010/images/tweet_stem.gif); }
 
+/* Sub-Page List */
+.node-subpglist table, .node-subpglist tr, .node-subpglist th, .node-subpglist td { background-color:#FFFFFF; vertical-align: top; }
+
 /* Story */
 .node-story h1 { float:left; width:338px; }
 .node-story figure { float:right; overflow:hidden; margin:-12px -12px 0px 0px; border:2px dashed #E4EAF3; width:310px; }
@@ -385,8 +404,6 @@ details p.tags a { color:#336699; }
 #alert_bar a { color:inherit; border:0; }
 #alert_bar a:hover { color:inherit; background:transparent; }
 
-/* Tables 
-.subpglist table, .subpglist tr, .subpglist th, .subpglist td { background-color:#fff; vertical-align: top; }
 
 /* Forms 
 form#middlebury-google-custom-search, div#cse, div#catalog-directory-results, div.box.filled { margin:0px 18px 0px 18px; }
@@ -566,9 +583,9 @@ div#miis_tabs-content { background: #miis_fff; border: solid 2px #miis_5a8a84; }
 .body .rss_page #miis_rss-page .feed-item-body img { position:absolute; top:0; left:0; max-width:140px; border:0; }
 
 /* Sub Page List 
-.subpglist td>ul { list-style-type: none; margin: 0; padding: 0; }
-.subpglist td>ul>li>a { border: none; font-size:1.3em; color:#369; }
-.subpglist td>ul>li>a:hover { color:#36a; border-color:#47c; text-decoration:underline; }
+.node-subpglist td>ul { list-style-type: none; margin: 0; padding: 0; }
+.node-subpglist td>ul>li>a { border: none; font-size:1.3em; color:#369; }
+.node-subpglist td>ul>li>a:hover { color:#36a; border-color:#47c; text-decoration:underline; }
 
 /* Facebook Elements 
 .fb_element { background:#fff; padding:18px; }

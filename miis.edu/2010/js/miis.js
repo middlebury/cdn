@@ -84,6 +84,30 @@ jQuery(function() { // on DOM ready
     }
   );
 
+  // Fullwidth Sub-page Lists
+  if (jQuery('body').hasClass('miis_fullwidth')) {
+    jQuery('.node-subpglist table').addClass('columns');
+    var numcols = jQuery('.node-subpglist table:first td').size();
+    if (numcols == 1) {
+      jQuery('.node-subpglist table').addClass('one');
+    } else if (numcols == 2) {
+      jQuery('.node-subpglist table').addClass('two');
+    } else if (numcols == 3) {
+      jQuery('.node-subpglist table').addClass('three');
+    } else if (numcols == 4) {
+      jQuery('.node-subpglist table').addClass('four');
+    }
+
+    jQuery('.node-subpglist table td').addClass('column');
+    jQuery('.node-subpglist table td:first').addClass('first');
+    jQuery('.node-subpglist table td:eq(1)').addClass('second');
+    jQuery('.node-subpglist table td:eq(2)').addClass('third');
+    jQuery('.node-subpglist table td:eq(3)').addClass('fourth');
+    jQuery('.node-subpglist table td:last').addClass('last');
+    jQuery('.node-subpglist td > ul > li > a').addClass('h3');
+    jQuery('.node-subpglist ul ul ul').parent().addClass('h4');
+  }
+
   if (window.location.pathname.indexOf('/admissions/apply', 0) == 0) {
     jQuery('#block-monster-menus-1 .menu .menu .menu li:first-child a').each(function() {
       var href = jQuery(this).attr('href');
