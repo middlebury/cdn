@@ -178,7 +178,7 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
     .breadcrumb a { color:#CCCCCC; padding:0px 6px 0px 6px; border: none; }
       .breadcrumb a:hover { color:#FFD231; text-decoration:underline; }
   .body { border:12px solid #DDDDDD; background-color:#FFFFFF; width:696px; float:left; }
-    .miis_fullwidth .body { width:936px; }
+    .miis_fullwidth .body, .body.fullwidth { width:936px; }
     .body > a { display:none; }
     .body #miis_content { padding:24px; padding-bottom:36px; clear:left; }
 
