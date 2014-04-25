@@ -305,6 +305,17 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
   .node-10questionslist header h1 { font-size:1.4em; line-height:1.3em; }
   .node-10questionslist header h1 a { color:#790E39; }
 
+/* Basic Content */
+.node-page header { width:424px; }
+.node-page h1 { font-family:Arial,Helvetica,sans-serif; color:#114477; font-size:3em; padding-bottom:5px; border-bottom:1px solid #000000; margin-bottom:0px; }
+  .leadimage { float:right; margin:0px; background-color:#E4EAF3; overflow:hidden; width:238px; margin:-90px -36px 5px 12px; }
+  .leadimage figcaption { color:#666666; font-style:italic; font-size:.9em; line-height:1.2em; padding:8px 10px 8px 10px; }
+  .content-sidebar { clear:right; float:right; padding:12px 0px 12px 12px; margin-right:-24px; width:214px; }
+  .opening { font-family:Georgia,Times,serif; color:#5E6676; padding:12px 0px 12px 0px; font-size:1.5em; line-height:1.3em; }
+      .opening p { display:inline; }
+      .opening a { color:#114477; font-weight:normal; border:none; }
+      .opening a:hover { text-decoration:underline; }
+
 /* Be the Solution */
 .node-bethesolution header { float:left; width:696px; height:267px; margin:-50px 0px 0px -24px; position:relative; z-index:100;}
   .node-bethesolution header  h1 { padding:24px 24px 6px 24px; margin-top:0px; background:transparent url(//cdn.middlebury.edu/miis.edu/2010/images/blue_titleoverlay_trans.png) repeat-x; height:58px; font-size: 2.6em; color:#FFFFFF; }
@@ -446,11 +457,6 @@ table#mm-permissions h4 { color:#fff; font-size:0.8em; }
       #miis_page .title h1, #miis_page .body.webform h2:first-child {font-family:Arial, Helvetica, sans-serif; color:#147; font-size:3em; padding-bottom:5px; border-bottom:1px solid #000; margin-bottom:0; }
     .opening {font-family:Georgia, Times, serif; color:#5E6676; padding:12px 24px; font-size:1.5em; line-height:1.3em;   }
       #miis_page .body.webform h2:first-child a { color:#114477; font-weight:normal; }
-                        .opening p { display: inline; }
-      .opening a { color:#147; font-weight:normal; border:none; }
-      .opening a:hover { text-decoration:underline ; }
-  .leadimage { float:right; margin:0; background-color:#E4EAF3; overflow:hidden; width:238px; margin:-14px -12px 5px 12px; }
-  .caption { color:#666; font-style:italic; font-size: .9em; line-height:1.2em; padding:8px 10px; }
 
         .view-miis-locations, .view-miis-around-the-world .view-content { margin: 0px -24px 0px -24px; }
   .body.has_sidebar { float:left; width:410px; }
