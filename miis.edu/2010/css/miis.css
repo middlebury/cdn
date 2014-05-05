@@ -291,6 +291,60 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
 
 .miis_academics #miis_content { padding-top:0px; }
 
+/* Blue */
+body.miis_blue { background:url('//cdn.middlebury.edu/miis.edu/2010/images/blue/gradient.jpg') no-repeat scroll left top #001534; }
+.miis_blue .node h1 { border:none; font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-size:2.46em; line-height:1.2em; }
+.miis_blue h4 { color:#666666; font-size:1.2em; font-weight:bold; }
+.miis_blue h6 { color:#404040; font-weight:normal; }
+.miis_blue td { padding:4px; color:#404040; border:none; }
+.miis_blue .header { background:transparent; height:106px; }
+  .miis_blue .wordmark { top:20px; left:0px; }
+  .miis_blue .header_search { border:1px solid #18447C; height:1.8em; padding:1px; position:absolute; top:20px; right:0px; }
+    .miis_blue .header_search input { background-color:#18447C; border:none; color:#8FD4FF; font-style:italic; height:1.8em; line-height:1.5em; padding:0px 0px 0px 0.8em; width:9.4em; }
+.miis_blue > nav { background-color:#5E6676; color:#FFFFFF; height:36px; padding:0px; width:100%; }
+  .miis_blue > nav ul.menu, .miis_blue .header nav li { list-style-type:none; list-style-image:none; }
+  .miis_blue > nav ul.menu { margin:0px auto 0px auto; position:relative; text-align:left; width:920px; }
+    .miis_blue > nav li { display:inline-block; margin:0px 10px 0px 0px; padding:0px; position:relative; }
+      .miis_blue > nav ul.menu ul.menu li.here { background-color:#1A2D49; }
+    .miis_blue > nav a { color:#FFFFFF; font-weight:normal; padding:0px 10px 0px 10px; font-size:1.531em; line-height:1.71em; display:block; }
+    .miis_blue > nav .content > ul.menu > li > a { display:none; }
+    .miis_blue > nav .content > ul.menu ul.menu ul.menu { display:none; }
+    .miis_blue > nav .content > ul.menu ul.menu > li:hover { background-color:#FFFFFF; }
+    .miis_blue > nav .content > ul.menu ul.menu > li:hover > a { color:#1A2D49; text-decoration:none; }
+    .miis_blue > nav .content > ul.menu ul.menu > li:hover ul.menu, .miis_blue > nav .content > ul.menu ul.menu ul.menu:hover { display:block; position:absolute; background:#FFFFFF; top:36px; left:0px; z-index:999; min-width:180px; width:auto; }
+      .miis_blue > nav .content > ul.menu ul.menu ul.menu li { display:block; margin:0.1em 0px 0.3em 0px; }
+      .miis_blue > nav .content > ul.menu ul.menu ul.menu a { color:#003399; font-size:0.918em; padding:7px 10px 7px 10px; }
+    .miis_blue > nav .content > ul.menu ul.menu ul.menu ul.menu { display:none; }
+.miis_blue .slides { }
+  .miis_blue .slides .node header, .miis_blue .slides .node .field-name-body { display:none; }
+  .miis_blue .slides .link-wrapper { position:absolute; top:0; left:0; background-color:#FFFFFF; z-index:110; }
+  .miis_blue .slides .contents .links { position:absolute; bottom:0; left:0; background-color:#FFFFFF; }
+  .miis_blue .slides .cycle-next, .miis_blue .slides .cycle-prev { font-family:Georgia,serif; font-style:italic; color:#5FA7FF; font-weight:bold; position:absolute; bottom:-16px; }
+    .miis_blue .slides .cycle-prev { left:0px; }
+    .miis_blue .slides .cycle-next { right:0px; }
+    .miis_blue .slides .cycle-pager { position:absolute; bottom:6px; left:calc(50% - 24px); font-size:3.2em; height:18px; }
+      .miis_blue .slides .cycle-pager a { padding:0px 3px 0px 3px; color:#5E6676; }
+        .miis_blue .slides .cycle-pager a.cycle-pager-active { color:#5FA7FF; }
+.miis_blue .page { margin-top:24px; display:table; }
+  .miis_blue .breadcrumb { background:none; margin:0px 0px 9px 0px; color:#666666; width:100%; font-size:12px; }
+    .miis_blue .breadcrumb a { color:#18447C; font-weight:bold; }
+    .miis_blue .breadcrumb a:hover { color:#1A2D49; }
+  .miis_blue .body, .miis_blue .sidebar { display:table-cell; vertical-align:top; float:none; }
+  .miis_blue .body { width:704px; border:none; }
+  .miis_blue .sidebar { width:236px; padding:0px 10px 0px 10px; margin:0px; background-color:#5E6676; }
+    .miis_blue .sidebar header{ width:236px; }
+    .miis_blue .sidebar h1 { font-size:1.3em; font-weight:bold; color:#FFD231; margin:0px; border:none; }
+.miis_blue .sidebar .node-rss-page { }
+  .miis_blue .sidebar .node-rss-page .item-list { display:none; }
+  .miis_blue .sidebar .node-rss-page a { color:#FFFFFF; }
+  .miis_blue .sidebar #rss-page h3 a { color:#FFFFFF; text-decoration:none; font-weight:bold; }
+  .miis_blue .sidebar #rss-page .feed-item-date { color:#001534; }
+
+
+/* Blue - Center for the Blue Economy */
+body.miis_center { background:url('//cdn.middlebury.edu/miis.edu/2010/images/blue/cbe_background.jpg') no-repeat left top; background-attachment:fixed; }
+
+
 /* Fullwidth */
 .miis_fullwidth .node-subpglist a, .miis_fullwidth .node-subpglist a:hover { display:inline; }
 .miis_fullwidth .node-subpglist table, .miis_fullwidth .node-subpglist tr, .miis_fullwidth .node-subpglist td, .miis_fullwidth .node-subpglist li, .miis_fullwidth .node-subpglist a.h3, .miis_fullwidth .node-subpglist li.h4 > a { display:block; }
