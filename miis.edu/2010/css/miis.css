@@ -41,7 +41,7 @@ table { margin:0px; border-spacing:0px; }
   tbody { border-top:none; }
   tr+tr td,tr+tr th { border-top:1px solid #FFFFFF; }
   th { padding:10px; font-size:1.2em; font-weight:bold; background-color:#FFFFFF; color:#790E39; }
-    th a { color:#FFFFFF; }
+    th a { }
   td { padding:10px; background-color:#FFFFFF; border-left:1px solid #FFFFFF; border-right:1px solid #FFFFFF; }
     td p { margin-bottom:0px; }
 ul, ol { margin-left:1.5em; margin-bottom:0.8em; }
