@@ -12,7 +12,7 @@ input[disabled],select[disabled],textarea[disabled],button[disabled] { opacity:0
 .clear { height:0px; clear:both; }
 
 /* General Element Styles */
-body { background:#001534 url('//cdn.middlebury.edu/middlebury.edu/2010/images/museum/gradient.jpg') no-repeat left top; font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; color:#221100; font-size:0.875em; line-height:1.4; }
+body { background:#001534 url('../images/museum/gradient.jpg') no-repeat left top; font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; color:#221100; font-size:0.875em; line-height:1.4; }
 a { color:#5FA7FF; text-decoration:none; border-bottom:1px dotted #5FA7FF; padding:0.07em; }
   a:hover { color:#003366; border-bottom:1px dotted #003366; }
   a.noborder,a.noborder:hover { border:none; background-color:transparent !important; padding:0; }
@@ -64,7 +64,7 @@ form { margin-bottom:1em; }
 .container { width:960px; margin:0px auto; position:relative; clear:both; }
 
 /* Header */
-.header { background:url('//cdn.middlebury.edu/middlebury.edu/2010/images/museum/roof.gif') left bottom no-repeat; padding:30px 0px; }
+.header { background:url('../images/museum/roof.gif') left bottom no-repeat; padding:30px 0px; }
   .header a { border:none; background-color:transparent; }
   .wordmark { padding-top:50px; font-size:1em; font-weight:bold; float:left; }
   .search { position:absolute; top:0px; right:0px; border:1px solid #45546D; padding:1px; height:1.8em; }
@@ -74,7 +74,7 @@ form { margin-bottom:1em; }
 .navigation { float:right; width:34em; list-style-type:none; margin:0px; }
   .navigation li { float:left; margin:0px 0px 0px 1em; border-bottom:1px solid #45546D; }
     .navigation li a { color:#FFFFFF; line-height:14px; padding:7px 0px 7px 14px; height:14px; display:block; position:relative; }
-      .navigation li a span { display:block; position:absolute; top:0px; left:0px; width:100%; height:100%; background-image:url('//cdn.middlebury.edu/middlebury.edu/2010/images/museum/museum_nav.gif'); }
+      .navigation li a span { display:block; position:absolute; top:0px; left:0px; width:100%; height:100%; background-image:url('../images/museum/museum_nav.gif'); }
   .nav_exhibitions,.nav_about { border-top:1px solid #45546D; } 
   .nav_exhibitions,.nav_collections,.nav_visit { width:138px; }
   .nav_about,.nav_teaching,.nav_support { width:155px; }
@@ -163,7 +163,7 @@ form { margin-bottom:1em; }
 
 /* Carousel */
 .slider { position:absolute; left:0; top:0; height:100%; margin-right:-12000px; }
-.carousel_arrow { position:absolute; left:258px; bottom:-43px; width:49px; height:43px; background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/carousel_arrow.png); z-index:100; }
+.carousel_arrow { position:absolute; left:258px; bottom:-43px; width:49px; height:43px; background-image:url(../images/carousel_arrow.png); z-index:100; }
 .carousel { color:#FFFFFF; height:240px; margin:18px 0px; position:relative; overflow:hidden; }
   .carousel a { color:#CCFF66; text-decoration:none; border:none; padding:0px; }
   .carousel a:hover { color:#A9D4FF; text-decoration:underline; border:none; background-color:transparent; border-bottom:1px dotted; }
@@ -187,7 +187,7 @@ form { margin-bottom:1em; }
   .footer .container { padding:30px 0px 30px 0px; }
   .social { list-style-type:none; margin:0px; padding:0px; position:absolute; right:10px; top:35px; }
     .social li { float:left; margin-left:14px; }
-      .social li a { display:block; border:none; height:24px; width:24px; background:transparent url('//cdn.middlebury.edu/middlebury.edu/2010/images/museum/social2.gif') no-repeat top left; text-indent:-999em; overflow:hidden; padding:0px; }
+      .social li a { display:block; border:none; height:24px; width:24px; background:transparent url('../images/museum/social2.gif') no-repeat top left; text-indent:-999em; overflow:hidden; padding:0px; }
     .social .social_foursquare a { background-position:0px 0px; }
       .social .social_foursquare a:hover { background-position:0px -24px; }
     .social .social_youtube a { background-position:-24px 0px; }
@@ -226,7 +226,7 @@ body.front { color:#FFFFFF; }
   .events .event_category { color:#BBBBBB; }
   .events .event_location { font-size:0.9em; font-family:Georgia,serif; }
 
-.news { width:172px; padding:15px 10px 15px 10px; background:#1A2D49 url('//cdn.middlebury.edu/middlebury.edu/2010/images/museum/fpright_grad.png') top left repeat-x; font-size:0.9em; }
+.news { width:172px; padding:15px 10px 15px 10px; background:#1A2D49 url('../images/museum/fpright_grad.png') top left repeat-x; font-size:0.9em; }
   .news h1 { font-size:1.6em; color:#C4C47F; }
   .news .content > a { display:none; }
   .news .item-list ul { margin-top:20px; margin-left:0; margin-bottom:0px; list-style-type:none; }
