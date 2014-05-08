@@ -464,6 +464,15 @@ details p.tags a { color:#336699; }
   .view-profiles .views-field-field-phone .field-content { display:inline; }
 .view-profiles .view-content:after { content:''; display:block; clear:both; }
 
+/* Course Lists */
+.course_sections tbody td { vertical-align:top; }
+.course_sections tbody td:first-child { width:9em; }
+.course_sections .sectiondesc, .course_sections .sectioninfo { display:none; }
+.course_sections h5.sectiontitle { font-size:1.3em; font-weight:bold; }
+.course_sections dl.sectioninfo { width:38em; }
+  .course_sections dl.sectioninfo dt { width:7em; }
+  .course_sections dl.sectioninfo dd { width:29em; }
+
 /* Quickaccess */
 .node-qa input { width:20em; font-size:1.2em; margin-top:0.2em; }
 .qa_blur, .qa_noquery { display:none; }
