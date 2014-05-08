@@ -332,17 +332,19 @@ details p.tags a { color:#336699; }
 
 /* Profile */
 .node-profile { float:none; margin-top:0px; }
-.node-profile h3 { font-family:Georgia,Times,serif; color:#5E6676; font-size:1.5em; font-weight:normal; border-bottom:1px solid #CCCCCC; }
+.node-profile > header { margin-left:216px; }
+.node-profile h3, .node-profile .field-name-field-jobtitle { font-family:Georgia,Times,serif; color:#5E6676; font-size:1.5em; font-weight:normal; border-bottom:1px solid #CCCCCC; margin-bottom:14px; }
 .node-profile h4 { font-size:1.3em; font-weight:bold; color:#336699; line-height:1.25em; }
-.profile-left { float:left; width:214px; margin:0px 0px 0px -24px; background-color:#192E6D; overflow:hidden; }
+.profile-left { float:left; width:214px; margin:-48px 0px 0px -24px; background-color:#192E6D; overflow:hidden; }
   .profile-left img { display:block; margin:0px auto; }
   .profile-left a { color:#FFD231; }
   .profile-left a:hover { color:#FFD231; background:transparent; }
   .profile-contact { color:#FFFFFF; padding:14px 8px 14px 8px; font-size: 1.0em; line-height:1.2em; background-color:#192E6D; }
-    .profile-contact strong { font-size:0.857em; padding-bottom:6px; }
+    .profile-contact .field { margin-bottom:1em; }
+    .profile-contact .field-label { font-size:0.857em; padding-bottom:6px; }
 .profile-body { clear:none; padding-left:216px; }
   .profile-extras p { margin:10px 15px 10px 15px; font-size:0.929em; }
-    .profile-extras h4 { font-size:1.3em; font-weight:bold; color:#336699; line-height:1.25em; }
+    .profile-extras h4, .profile-extras .field-label { font-size:1.3em; font-weight:bold; color:#336699; line-height:1.25em; }
     .profile-extras ul { list-style-type:none; margin:0px 1.0em 0px 0.8em; }
 
 /* Profile Views - Board */
