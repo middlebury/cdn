@@ -143,6 +143,12 @@ jQuery(function() { // on DOM ready
     carousel.slider();
     jQuery('#miis_content').append('<div class="carousel_arrow"></div>');
   }
+
+  // Blue Theme Sub-navigation
+  if (true || jQuery('body').hasClass('miis_blue')) {
+    var subnav = jQuery('#block-monster-menus-1 > div > ul > li > ul > li.expanded.here > ul').clone();
+    jQuery('.region-right').prepend(subnav);
+  }
 });
 
 jQuery.fn.extend({

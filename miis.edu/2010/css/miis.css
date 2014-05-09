@@ -350,6 +350,11 @@ body.miis_blue { background:url('//cdn.middlebury.edu/miis.edu/2010/images/blue/
   .miis_blue .sidebar { width:236px; padding:0px 10px 0px 10px; margin:0px; background-color:#5E6676; }
     .miis_blue .sidebar header{ width:236px; }
     .miis_blue .sidebar h1 { font-size:1.3em; font-weight:bold; color:#FFD231; margin:0px; border:none; }
+    .miis_blue .sidebar ul.menu { margin:0; width:204px; list-style-type:none; }
+      .miis_blue .sidebar ul.menu a { display:block; border:none; margin:3px 0px 3px 0px; padding:8px 10px 8px 10px; text-decoration: none; font-size:1.0em; line-height:2.0em; font-weight:bold; color: #DDDDEE; }
+      .miis_blue .sidebar ul.menu a:hover { background-color:#18447C; text-decoration:none; color:#FFFFFF; }
+      .miis_blue .sidebar ul.menu .active a:hover { background-color:#18447C; text-decoration:none; color: #FFFFFF; }
+      .miis_blue .sidebar ul.menu ul.menu { display:none; }
 .miis_blue .sidebar .node-rss-page { }
   .miis_blue .sidebar .node-rss-page .item-list { display:none; }
   .miis_blue .sidebar .node-rss-page a { color:#FFFFFF; }
