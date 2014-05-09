@@ -180,7 +180,7 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
   .body { border:12px solid #DDDDDD; background-color:#FFFFFF; width:696px; float:left; }
     .miis_fullwidth .body, .body.fullwidth { width:936px; }
     .body > a { display:none; }
-    .body #miis_content { padding:24px; padding-bottom:36px; clear:left; }
+    .body #miis_content { padding:24px; padding-bottom:36px; clear:left; position:relative; }
 
   /* Tags */
   .field-type-taxonomy-term-reference .field-label, .field-type-taxonomy-term-reference .field-items, .field-type-taxonomy-term-reference .field-item { display: inline; }
@@ -213,15 +213,17 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
     .sidebar .node a:hover { text-decoration:underline; }
 
   /* Carousel */
-  .slider { position:absolute; left:0; top:0; height:100%; margin-right:-12000px; }
-  .carousel_arrow { position:absolute; left:258px; bottom:-43px; width:49px; height:43px; background-image:url(//cdn.middlebury.edu/middlebury.edu/2010/images/carousel_arrow.png); z-index:100; }
+  .slider { position:absolute; left:0px; top:6px; height:100%; margin-right:-12000px; }
+  .carousel_arrow { position:absolute; left:88px; bottom:-43px; width:49px; height:43px; background-image:url(../images/carousel_arrow.png); z-index:100; }
   .carousel { clear:both; color:#FFFFFF; height:240px; margin:18px 0px; position:relative; overflow:hidden; }
     .carousel a { color:#CCFF66; text-decoration:none; border:none; padding:0px; }
-    .carousel a:hover { color:#A9D4FF; text-decoration:underline; border:none; background-color:transparent; border-bottom:1px dotted; }
-    .carousel h2, .carousel h3, .carousel h4, .carousel h5, .carousel h6 { color:#83B2F9; }
-  .carousel .block { border:dashed #FFFFFF; border-width:1px 1px 1px 0px; list-style-type:none; height:238px; margin:0px; }
-    .carousel .node, .carousel .link-wrapper { border-left:1px dashed #FFFFFF; height:180px; padding:30px; margin:0px; float:left; }
+    .carousel a:hover { color:#A9D4FF; text-decoration:none; border:none; background-color:transparent; border-bottom:1px dotted; }
+    .carousel .node header { width:auto; }
+    .carousel .node h1, .carousel .node h2, .carousel .node h3, .carousel .node h4, .carousel .node h5, .carousel .node h6 { color:#83B2F9; font-size:1.2em; line-height:1.25em; margin-bottom:14px; padding-bottom:0px; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; border:none; }
+  .carousel .block { border:dashed #FFFFFF; border-width:1px 1px 1px 0px; list-style-type:none; height:232px; margin:0px; }
+    .carousel .node, .carousel .link-wrapper { border-left:1px dashed #FFFFFF; height:225px; padding:10px 30px 5px 30px; margin:0px; float:left; }
     .carousel .content > a { display:none; }
+    .carousel .node .links { display:block; clear:both; }
 
   /* Footer */
   .footer { clear:both; padding-top:12px; width:960px; margin:24px auto; color:#999999; }
