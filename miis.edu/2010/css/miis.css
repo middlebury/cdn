@@ -363,6 +363,12 @@ body.miis_blue { background:url('//cdn.middlebury.edu/miis.edu/2010/images/blue/
 
 /* Blue - Center for the Blue Economy */
 body.miis_center { background:url('//cdn.middlebury.edu/miis.edu/2010/images/blue/cbe_background.jpg') no-repeat left top; background-attachment:fixed; }
+  .miis_center h4, .miis_center .theme_page h3 { color:#83B2F9; }
+  .miis_center .page, .miis_center .theme_page .sidebar, .miis_center .footer { background-color:#001534; }
+  .miis_center .footer { padding:14px 25px 0px 25px; margin:0px auto 0px auto; width:910px; }
+  .miis_center .opening { font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; }
+  .miis_center .sidebar .opening { color:#83B2F9; font-size:1em; }
+  .miis_center .sidebar .node a { color:#FFFFFF; }
 
 /* Fullwidth */
 .miis_fullwidth .node-subpglist a, .miis_fullwidth .node-subpglist a:hover { display:inline; }
