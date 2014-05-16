@@ -257,11 +257,12 @@ body.front { color:#FFFFFF; }
 .node-news aside section.contact h3 { color:#666666; font-weight:bold; font-size:1em; }
 
 /* News Postings List */
-.newslist, .exhibitionlist { width:100%; display:table; padding:21px 8px; }
+.newslist, .exhibitionlist { width:100%; display:table; padding:0px; margin-bottom:12px; }
 .newslist aside, .exhibitionlist aside { display:table-cell; vertical-align:top; width:140px; margin:0px; padding:0px; border:0px; float:none; background:transparent; }
-.newslist aside img, .exhibitionlist aside img { border:0px; margin:0px; }
+.newslist aside img, .exhibitionlist aside img { border:1px solid #D4D6C8; margin:0px; }
 .newslist section, .exhibitionlist section { display:table-cell; vertical-align:top; font-size:0.929em; line-height:1.3em; }
-.newslist h1, .exhibitionlist h1 { font-size:1.295em; line-height:inherit; }
+.exhibitionlist h1 { font-size:1.295em; line-height:inherit; }
+.newslist h1 { font-size:1.077em; font-weight:normal; }
 .newslist .date, .exhibitionlist .date { color:#221100; font-size:1em; font-weight:bold; }
 .newslist p, .exhibitionlist p { display:inline; }
 
