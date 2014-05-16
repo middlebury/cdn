@@ -133,17 +133,6 @@ table.layout tbody, table.layout tr, table.layout td, table.layout { border: non
 	.schools ul li { margin:0.2em 0px; }
 		.schools ul li a { font-weight:bold; font-size:1.2em; border:none; }
 
-.midd_ls_inside .left, .midd_ls_inside .region-address, .midd_ls_grad .left, .midd_ls_grad .region-address { color:#221100; }
-	.midd_ls_inside ul.menu, .midd_ls_grad ul.menu { background:none repeat scroll 0px 0px #FFFFFF; margin-left:0px; }
-	.midd_ls_inside ul.menu li, .midd_ls_grad ul.menu li { background-color:transparent; border-color:#CCCCCC !important; }
-	.midd_ls_inside ul.menu li a, .midd_ls_grad ul.menu li a { color:#272C6F; padding-left:6px; }
-	.midd_ls_inside ul.menu li a:hover, .midd_ls_grad ul.menu li a:hover { background:none repeat scroll 0px 0px #FFFFFF !important; }
-	.midd_ls_inside ul.menu li.active a, .midd_ls_grad ul.menu li.active a { color:#333300; }
-	.midd_ls_inside ul.menu li.active ul, .midd_ls_grad ul.menu li.active ul { margin-left:18px; }
-	.midd_ls_inside ul.menu li.active ul li a, .midd_ls_grad ul.menu li.active ul li a { color:#272C6F; }
-	.midd_ls_inside ul.menu li.current a, .midd_ls_inside ul.menu li.active ul li.current a, .midd_ls_grad ul.menu li.current a, .midd_ls_grad ul.menu li.active ul li.current a { color:#660000; }
-	.midd_ls_inside div.content ul.menu li ul.menu li.expanded a, .midd_ls_grad div.content ul.menu li ul.menu li.expanded a { color:#272C6F; }
-
 h2 { color:#2BACC2 !important; font-family:Georgia,serif; margin-bottom:8px; }
 h4 { color:#666666; font-size:1.2em; line-height:1em; }
 ul.sublinks { list-style-type:none; font-size:1.2em; margin:0px; }
