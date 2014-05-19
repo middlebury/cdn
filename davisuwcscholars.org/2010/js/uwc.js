@@ -12,6 +12,6 @@ jQuery(document).ready(function(jQuery) {
     });
   }
   jQuery('.mm-gallery-single').each(function() {
-    jQuery(this).append('<span class="play-icon"><img src="//cdn.middlebury.edu/middlebury.edu/2010/images/uwc/click_to_play.png" width="76" height="76"></span>');
+    jQuery(this).append('<span class="play-icon"><img src="//cdn.middlebury.edu/davisuwcscholars.org/2010/images/click_to_play.png" width="76" height="76"></span>');
   });
 });
