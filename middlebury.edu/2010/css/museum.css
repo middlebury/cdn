@@ -102,7 +102,7 @@ form { margin-bottom:1em; }
   .gallery header { display:none; }
   .gallery a { border:none; }
   .gallery img { border:2px solid #656F81; margin-bottom:3px; }
-  .gallery figure { margin:15px 0px 0px 0px; }
+  .gallery .contents { margin:15px 0px 0px 0px; }
   .gallery figcaption,.gallery figcaption p,.gallery .cycle-next { font-family:Georgia,serif; font-style:italic; font-size:13px; }
     .gallery figcaption p,.gallery .cycle-next div,.gallery .cycle-next p { display:inline; }
     .gallery .cycle-next a { color:#C4C47F; font-style:normal; font-weight:bold; }
