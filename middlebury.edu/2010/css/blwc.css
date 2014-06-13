@@ -11,46 +11,54 @@ body.midd_blwc { background-image:url('../images/blwc/breadloaf.jpg'); }
 .navigation ul { background-color:#F9DD3F; border-bottom:30px solid #CCCCCC; font-size:1em; height:30px; line-height:30px; margin:0px; }
   .midd_blwc .navigation ul li a, .midd_blwc_inside .navigation ul li a { height:30px; position:relative; }
     .navigtaion li a span { display:block; height:30px; left:0px; position:absolute; top:0px; width:100%; }
-  .navigation li.top { margin:0px 3px 0px 3px; }
+  .navigation li.top { margin:0px 23px 0px 23px; }
     .navigation li.top a span { background-image:url('../images/blwc/nav_breadloaf_top.gif'); }
-  .navigation li.bottom { margin:0px 24px 0px 24px; }
+  .navigation li.bottom { margin:0px 63px 0px 63px; }
     .navigation li.bottom a span { background-image:url('../images/blwc/nav_breadloaf_bottom.gif'); }
-  .nav_ourHistory { width:146px; }
-    .nav_ourHistory a span { background-position:0px 0px; }
-    .nav_ourHistory a:hover span { background-position:0px -30px; }
-    .nav_ourHistory.active a span { background-position:0px -60px; }
-  .nav_program { width:114px; }
-    .nav_program a span { background-position:-146px 0px; }
-    .nav_program a:hover span { background-position:-146px -30px; }
-    .nav_program.active a span { background-position:-146px -60px; }
-  .nav_admissions { width:140px; }
-    .nav_admissions a span { background-position:-260px 0px; }
-    .nav_admissions a:hover span { background-position:-260px -30px; }
-    .nav_admissions.active a span { background-position:-260px -60px; }
-  .nav_faculty { width:180px; }
-    .nav_faculty a span { background-position:-400px 0px; }
-    .nav_faculty a:hover span { background-position:-400px -30px; }
-    .nav_faculty.active a span { background-position:-400px -60px; }
-  .nav_staff { width:90px; }
-    .nav_staff a span { background-position:-580px 0px; }
-    .nav_staff a:hover span { background-position:-580px -30px; }
-    .nav_staff.active a span { background-position:-580px -60px; }
-  .nav_community { width:228px; }
-    .nav_community a span { background-position:-671px 0px; }
-    .nav_community a:hover span { background-position:-671px -30px; }
-    .nav_community.active a span { background-position:-671px -60px; }
-  .nav_support { width:239px; }
-    .nav_support a span { background-position:0px 0px; }
-    .nav_support a:hover span { background-position:0px -30px; }
-    .nav_support.active a span { background-position:0px -60px; }
-  .nav_neywc { width:343px; }
-    .nav_neywc a span { background-position:-270px 0px; }
-    .nav_neywc a:hover span { background-position:-270px -30px; }
-    .nav_neywc.active a span { background-position:-270px -60px; }
-  .nav_bakeless { width:209px; }
-    .nav_bakeless a span { background-position:-643px 0px; }
-    .nav_bakeless a:hover span { background-position:-643px -30px; }
-    .nav_bakeless.active a span { background-position:-643px -60px; }
+  .navigation li.nav_history { width:58px; margin-left:19px; }
+    .nav_history a span { background-position:-7px 0px; }
+    .nav_history a:hover span { background-position:-7px -30px; }
+    .nav_history.active a span { background-position:-7px -60px; }
+  .nav_program { width:69px; }
+    .nav_program a span { background-position:-112px 0px; }
+    .nav_program a:hover span { background-position:-112px -30px; }
+    .nav_program.active a span { background-position:-112px -60px; }
+  .nav_admissions { width:95px; }
+    .nav_admissions a span { background-position:-227px 0px; }
+    .nav_admissions a:hover span { background-position:-227px -30px; }
+    .nav_admissions.active a span { background-position:-227px -60px; }
+  .nav_faculty { width:139px; }
+    .nav_faculty a span { background-position:-367px 0px; }
+    .nav_faculty a:hover span { background-position:-367px -30px; }
+    .nav_faculty.active a span { background-position:-367px -60px; }
+  .nav_staff { width:38px; }
+    .nav_staff a span { background-position:-553px 0px; }
+    .nav_staff a:hover span { background-position:-553px -30px; }
+    .nav_staff.active a span { background-position:-553px -60px; }
+  .nav_community { width:120px; }
+    .nav_community a span { background-position:-636px 0px; }
+    .nav_community a:hover span { background-position:-636px -30px; }
+    .nav_community.active a span { background-position:-636px -60px; }
+  .navigation li.nav_support { width:88px; margin-right:22px; }
+    .nav_support a span { background-position:-802px 0px; }
+    .nav_support a:hover span { background-position:-802px -30px; }
+    .nav_support.active a span { background-position:-802px -60px; }
+  .navigation li.nav_orion { width:71px; margin-left:19px; }
+    .nav_orion a span { background-position:-11px 0px; }
+    .nav_orion a:hover span { background-position:-11px -30px; }
+    .nav_orion.active a span { background-position:-11px -60px; }
+  .nav_translators { width:120px; }
+    .nav_translators a span { background-position:-190px 0px; }
+    .nav_translators a:hover span { background-position:-190px -30px; }
+    .nav_translators.active a span { background-position:-190px -60px; }
+  .nav_sicily { width:71px; }
+    .nav_sicily a span { background-position:-420px 0px; }
+    .nav_sicily a:hover span { background-position:-420px -30px; }
+    .nav_sicily.active a span { background-position:-420px -60px; }
+  .navigation li.nav_bakeless { width:244px; margin-right:17px; }
+    .nav_bakeless a span { background-position:-597px 0px; }
+    .nav_bakeless a:hover span { background-position:-597px -30px; }
+    .nav_bakeless.active a span { background-position:-597px -60px; }
 
 .midd_blwc .pagecontent, .midd_blwc_inside .pagecontent { margin-top:0px; }
   .midd_blwc .page { border:none; width:100%; padding:0%; }
