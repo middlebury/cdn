@@ -54,6 +54,11 @@ jQuery(function() { // on DOM ready
     }
   );
 
+  // jQuery Cycle2 slideshows
+  if(jQuery('.cycle-slide').length == 1) {
+    jQuery('.cycle-prev,.cycle-next,.cycle-pager').hide();
+  }
+
   // Quickaccess
   if(jQuery.fn.quickaccess) {
     jQuery('input.quickaccess').quickaccess({selector:'.qa_links a'});	
