@@ -441,6 +441,10 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .qa_blur, .qa_noquery, .qa_nonefound { display:none; }
   .qa_toomany li { padding:2px 0.5em; }
 
+  /* Webform */
+  .webform-client-form label { font-weight:bold; }
+    .webform-client-form label.option { font-weight:normal; }
+
 /* Page Themes */
 
   /* Department */
