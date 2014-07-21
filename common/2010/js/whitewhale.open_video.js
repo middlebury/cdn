@@ -15,9 +15,13 @@ jQuery(document).on('click', '.open_video', function() {
   else {
     bodyelem = jQuery('html,body');
   }
+  var autoplay = 0;
+  if (typeof Drupal.settings.middleburyVideoFilter != "undefined" ) {
+    autoplay = Drupal.settings.middleburyVideoFilter.autoplay;
+  }
   overlay.css('top',(jQuery(window).height() / 2 - 151 + jQuery(window).scrollTop()) + 'px');
   jQuery('#youtube_embed').load(
-    Drupal.settings.basePath + 'middlebury_video_filter/embed?video=' + video + '&width=607&height=320&ratio=607/320' + image);
+    Drupal.settings.basePath + 'middlebury_video_filter/embed?video=' + video + '&width=607&height=320&ratio=607/320&autoplay=' + autoplay + image);
   blackout.add('.close_overlay').click(function() {
     blackout.add(overlay).remove();
   });
