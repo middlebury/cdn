@@ -204,7 +204,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 
   .affiliates { clear:both; color:#FFFFFF; font-family:Garamond,"Times New Roman",serif; font-style:italic; line-height:20px; margin:40px auto 0px; text-align:center; width:930px; }
     .affiliates h2 { color:#FFFFFF; font-size:1.2em; font-variant:small-caps; margin:0px; }
-    .affiliates ul { font-size:1.2em; list-style-type:none; margin:0px auto; width:892px; }
+    .affiliates ul { font-size:1.2em; list-style-type:none; margin:0px auto; width:896px; }
       .affiliates li { float:left; margin:0px; padding:0px 23px; }
         .affiliates li a { background-color:transparent; border:medium none; color:#C7DBD7; display:block; padding:0px; position:relative; }
         .affiliates li a:hover { color:#FFFFFF; }
@@ -217,7 +217,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
       .affiliates_schoolsabroad { width:192px; }
         .affiliates_schoolsabroad a span { background-position:-217px -25px; }
         .affiliates_schoolsabroad a:hover span { background-position:-217px -50px; }
-      .affiliates_breadloaf { width:352px; }
+      .affiliates_breadloaf { width:356px; }
         .affiliates_breadloaf a span { background-position:-425px -25px; }
         .affiliates_breadloaf a:hover span { background-position:-425px -50px; }
       li.affiliates_mmla { clear:left; margin-left:67px; width:292px; }
