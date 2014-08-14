@@ -42,7 +42,7 @@ form { margin-bottom:1em; }
   textarea { padding:10px; }
   input { padding:2px; }
   input[type=radio], input[type=checkbox] { margin-right:10px; }
-figure { margin:14px 0px; }
+figure { margin:0px; }
 
 /* General Type Styles */
 .image_left { float:left; width:204px; margin:6px 18px 6px 0px; }
@@ -99,7 +99,7 @@ figure { margin:14px 0px; }
       .nav_news a:hover span,.nav_news.active a span { background-position:-322px -160px; }
 
 /* Image Gallery */
-.gallery { background-color:#45546D; color:#FFFFFF; width:100%; position:relative; padding:15px 0px 0px 0px; }
+.gallery { background-color:#45546D; color:#FFFFFF; width:100%; position:relative; padding:15px 0px 0px 0px; height:326px; }
   .gallery header { display:none; }
   .gallery a { border:none; }
   .gallery img { border:2px solid #656F81; margin-bottom:3px; }
