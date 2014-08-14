@@ -100,6 +100,7 @@ figure { margin:0px; }
 
 /* Image Gallery */
 .gallery { background-color:#45546D; color:#FFFFFF; width:100%; position:relative; padding:15px 0px 0px 0px; height:326px; }
+    .logged-in .gallery { height:342px; }
   .gallery header { display:none; }
   .gallery a { border:none; }
   .gallery img { border:2px solid #656F81; margin-bottom:3px; }
