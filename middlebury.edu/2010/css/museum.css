@@ -42,7 +42,7 @@ form { margin-bottom:1em; }
   textarea { padding:10px; }
   input { padding:2px; }
   input[type=radio], input[type=checkbox] { margin-right:10px; }
-figure { margin:0px; }
+figure { margin:14px 0px; }
 
 /* General Type Styles */
 .image_left { float:left; width:204px; margin:6px 18px 6px 0px; }
