@@ -304,7 +304,8 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
 
 .miis_academics .region-image .links.inline { display:block; height:24px; }
 
-.miis_academics .breadcrumb { width:auto; background:transparent; -moz-box-shadow:none; -webkit-box-shadow:none; -box-shadow:none; }
+.miis_academics .breadcrumb { width:auto; margin-top:36px; background:transparent; -moz-box-shadow:none; -webkit-box-shadow:none; -box-shadow:none; }
+  .miis_academics.logged-in .breadcrumb { margin-top:-24px; }
   .miis_academics .breadcrumb a { color:#003366; }
   .miis_academics .breadcrumb a:hover { color:#003366; background-color:#CCCCCC; padding:0px; margin:0px 6px 0px 6px; }
 
@@ -482,7 +483,9 @@ details p.tags a { color:#336699; }
 /* Profile */
 .node-profile { float:none; margin-top:0px; }
 .node-profile > header { margin-left:216px; }
-.node-profile h3, .node-profile .field-name-field-jobtitle { font-family:Georgia,Times,serif; color:#5E6676; font-size:1.5em; font-weight:normal; border-bottom:1px solid #CCCCCC; margin-bottom:14px; }
+.node-profile h3, .node-profile .group-profile-jobtitle { font-family:Georgia,Times,serif; color:#5E6676; font-size:1.5em; font-weight:normal; border-bottom:1px solid #CCCCCC; margin-bottom:14px; }
+  .node-profile .group-profile-jobtitle div { display:inline; font-size:0px; }
+    .node-profile .group-profile-jobtitle div.field-item { font-size:20.4px; }
 .node-profile h4 { font-size:1.3em; font-weight:bold; color:#336699; line-height:1.25em; }
 .profile-left { float:left; width:214px; margin:-48px 0px 0px -24px; background-color:#192E6D; overflow:hidden; }
   .profile-left img { display:block; margin:0px auto; }
