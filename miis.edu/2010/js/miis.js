@@ -128,15 +128,11 @@ jQuery(function() { // on DOM ready
     jQuery('.node-subpglist ul ul ul').parent().addClass('h4');
   }
 
-  if (window.location.pathname.indexOf('/admissions/apply', 0) == 0) {
-    jQuery('#block-monster-menus-1 .menu .menu .menu li:first-child a').each(function() {
-      var href = jQuery(this).attr('href');
-      if (href == '/admissions/apply/application') {
-        jQuery(this).attr('href', 'https://ssb.middlebury.edu/PNTR/bzskalog.P_DispLoginNon');
-        jQuery(this).attr('onClick', 'pageTracker._link(this.href); return false;');
-      }
-    });
-  }
+  jQuery('a[href*="/admissions/apply/application"],a[href*="ssb.middlebury.edu/PNTR/bzskalog.P_DispLoginNon"]').each(function() {
+    jQuery(this).attr('href', 'https://cdn.middlebury.edu/miis.edu/2010/apply.html');
+    jQuery(this).attr('target', '_self');
+    jQuery(this).attr('onClick', "_gaq.push(['_link', this.href]); return false;");
+  });
 
   jQuery('.course_sections .sectiontitle').click(function() {
     jQuery(this).siblings().slideToggle();
