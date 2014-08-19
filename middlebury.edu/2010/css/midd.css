@@ -463,6 +463,9 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     .midd_department ul.menu li.active ul li a { color:#272C6F; }
       .midd_department ul.menu li.current a, .midd_department ul.menu li.active ul li.current a { color:#660000; }
 
+  /* Fullwidth */
+  .midd_fullwidth .page { width:920px; }
+
 /* Color schemes:  Leaf, Apple, Sun, Lake, Grape, Basic */
 
 /* Set default (unthemed) styles */
