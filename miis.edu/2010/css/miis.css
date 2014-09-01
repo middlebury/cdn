@@ -440,8 +440,8 @@ body.miis_center { background:url('//cdn.middlebury.edu/miis.edu/2010/images/blu
   .node-10questionslist header h1 a { color:#790E39; }
 
 /* Basic Content */
-.node-page header { width:424px; }
-  .node-page header.fullheader { width:auto; }
+.node-page header { max-width:424px; }
+  .node-page header.fullheader { max-width:648px; }
 .node-page h1 { font-family:Arial,Helvetica,sans-serif; color:#114477; font-size:3em; padding-bottom:5px; border-bottom:1px solid #000000; margin-bottom:0px; }
   .leadimage { float:right; margin:0px; background-color:#E4EAF3; overflow:hidden; width:238px; margin:-90px -36px 5px 12px; }
   .leadimage figcaption { color:#666666; font-style:italic; font-size:.9em; line-height:1.2em; padding:8px 10px 8px 10px; }
@@ -477,6 +477,11 @@ summary:before { font-size: 1.4em; color:#790E39; font-weight:bold; margin-botto
 details[open] summary:before { content:'x'; color:#5D6878; }
 details p.tags { padding-left:24px; margin-bottom:0px; }
 details p.tags a { color:#336699; }
+
+/* File Upload */
+.node-mm_media-form .field-name-field-multimedia fieldset { border:1px solid black; padding:8px; }
+  .node-mm_media-form .field-name-field-multimedia legend { font-size:1.2em; font-weight:bold; padding:4px; }
+  .node-mm_media-form .field-name-field-multimedia .button {   font:bold 11px Arial; text-decoration:none;  background-color:#EEEEEE; color:#333333; padding:2px 6px 2px 6px; border-top:1px solid #CCCCCC; border-right:1px solid #333333; border-bottom:1px solid #333333; border-left:1px solid #CCCCCC; }
 
 /* Gallery */
 .node-gallery h1 { color:#790E39; font-size:1.6em; line-height:1.25em; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-weight:bold; }
