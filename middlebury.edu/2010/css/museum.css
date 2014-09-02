@@ -187,19 +187,27 @@ figure { margin:0px; }
   .footer img { float:right; margin-left:12px; cursor:pointer; font-size:0.9em; }
   .footer h6 { color:#FFFFFF; font-size:1.4em; margin:0px; padding-bottom:5px; }
   .footer .container { padding:30px 0px 30px 0px; }
-  .social { list-style-type:none; margin:0px; padding:0px; position:absolute; right:10px; top:35px; }
-    .social li { float:left; margin-left:14px; }
-      .social li a { display:block; border:none; height:24px; width:24px; background:transparent url('../images/museum/social2.gif') no-repeat top left; text-indent:-999em; overflow:hidden; padding:0px; }
-    .social .social_foursquare a { background-position:0px 0px; }
-      .social .social_foursquare a:hover { background-position:0px -24px; }
-    .social .social_youtube a { background-position:-24px 0px; }
-      .social .social_youtube a:hover { background-position:-24px -24px; }
-    .social .social_facebook a { background-position:-48px 0px; }
-      .social .social_facebook a:hover { background-position:-48px -24px; }
-    .social .social_rss a { background-position:-72px 0px; }
-      .social .social_rss a:hover { background-position:-72px -24px; }
-    .social .social_twitter a { background-position:-96px 0px; }
-      .social .social_twitter a:hover { background-position:-96px -24px; }
+  .social { list-style-type:none; margin:0px; padding:0px; position:absolute; right:0px; top:35px; width:192px; float:right; }
+    .social li { float:left; margin:0px 0px 0px 12.66px; }
+      .social .social_facebook, .social .social_flickr { margin-left:0px; }
+      .social .social_flickr, .social .social_instagram, .social .social_pinterest, .social .social_wordpress { margin-top:12.66px; }
+      .social li a { display:block; border:none; height:38px; width:38px; background:transparent url('../images/museum/social.gif') no-repeat top left; text-indent:-999em; overflow:hidden; padding:0px; }
+    .social .social_facebook a { background-position:-20px -20px; }
+      .social .social_facebook a:hover { background-position:-20px -150px; }
+    .social .social_twitter a { background-position:-64px -20px; }
+      .social .social_twitter a:hover { background-position:-64px -150px; }
+    .social .social_youtube a { background-position:-108px -20px; }
+      .social .social_youtube a:hover { background-position:-108px -150px; }
+    .social .social_tumblr a { background-position:-152px -20px; }
+      .social .social_tumblr a:hover { background-position:-152px -150px; }
+    .social .social_flickr a { background-position:-20px -64px; }
+      .social .social_flickr a:hover { background-position:-20px -194px; }
+    .social .social_instagram a { background-position:-64px -64px; }
+      .social .social_instagram a:hover { background-position:-64px -194px; }
+    .social .social_pinterest a { background-position:-108px -64px; }
+      .social .social_pinterest a:hover { background-position:-108px -194px; }
+    .social .social_wordpress a { background-position:-152px -64px; }
+      .social .social_wordpress a:hover { background-position:-152px -194px; }
   .address { float:left; width:354px; line-height:1.7em; }
     .address_mailing { float:left; margin-right:15px; }
   .footer_nav { list-style-type:none; float:left; margin:0px 24px 0px 24px; }
