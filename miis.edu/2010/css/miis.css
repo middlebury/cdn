@@ -181,6 +181,8 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
     .miis_fullwidth .body, .body.fullwidth { width:936px; }
     .body > a { display:none; }
     .body #miis_content { padding:24px; padding-bottom:36px; clear:left; position:relative; }
+    .body a.login { color:#114477; font-size:1em; margin-top:0px; float:none; }
+      .body a.login:hover { background:transparent; }
 
   /* Tags */
   .field-type-taxonomy-term-reference .field-label, .field-type-taxonomy-term-reference .field-items, .field-type-taxonomy-term-reference .field-item { display: inline; }
