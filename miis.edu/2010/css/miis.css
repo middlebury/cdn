@@ -558,7 +558,7 @@ details p.tags a { color:#336699; }
 
 /* Section */
 .node-section { background-color:#DDDDDD; padding:24px 24px 12px 24px; margin:0px -24px -36px -24px; clear:left; min-height:40px; vertical-align:middle;clear:both; }
-.node-section.has-tweets { margin-top:140px; }
+.node-section.has-tweets { margin-top:200px; }
   .twitter a { font-weight:bold; }
   .twitter .twitter_user { position:relative; display:inline; }
   .twitter .tweet { position:absolute; bottom:45px; left:-60px; background-color:#192E6D; padding:20px; font-size:1.15em; line-height:1.3; color:#FFFFFF; width:180px; -moz-border-radius:20px; -webkit-border-radius:20px; }
