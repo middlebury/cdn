@@ -295,7 +295,8 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
   .front .dates ul { margin-top:1.5em; }
 
 /* Academics */
-.miis_academics .academics_title { min-height:32px; width:672px; background-color:#1B457A; color:#FFFFFF; padding:12px 24px 12px 24px; font-size:32px; margin:-12px 0px 0px -12px; font-family:Arial,Helvetica,sans-serif; -webkit-box-shadow:0px 4px 4px -2px #000000; -moz-box-shadow:0px 4px 4px -2px #000000; box-shadow:0px 4px 4px -2px #000000; position:relative; z-index:200; text-align:center; }
+.academics_title { display:none; }
+.miis_academics .academics_title { display:block; min-height:32px; width:672px; background-color:#1B457A; color:#FFFFFF; padding:12px 24px 12px 24px; font-size:32px; margin:-12px 0px 0px -12px; font-family:Arial,Helvetica,sans-serif; -webkit-box-shadow:0px 4px 4px -2px #000000; -moz-box-shadow:0px 4px 4px -2px #000000; box-shadow:0px 4px 4px -2px #000000; position:relative; z-index:200; text-align:center; }
 
 .miis_academics .slides { margin:0px -12px 24px -12px; z-index:120; position:relative; }
 .miis_academics .slides .node header, .miis_academics .slides .node .field-name-body { display:none; }
