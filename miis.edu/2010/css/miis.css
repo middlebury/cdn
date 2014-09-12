@@ -365,7 +365,7 @@ body.miis_blue { background:url('//cdn.middlebury.edu/miis.edu/2010/images/blue/
     .miis_blue .body .content a { text-decoration:underline; }
   .miis_blue .node-page header { width:100%; margin-bottom:12px; }
   .miis_blue .opening, .miis_blue .opening td { font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; color:#5E6676; font-size:21px; }
-  .miis_blue .sidebar { width:236px; padding:0px 10px 0px 10px; margin:0px; background-color:#5E6676; }
+  .miis_blue .sidebar { max-width:236px; padding:0px 10px 0px 10px; margin:0px; background-color:#5E6676; }
     .miis_blue .sidebar header{ width:236px; }
     .miis_blue .sidebar h1 { font-size:16.4px; font-weight:bold; color:#FFD231; margin:0px; margin-bottom:12px; border:none; }
     .miis_blue .sidebar ul.menu { margin:0; width:204px; list-style-type:none; }
