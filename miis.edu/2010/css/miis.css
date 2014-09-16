@@ -508,7 +508,7 @@ details p.tags a { color:#336699; }
 .profile-body { clear:none; padding-left:216px; }
   .profile-extras p { margin:10px 15px 10px 15px; font-size:0.929em; }
     .profile-extras h4, .profile-extras .field-label { font-size:1.3em; font-weight:bold; color:#336699; line-height:1.25em; }
-    .profile-extras ul { list-style-type:none; margin:0px 1.0em 0px 0.8em; }
+    .profile-extras ul { margin:0px 1.0em 0px 0.8em; }
 
 /* Profile Views - Board */
 .view-board .views-row { float:left; width:190px; vertical-align:top; padding:10px; }
