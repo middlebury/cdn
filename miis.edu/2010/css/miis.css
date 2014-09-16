@@ -486,6 +486,7 @@ details p.tags a { color:#336699; }
 .node-mm_media-form .field-name-field-multimedia fieldset { border:1px solid black; padding:8px; }
   .node-mm_media-form .field-name-field-multimedia legend { font-size:1.2em; font-weight:bold; padding:4px; }
   .node-mm_media-form .field-name-field-multimedia .button {   font:bold 11px Arial; text-decoration:none;  background-color:#EEEEEE; color:#333333; padding:2px 6px 2px 6px; border-top:1px solid #CCCCCC; border-right:1px solid #333333; border-bottom:1px solid #333333; border-left:1px solid #CCCCCC; }
+.node-mm-media header h1 { color:#790E39; font-size:1.6em; font-weight:bold; line-height:1.25em; }
 
 /* Gallery */
 .node-gallery h1 { color:#790E39; font-size:1.6em; line-height:1.25em; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-weight:bold; }
