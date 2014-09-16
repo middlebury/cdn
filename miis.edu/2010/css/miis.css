@@ -492,7 +492,7 @@ details p.tags a { color:#336699; }
 .node-gallery h1 { color:#790E39; font-size:1.6em; line-height:1.25em; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-weight:bold; }
 
 /* Profile */
-.node-profile { float:none; margin-top:0px; }
+.node-profile { float:none; margin-top:0px; clear:both; }
 .node-profile > header { margin-left:216px; }
 .node-profile h3, .node-profile .group-profile-jobtitle { font-family:Georgia,Times,serif; color:#5E6676; font-size:1.5em; font-weight:normal; border-bottom:1px solid #CCCCCC; margin-bottom:14px; }
   .node-profile .group-profile-jobtitle div { display:inline; font-size:0px; }
