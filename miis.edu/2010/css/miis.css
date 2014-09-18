@@ -455,7 +455,7 @@ body.miis_center { background:url('//cdn.middlebury.edu/miis.edu/2010/images/blu
     .opening p { display:inline; }
     .opening a { color:#114477; font-weight:normal; border:none; }
     .opening a:hover { text-decoration:underline; }
-.node-page .field-name-body { margin-top:12px; }
+.node-page  .contents > .field-name-body { margin-top:12px; }
 
 /* Be the Solution */
 .node-bethesolution header { float:left; width:696px; height:267px; margin:-50px 0px 24px -24px; position:relative; z-index:100;}
