@@ -417,7 +417,7 @@ body.miis_center { background:url('//cdn.middlebury.edu/miis.edu/2010/images/blu
   .miis_fullwidth .two .column, .miis_fullwidth .two a { width:404px; }
   .miis_fullwidth .three .column, .miis_fullwidth .three a { width:254px; }
   .miis_fullwidth .four .column, .miis_fullwidth .four a { width:179px; }
-.miis_fullwidth .fullheader h1 { font-size:2.4em; border:none; }
+.miis_fullwidth .page .fullheader h1 { font-size:2.4em; border:none; }
 .miis_fullwidth .node-subpglist td { margin-right:20px; }
   .miis_fullwidth .node-subpglist td ul { list-style-type:none; margin:20px 0px 20px 0px; }
   .miis_fullwidth .node-subpglist td.last { margin-right:0px; }
