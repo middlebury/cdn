@@ -29,7 +29,7 @@ p { margin-bottom:1em; }
 p.intro { font-size:1.4em; }
 ul,ol { margin-left:1.2em; }
   li { margin-bottom:0.5em; }
-  ul.pager { display:none; }
+  .not-logged-in ul.pager { display:none; }
 blockquote { margin-left:30px; }
 pre { font-family:monospace; background-color:#EEEEEE; }
 h2, h3, .node h1 { font-weight:normal; font-family:Georgia,serif; line-height:1.3em; margin-bottom:8px; }
