@@ -572,10 +572,11 @@ details p.tags a { color:#336699; }
 
 /* Story */
 .node-story h1 { float:left; width:338px; }
-.node-story figure { float:right; overflow:hidden; margin:-12px -12px 0px 0px; border:2px dashed #E4EAF3; width:310px; }
-  .node-story figure>div, .node-story figure>p { padding:8px 10px; margin-bottom:0; }
+.node-story figure, .node-story .media-contact { float:right; overflow:hidden; margin:-12px -12px 0px 0px; border:2px dashed #E4EAF3; width:310px; clear:right; }
+  .node-story .media-contact { margin-top:24px; padding:12px 12px 0px 12px; width:286px; }
+  .node-story figure>div, .node-story figure>p, .node-story figure>a>p { padding:8px 10px; margin-bottom:0; }
+  .node-story figure p.enlarge { font-size:10px; margin-bottom:-6px; text-align:right; padding:12px 12px 0px 0px; }
   .node-story figcaption { color:#666; padding:8px 10px; font-style:italic; font-size: .9em; line-height:1.2em; }
-  .node-story .media-contact { border:2px dashed #E4EAF3; padding:12px 12px 0px 12px; }
 
 .node-storylist h1 { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:1.2em; font-weight:bold; float:none; width:100%; border:none; }
 .node-storylist section, .node-storylist aside { display:table-cell; vertical-align: top; padding:0px 18px 10px 20px; }
