@@ -4,6 +4,8 @@
 table.layout tbody, table.layout tr, table.layout td, table.layout { border: none; }
 
 .top_panel { padding-top:1px; }
+  .top_panel .ls_header_search { clear:both; margin:0 auto; width:960px; position:relative; height:59px; }
+  .midd_ls .top_panel h1.wordmark { margin-top:0px; }
 .midd_ls h1.wordmark, .midd_ls_inside h1.wordmark, .midd_ls_grad h1.wordmark { width:100%; text-align:center; clear:both; border-bottom:30px solid #0091A4; font-size:1.4em; }
 	.midd_ls h1.wordmark { padding:10px 0px 5px; background-image:url(../images/ls/blue_50.png); margin-top:59px; margin-bottom:0px; }
 	.midd_ls_inside h1.wordmark, .midd_ls_grad h1.wordmark { padding:50px 0px 6px; margin:0px; background-image:url(); }
