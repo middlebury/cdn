@@ -118,7 +118,7 @@ table.layout tbody, table.layout tr, table.layout td, table.layout { border: non
 				.feature_spanish a { background-position:-3217px 0px; }
 				.feature_spanish a:hover { background-position:-3217px -35px; }
 
-.midd_ls .pagecontent { background-color:#FFFFFF; }
+.midd_ls .pagecontent { background-color:#FFFFFF; margin-top:0px; }
 	.midd_ls_inside .pagecontent, .midd_ls_grad .pagecontent { margin-top:0px; background-color:#FFFFFF; }
 .midd_ls .body { padding:0px; float:left; min-width:698px; }
 	.midd_ls .page { width:924px; border:none; float:none; width:auto; background-color:#FFFFFF; padding:0px; }
@@ -165,4 +165,5 @@ p.more_link { text-align:left; margin:0px; font-size:1.3em; font-weight:normal; 
 		.languageschools_contact.active a:hover span { background-position:-278px -90px; }
 
 .footer_wordmark { float:right; }
+  #block-middlebury-midd-blocks-midd-footer-wordmark .footer_wordmark { display:block; }
 	.footer_wordmark:hover { background-color:transparent !important; }

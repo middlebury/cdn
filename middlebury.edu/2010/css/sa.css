@@ -92,4 +92,5 @@ h2 { color:#666666; font-family:Georgia,serif; margin-bottom:16px; }
     .quick_go.active a:hover span { background-position:-387px -90px; }
 
 .footer_wordmark { float:right; }
+  #block-middlebury-midd-blocks-midd-footer-wordmark .footer_wordmark { display:block; }
   .footer a.footer_wordmark:hover { background-color:transparent; }

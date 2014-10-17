@@ -408,15 +408,16 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
         .quick_contact.active a span { background-position:-542px -60px; }
         .quick_contact.active a:hover span { background-position:-542px -90px; }
       .footer_right { float:right; }
-        .footer ul li { position:relative; }
-          .footer ul li a { outline:none; }
-          .footer ul li .contents { display:none; position:absolute; top:30px; left:0px; padding:12px; background:url(../images/dkblue_95trans.png); min-width:240px; color:#FFFFFF; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.929em; line-height:1.4; }
-          .footer ul li.active .contents { display:block; }
-            .footer ul li .contents a { display:inline; width:auto; color:#FFE371; padding:0px; }
-            .footer ul li .contents a:hover { color:#FFFFAA; }
-            .quick_go .contents { width:300px; }
-            .quick_go .contents ul { width:50%; float:left; }
-              .footer ul li .contents ul li { display:block; float:none; margin:0px 0px 0.4em 0px; }
+        body.midd #block-middlebury-midd-blocks-midd-footer-quicklinks li.quick_go { margin-left:204px; }
+      .footer ul li { position:relative; }
+        .footer ul li a { outline:none; }
+        .footer ul li .contents { display:none; position:absolute; top:30px; left:0px; padding:12px; background:url(../images/dkblue_95trans.png); min-width:240px; color:#FFFFFF; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.929em; line-height:1.4; }
+        .footer ul li.active .contents { display:block; }
+          .footer ul li .contents a { display:inline; width:auto; color:#FFE371; padding:0px; }
+          .footer ul li .contents a:hover { color:#FFFFAA; }
+          .quick_go .contents { width:300px; }
+          .quick_go .contents ul { width:50%; float:left; }
+            .footer ul li .contents ul li { display:block; float:none; margin:0px 0px 0.4em 0px; }
     .footer_panel { height:300px; background:#527546 url(../images/footer_campusaerial.jpg) no-repeat center top; display:none; }
 
 /* Content Types */
