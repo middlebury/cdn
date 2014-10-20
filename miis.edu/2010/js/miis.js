@@ -138,6 +138,11 @@ jQuery(function() { // on DOM ready
     jQuery(this).siblings().slideToggle();
   });
 
+  // Twitter Bubble
+  jQuery('.has-tweets').each(function () {
+    jQuery(this).css('margin-top', jQuery(this).find('.tweet').height() + 50);
+  });
+
   // Carousel
   var carousel = jQuery('#miis_carousel');
   if (carousel.length) {
