@@ -1,0 +1,64 @@
+.midd_msoe h1.wordmark, .midd_msoe_inside h1.wordmark { width:925px; padding:250px 0px 0px 35px; }
+  .midd_msoe_inside h1.wordmark { padding:50px 0px 0px 35px; }
+h2.wordmark a { border:none; }
+  h2.wordmark a:hover { background:transparent; }
+
+.search_query { background-color:#fff; border:none; font-size:0.929em; color:#666; }
+.search_submit.ir { background:url('../images/arrow_go_white.png'); }
+
+.navigation ul { background-image:url('../images/msoe/nav_msoe_background.png'); font-size:1em; height:30px; line-height:30px; margin:0; }
+  .navigation li a { height:30px !important; position:relative; }
+    .navigation li a span { display:block; height:30px; left:0; position:absolute; top:0; width:100%; }
+  .navigation li { margin:0 3px !important; }
+    .navigation li a span { background-image:url('../images/msoe/nav_msoe_top.gif'); }
+  .nav_home { width:108px; padding-left:15px; }
+    .nav_home a span { background-position:0 0; }
+    .nav_home a:hover span { background-position:0 -30px; }
+    .nav_home.active a span { background-position:0 -60px; }
+  .nav_about { width:108px; }
+    .nav_about a span { background-position:-100px 0; }
+    .nav_about a:hover span { background-position:-100px -30px; }
+    .nav_about.active a span { background-position:-100px -60px; }
+  .nav_faculty { width:108px; }
+    .nav_faculty a span { background-position:-200px 0; }
+    .nav_faculty a:hover span { background-position:-200px -30px; }
+    .nav_faculty.active a span { background-position:-200px -60px; }
+  .nav_curriculum { width:108px; }
+    .nav_curriculum a span { background-position:-320px 0; }
+    .nav_curriculum a:hover span { background-position:-320px -30px; }
+    .nav_curriculum.active a span { background-position:-320px -60px; }
+  .nav_apply { width:108px; }
+    .nav_apply a span { background-position:-440px 0; }
+    .nav_apply a:hover span { background-position:-440px -30px; }
+    .nav_apply.active a span { background-position:-440px -60px; }
+  .nav_finaid { width:108px; }
+    .nav_finaid a span { background-position:-570px 0; }
+    .nav_finaid a:hover span { background-position:-570px -30px; }
+    .nav_finaid.active a span { background-position:-570px -60px; }
+  .nav_blog { width:108px; }
+    .nav_blog a span { background-position:-690px 0; }
+    .nav_blog a:hover span { background-position:-690px -30px; }
+    .nav_blog.active a span { background-position:-690px -60px; }
+  .nav_contact { width:108px; }
+    .nav_contact a span { background-position:-800px 0; }
+    .nav_contact a:hover span { background-position:-800px -30px; }
+    .nav_contact.active a span { background-position:-800px -60px; }
+
+.pagecontent { margin-top:0; }
+.taskbar, .breadcrumb { display:none; }
+.opening { font-size:1.2em; color:#440; }
+  .opening a { font-style:italic; border:none; }
+
+h2 { color:#666; font-family:Georgia,serif; margin-bottom:16px; }
+
+td.first { font-size:14.5px; color:#333300; }
+td.first .opening { color:#333300; font-size:30px; font-family:Garamond,"Times New Roman",serif; }
+td.first a { font-size:17px; font-weight:bold; color:#333300; border-color:#333300; }
+td.first h3 { color:#5b8707; font-size:24px; font-family:Garamond,"Times New Roman",serif;font-weight:normal; }
+
+.footer a { border:none; }
+.footer ul { float:left; }
+  .quick_contact { margin-left:0; }
+#block-middlebury-midd-blocks-midd-footer-wordmark { float:right; }
+  #block-middlebury-midd-blocks-midd-footer-wordmark a { display:inline; }
+    #block-middlebury-midd-blocks-midd-footer-wordmark a:hover { background:transparent; }
