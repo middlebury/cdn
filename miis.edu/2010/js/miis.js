@@ -147,7 +147,6 @@ jQuery(function() { // on DOM ready
   var carousel = jQuery('#miis_carousel');
   if (carousel.length) {
     carousel.slider();
-    jQuery('#miis_content').append('<div class="carousel_arrow"></div>');
   }
 
   // Blue Theme Sub-navigation
