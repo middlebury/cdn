@@ -59,6 +59,12 @@ jQuery(function() { // on DOM ready
     jQuery('.cycle-prev,.cycle-next,.cycle-pager').hide();
   }
 
+  // miis_academics_slides with anchors. After the slideshow has loaded, jump to the
+  // new position of the anchor if there is one in the URL.
+  if (jQuery('#miis_academics_slides').length > 0 && window.location.href.match(/#/)) {
+    window.location.href = window.location.href;
+  }
+
   // Quickaccess
   if(jQuery.fn.quickaccess) {
     jQuery('input.quickaccess').quickaccess({selector:'.qa_links a'});	
