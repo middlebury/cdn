@@ -85,6 +85,20 @@ jQuery(document).ready(function(jQuery) {
     jQuery(this).next().slideToggle('400');
   });
 
+  // FAQs
+  jQuery('details:not([open]) section').hide();
+  jQuery('details summary').css('cursor','pointer').click(function(e) {
+    var dets = jQuery(this).parent();
+    dets.find('section').slideToggle();
+    if (dets.attr('open'))
+      dets.removeAttr('open');
+    else
+      dets.attr('open', 'open');
+    e.preventDefault();
+    e.stopPropagation();
+    return false;
+  });
+
   // Carousel
   var carousel = jQuery('#midd_carousel');
   if (carousel.length) {

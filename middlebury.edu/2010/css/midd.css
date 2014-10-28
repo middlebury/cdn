@@ -444,6 +444,11 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .node-donation-thermometer.young-alumni .guage { width:450px; height:88px; position:relative; background:transparent url(images/thermometer_ya.png) top right no-repeat; }
   .node-donation-thermometer.young-alumni .value { position:absolute; left:0px; bottom:0px; text-align:center; height:100%; background:transparent url(images/thermometer_ya_full.png) bottom left no-repeat; }
 
+  /* FAQs */
+  .node-faq { margin-bottom:19px; display:block; }
+  .node-faq summary, .node-faq summary a { font-size:1.2em; color:#336600; font-weight:bold; border:0; }
+  .node-faq .contents { padding-left:20px; border-left:1px solid #dadada; }
+
   /* Profile */
   .node-profile { float:left; }
   .node-profile .type { display: none; }
@@ -583,7 +588,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 .apple h3 { color:#A0BC0B; }
 .apple h4 { color:#C43737; }
 .apple h5, .apple .profile-card h2 { color:#B32629; }
-.apple h6, .apple h2.question { color:#4A972E; }
+.apple h6, .apple .node-faq summary { color:#4A972E; }
 .apple blockquote { border-color:#790E39; color:#B32629; }
 .apple aside.sidebar header h1, .apple aside.sidebar header:after { background-color:#790E39; }
 .apple .taskbar article:nth-of-type(3n+1) h1 { background-color:#C32626; }
@@ -600,7 +605,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 .sun h3 { color:#D9C621; }
 .sun h4 { color:#AAA448; }
 .sun h5, .sun .profile-card h2 { color:#D9A900; }
-.sun h6, .sun h2.question { color:#DD9E27; }
+.sun h6, .sun .node-faq summary { color:#DD9E27; }
 .sun blockquote { border-color:#CD9C18; color:#AAA448; }
 .sun aside.sidebar header h1, .apple aside.sidebar header:after { background-color:#CD9C18; }
 .sun .taskbar article:nth-of-type(3n+1) h1 { background-color:#AAC514; }
@@ -617,7 +622,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 .lake h3 { color:#5CBEA7; }
 .lake h4 { color:#3A76A8; }
 .lake h5, .lake .profile-card h2 { color:#409792; }
-.lake h6, .lake h2.question { color:#74AF44; }
+.lake h6, .lake .node-faq summary { color:#74AF44; }
 .lake blockquote { border-color:#117D81; color:#409792; }
 .lake aside.sidebar header h1, .lake aside.sidebar header:after { background-color: #0e6f4f; }
 .lake .taskbar article:nth-of-type(3n+1) h1 { background-color:#82C96F; }
@@ -634,7 +639,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 .grape h3 { color:#853533; }
 .grape h4 { color: #5b1c79; }
 .grape h5, .grape .profile-card h2 { color: #785b8b; }
-.grape h6, .grape h2.question { color:#6026B3; }
+.grape h6, .grape .node-faq summary { color:#6026B3; }
 .grape blockquote { border-color:#790E39; color: #8140b5; }
 .grape aside.sidebar header h1, .grape aside.sidebar header:after { background-color:#790E39; }
 .grape .taskbar article:nth-of-type(3n+1) h1 { background-color:#AF71FF; }
@@ -651,7 +656,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 .maple h3 { color:#AC8602; }
 .maple h4 { color:#944d00; }
 .maple h5, .maple .profile-card h2 { color:#5f3f1d; }
-.maple h6, .maple h2.question { color:#461E18; }
+.maple h6, .maple .node-faq summary { color:#461E18; }
 .maple blockquote { border-color:#790E39; color: #a96f1f; }
 .maple aside.sidebar header h1, .maple aside.sidebar header:after { background-color:#9d7932; }
 .maple .taskbar article:nth-of-type(3n+1) h1 { background-color:#9D7932; }
