@@ -62,7 +62,8 @@ ul,ol { margin-left:1.5em; margin-bottom:0.8em; }
 .small { font-size:0.929em; line-height:1.25em; }
 .summary { font-size:0.929em; line-height:1.3em; }
 .tags { font-size:0.929em; color:#999966; }
-  .tags a { -moz-border-radius-bottomleft:3px; -moz-border-radius-bottomright:3px; -moz-border-radius-topleft:3px; -moz-border-radius-topright:3px; background-color:#F4F4EA; border:1px solid #CCCCCC; cursor:default; display:inline-block; margin:2px 0.2em; padding:0.1em 0.2em; }
+  .tags div { display:inline-block; }
+  .tags a { -moz-border-radius-bottomleft:3px; -moz-border-radius-bottomright:3px; -moz-border-radius-topleft:3px; -moz-border-radius-topright:3px; background-color:#F4F4EA; border:1px solid #CCCCCC; cursor:default; margin:2px 0.2em; padding:0.1em 0.2em; }
   .tags a:hover { text-decoration:none; background-color:#E9E9E9; }
   .tags ul { margin-left:0; }
 .verybig { font-size:2em; line-height:1.25em; }
@@ -443,6 +444,35 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .node-donation-thermometer.young-alumni .guage { width:450px; height:88px; position:relative; background:transparent url(images/thermometer_ya.png) top right no-repeat; }
   .node-donation-thermometer.young-alumni .value { position:absolute; left:0px; bottom:0px; text-align:center; height:100%; background:transparent url(images/thermometer_ya_full.png) bottom left no-repeat; }
 
+  /* Profile */
+  .node-profile { float:left; }
+  .node-profile .type { display: none; }
+  .node-profile .profile-right { width: 204px; float:right; margin:-18px -20px 18px 18px; padding:18px; }
+    .node-profile .profile-image { background-color:#FFFFFF; margin:0px 0px 10px 0px; }
+    .node-profile .box { width:180px; margin:0px 0px 18px 0px; padding:25px 11px 11px 11px; font-style:normal; }
+    .node-profile .profile-feed { clear:both; margin-bottom:12px; }
+    .node-profile .profile-right h2 { font-weight:bold; font-size:1em; }
+  .node-profile .profile-card { background-color:#efeee9; border:1px solid #D4D6C8; padding:18px; margin-bottom:18px; margin-right:7px; line-height:1.6em; width:420px; }
+    .node-profile .profile-card h1.fn { color:#272C6F; }
+    .node-profile .profile-card h2 { font-size:1.1em; font-weight:bold; }
+    .node-profile .profile-card label { display:inline; font-weight:bold; }
+  .node-profile .contents { width: 678px; }
+  .profile-extras p { margin:10px 15px; font-size: 0.929em; }
+      .node-profile .profile-extras h2, .profile .biblio-separator-bar { background-color:#e6eaee; color:#333300; padding:6px 6px 4px 6px; font-size:1em; font-weight:bold; font-family:sans-serif; margin-top:8px; border:1px solid #b9c3ce; display:inline-block; min-width:443px; }
+      .profile-extras .field-name-middlebury-course-list .field-label { display:none; }
+      .profile-extras h6 { margin-left:5px; }
+      .profile-extras ul { list-style-type:none; margin: 0 1.0em 0 0.8em; }
+      .profile-extras li a { border-bottom: 1px dotted #003366; }
+      .profile-extras li a:hover { color:#003366; border-bottom:1px solid #003366; background-color: #eeffcc; }
+
+  .node-profilelist { display:inline-block; position:relative; width:330px; vertical-align:top; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; float:none; margin-bottom:22px; background-color:#EFEEE9; border:1px solid #D4D6C8; font-size:0.88em; line-height:1.5em; padding:16px 16px 8px 16px; clear:both; }
+    .node-profilelist:nth-of-type(2n+1) { margin-right:18px; }
+    .node-profilelist .profile-right { float:right; margin:-4px -4px 5px 8px; padding:0px; width:auto; }
+    .node-profilelist .profile-image { background:transparent; }
+    .node-profilelist .profile-card { background:transparent; width:auto; border:none; padding:0px; margin:0px; }
+      .node-profilelist .profile-card h1 { line-height:1.6em; height:auto; font-weight:bold; }
+    .node-profilelist .profile-card h2, .node-profilelist .profile-card h3 { font-size:1em; font-weight:bold; border:none; }
+
   /* Quick Access */
   .qa_results { border:1px solid #CCCCCC; width:14em; background-color:#FFFFFF; z-index:200; position:relative; }
   .qa_results_list { list-style-type:none; padding:0px; margin:0px; line-height:1.2em; }
@@ -518,7 +548,7 @@ h1, .opening { color:#03466C; }
 h2, .node h1 { color:#333366; }
 h3 { color:#660000; }
 h4 { color:#084B71; }
-h5 { color:#084B71; }
+h5, .profile-card h2 { color:#084B71; }
 h6 { color:#660000; }
 blockquote { border-color:#3A76A8; color:#084B71; }
 aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; }
@@ -535,7 +565,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 .leaf h2, .leaf .node h1 { color:#003300; }
 .leaf h3 { color:#0C5A0C; }
 .leaf h4 { color:#549959; }
-.leaf h5 { color:#4EAE34; }
+.leaf h5, .leaf .profile-card h2 { color:#4EAE34; }
 .leaf h6 { color:#7F9F65; }
 .leaf blockquote { border-color:#527546; color:#4EAE34; }
 .leaf aside.sidebar header h1, .leaf aside.sidebar header:after { background-color:#527546; }
@@ -552,7 +582,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 .apple h2, .apple .node h1 { color:#6C492D; }
 .apple h3 { color:#A0BC0B; }
 .apple h4 { color:#C43737; }
-.apple h5 { color:#B32629; }
+.apple h5, .apple .profile-card h2 { color:#B32629; }
 .apple h6, .apple h2.question { color:#4A972E; }
 .apple blockquote { border-color:#790E39; color:#B32629; }
 .apple aside.sidebar header h1, .apple aside.sidebar header:after { background-color:#790E39; }
@@ -569,7 +599,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 .sun h2, .sun .node h1 { color:#DD9E27; }
 .sun h3 { color:#D9C621; }
 .sun h4 { color:#AAA448; }
-.sun h5 { color:#D9A900; }
+.sun h5, .sun .profile-card h2 { color:#D9A900; }
 .sun h6, .sun h2.question { color:#DD9E27; }
 .sun blockquote { border-color:#CD9C18; color:#AAA448; }
 .sun aside.sidebar header h1, .apple aside.sidebar header:after { background-color:#CD9C18; }
@@ -586,7 +616,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 .lake h2, .lake .node h1 { color:#107F95; }
 .lake h3 { color:#5CBEA7; }
 .lake h4 { color:#3A76A8; }
-.lake h5 { color:#409792; }
+.lake h5, .lake .profile-card h2 { color:#409792; }
 .lake h6, .lake h2.question { color:#74AF44; }
 .lake blockquote { border-color:#117D81; color:#409792; }
 .lake aside.sidebar header h1, .lake aside.sidebar header:after { background-color: #0e6f4f; }
@@ -603,7 +633,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 .grape h2, .grape .node h1 { color:#A0011C; }
 .grape h3 { color:#853533; }
 .grape h4 { color: #5b1c79; }
-.grape h5 { color: #785b8b; }
+.grape h5, .grape .profile-card h2 { color: #785b8b; }
 .grape h6, .grape h2.question { color:#6026B3; }
 .grape blockquote { border-color:#790E39; color: #8140b5; }
 .grape aside.sidebar header h1, .grape aside.sidebar header:after { background-color:#790E39; }
@@ -620,7 +650,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 .maple h2, .maple .node h1 { color:#95613A; }
 .maple h3 { color:#AC8602; }
 .maple h4 { color:#944d00; }
-.maple h5 { color:#5f3f1d; }
+.maple h5, .maple .profile-card h2 { color:#5f3f1d; }
 .maple h6, .maple h2.question { color:#461E18; }
 .maple blockquote { border-color:#790E39; color: #a96f1f; }
 .maple aside.sidebar header h1, .maple aside.sidebar header:after { background-color:#9d7932; }

@@ -79,6 +79,12 @@ jQuery(document).ready(function(jQuery) {
     },500));
   });
 
+  // Course and Section lists
+  jQuery('.coursedesc,.sectiondesc').hide();
+  jQuery('.coursetitle,.sectiontitle').css('cursor','pointer').click(function() {
+    jQuery(this).next().slideToggle('400');
+  });
+
   // Carousel
   var carousel = jQuery('#midd_carousel');
   if (carousel.length) {
