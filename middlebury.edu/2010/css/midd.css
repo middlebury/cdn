@@ -435,6 +435,18 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 
 /* Content Types */
 
+  /* BLSE Profile */
+  .node-blse-profile header { width:460px; display:inline-block; }
+  .node-blse-profile h1 { font-weight:bold; }
+  .node-blse-profile figure { padding:0px; margin:0px 0px 0px 18px; float:right; border:1px solid #D4D6C8; }
+  .node-blse-profile figure img { display:block; }
+  .node-blse-profile .blse_profile-date { color:#666633; font-size:0.857em; line-height:1.4em; margin-bottom:6px; }
+
+  .node-blse-profileclear { margin-bottom:18px; }
+  .node-blse-profilelist header { width:420px; }
+  .node-blse-profilelist h1 { font-family:Garamond,"Times New Roman",serif; font-size:1.2em; margin-bottom:1em; font-weight:normal; }
+  .node-blse-profilelist figure.left { float:left; margin:0px 18px 0px 0px; width:240px; }
+
   /* Donations Thermometer */
   .node-donation-thermometer .value { color:transparent; }
   .node-donation-thermometer.classic-m .gauge { width:180px; height:180px; position:relative; background:#333333 url(images/thermometer.gif) top left no-repeat; }
@@ -477,6 +489,15 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     .node-profilelist .profile-card { background:transparent; width:auto; border:none; padding:0px; margin:0px; }
       .node-profilelist .profile-card h1 { line-height:1.6em; height:auto; font-weight:bold; }
     .node-profilelist .profile-card h2, .node-profilelist .profile-card h3 { font-size:1em; font-weight:bold; border:none; }
+
+  /* Job Description */
+  .node-jobdescription h1 { font-weight:bold; }
+  .node-jobdescription .field { margin-bottom:1em; clear:both; }
+  .node-jobdescription .field-name-field-controlnumber { display:inline; float:left; padding-right:8px; }
+  .node-jobdescription .field-name-field-jdmultiplepds { display:inline-block; }
+
+  .node-jobdescriptionlist { margin-bottom:1em; }
+  .node-jobdescriptionlist h1 { font-weight:normal; font-size:1em; }
 
   /* Quick Access */
   .qa_results { border:1px solid #CCCCCC; width:14em; background-color:#FFFFFF; z-index:200; position:relative; }
@@ -565,7 +586,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 
 /* Theme: Leaf */
 
-.leaf h1 { color:#063; }
+.leaf h1, .leaf .node.node-jobdescription h1 { color:#063; }
 .leaf .opening { color:#527546; }
 .leaf h2, .leaf .node h1 { color:#003300; }
 .leaf h3 { color:#0C5A0C; }
@@ -582,7 +603,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 
 /* Theme: Apple */
 
-.apple h1  { color:#603; }
+.apple h1, .apple .node.node-jobdescription h1 { color:#603; }
 .apple .opening { color:#790E39; }
 .apple h2, .apple .node h1 { color:#6C492D; }
 .apple h3 { color:#A0BC0B; }
@@ -599,7 +620,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 
 /* Theme: Sun */
 
-.sun h1 { color:#630; } 
+.sun h1, .sun .node.node-jobdescription h1 { color:#630; } 
 .sun .opening { color:#E69226; }
 .sun h2, .sun .node h1 { color:#DD9E27; }
 .sun h3 { color:#D9C621; }
@@ -616,7 +637,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 
 /* Theme: Lake */
 
-.lake h1 { color:#066; }
+.lake h1, .lake .node.node-jobdescription h1 { color:#066; }
  .lake .opening { color:#117D81; }
 .lake h2, .lake .node h1 { color:#107F95; }
 .lake h3 { color:#5CBEA7; }
@@ -633,7 +654,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 
 /* Theme: Grape */
 
-.grape h1 { color:#606; }
+.grape h1, .grape .node.node-jobdescription h1 { color:#606; }
 .grape .opening { color:#790E39; }
 .grape h2, .grape .node h1 { color:#A0011C; }
 .grape h3 { color:#853533; }
@@ -650,7 +671,7 @@ aside.sidebar header h1, aside.sidebar header:after { background-color:#1158a0; 
 
 /* Theme: Maple */
 
-.maple h1 { color:#630; }
+.maple h1, .maple .node.node-jobdescription h1 { color:#630; }
 .maple .opening { color:#AF760A; }
 .maple h2, .maple .node h1 { color:#95613A; }
 .maple h3 { color:#AC8602; }
