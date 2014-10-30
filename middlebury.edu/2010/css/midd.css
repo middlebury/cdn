@@ -531,6 +531,17 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .qa_blur, .qa_noquery, .qa_nonefound { display:none; }
   .qa_toomany li { padding:2px 0.5em; }
 
+  /* Story */
+  .node-story { margin-bottom:18px; }
+  .node-story h1 { font-weight:normal; font-family:Garamond,"Times New Roman",serif; font-size:1.2em; }
+  .node-story .story-image { margin:0px; padding:0px; }
+  .node-story .news-media, .node-story .field-name-field-links { clear:both; margin-top:12px; }
+  .node-story figure, .node-story section { display:table-cell; vertical-align:top; }
+    .node-story figure { width:120px; }
+      .node-story figure img { border:1px solid #D4D6C8; }
+    .node-story section { padding-left:20px; }
+      .node-story div, .node-story span, .node-story p { font-size:13px; line-height:1.3em; display:inline; }
+
   /* Webform */
   .webform-client-form label { font-weight:bold; }
     .webform-client-form label.option { font-weight:normal; }
