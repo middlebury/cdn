@@ -27,7 +27,7 @@ form.google_custom_search { margin-left:0px; }
 body.sidebar #cse .gsc-above-wrapper-area, body.sidebar #cse .gsc-wrapper { width:450px; }
 body.sidebar #cse .gsc-tabsArea { display:none; }
 
-#page .box.filled { background-color:#AECDE9; border:none; font-size:1.15em; padding:11px; margin:0 0 18px 0; }
+.box.filled { background-color:#AECDE9; border:none; font-size:1.15em; padding:11px; margin:0 0 18px 0; }
 .box p, .box ul, .box ul li { display:inline; }
 div.sidebar .box p { display:block; }
 div.sidebar .box ul { display:block; list-style-type: disc; margin-right:0px; }
