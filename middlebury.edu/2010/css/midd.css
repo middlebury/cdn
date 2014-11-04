@@ -521,6 +521,9 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .node-jobdescriptionlist { margin-bottom:1em; }
   .node-jobdescriptionlist h1 { font-weight:normal; font-size:1em; }
 
+  /* Opportunity */
+  .node-opportunity .field { margin-bottom:1em; }
+
   /* Quick Access */
   .qa_results { border:1px solid #CCCCCC; width:14em; background-color:#FFFFFF; z-index:200; position:relative; }
   .qa_results_list { list-style-type:none; padding:0px; margin:0px; line-height:1.2em; }
