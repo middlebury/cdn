@@ -85,6 +85,19 @@ jQuery(document).ready(function(jQuery) {
     jQuery(this).next().slideToggle('400');
   });
 
+  // Donation Thermometers
+  jQuery('.node-donation-thermometer').each(function() {
+    var horizontal = jQuery(this).is('.march-general') || jQuery(this).is('.young-alumni');
+    var progress = jQuery(this).find('.value');
+    if (horizontal) {
+      progress.width(400 * progress.html() / 100);
+    } else if (jQuery(this).is('.midd-match')) {
+      progress.height(129 * progress.html() / 100);
+    } else {
+      progress.height(123 * progress.html() / 100 + 30);
+    }
+  });
+
   // FAQs
   jQuery('details:not([open]) section').hide();
   jQuery('details summary').css('cursor','pointer').click(function(e) {

@@ -449,13 +449,15 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .node-blse-profilelist figure.left { float:left; margin:0px 18px 0px 0px; width:240px; }
 
   /* Donations Thermometer */
-  .node-donation-thermometer .value { color:transparent; }
-  .node-donation-thermometer.classic-m .gauge { width:180px; height:180px; position:relative; background:#333333 url(images/thermometer.gif) top left no-repeat; }
-  .node-donation-thermometer.classic-m .value { position:absolute; left:0px; bottom:0px; text-align:center; width:100%; background:#0D5A92 url(images/thermometer.gif) bottom right no-repeat; }
-  .node-donation-thermometer.march-general .gauge { width:450px; height:88px; position:relative; background: transparent url(images/thermometer_march.png) top right no-repeat; }
-  .node-donation-thermometer.march-general .value { position:absolute; left:0px; bottom:0px; text-align: center; height:100%; background:transparent url(images/thermometer_march_full.png) bottom left no-repeat; }
-  .node-donation-thermometer.young-alumni .guage { width:450px; height:88px; position:relative; background:transparent url(images/thermometer_ya.png) top right no-repeat; }
-  .node-donation-thermometer.young-alumni .value { position:absolute; left:0px; bottom:0px; text-align:center; height:100%; background:transparent url(images/thermometer_ya_full.png) bottom left no-repeat; }
+.node-donation-thermometer .value { color:transparent; }
+.node-donation-thermometer.classic-m .gauge { width:180px; height:180px; position:relative; background:#333333 url(../images/thermometer.gif) top left no-repeat; }
+.node-donation-thermometer.classic-m .value { position:absolute; left:0px; bottom:0px; text-align:center; width:100%; background:#0D5A92 url(../images/thermometer.gif) bottom right no-repeat; }
+.node-donation-thermometer.march-general .gauge { width:450px; height:88px; position:relative; background: transparent url(../images/thermometer_march.png) top right no-repeat; }
+.node-donation-thermometer.march-general .value { position:absolute; left:0px; bottom:0px; text-align: center; height:100%; background:transparent url(../images/thermometer_march_full.png) bottom left no-repeat; }
+.node-donation-thermometer.young-alumni .guage { width:450px; height:88px; position:relative; background:transparent url(../images/thermometer_ya.png) top right no-repeat; }
+.node-donation-thermometer.young-alumni .value { position:absolute; left:0px; bottom:0px; text-align:center; height:100%; background:transparent url(../images/thermometer_ya_full.png) bottom left no-repeat; }
+.node-donation-thermometer.midd-match .gauge { width:386px; height:157px; position:relative; background:transparent url(../images/thermometer_match.png) top left no-repeat; }
+.node-donation-thermometer.midd-match .value { position:absolute;; left:0px; bottom:0px; text-align:center; width:100%; background:transparent url(../images/thermometer_match_full.png) bottom left no-repeat; }
 
   /* FAQs */
   .node-faq { margin-bottom:19px; display:block; }
