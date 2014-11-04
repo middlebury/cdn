@@ -535,6 +535,9 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .qa_blur, .qa_noquery, .qa_nonefound { display:none; }
   .qa_toomany li { padding:2px 0.5em; }
 
+  /* SA Course Info */
+  .node-sa-cid .field { margin-bottom:1em; }
+
   /* Story */
   .node-story { margin-bottom:18px; }
   .node-story h1 { font-weight:normal; font-family:Garamond,"Times New Roman",serif; font-size:1.2em; }
@@ -545,6 +548,9 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
       .node-story figure img { border:1px solid #D4D6C8; }
     .node-story section { padding-left:20px; }
       .node-story div, .node-story span, .node-story p { font-size:13px; line-height:1.3em; display:inline; }
+
+  /* Sustainability Project */
+  .node-sustainability-project .field { margin-bottom:1em; }
 
   /* Webform */
   .webform-client-form label { font-weight:bold; }
