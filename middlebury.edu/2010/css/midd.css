@@ -342,6 +342,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 
     /* Content Region */
     .page { float:left; width:684px; background-color:#FFFFFF; border-top:4px solid #CCCC99; padding:18px; }
+      .homepage #block-system-main { display:none; }
       .fullwidth .page { width:924px; border:none; }
 
       /* Right Sidebar */
@@ -499,7 +500,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     .node-profile .profile-card label { display:inline; font-weight:bold; }
   .node-profile .contents { width: 678px; }
   .profile-extras p { margin:10px 15px; font-size: 0.929em; }
-      .node-profile .profile-extras h2, .profile .biblio-separator-bar { background-color:#e6eaee; color:#333300; padding:6px 6px 4px 6px; font-size:1em; font-weight:bold; font-family:sans-serif; margin-top:8px; border:1px solid #b9c3ce; display:inline-block; min-width:443px; }
+      .node-profile .profile-extras h2, .node-profile .profile-extras h4, .profile .biblio-separator-bar { background-color:#e6eaee; color:#333300; padding:6px 6px 4px 6px; font-size:1em; font-weight:bold; font-family:sans-serif; margin-top:8px; border:1px solid #b9c3ce; display:inline-block; min-width:443px; }
       .profile-extras .field-name-middlebury-course-list .field-label { display:none; }
       .profile-extras h6 { margin-left:5px; }
       .profile-extras ul { list-style-type:none; margin: 0 1.0em 0 0.8em; }
