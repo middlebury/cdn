@@ -692,7 +692,7 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 .sun h5, .sun .profile-card h2 { color:#D9A900; }
 .sun h6, .sun .node-faq summary, .sun .node-news .news-media-name { color:#DD9E27; }
 .sun blockquote { border-color:#CD9C18; color:#AAA448; }
-.sun aside.sidebar header h1, .apple aside.sidebar header:after, .sun .news-media h2, .sun .node-news .field-name-field-links .field-label { background-color:#CD9C18; }
+.sun aside.sidebar header h1, .sun aside.sidebar header:after, .sun .news-media h2, .sun .node-news .field-name-field-links .field-label { background-color:#CD9C18; }
 .sun .taskbar article:nth-of-type(3n+1) h1 { background-color:#AAC514; }
 .sun .taskbar article:nth-of-type(3n+2) h1 { background-color:#FFE371; }
 .sun .taskbar article:nth-of-type(3n+3) h1 { background-color:#E9BA00; }
