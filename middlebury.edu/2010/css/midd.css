@@ -466,6 +466,9 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .node-faq summary, .node-faq summary a { font-size:1.2em; color:#336600; font-weight:bold; border:0; }
   .node-faq .contents { padding-left:20px; border-left:1px solid #dadada; }
 
+  /* File Upload - Media */
+  aside.sidebar .node-mm-media .contents { padding:0px; border:none; margin:0px 0px 18px 0px; }
+
   /* News */
   .node-news h1 { font-weight:bold; }
   .node-news .news-date { color:#666633; font-size:0.857em; line-height:1.4em; margin-bottom:6px; }
