@@ -352,6 +352,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
           aside.sidebar .node header h1 { color:#FFFFFF; }
         aside.sidebar header:after { height:32px; width:34px; margin:0px auto; content:""; display:block; background-image:url(../images/arrow.png); background-position:50% 0px; background-repeat:no-repeat; z-index:100; position:relative; }
         aside.sidebar .contents { padding:25px 11px 11px 11px; border:1px dashed #999966; margin:-21px 0px 18px 0px; position:relative; }
+        aside.sidebar .terms.tags { display:none; }
 
       /* Body Content */
       .breadcrumb { color:#666666; font-size:0.875em; margin-bottom:18px; }
@@ -366,7 +367,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .carousel { color:#FFFFFF; height:240px; margin:18px 0px; position:relative; overflow:hidden; }
     .carousel a { color:#CCFF66; text-decoration:none; border:none; padding:0px; }
     .carousel a:hover { color:#A9D4FF; text-decoration:underline; border:none; background-color:transparent; border-bottom:1px dotted; }
-    .carousel h2, .carousel h3, .carousel h4, .carousel h5, .carousel h6 { color:#83B2F9; }
+    .carousel .node h1, .carousel .node h2, .carousel .node h3, .carousel .node h4, .carousel .node h5, .carousel .node h6 { color:#83B2F9; font-size:1.2em; }
   .carousel .block { border:dashed #FFFFFF; border-width:1px 1px 1px 0px; list-style-type:none; height:238px; margin:0px; }
     .carousel .node, .carousel .link-wrapper { border-left:1px dashed #FFFFFF; height:180px; padding:30px; margin:0px; float:left; }
     .carousel .content > a { display:none; }
