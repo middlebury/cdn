@@ -71,6 +71,14 @@ ul, ol { margin-left:1.5em; margin-bottom:0.8em; }
   .bordered .last { border-right:none; }
 .fullbleed { margin:0px -20px 0px -20px; display:block; }
 
+.arabic { font-family:"Simplified Arabic","Traditional Arabic","Helvetica Neue",Arial,Helvetica,sans-serif; }
+.big { font-size:1.6em; line-height:1.25em; }
+.caption { font-style:italic; font-size:0.929em; color:#888; line-height:1.25; margin:3px; }
+.fineprint { font-size:0.857em; color:#666633; letter-spacing:1px; }
+.headline { font-family:Georgia, serif; font-weight:normal; font-size:1.2em; }
+.small { font-size:0.929em; line-height:1.25em; }
+.verybig { font-size:2em; line-height:1.25em; }
+
 /* Body top to bottom */
 body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em; line-height:1.4; background-color:#071427;  background-image:url(../images/bluegradient.jpg); background-position:center 194px; background-repeat:repeat-x; color:#333333; }
 .skiplink { position:absolute; top:0; left:-9999px; width:9em; padding:5px; color:#00f; background-color:#ff9; border:1px solid #993; text-align:center; z-index:9999; }
