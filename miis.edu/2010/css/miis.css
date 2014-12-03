@@ -584,3 +584,6 @@ details p.tags a { color:#336699; }
 .node-storylist time { font-weight:bold; display:inline; }
 .node-storylist time+p, .node-storylist time+div, .node-storylist time *, .node-storylist time+div * { display:inline; }
   .node-storylist aside .mm-gallery-caption { display:none; }
+
+/* Webform */
+.webform-client-form .form-item .description { white-space:pre-line; }
