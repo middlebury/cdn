@@ -562,6 +562,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   /* Webform */
   .webform-client-form label { font-weight:bold; }
     .webform-client-form label.option { font-weight:normal; }
+  .webform-client-form .form-item .description { white-space:pre-line; }
 
 /* Page Themes */
 
