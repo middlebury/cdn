@@ -463,6 +463,8 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 
   /* FAQs */
   .node-faq { margin-bottom:19px; display:block; }
+  .node-faq summary::-webkit-details-marker { display:none; }
+  .node-faq summary { margin-bottom:6px; display:block; }
   .node-faq summary, .node-faq summary a { font-size:1.2em; color:#336600; font-weight:bold; border:0; }
   .node-faq .contents { padding-left:20px; border-left:1px solid #dadada; }
 
@@ -661,11 +663,11 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 
 .leaf h1, .leaf .node.node-jobdescription h1 { color:#063; }
 .leaf .opening { color:#527546; }
-.leaf h2, .leaf .node h1 { color:#003300; }
+.leaf h2, .leaf .node h1, .leaf .node-faq summary { color:#003300; }
 .leaf h3 { color:#0C5A0C; }
 .leaf h4 { color:#549959; }
 .leaf h5, .leaf .profile-card h2 { color:#4EAE34; }
-.leaf h6, .leaf .node-faq summary, .leaf .node-news .news-media-name { color:#7F9F65; }
+.leaf h6, .leaf .node-news .news-media-name { color:#7F9F65; }
 .leaf blockquote { border-color:#527546; color:#4EAE34; }
 .leaf aside.sidebar header h1, .leaf aside.sidebar header:after, .leaf .news-media h2, .leaf .node-news .field-name-field-links .field-label { background-color:#527546; }
 .leaf .taskbar article:nth-of-type(3n+1) h1 { background-color:#7ED7B9; }
