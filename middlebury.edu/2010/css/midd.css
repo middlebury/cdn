@@ -696,7 +696,7 @@ h2, .node h1 { color:#333366; }
 h3 { color:#660000; }
 h4 { color:#084B71; }
 h5, .profile-card h2 { color:#084B71; }
-h6, .node-faq summary, .node-news .news-media-name { color:#660000; }
+h6, .node-news .news-media-name { color:#660000; }
 blockquote { border-color:#3A76A8; color:#084B71; }
 aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news .field-name-field-links .field-label { background-color:#1158a0; }
 .taskbar article:nth-of-type(3n+1) h1 { background-color:#84C2FF; }
