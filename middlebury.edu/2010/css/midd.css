@@ -551,6 +551,14 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .qa_blur, .qa_noquery, .qa_nonefound { display:none; }
   .qa_toomany li { padding:2px 0.5em; }
 
+  /* RSS Page */
+  .node-rss-page .contents > .item-list, .node-rss-page #rss-page > fieldset > legend, .node-rss-page .feed-source, .node-rss-page .feed-item-source { display:none; }
+  .node-rss-page #rss-page > fieldset { border:none; padding:0px; margin:0px; }
+  aside.sidebar .node-rss-page .feed-item { padding:8px 12px 8px 12px; }
+  .node-rss-page .feed-item-title { padding-bottom:5px; }
+  .node-rss-page #rss-page a, .node-rss-page #rss-page a:visited { color:#114477; text-decoration:none; border:none; }
+    .node-rss-page #rss-page a:hover { border-bottom:1px dotted #114477; text-decoration:none; }
+
   /* SA Course Info */
   .node-sa-cid .field { margin-bottom:1em; }
 
