@@ -485,9 +485,8 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 
   .node-newslist { margin-bottom:18px; }
   .node-newslist figure, .node-newslist section { display:table-cell; vertical-align:top; }
-    .node-newslist figure { width:120px; }
+    .node-newslist figure.news-image { width:120px; padding-right:20px; }
       .node-newslist figure img { border:1px solid #D4D6C8; }
-    .node-newslist section { padding-left:20px; }
       .node-newslist h1 { font-weight:normal; font-family:Garamond,"Times New Roman",serif; font-size:1.2em; }
       .node-newslist div, .node-newslist span, .node-newslist p { font-size:13px; line-height:1.3em; display:inline; }
         .node-newslist .news-date { color:#000000; font-weight:bold; }
