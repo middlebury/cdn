@@ -572,6 +572,37 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 
 /* Page Themes */
 
+  /* 404 */
+  .seasonal { display:none; }
+  body.spring { background-image:url('../images/404_spring.jpg'); }
+    body.spring .pagecontent header { margin-top:410px; }
+    body.spring h1, body.spring h2, body.spring h2 a { color:#FFFFFF; }
+    body.spring .seasonal.spring { display:block; }
+  body.summer { background-image:url('../images/404_summer.jpg'); }
+    body.summer .pagecontent header { margin-top:100px; }
+    body.summer h1, body.summer h2, body.summer h2 a { color:#FFFFFF; }
+    body.summer .seasonal.summer { display:block; }
+  body.autumn { background-image:url('../images/404_autumn.jpg'); }
+    body.autumn .pagecontent header { margin-top:30px; }
+    body.autumn h1, body.autumn h2, body.autumn h2 a { color:#000000; }
+    body.autumn .seasonal.autumn { display:block; }
+  body.winter { background-image:url('../images/404_winter.jpg'); }
+    body.winter .pagecontent header { margin-top:500px; }
+    body.winter h1, body.winter h2, body.winter h2 a { color:#071427; }
+    body.winter .seasonal.winter { display:block; }
+  .not-found h1.wordmark { margin:0px; }
+    .not-found #block-middlebury-midd-blocks-midd-header-wordmark-blue { display:none; }
+    .not-found.autumn #block-middlebury-midd-blocks-midd-header-wordmark { display:none; }
+    .not-found.autumn #block-middlebury-midd-blocks-midd-header-wordmark-blue { display:block; }
+  .not-found .leftlinks { left:600px; color:#071427; }
+  .not-found .leftlinks a { color:#071427; }
+  .not-found .pagecontent { background:transparent; }
+    .not-found .pagecontent header a { border:none; text-decoration:underline; }
+    .not-found .pagecontent header a:hover { background:transparent; }
+  .not-found h1 { font-size:2.5em; }
+  .not-found h1, .not-found h2 { font-family:Georgia,serif; }
+  .not-found .credits { margin-top:350px; width:400px; font-style:italic; font-size:0.929em; color:#FFFFFF; line-height:1.25; }
+
   /* Banner */
   .midd_banner .page { position:relative; }
   .midd_banner #block-monster-menus-7 { position:absolute; top:0px; left:0px; }
