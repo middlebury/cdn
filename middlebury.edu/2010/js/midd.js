@@ -56,6 +56,12 @@ jQuery(document).ready(function(jQuery) {
   if(search_submit) search_submit.className=search_submit.className+' ir';
   if(navigation) getFirstChild(navigation).className='ir';
 
+  // Department Banner Image Links
+  var midd_banner = jQuery('#midd_banner');
+  if (midd_banner.data('theme-page')) {
+    midd_banner.find('.node-mm-media img').wrap('<a href="'+midd_banner.data('theme-page')+'"></a>');
+  }
+
   // Dropdowns
   var dropdowns = jQuery('#midd_taskbar .node');
   dropdowns.each(function() {
