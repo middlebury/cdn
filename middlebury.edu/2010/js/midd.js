@@ -121,6 +121,22 @@ jQuery(document).ready(function(jQuery) {
     return false;
   });
 
+  // Gallery click overlay
+  if (typeof imagesLoaded == 'function') {
+    var imgLoad = imagesLoaded('body');
+    imgLoad.on('always', function() {
+      jQuery('.mm-gallery-single > a.noborder').each(function() {
+        var gallery_overlay = jQuery('<div class="mm-gallery-overlay"></div>');
+        jQuery(this).append(gallery_overlay);
+        var gallery_image = jQuery(this).find('img')[0];
+        gallery_overlay.css('top', gallery_image.height / 2 - 81);
+        gallery_overlay.css('left', gallery_image.width / 2 - 114.5);
+        jQuery(this).width(gallery_image.width);
+        jQuery(this).parent().find('.mm-gallery-caption').width(gallery_image.width);
+      });
+    });
+  }
+
   // Carousel
   var carousel = jQuery('#midd_carousel');
   if (carousel.length) {
