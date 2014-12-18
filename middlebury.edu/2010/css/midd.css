@@ -98,7 +98,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     .search_submit { border:none; background-color:transparent; font-weight:bold; font-size:0.857em; color:#D2D4D6; padding:0px; height:16px; margin-right:-8px; }
     .search_submit.ir { text-indent:-999em; overflow:hidden; background:url(../images/arrow_go.gif) no-repeat center center; width:8px; padding:0px 4px; margin-right:-4px; }
 
-  .container h1.wordmark { font-family:Garamond,"Times New Roman",serif; margin:0px auto; width:206px; padding:24px 0px 18px; font-size:3.2em; line-height:1; color:#fff; background-color:transparent; border:none; }
+  .container h1.wordmark { font-family:Garamond,"Times New Roman",serif; margin:0px auto; width:380px; padding:24px 0px 18px; font-size:3.2em; line-height:1; color:#fff; background-color:transparent; border:none; }
     h1.wordmark a { font-weight:normal; background-color:transparent; border:none; padding:0px; color:#fff; }
     .homepage .wordmark { padding:42px 0px 0px; }
 
