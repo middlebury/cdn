@@ -62,7 +62,7 @@ ul,ol { margin-left:1.5em; margin-bottom:0.8em; }
 .small { font-size:0.929em; line-height:1.25em; }
 .summary { font-size:0.929em; line-height:1.3em; }
 .tags { font-size:0.929em; color:#999966; }
-  .tags div { display:inline-block; }
+  .tags div { display:inline; }
   .tags a { -moz-border-radius-bottomleft:3px; -moz-border-radius-bottomright:3px; -moz-border-radius-topleft:3px; -moz-border-radius-topright:3px; background-color:#F4F4EA; border:1px solid #CCCCCC; cursor:default; margin:2px 0.2em; padding:0.1em 0.2em; }
   .tags a:hover { text-decoration:none; background-color:#E9E9E9; }
   .tags ul { margin-left:0; }
@@ -371,6 +371,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .carousel .block { border:dashed #FFFFFF; border-width:1px 1px 1px 0px; list-style-type:none; height:238px; margin:0px; }
     .carousel .node, .carousel .link-wrapper { border-left:1px dashed #FFFFFF; height:180px; padding:30px; margin:0px; float:left; }
     .carousel .content > a { display:none; }
+  .carousel .field-type-taxonomy-term-reference, .carousel .terms { display:none; }
 
   /* Columns */
   .columns { }
@@ -463,11 +464,18 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 
   /* FAQs */
   .node-faq { margin-bottom:19px; display:block; }
+  .node-faq summary::-webkit-details-marker { display:none; }
+  .node-faq summary { margin-bottom:6px; display:block; }
   .node-faq summary, .node-faq summary a { font-size:1.2em; color:#336600; font-weight:bold; border:0; }
   .node-faq .contents { padding-left:20px; border-left:1px solid #dadada; }
 
   /* File Upload - Media */
   aside.sidebar .node-mm-media .contents { padding:0px; border:none; margin:0px 0px 18px 0px; }
+
+  /* Gallery */
+  .mm-gallery-single { display:inline; }
+  .mm-gallery-single a.noborder { position:relative; display:block; }
+  .mm-gallery-overlay { background-image: url(../images/click-to-play.png); position:absolute; top:0; left:0; width:229px; height:162px; display:block; z-index:100; }
 
   /* News */
   .node-news h1 { font-weight:bold; }
@@ -483,12 +491,14 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 
   .node-newslist { margin-bottom:18px; }
   .node-newslist figure, .node-newslist section { display:table-cell; vertical-align:top; }
-    .node-newslist figure { width:120px; }
+    .node-newslist figure.news-image { width:120px; padding-right:20px; }
       .node-newslist figure img { border:1px solid #D4D6C8; }
-    .node-newslist section { padding-left:20px; }
       .node-newslist h1 { font-weight:normal; font-family:Garamond,"Times New Roman",serif; font-size:1.2em; }
       .node-newslist div, .node-newslist span, .node-newslist p { font-size:13px; line-height:1.3em; display:inline; }
         .node-newslist .news-date { color:#000000; font-weight:bold; }
+
+  /* Promotional Calendar */
+  aside.sidebar+.body .node-promocal { width:450px; }
 
   /* Profile */
   .node-profile { float:left; }
@@ -542,6 +552,14 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .qa_blur, .qa_noquery, .qa_nonefound { display:none; }
   .qa_toomany li { padding:2px 0.5em; }
 
+  /* RSS Page */
+  .node-rss-page .contents > .item-list, .node-rss-page #rss-page > fieldset > legend, .node-rss-page .feed-source, .node-rss-page .feed-item-source { display:none; }
+  .node-rss-page #rss-page > fieldset { border:none; padding:0px; margin:0px; }
+  aside.sidebar .node-rss-page .feed-item { padding:8px 12px 8px 12px; }
+  .node-rss-page .feed-item-title { padding-bottom:5px; }
+  .node-rss-page #rss-page a, .node-rss-page #rss-page a:visited { color:#114477; text-decoration:none; border:none; }
+    .node-rss-page #rss-page a:hover { border-bottom:1px dotted #114477; text-decoration:none; }
+
   /* SA Course Info */
   .node-sa-cid .field { margin-bottom:1em; }
 
@@ -556,6 +574,10 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     .node-story section { padding-left:20px; }
       .node-story div, .node-story span, .node-story p { font-size:13px; line-height:1.3em; display:inline; }
 
+  /* Sub-page List */
+  .node-subpglist td ul { list-style-type:none; margin:0px; padding:0px; }
+  .node-subpglist td a { font-size:1.3em; color:#336699; border:none; }
+
   /* Sustainability Project */
   .node-sustainability-project .field { margin-bottom:1em; }
 
@@ -565,6 +587,37 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .webform-client-form .form-item .description { white-space:pre-line; }
 
 /* Page Themes */
+
+  /* 404 */
+  .seasonal { display:none; }
+  body.spring { background-image:url('../images/404_spring.jpg'); }
+    body.spring .pagecontent header { margin-top:410px; }
+    body.spring h1, body.spring h2, body.spring h2 a { color:#FFFFFF; }
+    body.spring .seasonal.spring { display:block; }
+  body.summer { background-image:url('../images/404_summer.jpg'); }
+    body.summer .pagecontent header { margin-top:100px; }
+    body.summer h1, body.summer h2, body.summer h2 a { color:#FFFFFF; }
+    body.summer .seasonal.summer { display:block; }
+  body.autumn { background-image:url('../images/404_autumn.jpg'); }
+    body.autumn .pagecontent header { margin-top:30px; }
+    body.autumn h1, body.autumn h2, body.autumn h2 a { color:#000000; }
+    body.autumn .seasonal.autumn { display:block; }
+  body.winter { background-image:url('../images/404_winter.jpg'); }
+    body.winter .pagecontent header { margin-top:500px; }
+    body.winter h1, body.winter h2, body.winter h2 a { color:#071427; }
+    body.winter .seasonal.winter { display:block; }
+  .not-found h1.wordmark { margin:0px; }
+    .not-found #block-middlebury-midd-blocks-midd-header-wordmark-blue { display:none; }
+    .not-found.autumn #block-middlebury-midd-blocks-midd-header-wordmark { display:none; }
+    .not-found.autumn #block-middlebury-midd-blocks-midd-header-wordmark-blue { display:block; }
+  .not-found .leftlinks { left:600px; color:#071427; }
+  .not-found .leftlinks a { color:#071427; }
+  .not-found .pagecontent { background:transparent; }
+    .not-found .pagecontent header a { border:none; text-decoration:underline; }
+    .not-found .pagecontent header a:hover { background:transparent; }
+  .not-found h1 { font-size:2.5em; }
+  .not-found h1, .not-found h2 { font-family:Georgia,serif; }
+  .not-found .credits { margin-top:350px; width:400px; font-style:italic; font-size:0.929em; color:#FFFFFF; line-height:1.25; }
 
   /* Banner */
   .midd_banner .page { position:relative; }
@@ -600,7 +653,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     .midd_department .left a:hover, .midd_department .region-address a:hover { background-color:#EEFFCC; color:#333300; }
   .midd_department .page { border-top:0px; }
   .midd_department ul.menu { margin-left:0px; background:#FFFFFF; }
-    .midd_department div.content ul.menu li { background-color:transparent; border-color:#CCCCCC; }
+    .midd_department div.content ul.menu li { background-color:transparent; border-color:#CCCCCC; margin:0.4em 0px; padding:0px; }
       .midd_department div.content > ul.menu > li > ul.menu > li { border-color:#CCCCCC; }
       .midd_department ul.menu li a { color:#272C6F; padding-left:6px; }
       .midd_department ul.menu li a:hover { color:#333300; background:#FFFFFF; }
@@ -644,7 +697,7 @@ h2, .node h1 { color:#333366; }
 h3 { color:#660000; }
 h4 { color:#084B71; }
 h5, .profile-card h2 { color:#084B71; }
-h6, .node-faq summary, .node-news .news-media-name { color:#660000; }
+h6, .node-news .news-media-name { color:#660000; }
 blockquote { border-color:#3A76A8; color:#084B71; }
 aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news .field-name-field-links .field-label { background-color:#1158a0; }
 .taskbar article:nth-of-type(3n+1) h1 { background-color:#84C2FF; }
@@ -657,11 +710,11 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 
 .leaf h1, .leaf .node.node-jobdescription h1 { color:#063; }
 .leaf .opening { color:#527546; }
-.leaf h2, .leaf .node h1 { color:#003300; }
+.leaf h2, .leaf .node h1, .leaf .node-faq summary { color:#003300; }
 .leaf h3 { color:#0C5A0C; }
 .leaf h4 { color:#549959; }
 .leaf h5, .leaf .profile-card h2 { color:#4EAE34; }
-.leaf h6, .leaf .node-faq summary, .leaf .node-news .news-media-name { color:#7F9F65; }
+.leaf h6, .leaf .node-news .news-media-name { color:#7F9F65; }
 .leaf blockquote { border-color:#527546; color:#4EAE34; }
 .leaf aside.sidebar header h1, .leaf aside.sidebar header:after, .leaf .news-media h2, .leaf .node-news .field-name-field-links .field-label { background-color:#527546; }
 .leaf .taskbar article:nth-of-type(3n+1) h1 { background-color:#7ED7B9; }

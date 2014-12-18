@@ -56,6 +56,12 @@ jQuery(document).ready(function(jQuery) {
   if(search_submit) search_submit.className=search_submit.className+' ir';
   if(navigation) getFirstChild(navigation).className='ir';
 
+  // Department Banner Image Links
+  var midd_banner = jQuery('#midd_banner');
+  if (midd_banner.data('theme-page')) {
+    midd_banner.find('.node-mm-media img').wrap('<a href="'+midd_banner.data('theme-page')+'"></a>');
+  }
+
   // Dropdowns
   var dropdowns = jQuery('#midd_taskbar .node');
   dropdowns.each(function() {
@@ -114,6 +120,22 @@ jQuery(document).ready(function(jQuery) {
     e.stopPropagation();
     return false;
   });
+
+  // Gallery click overlay
+  if (typeof imagesLoaded == 'function') {
+    var imgLoad = imagesLoaded('body');
+    imgLoad.on('always', function() {
+      jQuery('.mm-gallery-single > a.noborder').each(function() {
+        var gallery_overlay = jQuery('<div class="mm-gallery-overlay"></div>');
+        jQuery(this).append(gallery_overlay);
+        var gallery_image = jQuery(this).find('img')[0];
+        gallery_overlay.css('top', gallery_image.height / 2 - 81);
+        gallery_overlay.css('left', gallery_image.width / 2 - 114.5);
+        jQuery(this).width(gallery_image.width);
+        jQuery(this).parent().find('.mm-gallery-caption').width(gallery_image.width);
+      });
+    });
+  }
 
   // Carousel
   var carousel = jQuery('#midd_carousel');
