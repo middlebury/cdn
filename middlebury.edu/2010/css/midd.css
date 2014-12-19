@@ -353,6 +353,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
         aside.sidebar header:after { height:32px; width:34px; margin:0px auto; content:""; display:block; background-image:url(../images/arrow.png); background-position:50% 0px; background-repeat:no-repeat; z-index:100; position:relative; }
         aside.sidebar .contents { padding:25px 11px 11px 11px; border:1px dashed #999966; margin:-21px 0px 18px 0px; position:relative; }
         aside.sidebar .terms.tags { display:none; }
+        aside.sidebar+.body textarea { width:450px; }
 
       /* Body Content */
       .breadcrumb { color:#666666; font-size:0.875em; margin-bottom:18px; }
