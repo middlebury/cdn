@@ -430,6 +430,8 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
         #block-middlebury-midd-blocks-midd-footer-return a { display:inline; }
         body.midd #block-middlebury-midd-blocks-midd-footer-quicklinks li.quick_go { margin-left:204px; }
       .footer ul li { position:relative; }
+        .footer ul li.gateways_alumni  .contents { min-width:375px; }
+          .footer ul li.gateways_alumni  .contents li { clear:left; }
         .footer ul li a { outline:none; }
         .footer ul li .contents { display:none; position:absolute; top:30px; left:0px; padding:12px; background:url(../images/dkblue_95trans.png); min-width:240px; color:#FFFFFF; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.929em; line-height:1.4; }
         .footer ul li.active .contents { display:block; }
