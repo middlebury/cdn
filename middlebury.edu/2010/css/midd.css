@@ -216,28 +216,31 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 
   .affiliates { clear:both; color:#FFFFFF; font-family:Garamond,"Times New Roman",serif; font-style:italic; line-height:20px; margin:40px auto 0px; text-align:center; width:930px; }
     .affiliates h2 { color:#FFFFFF; font-size:1.2em; font-variant:small-caps; margin:0px; }
-    .affiliates ul { font-size:1.2em; list-style-type:none; margin:0px auto; width:896px; }
-      .affiliates li { float:left; margin:0px; padding:0px 23px; }
+    .affiliates ul { font-size:1.2em; list-style-type:none; margin:0px auto; }
+      .affiliates li { float:left; margin:0px; padding:0px 10px; }
         .affiliates li a { background-color:transparent; border:medium none; color:#C7DBD7; display:block; padding:0px; position:relative; }
         .affiliates li a:hover { color:#FFFFFF; }
       .affiliates.ir li a, .affiliates.ir h2 { height:25px; overflow:hidden; position:relative; text-indent:-999em; }
       .affiliates.ir li a span, .affiliates.ir h2 span { background-image:url(../images/nav_affiliates.gif); height:100%; position:absolute; right:0px; top:0px; width:100%; }
       .affiliates h2 span { background-position:center 0px; }
-      .affiliates_languageschools { padding-bottom:5px; width:207px; }
-        .affiliates_languageschools a span { background-position:0px -25px; }
-        .affiliates_languageschools a:hover span { background-position:0px -50px; }
-      .affiliates_schoolsabroad { width:192px; }
-        .affiliates_schoolsabroad a span { background-position:-217px -25px; }
-        .affiliates_schoolsabroad a:hover span { background-position:-217px -50px; }
-      .affiliates_breadloaf { width:356px; }
-        .affiliates_breadloaf a span { background-position:-425px -25px; }
-        .affiliates_breadloaf a:hover span { background-position:-425px -50px; }
-      li.affiliates_mmla { clear:left; margin-left:67px; width:292px; }
-        .affiliates_mmla a span { background-position:-793px -25px; }
-        .affiliates_mmla a:hover span { background-position:-793px -50px; }
-      .affiliates_miis { width:308px; }
-        .affiliates_miis a span { background-position:-1084px -25px; }
-        .affiliates_miis a:hover span { background-position:-1084px -50px; }
+      li.affiliates_languageschools { padding-bottom:5px; width:208px; margin-left:40px; }
+        .affiliates_languageschools a span { background-position:-32px -25px; }
+        .affiliates_languageschools a:hover span { background-position:-32px -50px; }
+      .affiliates_breadloafschool { width:280px; }
+        .affiliates_breadloafschool a span { background-position:-255px -25px; }
+        .affiliates_breadloafschool a:hover span { background-position:-255px -50px; }
+      .affiliates_breadloafconference { width:300px; }
+        .affiliates_breadloafconference a span { background-position:-550px -25px; }
+        .affiliates_breadloafconference a:hover span { background-position:-550px -50px; }
+      .affiliates_schoolsabroad { clear:left; width:202px; }
+        .affiliates_schoolsabroad a span { background-position:-872px -25px; }
+        .affiliates_schoolsabroad a:hover span { background-position:-872px -50px; }
+      .affiliates_environment { width:265px; }
+        .affiliates_environment a span { background-position:-1080px -25px; }
+        .affiliates_environment a:hover span { background-position:-1080px -50px; }
+      .affiliates_miis { width:400px; }
+        .affiliates_miis a span { background-position:-1370px -25px; }
+        .affiliates_miis a:hover span { background-position:-1370px -50px; }
 
   /* Page Content */
   .pagecontent { position:relative; margin-top:18px; background:url(../images/background_content.gif) repeat-y left top; }
