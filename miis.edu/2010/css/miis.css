@@ -1,4 +1,4 @@
-/* Monterey Insitute styles */
+/* Middlebury Insitute styles */
 /* by White Whale Web Services */ 
 /* modified by Middlebury College Web Development */
 
@@ -182,7 +182,7 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
 
   /* Page Content */
   .page { margin-top:24px; }
-  .breadcrumb { margin:-24px 0px 0px 0px; width:458px; color:#CCCCCC; font-size:0.857em; font-weight:normal; padding:5px 6px 5px 6px; background:#003366 url(../images/seal_watermark_dk.gif) no-repeat left top; -moz-box-shadow:3px 3px 3px #131E30; -webkit-box-shadow:3px 3px 3px #131E30; position:relative; z-index:100; }
+  .breadcrumb { margin:-24px 0px 0px 0px; width:458px; color:#CCCCCC; font-size:0.857em; font-weight:normal; padding:5px 6px 5px 6px; background:#003366; -moz-box-shadow:3px 3px 3px #131E30; -webkit-box-shadow:3px 3px 3px #131E30; position:relative; z-index:100; }
     .breadcrumb a { color:#CCCCCC; padding:0px 6px 0px 6px; border: none; }
       .breadcrumb a:hover { color:#FFD231; text-decoration:underline; }
   .body { border:12px solid #DDDDDD; background-color:#FFFFFF; width:696px; float:left; }
