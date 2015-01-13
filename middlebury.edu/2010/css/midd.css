@@ -368,6 +368,8 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
       .block > .content > a { display:none; }
         .block > .content > a.login { display:inline; color:#272C6F; float:none; }
 
+      aside.sidebar+section.body fieldset.form-wrapper { max-width:440px; }
+
   /* Carousel */
   .carousel_arrow { position:absolute; left:258px; bottom:-43px; width:49px; height:43px; background-image:url(../images/carousel_arrow.png); z-index:100; }
   .carousel { color:#FFFFFF; height:240px; margin:18px 0px; position:relative; overflow:hidden; }
