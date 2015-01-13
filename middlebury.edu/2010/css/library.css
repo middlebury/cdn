@@ -1,0 +1,52 @@
+/* $Id */
+
+/* Styles from mm_tabbed_ui.css 3109 2009-07-24 21:14:56Z dan $ */
+/* theme_mm_tabbed_ui styles, taken from jqueryui */
+
+/* original flora styles */
+@media projection, screen { .ui-tabs-hide { display: none; } }
+@media print { .ui-tabs-nav { display: none; } }
+
+#library-quick-search h1 { font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; font-weight: bold; font-size: 22px; color:#071427; text-align:center; }
+
+.ui-tabs-nav { float: left; background: transparent; border-bottom: transparent 1px; color: black; list-style: none; margin: 0; padding: 0 0 0 3px; }
+.ui-tabs-nav:after { display: block; clear: both; content: " "; }
+
+.ui-tabs-nav li { float: left; margin: 0 0 0 2px; font-weight: bold; }
+.ui-tabs-nav a, .ui-tabs-nav a span { float: left; padding: 0 12px; background: none; }
+.ui-tabs-nav a { margin: 5px 0 0 0; padding-left: 0; text-decoration: none; white-space: nowrap; outline: 0; border-top: 1px solid; border-left: 1px solid; border-right: 1px solid; }
+.ui-tabs-nav a:link, .ui-tabs-nav a:visited { color:white; border-bottom: 1px solid black; border-top: 1px solid black; border-left: 1px solid black; border-right: 1px solid black; }
+.ui-tabs-nav a:hover { text-decoration: none; color:#003366; }
+.ui-tabs-nav .ui-tabs-selected a { position: relative; z-index: 2; margin-top: 0; }
+.ui-tabs-nav a { padding-top: 1px; padding-right: 0; height: 12px; display: block; background: #527546; }
+.ui-tabs-nav .ui-tabs-selected a { padding-top: 0; height: 13px; background: #dddddd; }
+.ui-tabs-nav .ui-tabs-selected a:link, .ui-tabs-nav .ui-tabs-selected a:visited,
+.ui-tabs-nav .ui-tabs-disabled a:link, .ui-tabs-nav .ui-tabs-disabled a:visited { cursor: text; text-decoration: none; }
+.ui-tabs-nav a:hover, .ui-tabs-nav a:focus, .ui-tabs-nav a:active,
+.ui-tabs-nav .ui-tabs-unselect a:hover, .ui-tabs-nav .ui-tabs-unselect a:focus, .ui-tabs-nav .ui-tabs-unselect a:active { cursor: pointer; }
+.ui-tabs-nav .ui-tabs-disabled a:link, .ui-tabs-nav .ui-tabs-disabled a:visited { color: #000; }
+.ui-wrapper input, .ui-wrapper textarea { border: 0; }
+
+/* Tabbed UI styles */
+.mm-tabbed-ui a { text-decoration: none; }
+.mm-tabbed-ui a:hover { text-decoration: underline; }
+.mm-tabbed-ui { display: block; border: solid 1px; margin: -15px 0 8px 0; }
+.mm-tabbed-ui .content { padding: 0; margin: 0; }
+.mm-tabbed-ui h5 { font-size: 12px; font-weight: bold; padding: 3px 0 3px 0px; text-align: center; margin: 0; color: #000; }
+.mm-tabbed-ui h5 a { text-decoration: none; cursor: pointer; padding: 3px 0 3px 12px; }
+.mm-tabbed-ui h5 a:hover { text-decoration: underline; }
+.ui-tabs-nav { font-size: 11px; width: 100%; list-style: none; margin: 0; padding: 0; border-bottom: solid 1px; _border-bottom: none; }
+.ui-tabs-nav li { margin: 0; padding: 0 0 0 4px; height: 19px; list-style: none !important; }
+.ui-tabs-nav li a { font-size: 11px; font-weight: normal; text-decoration: none; padding: 1px 3px 3px 3px; margin: 2px 0 0 0; display: block; border: 1px solid; }
+.ui-tabs-nav .ui-tabs-selected a { font-weight: bold; font-size: 14px; color: #071427; margin: 2px 0px 0px 5px; border-bottom: 1px solid #dddddd; }
+.ui-tabs-panel { font-size: 12px; padding: 40px 15px 20px 15px; _padding: 10px 15px 0 15px; margin: 0; _margin-top: -4px; }
+.ui-tabs-panel form p { margin: 0; padding: 8px 0; }
+.ui-tabs-panel label { font-size: 10px; display: inline-block; min-width: 100px; }
+.ui-tabs-panel fieldset { display: block; background: inherit; }
+.ui-tabs-panel fieldset label { display: block; }
+.ui-tabs-panel h6 { font-size: 110%; margin: 10px 0; }
+
+
+/* Customizations */
+#library-quick-search { width: 450px; border-color: #999999; border-width: 1px; background: #dddddd; color:#071427; }
+div.SS_AtoZLinks { margin-bottom: 1em; }
