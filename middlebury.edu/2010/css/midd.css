@@ -339,7 +339,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 
       /* Address */
       .region-address { position:absolute; bottom:0; left:0; padding:18px; color:#FFFFFF; width:204px; }
-        .region-address a { border-bottom-color:#CCFF66; }
+        .region-address a { border-bottom-color:#CCFF66; word-wrap:break-word; }
         .region-address a:hover{ background-color:#003466; }
         .region-address h1 { font-size:14px; font-weight:bold; color:#221100; }
 
@@ -712,7 +712,7 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 .taskbar article:nth-of-type(3n+1) h1 { background-color:#84C2FF; }
 .taskbar article:nth-of-type(3n+2) h1 { background-color:#4485BD; }
 .taskbar article:nth-of-type(3n+3) h1 { background-color:#3A76A8; }
-.address a, .carousel_features a { color: #cf3; }
+.region-address a, .carousel_features a { color: #cf3; }
 .left #rss-page a, .carousel #rss-page a { color:#cf6 !important; }
 
 /* Theme: Leaf */
@@ -729,7 +729,7 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 .leaf .taskbar article:nth-of-type(3n+1) h1 { background-color:#7ED7B9; }
 .leaf .taskbar article:nth-of-type(3n+2) h1 { background-color:#81BD44; }
 .leaf .taskbar article:nth-of-type(3n+3) h1 { background-color:#AAC514; }
-.leaf .address a, .leaf .carousel_features a { color: #76DB5B; }
+.leaf .region-address a, .leaf .carousel_features a { color: #76DB5B; }
 .leaf .left #rss-page a, .leaf .carousel #rss-page a { color:#76DB5B !important; }
 
 /* Theme: Apple */
@@ -746,7 +746,7 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 .apple .taskbar article:nth-of-type(3n+1) h1 { background-color:#C32626; }
 .apple .taskbar article:nth-of-type(3n+2) h1 { background-color:#FF7171; }
 .apple .taskbar article:nth-of-type(3n+3) h1 { background-color:#B34109; }
-.apple .address a, .apple .carousel_features a { color: #FF9B9B; }
+.apple .region-address a, .apple .carousel_features a { color: #FF9B9B; }
 .apple .left #rss-page a, .apple .carousel #rss-page a { color:#FF9B9B !important; }
 
 /* Theme: Sun */
@@ -763,7 +763,7 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 .sun .taskbar article:nth-of-type(3n+1) h1 { background-color:#AAC514; }
 .sun .taskbar article:nth-of-type(3n+2) h1 { background-color:#FFE371; }
 .sun .taskbar article:nth-of-type(3n+3) h1 { background-color:#E9BA00; }
-.sun .address a, .sun .carousel_features a { color: #FFD231; }
+.sun .region-address a, .sun .carousel_features a { color: #FFD231; }
 .sun .left #rss-page a, .sun .carousel #rss-page a { color:#FFD231 !important; }
 
 /* Theme: Lake */
@@ -780,7 +780,7 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 .lake .taskbar article:nth-of-type(3n+1) h1 { background-color:#82C96F; }
 .lake .taskbar article:nth-of-type(3n+2) h1 { background-color:#44882F; }
 .lake .taskbar article:nth-of-type(3n+3) h1 { background-color:#409792; }
-.lake .address a, .lake .carousel_features a { color: #6CE8E3; }
+.lake .region-address a, .lake .carousel_features a { color: #6CE8E3; }
 .lake .left #rss-page a, .lake .carousel #rss-page a { color:#6CE8E3 !important; }
 
 /* Theme: Grape */
@@ -797,7 +797,7 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 .grape .taskbar article:nth-of-type(3n+1) h1 { background-color:#AF71FF; }
 .grape .taskbar article:nth-of-type(3n+2) h1 { background-color:#6026B3; }
 .grape .taskbar article:nth-of-type(3n+3) h1 { background-color:#6A26C3; }
-.grape .address a, .grape .carousel_features a { color: #D1AEFF; }
+.grape .region-address a, .grape .carousel_features a { color: #D1AEFF; }
 .grape .left #rss-page a, .grape .carousel #rss-page a { color:#D1AEFF !important; }
 
 /* Theme: Maple */
@@ -814,5 +814,5 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 .maple .taskbar article:nth-of-type(3n+1) h1 { background-color:#9D7932; }
 .maple .taskbar article:nth-of-type(3n+2) h1 { background-color:#D08E1C; }
 .maple .taskbar article:nth-of-type(3n+3) h1 { background-color:#683D20; }
-.maple .address a, .maple .carousel_features a { color: #F8C36B; }
+.maple .region-address a, .maple .carousel_features a { color: #F8C36B; }
 .maple .left #rss-page a, .maple .carousel #rss-page a { color:#F8C36B !important; }
