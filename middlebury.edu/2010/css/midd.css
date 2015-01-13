@@ -350,11 +350,13 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 
       /* Right Sidebar */
       aside.sidebar { margin-left:18px; float:right; width:204px; }
+        aside.sidebar .node { margin-bottom:18px; }
         aside.sidebar .mm-block-links { margin-bottom:20px; }
         aside.sidebar header h1 { color:#FFFFFF; font-size:1.2em; font-weight:normal; padding:8px 12px; font-family:Garamond,"Times New Roman",serif; text-align:center; margin-bottom:0px; }
           aside.sidebar .node header h1 { color:#FFFFFF; }
         aside.sidebar header:after { height:32px; width:34px; margin:0px auto; content:""; display:block; background-image:url(../images/arrow.png); background-position:50% 0px; background-repeat:no-repeat; z-index:100; position:relative; }
-        aside.sidebar .contents { padding:25px 11px 11px 11px; border:1px dashed #999966; margin:-21px 0px 18px 0px; position:relative; }
+        aside.sidebar .contents { padding:25px 11px 11px 11px; border:1px dashed #999966; }
+          aside.sidebar header+.contents { margin-top:-21px; }
         aside.sidebar .terms.tags { display:none; }
         aside.sidebar+.body textarea, aside.sidebar+.body .grippie { width:450px; }
 
