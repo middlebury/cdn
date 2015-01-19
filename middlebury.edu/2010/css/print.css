@@ -1,17 +1,13 @@
 
 /* Remove unneeded/unwated elements */
-#carousel,
-#juicebar,
+.carousel,
+.juicebar,
 #block-monster-menus-7,
-#heading,
-#bar_pointer,
-#bar_pointer_arrow,
-#waveform,
-#search,
-#tabs-content,
-#tabs-title,
-#carousel_features,
-#login,
+.banner,
+.waveform,
+.search,
+.taskbar_dropdowns,
+.block-middlebury-cas,
 .block,
 .pointer,
 .links,
@@ -28,11 +24,12 @@ ul.pager {
 of the document don't seem to span printed
 pages. This allows body content to span more
 than one page. */
-#body, #page, .left { float:none !important; width:100%; }
+.body, .page, .left { float:none !important; width:100%; }
 .left { padding-bottom:0 !important; }
-.address { position:relative; }
-.address .block, .answer { display:block !important; }
-.address a { color:#000; }
+aside.sidebar header:after { background-image:url(); }
+.region-address { position:relative; }
+.region-address .block, .node-faq .contents { display:block !important; }
+.region-address a { color:#000; }
 
 body > header { height:39px; }
 .container h1.wordmark { position:absolute; top:0; left:0; }
@@ -58,8 +55,8 @@ a {
 	border-bottom: 0px;
 }
 
-#page { background-color:#fff; border-top:0px solid #cc9; }
-  #body { padding:0px; }
+.page { background-color:#fff; border-top:0px solid #cc9; }
+  .body { padding:0px; }
 
 .opening {
 	color: #000;
@@ -70,4 +67,4 @@ td {
 	border-color: #bbb;
 }
 
-.question { page-break-before:always; }
+.node-faq summary { page-break-before:always; }
