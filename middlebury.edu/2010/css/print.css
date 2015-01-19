@@ -31,9 +31,9 @@ aside.sidebar header:after { background-image:url(); }
 .region-address .block, .node-faq .contents { display:block !important; }
 .region-address a { color:#000; }
 
-body > header { height:39px; }
+body > header { height:110px; }
 .container h1.wordmark { position:absolute; top:0; left:0; }
-  .container h1.wordmark a:before { content:url('images/design/logo_blue.png'); width:230px; height:43px; display:block; }
+  .container h1.wordmark a:before { content:url('../images/logo_blue.png'); width:380px; height:110px; display:block; }
   .container h1.wordmark img { visibility:hidden; }
   #midd_content { margin-top:34px; }
 
