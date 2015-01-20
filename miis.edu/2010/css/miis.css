@@ -87,9 +87,9 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
 .clear { height:0; clear:both; }
 
   /* Header */
-  .header { height:160px; background-color:#B0B0B0; color:#FFFFFF; background-position:center top; background-repeat:no-repeat; background-image:url(../images/flags.jpg); }
-    .header a { color:#FFFFFF; text-decoration:none; border:none; font-weight:normal; }
-      .header a:hover { text-decoration:none; color:#76DB5B; font-weight:normal; }
+  header.header { height:160px; background-color:#B0B0B0; color:#FFFFFF; background-position:center top; background-repeat:no-repeat; background-image:url(../images/flags.jpg); }
+    header.header a { color:#FFFFFF; text-decoration:none; border:none; font-weight:normal; }
+      header.header a:hover { text-decoration:none; color:#76DB5B; font-weight:normal; }
   .wordmark { font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; display:block;  position:absolute; left:12px; top:16px; width:360px; height:100px; font-size:2.5em; line-height:1em; }
     .wordmark:hover { border:none; color:#DDDDDD; }
   .languages, .search, .gateways { background-image:url(../images/black_trans.png); padding:10px 12px 10px 12px; }
@@ -254,7 +254,7 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
       .footer li { margin:0; }
 
 /* Homepage */
-.front .header { height:300px; }
+.front header.header { height:300px; }
 .front .page { margin:30px auto 0px auto; color:#EEEEEE; }
 .front .column { padding:0px 30px 0px 30px; }
   .front .two .first { padding-left:12px; width:584px; }
@@ -332,14 +332,14 @@ body.miis_blue { background:url('//cdn.middlebury.edu/miis.edu/2010/images/blue/
 .miis_blue h6 { color:#404040; font-weight:normal; font-size:13px; }
 .miis_blue td { padding:4px; color:#404040; border:none; }
   .miis_blue td p { margin-bottom:1em; }
-.miis_blue .header { background:transparent; height:106px; }
+.miis_blue header.header { background:transparent; height:106px; }
   .miis_blue .wordmark { top:20px; left:0px; }
   .miis_blue .header_search { border:1px solid #18447C; height:1.8em; padding:1px; position:absolute; top:20px; right:0px; }
     .miis_blue .header_search input { background-color:#18447C; border:none; color:#8FD4FF; font-style:italic; height:1.8em; line-height:1.5em; padding:0px 0px 0px 0.8em; width:9.4em; }
   .miis_blue .subsite_slogan { position:absolute; top:74px; right:0px; color:#83B2F9; font-weight:bold; font-size:21px; font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; text-align:right; width:360px; }
 .miis_blue > nav { background-color:#5E6676; color:#FFFFFF; height:36px; padding:0px; width:100%; }
   .miis_blue.logged-in > nav { height:100%; }
-  .miis_blue > nav ul.menu, .miis_blue .header nav li { list-style-type:none; list-style-image:none; }
+  .miis_blue > nav ul.menu, .miis_blue header.header nav li { list-style-type:none; list-style-image:none; }
   .miis_blue > nav ul.menu { margin:0px auto 0px auto; position:relative; text-align:left; width:920px; }
     .miis_blue > nav li { display:inline-block; margin:0px 10px 0px 0px; padding:0px; position:relative; }
     .miis_blue > nav a { color:#FFFFFF; font-weight:normal; padding:0px 10px 0px 10px; font-size:1.531em; line-height:1.71em; display:block; }
@@ -414,7 +414,7 @@ body.miis_center { background:url('//cdn.middlebury.edu/miis.edu/2010/images/blu
   .miis_center .sidebar .node p a { color:#001534; }
   .miis_center .sidebar .field-type-taxonomy-term-reference { display:none; }
   .miis_center .footer h6 { color:#FFFFFF; }
-  .miis_blue.miis_center .header { height:160px; }
+  .miis_blue.miis_center header.header { height:160px; }
   .miis_blue.miis_center .subsite_slogan { top:20px; height:120px; width:300px; color:#18447C; }
   .miis_blue.miis_center .header_search { top:100px; margin-top:20px; }
 
