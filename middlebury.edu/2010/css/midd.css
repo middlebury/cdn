@@ -494,7 +494,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   /* News */
   .node-news h1 { font-weight:bold; }
   .node-news .news-date { color:#666633; font-size:0.857em; line-height:1.4em; margin-bottom:6px; }
-  .node-news .news-image { margin:0px; padding:0px; }
+  .node-news .news-image { margin:0px; padding:0px 10px 10px 0px; display:inline-block; float:left; }
     .node-news .enlarge { margin-bottom:0px; text-align:right; font-size:10px; padding-right:4px; margin-top:-12px; }
     .node-news .news-image a { border:none; }
     .node-news .news-image a:hover { background:transparent; }
@@ -505,7 +505,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 
   .node-newslist { margin-bottom:18px; }
   .node-newslist figure, .node-newslist section { display:table-cell; vertical-align:top; }
-    .node-newslist figure.news-image { width:120px; padding-right:20px; }
+    .node-newslist figure.news-image { width:120px; padding-right:20px; display:table-cell; float:none; }
       .node-newslist figure img { border:1px solid #D4D6C8; }
       .node-newslist h1 { font-weight:normal; font-family:Garamond,"Times New Roman",serif; font-size:1.2em; }
       .node-newslist div, .node-newslist span, .node-newslist p { font-size:13px; line-height:1.3em; display:inline; }
