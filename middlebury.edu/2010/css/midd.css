@@ -382,7 +382,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     .carousel .content > a { display:none; }
   .carousel .field-type-taxonomy-term-reference, .carousel .terms { display:none; }
   .carousel .node-mm-media { padding:0px; }
-    .carousel .node-mm-media header { display:none; }
+    .carousel .node-mm-media header, .carousel .node-mm-media .field-name-body { display:none; }
 
   /* Columns */
   .columns { }
