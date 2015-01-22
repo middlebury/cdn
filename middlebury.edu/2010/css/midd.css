@@ -450,6 +450,11 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
             .footer ul li .contents ul li { display:block; float:none; margin:0px 0px 0.4em 0px; }
     .footer_panel { height:300px; background:#527546 url(../images/footer_campusaerial.jpg) no-repeat center top; display:none; }
 
+/* Custom Blocks */
+
+  /* GCal Events */
+  .block-gcal-events h2 { display:none; }
+
 /* Content Types */
 
   /* BLSE Profile */
