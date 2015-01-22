@@ -137,6 +137,9 @@ jQuery(document).ready(function(jQuery) {
     });
   }
 
+  // Profile Lists
+  jQuery('article.node-profilelist:even').css('margin-right', '18px');
+
   // Carousel
   var carousel = jQuery('#midd_carousel');
   if (carousel.length) {
