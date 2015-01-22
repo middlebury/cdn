@@ -455,6 +455,11 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   /* GCal Events */
   .block-gcal-events h2 { display:none; }
 
+  /* Views Exposed Form */
+  .views-exposed-widget { display:block; clear:left; }
+  .views-exposed-widget > label { float:left; width:250px; }
+  .views-exposed-widget .views-widget { float:right; }
+
 /* Content Types */
 
   /* BLSE Profile */
