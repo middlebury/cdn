@@ -519,6 +519,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .node-profile .type { display: none; }
   .node-profile .profile-right { width: 204px; float:right; margin:-18px -20px 18px 18px; padding:18px; }
     .node-profile .profile-image { background-color:#FFFFFF; margin:0px 0px 10px 0px; }
+      .node-profile .profile-image img { max-width:200px; }
     .node-profile .box { width:180px; margin:0px 0px 18px 0px; padding:25px 11px 11px 11px; font-style:normal; }
     .node-profile .profile-feed { clear:both; margin-bottom:12px; }
     .node-profile .profile-right h2 { font-weight:bold; font-size:1em; }
@@ -539,6 +540,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     .node-profilelist:nth-of-type(2n+1) { margin-right:18px; }
     .node-profilelist .profile-right { float:right; margin:-4px -4px 5px 8px; padding:0px; width:auto; }
     .node-profilelist .profile-image { background:transparent; }
+      .node-profilelist .profile-image img { max-width:85px; }
     .node-profilelist .profile-card { background:transparent; width:auto; border:none; padding:0px; margin:0px; }
       .node-profilelist .profile-card h1 { line-height:1.6em; height:auto; font-weight:bold; }
     .node-profilelist .profile-card h2, .node-profilelist .profile-card h3 { font-size:1em; font-weight:bold; border:none; }
