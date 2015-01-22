@@ -62,6 +62,8 @@
   .columns .gray ul li { margin-bottom:1em; }
     .columns .gray ul li a { font-weight:bold; font-size:1.5em; border:none; }
 
+#block-monster-menus-11 .contents { border:none; padding:0px; }
+
 .opening { font-size:1.6em; color:#440; }
   .opening a { font-style:italic; border:none; }
 
