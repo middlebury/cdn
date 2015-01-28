@@ -140,10 +140,10 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
       .navigation li a:hover { background-color:transparent; }
       .navigation ul.ir li a { position:relative; overflow:hidden; text-indent:-999em; height:24px; }
         .navigation ul.ir li a span { position:absolute; top:0px; right:0px; width:100%; height:100%; }
-    .navigation li.top { margin:0px 21px 6px 0px; }
+    .navigation li.top { margin:0px 43px 6px 0px; }
       .navigation li.top a { color:#FFFFFF; }
       .navigation li.top a:hover { color:#CCCC99; }
-        .navigation li.top a span { background-image:url(../images/nav_top.gif); }
+        .navigation li.top a span { background-image:url(../images/nav_top.gif?2015-01-28); }
     .navigation li.bottom { margin-right:17px; }
       .navigation li.bottom a { color:#73A2E6; }
       .navigation li.bottom a:hover { color:#FFFFFF; }
@@ -173,16 +173,12 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
       .nav_arts a:hover span { background-position:-519px -24px; }
       .nav_arts.active a span { background-position:-519px -48px; }
       .nav_arts.active a:hover span { background-position:-519px -72px; }
-    .nav_international { width:236px; }
+    .navigation li.nav_international { width:236px; margin-right:0px; float:right; }
       .nav_international a span { background-position:-589px 0px; }
       .nav_international a:hover span { background-position:-589px -24px; }
       .nav_international.active a span { background-position:-589px -48px; }
       .nav_international.active a:hover span { background-position:-589px -72px; }
-    .navigation li.nav_middlab { width:90px; margin-right:0px; float:right; }
-      .nav_middlab a span { background-position:-847px 0px; }
-      .nav_middlab a:hover span { background-position:-847px -24px; }
-      .nav_middlab.active a span { background-position:-847px -48px; }
-      .nav_middlab.active a:hover span { background-position:-847px -72px; }
+    .nav_middlab { width:90px; display:none; }
     .nav_about { width:173px; }
       .nav_about a span { background-position:0px 0px; }
       .nav_about a:hover span { background-position:0px -24px; }
