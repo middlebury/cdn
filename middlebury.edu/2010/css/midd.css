@@ -356,6 +356,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
           aside.sidebar header+.contents { margin-top:-21px; }
         aside.sidebar .terms.tags { display:none; }
         aside.sidebar+.body textarea, aside.sidebar+.body .grippie { width:450px; }
+        .page-mm-contents-add aside.sidebar { display:none; }
 
       /* Body Content */
       .breadcrumb { color:#666666; font-size:0.875em; margin-bottom:18px; }
@@ -490,6 +491,9 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 
   /* File Upload - Media */
   aside.sidebar .node-mm-media .contents { padding:0px; border:none; margin:0px 0px 18px 0px; }
+  .node-mm_media-form .field-name-field-multimedia fieldset { border:1px solid black; padding:8px; }
+    .node-mm_media-form .field-name-field-multimedia legend { font-size:1.2em; font-weight:bold; padding:4px; }
+    .node-mm_media-form .field-name-field-multimedia .button {   font:bold 11px Arial; text-decoration:none;  background-color:#EEEEEE; color:#333333; padding:2px 6px 2px 6px; border-top:1px solid #CCCCCC; border-right:1px solid #333333; border-bottom:1px solid #333333; border-left:1px solid #CCCCCC; }
 
   /* Gallery */
   .mm-gallery-single { display:inline; }
@@ -708,6 +712,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 
   /* Fullwidth */
   .midd_fullwidth .page { width:924px; }
+    .midd_fullwidth .left { display:none; }
 
 /* Color schemes:  Leaf, Apple, Sun, Lake, Grape, Basic */
 
