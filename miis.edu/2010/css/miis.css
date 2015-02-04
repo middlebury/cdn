@@ -5,7 +5,7 @@
 /* Reset defaults */
 html { font-size:100%; }
 body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,blockquote,dl,dt,dd,table,th,td,pre,img,form,fieldset,legend,label,iframe { margin:0; padding:0; font-size:1em; line-height:inherit; font-weight:inherit; border:none; }
-input,select,textarea,button { font-size:1em; line-height:inherit; font-family:inherit; color:#222; margin:0; }
+input,select,textarea,button { font-size:1em; line-height:inherit; font-family:inherit; color:#222; margin:0; max-width:624px; }
 input[type=button],input[type=submit],button { overflow:visible; }
 input[disabled],select[disabled],textarea[disabled],button[disabled] { opacity:0.75; }
 
@@ -596,3 +596,5 @@ details p.tags a { color:#336699; }
 
 /* Webform */
 .webform-client-form .form-item .description { white-space:pre-line; }
+.webform-client-form fieldset { padding:1em; margin-bottom:1em; border:1px solid #000000; }
+.webform-client-form legend { font-size:1.2em; font-weight:bold; }
