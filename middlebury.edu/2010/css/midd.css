@@ -504,7 +504,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   /* News */
   .node-news h1 { font-weight:bold; }
   .node-news .news-date { color:#666633; font-size:0.857em; line-height:1.4em; margin-bottom:6px; }
-  .node-news .news-image { margin:0px; padding:0px 10px 10px 0px; display:inline-block; float:left; }
+  .node-news .news-image { margin:0px; padding:0px 10px 10px 0px; display:inline-block; }
     .node-news .enlarge { margin-bottom:0px; text-align:right; font-size:10px; padding-right:4px; margin-top:-12px; }
     .node-news .news-image a { border:none; }
     .node-news .news-image a:hover { background:transparent; }
