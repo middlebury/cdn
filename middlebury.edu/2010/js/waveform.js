@@ -1,6 +1,18 @@
 jQuery(document).ready(function(jQuery) {
   homepage = jQuery('body').is('#midd_homepage');
 
+  var ie6 = jQuery.browser.msie&&jQuery.browser.version<7, // are we in IE6?
+    ie7 = jQuery.browser.msie&&jQuery.browser.version>=7&&jQuery.browser.version<8,
+    ie8 = jQuery.browser.msie&&jQuery.browser.version>=8&&jQuery.browser.version<9, // are we in IE8?
+    ie9 = jQuery.browser.msie&&jQuery.browser.version>=9;
+
+  // Set the browser to Internet Explorer if the version is 11.
+  if (jQuery.browser.version == '11.0') jQuery.browser.msie=true;
+
+  var ie = jQuery.browser.msie;
+
+  jQuery.easing.def = 'easeInOutQuad'; // set the default easing
+
   // if there's a waveform, hide the stories
   var stories = document.getElementById('midd_stories');
   if(stories) stories.style.display = 'none';
