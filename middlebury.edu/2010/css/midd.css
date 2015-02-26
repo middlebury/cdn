@@ -516,6 +516,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     .node-news .news-sidebar .news-sidebar-contents { padding:25px 11px 11px 11px; border:1px dashed #999966; }
       .node-news .news-sidebar header+.news-sidebar-contents { margin-top:-21px; }
     .node-news .news-media .news-media-name { font-weight:bold; font-size:1em; }
+    .node-news .field-name-field-links .field-item { margin-bottom:12px; }
 
   .node-newslist { margin-bottom:18px; }
   .node-newslist figure, .node-newslist section { display:table-cell; vertical-align:top; }
