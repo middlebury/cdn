@@ -1,0 +1,33 @@
+/* This file is a work in progress and may be updated to improve adaptive styling */
+
+@media screen {
+	#midd_wordmark img {
+		width: 380px;
+		height: auto;
+	}
+}
+
+@media screen and (max-width:422px) {
+	.container h1.wordmark {
+		width: 90%;
+	}
+	#midd_wordmark img {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:924px) {
+	#midd_navigation, #midd_taskbar, .search, .leftlinks {
+		display: none;
+	}
+	#midd_content {
+		margin-top: 0px;
+	}
+	.container, .fullwidth .page {
+		width: 100%;
+	}
+	.page, .footer {
+		box-sizing: border-box;
+		width: 100%;
+	}
+}
