@@ -594,6 +594,13 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   /* SA Course Info */
   .node-sa-cid .field { margin-bottom:1em; }
 
+  /* Slideshow */
+  .node-slideshow { max-width:960px; margin:12px auto 0px auto; }
+  .node-slideshow .slide { margin:0px; }
+  body > .region-banner .node-slideshow figcaption { color:#FFFFFF; }
+  body > .region-banner .node-slideshow figcaption a { color:#CCFF66; }
+  body > .region-banner .node-slideshow figcaption a:hover { color:#CCFF66; background:transparent; }
+
   /* Story */
   .node-story { margin-bottom:18px; }
   .node-story h1 { font-weight:normal; font-family:Garamond,"Times New Roman",serif; font-size:1.2em; }
