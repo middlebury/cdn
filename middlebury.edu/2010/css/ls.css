@@ -1,4 +1,4 @@
-.midd_ls { background-image:url(../images/ls/globe.jpg); }
+.midd_ls, .midd_ls_inside, .midd_ls_grad { background-image:url(../images/ls/globe.jpg); }
 .column>a, .column .content>a {display:none;}
 .column.gray .profile {margin-top:0px;}
 table.layout tbody, table.layout tr, table.layout td, table.layout { border: none; }
@@ -6,78 +6,77 @@ table.layout tbody, table.layout tr, table.layout td, table.layout { border: non
 .top_panel { padding-top:1px; }
   .top_panel .ls_header_search { clear:both; margin:0 auto; width:960px; position:relative; height:59px; }
   .midd_ls .top_panel h1.wordmark { margin-top:0px; }
-.midd_ls h1.wordmark, .midd_ls_inside h1.wordmark, .midd_ls_grad h1.wordmark { width:100%; text-align:center; clear:both; border-bottom:30px solid #0091A4; font-size:1.4em; }
-	.midd_ls h1.wordmark { padding:10px 0px 5px; background-image:url(../images/ls/blue_50.png); margin-top:59px; margin-bottom:0px; }
-	.midd_ls_inside h1.wordmark, .midd_ls_grad h1.wordmark { padding:50px 0px 6px; margin:0px; background-image:url(); }
+.midd_ls h1.wordmark, .midd_ls_inside h1.wordmark, .midd_ls_grad h1.wordmark { width:100%; font-size:1.4em; padding:30px 0px 26px 0px; }
 		.midd_ls_grad h1.wordmark { border-color:#83B2F9; }
 
 .search_query { background-color:#FFFFFF; border:none; font-size:0.929em; color:#666666; }
 .search_submit.ir { background:url(../images/arrow_go_white.png); }
 
-.navigation ul { background-color:#0091A4; height:30px; font-size:1em; line-height:30px; margin:0px; margin-top:-30px; }
-	.navigation li { margin:0px 3px; }
-	.navigation li a { position:relative; color:#051B36; height:30px !important; }
-	.navigation li a span { background-image:url(../images/ls/nav_languageschools.gif); display:block; position:absolute; top:0px; left:0px; width:100%; height:36px; }
-	.nav_applying { width:87px; }
-		.nav_applying a span { background-position:0px 0px; }
-		.nav_applying a:hover span { background-position:0px -30px; }
-		.nav_applying.active a span { background-position:0px -60px; }
-	.nav_approach { width:123px; }
-		.nav_approach a span { background-position:-94px 0px; }
-		.nav_approach a:hover span { background-position:-94px -30px; }
-		.nav_approach.active a span { background-position:-94px -60px; }
-	.nav_aid { width:120px; }
-		.nav_aid a span { background-position:-225px 0px; }
-		.nav_aid a:hover span { background-position:-225px -30px; }
-		.nav_aid.active a span { background-position:-225px -60px; }
-	.nav_experience { width:134px; }
-		.nav_experience a span { background-position:-352px 0px; }
-		.nav_experience a:hover span { background-position:-352px -30px; }
-		.nav_experience.active a span { background-position:-352px -60px; }
-	.nav_graduate { width:165px; }
-		.nav_graduate a span { background-position:-496px 0px; }
-		.nav_graduate a:hover span { background-position:-496px -30px; }
-		.nav_graduate.active a span { background-position:-496px -60px; }
-	.nav_news { width:128px; }
-		.nav_news a span { background-position:-668px 0px; }
-		.nav_news a:hover span { background-position:-668px -30px; }
-		.nav_news.active a span { background-position:-668px -60px; }
-	.nav_schoolsabroad { width:136px; }
-		.nav_schoolsabroad a span { background-position:-803px 0px; }
-		.nav_schoolsabroad a:hover span { background-position:-803px -30px; }
-		.nav_schoolsabroad.active a span { background-position:-803px -60px; }
+.navigation ul { background-color:#94CB21; height:36px; font-size:1em; line-height:36px; margin:0px; }
+	.navigation li { margin:0px 8px; }
+	.navigation li a { position:relative; color:#0B315E; }
+    .region-header .navigation ul li a { height:36px; }
+	.navigation li a span { background-image:url(../images/ls/nav_languageschools.gif?2015-02-24); display:block; position:absolute; top:0px; left:0px; width:100%; height:36px; }
+	.navigation li.nav_apply { width:54px; margin-left:16px; }
+		.nav_apply a span { background-position:-27px 0px; }
+		.nav_apply a:hover span { background-position:-27px -36px; }
+		.nav_apply.active a span { background-position:-27px -72px; }
+	.nav_academics { width:96px; }
+		.nav_academics a span { background-position:-97px 0px; }
+		.nav_academics a:hover span { background-position:-97px -36px; }
+		.nav_academics.active a span { background-position:-97px -72px; }
+	.nav_centennial { width:134px; }
+		.nav_centennial a span { background-position:-214px 0px; }
+		.nav_centennial a:hover span { background-position:-214px -36px; }
+		.nav_centennial.active a span { background-position:-214px -72px; }
+	.nav_finaid { width:118px; }
+		.nav_finaid a span { background-position:-365px 0px; }
+		.nav_finaid a:hover span { background-position:-365px -36px; }
+		.nav_finaid.active a span { background-position:-365px -72px; }
+	.nav_graduate { width:171px; }
+		.nav_graduate a span { background-position:-499px 0px; }
+		.nav_graduate a:hover span { background-position:-499px -36px; }
+		.nav_graduate.active a span { background-position:-499px -72px; }
+	.nav_schoolsabroad { width:135px; }
+		.nav_schoolsabroad a span { background-position:-686px 0px; }
+		.nav_schoolsabroad a:hover span { background-position:-686px -36px; }
+		.nav_schoolsabroad.active a span { background-position:-686px -72px; }
+	.nav_contact { width:96px; }
+		.nav_contact a span { background-position:-837px 0px; }
+		.nav_contact a:hover span { background-position:-837px -36px; }
+		.nav_contact.active a span { background-position:-837px -72px; }
 
-.midd_ls_grad .navigation ul { background-color:#83B2F9; }
-.midd_ls_grad .navigation li { margin:0px 3px; }
-.midd_ls_grad .navigation li a span { background-image:url(../images/ls/nav_languageschools_grad.gif); }
-  .midd_ls_grad .nav_applying { width:87px; }
-    .midd_ls_grad .nav_applying a span { background-position:0 0; }
-    .midd_ls_grad .nav_applying a:hover span { background-position:0 -30px; }
-    .midd_ls_grad .nav_applying.active a span { background-position:0 -60px; }
-  .midd_ls_grad .nav_approach { width:123px; }
-    .midd_ls_grad .nav_approach a span { background-position:-94px 0; }
-    .midd_ls_grad .nav_approach a:hover span { background-position:-94px -30px; }
-    .midd_ls_grad .nav_approach.active a span { background-position:-94px -60px; }
-  .midd_ls_grad .nav_aid { width:120px; }
-    .midd_ls_grad .nav_aid a span { background-position:-225px 0; }
-    .midd_ls_grad .nav_aid a:hover span { background-position:-225px -30px; }
-    .midd_ls_grad .nav_aid.active a span { background-position:-225px -60px; }
-  .midd_ls_grad .nav_experience { width:134px; }
-    .midd_ls_grad .nav_experience a span { background-position:-352px 0; }
-    .midd_ls_grad .nav_experience a:hover span { background-position:-352px -30px; }
-    .midd_ls_grad .nav_experience.active a span { background-position:-352px -60px; }
-  .midd_ls_grad .nav_languageschools { width:155px; }
-    .midd_ls_grad .nav_languageschools a span { background-position:-496px 0; }
-    .midd_ls_grad .nav_languageschools a:hover span { background-position:-496px -30px; }
-    .midd_ls_grad .nav_languageschools.active a span { background-position:-496px -60px; }
-  .midd_ls_grad .nav_news { width:128px; }
-    .midd_ls_grad .nav_news a span { background-position:-658px 0; }
-    .midd_ls_grad .nav_news a:hover span { background-position:-658px -30px; }
-    .midd_ls_grad .nav_news.active a span { background-position:-658px -60px; }
-  .midd_ls_grad .nav_schoolsabroad { width:136px; }
-    .midd_ls_grad .nav_schoolsabroad a span { background-position:-793px 0; }
-    .midd_ls_grad .nav_schoolsabroad a:hover span { background-position:-793px -30px; }
-    .midd_ls_grad .nav_schoolsabroad.active a span { background-position:-793px -60px; }
+.midd_ls_grad .navigation ul { background-color:#8CB8FF; }
+.midd_ls_grad .navigation li { margin:0px 10px; height:36px; }
+.midd_ls_grad .navigation li a span { background-image:url(../images/ls/nav_languageschools_grad.gif?2015-02-24); }
+  .midd_ls_grad .nav_apply { width:49px; }
+    .midd_ls_grad .nav_apply a span { background-position:-20px 0; }
+    .midd_ls_grad .nav_apply a:hover span { background-position:-20px -36px; }
+    .midd_ls_grad .nav_apply.active a span { background-position:-20px -72px; }
+  .midd_ls_grad .nav_academics { width:91px; }
+    .midd_ls_grad .nav_academics a span { background-position:-92px 0; }
+    .midd_ls_grad .nav_academics a:hover span { background-position:-92px -36px; }
+    .midd_ls_grad .nav_academics.active a span { background-position:-92px -72px; }
+  .midd_ls_grad .nav_centennial { width:129px; }
+    .midd_ls_grad .nav_centennial a span { background-position:-207px 0; }
+    .midd_ls_grad .nav_centennial a:hover span { background-position:-207px -36px; }
+    .midd_ls_grad .nav_centennial.active a span { background-position:-207px -72px; }
+  .midd_ls_grad .nav_finaid { width:113px; }
+    .midd_ls_grad .nav_finaid a span { background-position:-360px 0; }
+    .midd_ls_grad .nav_finaid a:hover span { background-position:-360px -36px; }
+    .midd_ls_grad .nav_finaid.active a span { background-position:-360px -72px; }
+  .midd_ls_grad .nav_language { width:170px; }
+    .midd_ls_grad .nav_language a span { background-position:-497px 0; }
+    .midd_ls_grad .nav_language a:hover span { background-position:-497px -36px; }
+    .midd_ls_grad .nav_language.active a span { background-position:-497px -72px; }
+  .midd_ls_grad .nav_schoolsabroad { width:131px; }
+    .midd_ls_grad .nav_schoolsabroad a span { background-position:-691px 0; }
+    .midd_ls_grad .nav_schoolsabroad a:hover span { background-position:-691px -36px; }
+    .midd_ls_grad .nav_schoolsabroad.active a span { background-position:-691px -72px; }
+  .midd_ls_grad .nav_contact { width:91px; }
+    .midd_ls_grad .nav_contact a span { background-position:-846px 0; }
+    .midd_ls_grad .nav_contact a:hover span { background-position:-846px -36px; }
+    .midd_ls_grad .nav_contact.active a span { background-position:-846px -72px; }
 	
 .languages_feature { height:250px; position:relative; }
 	.languages_feature h2 { text-indent:-999em; overflow:hidden; background-image:url(../images/ls/languages2.gif); height:33px; width:345px; position:absolute; top:86px; left:305px; }
@@ -120,6 +119,7 @@ table.layout tbody, table.layout tr, table.layout td, table.layout { border: non
 
 .midd_ls .pagecontent { background-color:#FFFFFF; margin-top:0px; }
 	.midd_ls_inside .pagecontent, .midd_ls_grad .pagecontent { margin-top:0px; background-color:#FFFFFF; }
+  .midd_ls_inside .taskbar, .midd_ls_grad .taskbar { display:none; }
 .midd_ls .body { padding:0px; float:left; min-width:698px; }
 	.midd_ls .page { width:924px; border:none; float:none; width:auto; background-color:#FFFFFF; padding:0px; }
 		.midd_ls_inside .page, .midd_ls_grad .page { border-top:none; }
