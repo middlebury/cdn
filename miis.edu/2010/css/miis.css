@@ -499,6 +499,10 @@ details p.tags a { color:#336699; }
 /* Gallery */
 .node-gallery h1 { color:#790E39; font-size:1.6em; line-height:1.25em; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-weight:bold; }
 
+/* Instagram */
+.field-name-field-middinsta-grams ul { list-style-type:none; font-size:0px; }
+  .field-name-field-middinsta-grams li { display:inline; margin:0px; }
+
 /* Profile */
 .node-profile { float:none; margin-top:0px; clear:both; }
 .node-profile > header { margin-left:216px; }

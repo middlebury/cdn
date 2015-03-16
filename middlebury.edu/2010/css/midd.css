@@ -501,6 +501,10 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .mm-gallery-overlay { background-image: url(../images/click-to-play.png); position:absolute; top:0; left:0; width:229px; height:162px; display:block; z-index:100; }
   .mm-gallery-caption { color:#666666; font:10px/12px verdana; padding:3px 0px 0px 0px; }
 
+  /* Instagram */
+  .field-name-field-middinsta-grams ul { list-style-type:none; font-size:0px; }
+    .field-name-field-middinsta-grams li { display:inline; margin:0px; }
+
   /* News */
   .node-news h1 { font-weight:bold; }
   .node-news .news-date { color:#666633; font-size:0.857em; line-height:1.4em; margin-bottom:6px; }

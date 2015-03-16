@@ -256,6 +256,10 @@ body.front { color:#FFFFFF; }
 .node-event h2 { color:#666666; font-weight:bold; font-size:1em; }
 .node-event .label { font-weight:bold; }
 
+/* Instagram */
+.field-name-field-middinsta-grams ul { list-style-type:none; font-size:0px; }
+  .field-name-field-middinsta-grams li { display:inline; margin:0px; }
+
 /* News Postings */
 .node-news > header { float:left; width:456px; }
 .node-news aside { float:right; margin-right:-20px; margin-left:8px; width:204px; background-color:#EEEEEE; border:3px solid #FFFFFF; padding:18px 8px 18px 18px; }
