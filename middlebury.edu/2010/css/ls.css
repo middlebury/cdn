@@ -6,7 +6,7 @@ table.layout tbody, table.layout tr, table.layout td, table.layout { border: non
 .top_panel { padding-top:1px; }
   .top_panel .ls_header_search { clear:both; margin:0 auto; width:960px; position:relative; height:59px; }
   .midd_ls .top_panel h1.wordmark { margin-top:0px; }
-.midd_ls h1.wordmark, .midd_ls_inside h1.wordmark, .midd_ls_grad h1.wordmark { width:100%; font-size:1.4em; padding:30px 0px 26px 0px; }
+.midd_ls h1.wordmark, .midd_ls_inside h1.wordmark, .midd_ls_fullwidth h1.wordmark, .midd_ls_grad h1.wordmark { width:100%; font-size:1.4em; padding:30px 0px 26px 0px; }
 		.midd_ls_grad h1.wordmark { border-color:#83B2F9; }
 
 .search_query { background-color:#FFFFFF; border:none; font-size:0.929em; color:#666666; }
@@ -117,9 +117,9 @@ table.layout tbody, table.layout tr, table.layout td, table.layout { border: non
 				.feature_spanish a { background-position:-3217px 0px; }
 				.feature_spanish a:hover { background-position:-3217px -35px; }
 
-.midd_ls .pagecontent { background-color:#FFFFFF; margin-top:0px; }
-	.midd_ls_inside .pagecontent, .midd_ls_grad .pagecontent { margin-top:0px; background-color:#FFFFFF; }
-  .midd_ls_inside .taskbar, .midd_ls_grad .taskbar { display:none; }
+.midd_ls .pagecontent, .midd_ls_inside .pagecontent, .midd_ls_fullwidth .pagecontent, .midd_ls_grad .pagecontent { margin-top:0px; background-color:#FFFFFF; }
+  .midd_ls_inside .taskbar, .midd_ls_fullwidth .taskbar, .midd_ls_grad .taskbar { display:none; }
+  .midd_ls_fullwidth .page { width:924px; }
 .midd_ls .body { padding:0px; float:left; min-width:698px; }
 	.midd_ls .page { width:924px; border:none; float:none; width:auto; background-color:#FFFFFF; padding:0px; }
 		.midd_ls_inside .page, .midd_ls_grad .page { border-top:none; }
