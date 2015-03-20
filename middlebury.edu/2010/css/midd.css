@@ -635,7 +635,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   /* 404 */
   .seasonal { display:none; }
   body.spring { background-image:url('../images/404_spring.jpg'); }
-    body.spring .pagecontent header { margin-top:410px; }
+    body.spring .pagecontent header { margin-top:360px; }
     body.spring h1, body.spring h2, body.spring h2 a { color:#FFFFFF; }
     body.spring .seasonal.spring { display:block; }
   body.summer { background-image:url('../images/404_summer.jpg'); }
@@ -643,11 +643,11 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     body.summer h1, body.summer h2, body.summer h2 a { color:#FFFFFF; }
     body.summer .seasonal.summer { display:block; }
   body.autumn { background-image:url('../images/404_autumn.jpg'); }
-    body.autumn .pagecontent header { margin-top:30px; }
+    body.autumn .pagecontent header { margin-top:0px; }
     body.autumn h1, body.autumn h2, body.autumn h2 a { color:#000000; }
     body.autumn .seasonal.autumn { display:block; }
   body.winter { background-image:url('../images/404_winter.jpg'); }
-    body.winter .pagecontent header { margin-top:500px; }
+    body.winter .pagecontent header { margin-top:450px; }
     body.winter h1, body.winter h2, body.winter h2 a { color:#071427; }
     body.winter .seasonal.winter { display:block; }
   .not-found h1.wordmark { margin:0px; }
