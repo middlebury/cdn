@@ -224,7 +224,6 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
   .sidebar .node h1 { color:#FFD231; font-size:1.229em; font-weight:bold; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; border:none; }
   .sidebar .node a { color:#76DB5B; font-weight:bold; border:none; text-decoration:none; }
     .sidebar .node a:hover { text-decoration:underline; }
-  #block-monster-menus-1 { margin-bottom:8px; }
 
   /* Carousel */
   .slider { position:absolute; left:0px; top:6px; height:100%; margin-right:-12000px; }
@@ -442,7 +441,8 @@ body.miis_center { background:url('//cdn.middlebury.edu/miis.edu/2010/images/blu
 .miis_languages_rtl .sidebar { float:left; padding-right:5px; }
 
 /* Buttons */
-.miis_block_button { display:block; margin:4px 0px 4px 0px; }
+.sidebar .middlebury_miis_header { display:block; margin:4px 0px 4px 0px; }
+  .sidebar .miis_button_apply { margin-top:18px; }
 
 /* 10 Questions */
 .node-10questions header { background:url(../images/10questions_header.gif) no-repeat left top; padding:77px 24px 0px 24px; margin:0px -24px 0px -24px; }
