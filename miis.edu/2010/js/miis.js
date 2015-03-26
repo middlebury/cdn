@@ -100,6 +100,18 @@ jQuery(function() { // on DOM ready
     return false;
   });
 
+  // MM Media Thickbox Pop-outs
+  jQuery('img.thickbox').each(function() {
+    if (jQuery(this).parent().is('a') == false) {
+      // Get the path to the full-size image.
+      var src = jQuery(this).attr('src');
+      src = src.replace(/styles\/\w+\/private\//, '');
+
+      // Wrap the image in a link that will open a thickbox window.
+      jQuery(this).wrap('<a class="thickbox noborder" href="'+src+'"></a>');
+    }
+  });
+
   // Sidebar Images
   jQuery('#miis_sidebar a img').parents('a').hover(
     function() {

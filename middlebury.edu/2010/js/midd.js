@@ -137,6 +137,18 @@ jQuery(document).ready(function(jQuery) {
     });
   }
 
+  // MM Media Thickbox Pop-outs
+  jQuery('img.thickbox').each(function() {
+    if (jQuery(this).parent().is('a') == false) {
+      // Get the path to the full-size image.
+      var src = jQuery(this).attr('src');
+      src = src.replace(/styles\/\w+\/private\//, '');
+
+      // Wrap the image in a link that will open a thickbox window.
+      jQuery(this).wrap('<a class="thickbox noborder" href="'+src+'"></a>');
+    }
+  });
+
   // Profile Lists
   jQuery('article.node-profilelist:even').css('margin-right', '18px');
 
