@@ -604,8 +604,12 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   /* Slideshow */
   .node-slideshow { max-width:960px; margin:12px auto 0px auto; }
   .node-slideshow .slide { margin:0px; }
+    .node-slideshow .slideshow-pager { text-align:center; }
+      .node-slideshow .slideshow-pager span { padding:0px 4px 0px 4px; font-size:2em; line-height:1em; }
   body > .region-banner .node-slideshow figcaption { color:#FFFFFF; }
-  body > .region-banner .node-slideshow figcaption a { color:#CCFF66; }
+  body > .region-banner .node-slideshow figcaption a,
+  body > .region-banner .node-slideshow .slideshow-pager { color:#CCFF66; border:0px; }
+    body > .region-banner .node-slideshow .slideshow-pager .cycle-pager-active { color:#73A2E6; }
   body > .region-banner .node-slideshow figcaption a:hover { color:#CCFF66; background:transparent; }
 
   /* Story */
