@@ -37,6 +37,7 @@ jQuery(document).ready(function(jQuery) {
     pointerWidth = 0, // and its width
     windowWidth, // the window width
     startOpen = new Array(),
+    firstOpen = false,
     openedStories = new Array(),
     bar_color = 0,
     story_number = 0;
@@ -153,6 +154,7 @@ jQuery(document).ready(function(jQuery) {
       if(ie6) details.bar.attr('title',details.bar_title.text()); // in IE6, add a title attribute
       story.data('details',details); // store the details data for later
       if(details.open) startOpen.push(details.id);
+      if(details.first) firstOpen = details.id;
     });
     stories.find('.bar_title,.bar_text,.bar_glow,.bar_image_bw,.bar_image').css('opacity',0); // face out hidden features
     stories.find('.bar_contents:odd').css('bottom',0); // make stories alternate top vs. bottom attachment
@@ -196,6 +198,10 @@ jQuery(document).ready(function(jQuery) {
     var permalinked = jQuery(window.location.hash+'_bar'); // check whether a story corresponds to the hash tag
     if(homepage&&permalinked.length) { // if it exists
       permalinked.openStory(); // show it
+    } else if(firstOpen) {
+      first_id = '#story'+firstOpen+'_bar';
+      jQuery(first_id).openStory();
+      openedStories.push(first_id);
     } else if(homepage&&startOpen.length>0) { // otherwise, if a default story was specified
       open_id = '#story'+startOpen[Math.floor(Math.random()*startOpen.length)]+'_bar';
       jQuery(open_id).openStory(); // open it
