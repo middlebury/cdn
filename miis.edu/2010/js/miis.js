@@ -112,6 +112,20 @@ jQuery(function() { // on DOM ready
     }
   });
 
+  // Profile Lists - set items in each row to have equal heights.
+  jQuery('.view-miis-experts .views-row').each(function() {
+    var sibling = false;
+    if (jQuery(this).hasClass('views-row-odd')) {
+      sibling = jQuery(this).next();
+    } else {
+      sibling = jQuery(this).prev();
+    }
+
+    if (sibling && sibling.height() > jQuery(this).height()) {
+      jQuery(this).height(sibling.height());
+    }
+  });
+
   // Sidebar Images
   jQuery('#miis_sidebar a img').parents('a').hover(
     function() {
