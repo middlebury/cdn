@@ -705,9 +705,9 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     .midd_department .left a:hover, .midd_department .region-address a:hover { background-color:#EEFFCC; color:#333300; }
   .midd_department .page { border-top:0px; }
   .midd_department ul.menu { margin-left:0px; background:#FFFFFF; }
-    .midd_department div.content ul.menu li { background-color:transparent; border-color:#CCCCCC; margin:0.4em 0px; padding:0px; }
+    .midd_department div.content ul.menu li { background-color:transparent; border-color:#CCCCCC; margin:0.4em 0px; padding:0px 0px 0px 6px; }
       .midd_department div.content > ul.menu > li > ul.menu > li { border-color:#CCCCCC; }
-      .midd_department ul.menu li a { color:#272C6F; padding-left:6px; }
+      .midd_department ul.menu li a { color:#272C6F; }
       .midd_department ul.menu li a:hover { color:#333300; background:#FFFFFF; }
     .midd_department ul.menu li.active a { color:#333300; }
       .midd_department ul.menu li.active ul { margin-left:18px; }
