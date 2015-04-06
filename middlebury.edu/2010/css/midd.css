@@ -379,7 +379,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     .carousel .node h1, .carousel .node h2, .carousel .node h3, .carousel .node h4, .carousel .node h5, .carousel .node h6 { color:#83B2F9; font-size:1.2em; }
   .carousel .block { border:dashed #FFFFFF; border-width:1px 1px 1px 0px; list-style-type:none; height:238px; margin:0px; }
     .carousel .node, .carousel .link-wrapper { border-left:1px dashed #FFFFFF; height:180px; padding:30px; margin:0px; float:left; }
-    .carousel .content > a { display:none; }
+    .carousel .block-monster-menus > .content > a { display:none; }
   .carousel .field-type-taxonomy-term-reference, .carousel .terms { display:none; }
   .carousel .node-mm-media { padding:0px; }
     .carousel .node-mm-media header, .carousel .node-mm-media .field-name-body { display:none; }
