@@ -1,0 +1,354 @@
+.messages {
+  background-color: white;
+  border: 1px solid #B8D3E5;
+}
+div.status {
+  border-color: #C7F2C8;
+  color: #33A333;
+}
+
+/* Hub -- similar to department & office */
+body.hub #content {
+    background-color: #FFFFFF;
+}
+#content {
+    margin-top: 0;
+}
+body.hub #left {
+    color: #221100;
+}
+body.hub #left a {
+    border-bottom-color: #03466C;
+    color: #03466C;
+}
+body.hub #left a:hover {
+    background-color: #EEFFCC;
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: -moz-use-text-color;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: none;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 0;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: -moz-use-text-color;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: none;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 0;
+    border-top-color: -moz-use-text-color;
+    border-top-style: none;
+    border-top-width: 0;
+    color: #333300;
+}
+body.hub #page {
+    border-top-color: -moz-use-text-color;
+    border-top-style: none;
+    border-top-width: 0;
+}
+body.hub ul.menu {
+    -moz-background-clip: border;
+    -moz-background-origin: padding;
+    -moz-background-size: auto auto;
+    background-attachment: scroll;
+    background-color: #FFFFFF;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    margin-left: 0;
+}
+body.hub ul.menu li {
+    background-color: transparent;
+    border-bottom-color: #CCCCCC !important;
+    border-left-color-ltr-source: physical !important;
+    border-left-color-rtl-source: physical !important;
+    border-left-color-value: #CCCCCC !important;
+    border-right-color-ltr-source: physical !important;
+    border-right-color-rtl-source: physical !important;
+    border-right-color-value: #CCCCCC !important;
+    border-top-color: #CCCCCC !important;
+}
+body.hub ul.menu li a {
+    color: #03466C;
+    padding-left: 6px;
+}
+body.hub ul.menu li a:hover {
+    -moz-background-clip: border !important;
+    -moz-background-origin: padding !important;
+    -moz-background-size: auto auto !important;
+    background-attachment: scroll !important;
+    background-color: #FFFFFF !important;
+    background-image: none !important;
+    background-position: 0 0 !important;
+    background-repeat: repeat !important;
+    color: #333300;
+}
+body.hub ul.menu li.active a {
+    color: #333300;
+}
+body.hub ul.menu li.active ul {
+    margin-left: 18px;
+}
+body.hub ul.menu li.active ul li a {
+    color: #272C6F;
+}
+body.hub ul.menu li.current a, body.hub ul.menu li.active ul li.current a {
+    color: #660000;
+}
+div.item-list > ul {
+    display: block;
+}
+div.content > ul.menu > li > ul.menu > li {
+    padding-left: 0;
+}
+div.content > ul.menu > li > ul.menu > li.expanded > ul.menu, div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu {
+    margin-left: 10px;
+}
+div.content > ul.menu > li {
+    list-style-image: none;
+    list-style-type: none;
+}
+div.content > ul.menu {
+    margin-left: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 190px;
+}
+#taskbar {
+    background: #FCEFBC;
+}
+
+/*********************************************************
+ * Top Navigation styles
+ *********************************************************/
+.navigation ul { background-color:#806807; font-size:1em; height:30px; line-height:30px; margin-bottom:0px; margin:0px; }
+  .navigation li { margin:0px 40px 0px 40px; }
+    .navigation li a { color:#051B36; height:30px !important; position: relative; }
+      .navigation li a span { background-image: url(../images/courses/nav_coursehub.png); display:block; height:36px; left:0px; position:absolute; top:0px; width:100%; }
+  .nav_catalog { width: 140px; }
+    .nav_catalog a span { background-position:-80px 0px; }
+    .nav_catalog a:hover span { background-position:-80px -30px; }
+    .nav_catalog.active a span { background-position:-80px -60px; }
+  .nav_schedule { width:140px; }
+    .nav_schedule a span { background-position:-300px 0px; }
+    .nav_schedule a:hover span { background-position:-300px -30px; }
+    .nav_schedule.active a span { background-position:-300px -60px; }
+  .nav_calendar { width:170px; }
+    .nav_calendar a span { background-position:-520px 0px; }
+    .nav_calendar a:hover span { background-position:-520px -30px; }
+    .nav_calendar.active a span { background-position:-520px -60px; }
+  .nav_middlab { width: 130px; display:block; }
+    .nav_middlab a span { background-position:-740px 0; }
+    .nav_middlab a:hover span { background-position:-740px -30px; }
+    .nav_middlab.active a span { background-position:-740px -60px; }
+
+/*********************************************************
+ * Site-wide Nav styles
+ *********************************************************/
+div#left {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 150px;
+}
+div#body {
+    width: 750px;
+}
+.pagecontent { margin-top:0px; }
+div#left div.block-hub_dashboard h2, div#left div.block-course_hub h2 {
+    display: none;
+}
+img.hub_logo {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+#left div.content ul.menu {
+  float: none;
+  padding-bottom: 0px;
+}
+div.hub_nav_item, div.block-menu > div.content > ul.menu > li {
+    border-bottom-color: #CCCCCC;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-color: #CCCCCC;
+    border-top-style: solid;
+    border-top-width: 1px;
+    font-weight: normal;
+    margin-bottom: -1px;
+    padding-bottom: 8px;
+    padding-left: 8px;;
+    padding-right: 0;
+    padding-top: 8px;
+    width: 190px;
+}
+div.hub_nav_item a {
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+}
+div.hub_nav_item a:hover {
+    -moz-background-clip: border !important;
+    -moz-background-origin: padding !important;
+    -moz-background-size: auto auto !important;
+    background-attachment: scroll !important;
+    background-color: #FFFFFF !important;
+    background-image: none !important;
+    background-position: 0 0 !important;
+    background-repeat: repeat !important;
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+div.hub_nav_spacer {
+    height: 40px;
+}
+
+div.hub_nav_item div.term {
+  margin-left: 10px;
+  font-weight: normal;
+}
+div.hub_nav_item a.active {
+  font-weight: bold;
+}
+div.hub_nav_item div.term div.site_link {
+  margin-left: 15px;
+}
+
+/* Get top-level monster-menus menu items styled like nav blocks. */
+#left div.content > ul.menu > li > ul > li.leaf, #left div.content > ul.menu > li > ul > li.expanded {
+  list-style-image: none;
+  list-style-type: none;
+}
+#left div.content > ul.menu > li {
+  padding: 0px;
+}
+#left div.content > ul.menu > li > ul {
+  padding-left: 0px;
+}
+#left div.content > ul.menu > li > ul.menu > li > a {
+  font-weight: normal;
+}
+#left div.content > ul.menu > li > ul > li:last-child {
+  border-bottom: none;
+}
+
+/*  Allow showing of nav items created by the drupal nav system
+    while still hiding the Monster menus root menu link.
+*/
+#left div.block-menu > div.content > ul.menu > li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+div.block-menu > div.content > ul.menu > li > a { display: block; }
+
+/*********************************************************
+ * Taskbar
+ *********************************************************/
+div#taskbar h2 {
+    display: none;
+}
+div#taskbar {
+    color: #084B71;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+}
+div#taskbar a.login {
+    padding-left: 3em;
+    text-decoration: underline;
+}
+
+/*********************************************************
+ * Breadcrumbs
+ *********************************************************/
+div#breadcrumb {
+    margin-bottom: 0;
+    padding-left: 18px;
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 750px;
+}
+
+/*********************************************************
+ * General Styles
+ *********************************************************/
+h1 {
+    font-size: 2em;
+    font-weight: normal;
+}
+h2 {
+  color: #03466C;
+}
+div#left div.block-masquerade {
+    clear: both;
+    padding-top: 100px;
+}
+
+/*********************************************************
+ * Resource Drop Downs
+ *********************************************************/
+.dropdown {
+  float: none;
+}
+
+.dropdown h3 {
+    background: #E6EAEE;
+    border: 1px #B8C3CE solid;
+    color: #222222;
+    cursor: pointer;
+    font-family: Verdana,"Lucida Grande",Lucida,sans-serif;
+    font-size: 0.846em;
+    letter-spacing: 0;
+    line-height: 1em;
+    padding: 8px 11px;
+    text-transform: none;
+    display: inline-block;
+}
+
+.dropdown.active h3 {
+    background: #003366;
+  border: 1px #003366 solid;
+    color: #FFF;
+}
+
+.dropdown h3 .spinner {
+  color: #114477;
+  font-size: .75em;
+}
+
+.dropdown.active h3 .spinner {
+  color: #FFF;
+}
+
+.dropdown .contents {
+  background: #003366;
+  border: 1px #003366 solid;
+  color: #FFF;
+}
+.dropdown .contents a, .dropdown .contents a:hover {
+  color: #FFF;
+}
+.dropdown .contents a:hover {
+  text-decoration: underline;
+}
+.dropdown .contents ul {
+  padding: 0.4em 0 0 0;
+  
+}
+.dropdown .contents ul li {
+  padding: 0 1em 0.4em 1em;
+  margin: 0px;
+}
