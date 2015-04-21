@@ -157,6 +157,7 @@ jQuery(document).ready(function(jQuery) {
     var sidebar_nodes = jQuery('#block-monster-menus-2 .node');
     if (sidebar_nodes.length == 0) {
       jQuery(this).css('width', '100%');
+      jQuery(this).css('max-width', '100%');
     }
   });
 
