@@ -152,8 +152,8 @@ jQuery(document).ready(function(jQuery) {
   // Profile Lists
   jQuery('article.node-profilelist:even').css('margin-right', '18px');
 
-  // Promotional Calendars on pages with blank sidebars.
-  jQuery('article.node-promocal').each(function() {
+  // Promotional Calendars and Form fieldsets on pages with blank sidebars.
+  jQuery('article.node-promocal,section.body fieldset.form-wrapper').each(function() {
     var sidebar_nodes = jQuery('#block-monster-menus-2 .node');
     if (sidebar_nodes.length == 0) {
       jQuery(this).css('width', '100%');
