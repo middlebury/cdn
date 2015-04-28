@@ -1,0 +1,124 @@
+﻿body 
+{
+    background: #ffffff;
+    color: #666666;
+    font-family: Verdana, Helvetica, Arial, Sans-Serif;
+    font-size: 76%;
+    margin: 0px;
+}
+
+hr
+{
+    background-color: #09357a;
+    border: 0px;
+    color: #09357a;
+    height: 1px;
+    line-height: 0px;
+    padding: 0px;
+    margin-bottom: -1px;
+}
+
+a.btnLogon
+{
+    color: #ffffff;
+}
+
+div.clear
+{
+    clear: both;
+    height: 0px;
+    line-height: 0px;
+    margin: 0px;
+}
+
+div.header
+{
+    height: 73px;
+}
+
+div.headerSite
+{
+    float: right;
+    margin: 10px 10px 0px 0px;
+    height: 15px;
+    line-height: 15px;
+    padding: 0px;
+}
+
+div.headerSite h1
+{
+    color: #09357a;
+    font-family: Arial, Helvetica, Sans-Serif, Default;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0px;
+}
+
+div.headerWelcome
+{
+    color: #ffffff;
+    background: #09357a;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 3px;
+    height: 1.9em;
+    font-size: 0.9em;
+    /*
+    float: right;
+    font-size: 0.9em;
+    margin: -1.65em 10px 0em 0em;
+    right: 0px;
+*/
+}
+
+div.headerWelcome a
+{
+    color: #ffffff;
+}
+
+div.main
+{
+    background: #ffffff;
+    color: #336699;
+}
+
+div.content
+{
+    margin: 10px;
+}
+
+img.headerLogo
+{
+    border-width: 0px;
+    float: left;
+    margin: 2px 0em 0em 10px;
+}
+
+div.headerNavigation
+{
+    width: 100%;
+    border-top: 1px solid #09357a;
+    margin-top: 5px;
+}
+
+div.AspNet-Login label
+{
+    display: block;
+    width: 10em;
+    float: left;
+}
+
+div.AspNet-Login-SubmitPanel input
+{
+    margin: 1em 0em 0em 9em;
+}
+
+div.AspNet-Login em
+{
+    font-style: normal;
+}
+
+div.AspNet-Login-FailurePanel
+{
+    color: #FF0000;
+}
