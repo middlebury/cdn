@@ -220,7 +220,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
         .affiliates li a { background-color:transparent; border:medium none; color:#C7DBD7; display:block; padding:0px; position:relative; }
         .affiliates li a:hover { color:#FFFFFF; }
       .affiliates.ir li a, .affiliates.ir h2 { height:25px; overflow:hidden; position:relative; text-indent:-999em; }
-      .affiliates.ir li a span, .affiliates.ir h2 span { background-image:url(../images/nav_affiliates.gif); height:100%; position:absolute; right:0px; top:0px; width:100%; }
+      .affiliates.ir li a span, .affiliates.ir h2 span { background-image:url(../images/nav_affiliates.gif?2015-04-29); height:100%; position:absolute; right:0px; top:0px; width:100%; }
       .affiliates h2 span { background-position:center 0px; }
       li.affiliates_languageschools { padding-bottom:5px; width:208px; margin-left:40px; }
         .affiliates_languageschools a span { background-position:-32px -25px; }
@@ -532,6 +532,8 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
       .node-newslist h1 { font-weight:normal; font-family:Garamond,"Times New Roman",serif; font-size:1.2em; }
       .node-newslist div, .node-newslist span, .node-newslist p { font-size:13px; line-height:1.3em; display:inline; }
         .node-newslist .news-date { color:#000000; font-weight:bold; }
+  .field-name-field-news-media-images ul { list-style-type:none; font-size:0px; margin-bottom:12px; }
+    .field-name-field-news-media-images li { display:inline; margin:0px; }
 
   /* Promotional Calendar */
   aside.sidebar+.body .node-promocal { width:450px; }
