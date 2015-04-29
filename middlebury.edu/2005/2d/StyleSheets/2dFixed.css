@@ -1,0 +1,11 @@
+﻿body
+{
+    text-align: center;
+}
+
+div.main
+{
+    text-align: left;
+    width: 980px;
+    margin: 0 auto;
+}
