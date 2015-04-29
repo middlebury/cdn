@@ -222,12 +222,12 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
       .affiliates.ir li a, .affiliates.ir h2 { height:25px; overflow:hidden; position:relative; text-indent:-999em; }
       .affiliates.ir li a span, .affiliates.ir h2 span { background-image:url(../images/nav_affiliates.gif?2015-04-29); height:100%; position:absolute; right:0px; top:0px; width:100%; }
       .affiliates h2 span { background-position:center 0px; }
-      li.affiliates_languageschools { padding-bottom:5px; width:208px; margin-left:40px; }
+      li.affiliates_languageschools { padding-bottom:5px; width:208px; margin-left:37px; }
         .affiliates_languageschools a span { background-position:-32px -25px; }
         .affiliates_languageschools a:hover span { background-position:-32px -50px; }
-      .affiliates_breadloafschool { width:280px; }
-        .affiliates_breadloafschool a span { background-position:-255px -25px; }
-        .affiliates_breadloafschool a:hover span { background-position:-255px -50px; }
+      .affiliates_breadloafschool { width:285px; }
+        .affiliates_breadloafschool a span { background-position:-251px -25px; }
+        .affiliates_breadloafschool a:hover span { background-position:-251px -50px; }
       .affiliates_breadloafconference { width:305px; }
         .affiliates_breadloafconference a span { background-position:-547px -25px; }
         .affiliates_breadloafconference a:hover span { background-position:-547px -50px; }
