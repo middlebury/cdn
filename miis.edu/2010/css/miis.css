@@ -116,6 +116,8 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
       .navigation li .nav_feature { display:none; position:absolute; bottom:100%; margin-bottom:34px; left:-1px; padding:12px; border:solid #5E6676; border-width:1px 1px 0px 1px; background-color:#F9F9F9; width:320px; height:155px; }
         .front .navigation li .nav_feature { display:block; }
       .navigation li .nav_dropdown { position:absolute; top:34px; border:solid #5E6676; border-width:0px 1px 1px; background-color:#F9F9F9; width:320px; padding:12px; display:none; }
+        .navigation li .nav_dropdown .nav_feature { color:#000000; }
+        .navigation li .nav_dropdown .nav_feature a { color:#003399; }
         .navigation li.hover .nav_dropdown { display:block;  z-index:500; }
         .navigation li .nav_dropdown ul { margin:0px; }
           .navigation li .nav_dropdown li { float:none; margin:0.1em 0px 0.3em 0px; }
