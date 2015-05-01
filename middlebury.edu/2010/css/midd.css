@@ -27,7 +27,7 @@ h1 { font-size:1.6em; font-weight:bold; color:#012; }
 h2, .node h1 { font-size:1.6em; color:#084B71; font-weight:normal; }
 h3 { font-size:1.4em; color:#4F3E1E; }
   h3 a { border-bottom:1px dotted #114477; padding:1px; }
-  h3 a:hover {color:#003366; border-bottom:1px solid:#003366; background-color:#EEFFCC; }
+  h3 a:hover {color:#003366; border-bottom:1px solid #003366; background-color:#EEFFCC; }
 h4 { font-weight:bold; font-size:1.2em; color:#666666; }
 h5 { font-size:1.1em; color:#666666; font-weight:bold; }
 h6 { font-weight:bold; color:#666666; }
