@@ -87,16 +87,16 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
 .clear { height:0; clear:both; }
 
   /* Header */
-  header.header { height:160px; background-color:#4E79D3; color:#FFFFFF; background-position:center top; background-repeat:no-repeat; }
+  header.header { height:194px; background-color:#4E79D3; color:#FFFFFF; background-position:center top; background-repeat:no-repeat; }
     header.header a { color:#FFFFFF; text-decoration:none; border:none; font-weight:normal; }
       header.header a:hover { text-decoration:none; color:#76DB5B; font-weight:normal; }
   .wordmark { font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; display:block;  position:absolute; left:12px; top:16px; width:360px; height:100px; font-size:2.5em; line-height:1em; }
     .wordmark:hover { border:none; color:#DDDDDD; }
   .languages, .search, .gateways { background-image:url(../images/black_trans.png); padding:10px 12px 10px 12px; }
-  .search { width:200px; float:right; padding:7px 10px 12px 10px; }
+  .search { width:200px; position:absolute; top:0px; right:0px; padding:7px 10px 12px 10px; }
     .search input { border:1px solid #444455; -moz-border-radius:5px; -webkit-border-radius:5px; width:11em; padding:0.2em 0.5em 0.2em 0.5em; }
     .search button { background-color:transparent; border:none; color:#FFFFFF; font-weight:bold; padding:0px; margin:0px; }
-  .gateways { width:196px; list-style-type:none; clear:right; float:right; margin-top:10px; padding:12px 12px; }
+  .gateways { width:196px; list-style-type:none; position:absolute; top:55px; right:0px; padding:12px 12px; }
   .languages { width:146px; list-style-type:none; position:absolute; right:229px; top:0px; height:112px; padding-top:20px; }
     .languages li, .gateways li { width:50%; margin:0px 0px 2px 0px; }
     .languages .left, .gateways .left { float:left; }
@@ -106,7 +106,8 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
     .gateways .full { width:100%; }
 
   /* Navigation */
-  .navigation { height:34px; background-color:#5E6676; position:relative; z-index:500; }
+  .navigation { position:absolute; top:160px; left:0px; height:34px; background-color:#5E6676; position:relative; z-index:500; }
+    body.front .navigation { top:300px; }
     .navigation ul { list-style-type:none; margin-bottom:0px; }
     .navigation li { float:left; margin:0px; position:relative; margin-right:28px; }
       .navigation li a.tab { color:#FFFFFF; text-decoration:none; padding:0px 12px; display:block; position:relative; text-align:center; font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; font-size:1.3em; line-height:34px; border:none; white-space:nowrap; }
@@ -239,22 +240,23 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
     .carousel .node .links { display:block; clear:both; }
 
   /* Footer */
-  .footer { clear:both; padding-top:12px; width:960px; margin:24px auto; color:#999999; }
+  .footer { clear:both; position:relative; padding-top:12px; width:960px; margin:24px auto; color:#999999; }
     .footer h6 { color:#999999; font-weight:normal; }
     .footer a { font-weight:bold; color:#FFFFFF; border:none; }
       .footer a:hover { color:#76DB5B; }
     .footer .name { font-size:1.4em; font-family:"Goudy Old Style",Goudy,"Times New Roman",Times,serif; margin-bottom:10px; padding-bottom:5px; color:#999999; border-bottom:1px solid #999999; }
       .footer .name a { font-weight:normal; color:#999999; }
         .footer .name a:hover { color:#FFFFFF; }
-    .footer .address { float:left; }
-      .footer .address a { color:#FFFFFF; font-weight:bold; border:none; }
-        .footer .address a:hover { text-decoration:underline; }
-    .footer .right { float:right; text-align:right; margin-left:60px; }
+    .footer .block { float:left; }
+      .footer .block.block-middlebury-cas { position:absolute; bottom:0px; }
+      .footer .block a { color:#FFFFFF; font-weight:bold; border:none; }
+        .footer .block a:hover { text-decoration:underline; }
+    .footer .quicklinks, .footer .social { float:right; text-align:right; margin-left:60px; }
     .footer ul { list-style-type:none; margin:0; }
       .footer li { margin:0; }
 
 /* Homepage */
-.front header.header { height:300px; }
+.front header.header { height:334px; }
 .front .page { margin:30px auto 0px auto; color:#EEEEEE; }
 .front .column { padding:0px 30px 0px 30px; }
   .front .two .first { padding-left:12px; width:584px; }
