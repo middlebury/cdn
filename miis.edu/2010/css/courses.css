@@ -1,0 +1,29 @@
+/* Course Hub Styles */
+.miis_courses.front header.header { height:194px; background-image:url() !important; }
+  .miis_courses.front .navigation { top:160px; }
+
+.search { width:333px; }
+  .search input { width:18em; }
+
+#block-middlebury-cas-long-login { position:absolute; top:55px; right:0px; width:330px; padding:12px; background-image:url(../images/black_trans.png); }
+  #block-middlebury-cas-long-login h2 { display:none; }
+  #block-middlebury-cas-long-login a.login { margin-top:0px; font-size:inherit; padding:0px; display:inline-block; float:none; }
+    #block-middlebury-cas-long-login a.login:hover { background:transparent; }
+
+.navigation li { margin-left:19px; }
+  .navigation li a.tab span { background-image: url(../images/courses/nav_coursehub.gif); }
+  .nav_catalog a { width:125px; }
+    .nav_catalog a span { background-position:-20px 0px; }
+    .nav_catalog a:hover span { background-position:-20px -70px; }
+  .nav_schedule_builder a { width:141px; }
+    .nav_schedule_builder a span { background-position:-180px 0px; }
+    .nav_schedule_builder a:hover span { background-position:-180px -70px; }
+  .nav_calendar a { width:159px; }
+    .nav_calendar a span { background-position:-356px 0px; }
+    .nav_calendar a:hover span { background-position:-356px -70px; }
+  .nav_events a { width:49px; }
+    .nav_events a span { background-position:-553px 0px; }
+    .nav_events a:hover span { background-position:-553px -70px; }
+  .nav_quicklinks a { width:101px; }
+    .nav_quicklinks a span { background-position:-641px 0px; }
+    .nav_quicklinks a:hover span { background-position:-641px -70px; }
