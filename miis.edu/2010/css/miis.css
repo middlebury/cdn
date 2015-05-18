@@ -446,6 +446,10 @@ body.miis_center { background:url('//cdn.middlebury.edu/miis.edu/2010/images/blu
 .miis_languages .breadcrumb, .miis_languages_rtl .breadcrumb, .miis_languages .titlecard, .miis_languages_rtl .titlecard { width:684px; }
 .miis_languages_rtl .sidebar { float:left; padding-right:5px; }
 
+/* Buttons */
+.sidebar .middlebury_miis_header { display:block; margin:4px 0px 4px 0px; }
+  .sidebar .miis_button_apply { margin-top:18px; }
+
 /* 10 Questions */
 .node-10questions header { background:url(../images/10questions_header.gif) no-repeat left top; padding:77px 24px 0px 24px; margin:0px -24px 0px -24px; }
 .node-10questions h1 { font-size:1.2em; color:#003366; font-weight:bold; letter-spacing:2px; }
