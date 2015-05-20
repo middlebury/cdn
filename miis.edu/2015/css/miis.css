@@ -1,15 +1,18 @@
 /* Middlebury Insitute styles 2015 */
 .languages, .search, .gateways { display:none; }
 
-.languages, .gateways { color:#97B9FE; z-index:600; padding:0px; width:131px; height:24px; font-family:Arial,sans-serif; font-size:13px; text-transform:uppercase; }
-  .languages li, .gateways li { width:131px; height:24px; background:url() #071427; margin:0px; display:none; }
-    .languages li img, .gateways li img { margin:6px 0px 0px 9px; }
-  .languages li:first-child, .gateways li:first-child { display:block; }
+.languages, .gateways { color:#97B9FE; z-index:600; padding:0px; font-family:Arial,sans-serif; font-size:13px; text-transform:uppercase; width:131px; height:24px; }
+  .languages header, .gateways header { width:131px; height:24px; }
+    .languages header h2, .gateways header h2 { font-family:Arial,sans-serif; font-size:13px; }
+  .languages ul, .gateways ul { display:none; width:262px; list-style-type:none; margin:0px; }
+    .gateways ul { width:320px; }
+  .languages li, .gateways li { width:131px; height:24px; background:url() #071427; margin:0px; }
+    .languages header img, .gateways header img { margin:6px 0px 0px 9px; }
   header.header .languages a, header.header .gateways a { color:#97B9FE; font-weight:bold; margin:6px 0px 0px 9px; }
 .languages { display:block; position:absolute; top:0px; right:13px; }
-  .languages li { width:100%; }
+  .languages li { width:131px; }
 .gateways { display:block; position:absolute; top:0px; right:155px; }
-  .gateways li.left, .gateways li.right { width:131px; }
+  .gateways li.left, .gateways li.right { width:160px; text-align:left; }
 .search { display:block; box-sizing:border-box; width:286px; height:24px; position:absolute; top:32px; padding:0px; background:url() transparent; }
   .search input, .search button { margin:0px; padding:0px; display:inline-block; white-space:normal; line-height:13px; vertical-align:middle; }
   .search input { box-sizing:content-box; }
@@ -22,25 +25,35 @@
   .wordmark { top:27px; left:27px; width:498px; }
   body.front .navigation { top:160px; }
 
-.navigation li a.tab { font-family:Arial,sans-serif; font-size:19px; }
+.navigation li a.tab { font-family:Arial,sans-serif; font-size:18px; }
+  .navigation li .nav_dropdown .left { width:155px; }
+  .navigation li .nav_dropdown .right { text-align:left; padding-left:10px; width:155px; }
 
-.front .page { margin-top:0px; padding-top:3px; background-color:#FFFFFF; }
+.front .page { margin-top:0px; padding-top:2px; background-color:#FFFFFF; }
 
 .front .cycle-slideshow { width:808px; float:left; }
-nav.actions { width:149px; float:right; }
+nav.actions { width:150px; float:right; }
   nav.actions ul, nav.actions li { margin:0px; padding:0px; list-style:none; }
-  nav.actions li { margin-top:3px; }
+  nav.actions li { margin-top:2px; }
     nav.actions li:first-child { margin-top:0px; }
       nav.actions li:last-child a { padding-right:74px; }
-    nav.actions a { display:block; box-sizing:border-box; padding:54px 44px 0px 12px; line-height:20px; color:#FFFFFF; width:149px; height:98px; background:url(../images/action_background.png) #071427 repeat-x; font-family:Arial,sans-serif; font-weight:bold; font-size:15px; text-transform:uppercase; }
-      nav.actions a:hover { text-decoration:none; }
-      nav.actions a img { margin-left:9px; }
+    nav.actions a { display:block; box-sizing:border-box; padding:54px 44px 0px 12px; line-height:20px; color:#FFFFFF; width:150px; height:98px; background:url(../images/action_background.png) #071427 repeat-x; font-family:Arial,sans-serif; font-weight:bold; font-size:15px; text-transform:uppercase; }
+      nav.actions a:hover { text-decoration:none; color:#FFD230; }
+      nav.actions span.arrow { background:url(../images/arrow_white_yellow); display:inline-block; width:11px; height:11px; background-position:0px 0px; margin-left:9px; }
+        nav.actions a:hover span.arrow { background-position:0px -11px; }
 
-.front .three .column { width:300px; padding:0px; padding-left:10px; margin:10px 9px 0px 0px; border-left:1px solid #E5E5E5; }
+.front .three .column { width:300px; padding:0px; padding-left:10px; margin:10px 9px 0px 0px; border-left:1px solid #E5E5E5; font-family:Georgia,serif; font-size:9px; line-height:14px; font-weight:normal; color:#4A4A4A; }
+  .front .three .column a { color:#223E64; }
   .front .three .column:first-child { border:none; }
   .front .columns h2 { height:36px; background:linear-gradient(225deg, transparent 8px, #5E6676 0) top right; color:#FFFFFF; font-family:Arial,sans-serif; font-size:18px; line-height:18px; box-sizing:border-box; padding:9px 14px 9px 14px; font-weight:normal; }
+  .front .column figure, .front .views-field-field-media { text-align:left; float:right; margin:0px 0px 8px 20px; }
+  .front .column h3, .front .news .views-row-1 .views-field-title a, .front .spotlight .views-field-title a { color:#223E64; font-family:Arial,Verdana,sans-serif; font-size:10px; line-height:14px; font-weight:bold; }
+  .front .column .views-field-field-media .enlarge { display:none; }
+  .front .spotlight .views-field-counter { clear:both; margin-top:0px; }
+  .front .spotlight div.item-list { margin-top:-20px; width:100%; }
 
-.footer { background-color:#374052; font-family:Arial; font-size:14px; color:#FFFFFF; padding:19px 21px 0px 21px; margin-bottom:0px; min-height:120px; width:918px; }
+.footer { font-family:Arial; font-size:14px; color:#FFFFFF; padding:19px 21px 0px 21px; margin-bottom:0px; min-height:120px; width:918px; }
+  .front .footer { background-color:#374052; }
 
 .footer .social { width:220px; }
   .footer .social a { width:35px; height:35px; display:inline-block; background:url(../images/social.png); float:left; margin:0px 0px 9px 9px; }
