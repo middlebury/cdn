@@ -99,9 +99,6 @@ jQuery(function() { // on DOM ready
     e.stopPropagation();
     return false;
   });
-  
-  // Forms - Select or Other
-  jQuery('.select-or-other-other.form-text:hidden').removeAttr('required');
 
   // MM Media Thickbox Pop-outs
   jQuery('img.thickbox').each(function() {

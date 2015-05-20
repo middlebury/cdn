@@ -120,9 +120,6 @@ jQuery(document).ready(function(jQuery) {
     e.stopPropagation();
     return false;
   });
-  
-  // Forms - Select or Other
-  jQuery('.select-or-other-other.form-text:hidden').removeAttr('required');
 
   // Gallery click overlay
   if (typeof imagesLoaded == 'function') {
