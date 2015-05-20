@@ -1,7 +1,7 @@
 /* Middlebury Insitute styles 2015 */
 .languages, .search, .gateways { display:none; }
 
-.languages, .gateways { color:#97B9FE; z-index:600; padding:0px; width:131px; height:24px; font-family:Arial sans-serif; font-size:13px; text-transform:uppercase; }
+.languages, .gateways { color:#97B9FE; z-index:600; padding:0px; width:131px; height:24px; font-family:Arial,sans-serif; font-size:13px; text-transform:uppercase; }
   .languages li, .gateways li { width:131px; height:24px; background:url() #071427; margin:0px; display:none; }
     .languages li img, .gateways li img { margin:6px 0px 0px 9px; }
   .languages li:first-child, .gateways li:first-child { display:block; }
@@ -15,14 +15,14 @@
   .search input { box-sizing:content-box; }
   .search button { box-sizing:border-box; }
   .search input { border:0px; padding:3px 7px 3px 7px; width:199px; height:18px; }
-  .search button { background:url() #071427; width:49px; height:24px; margin-left:7px; font-family:Arial sans-serif; font-size:13px; color:#97B9FE; text-transform:uppercase; }
+  .search button { background:url() #071427; width:49px; height:24px; margin-left:7px; font-family:Arial,sans-serif; font-size:13px; color:#97B9FE; text-transform:uppercase; }
     .search button img { margin-left:9px; }
 
 .front header.header { height:194px; }
   .wordmark { top:27px; left:27px; width:498px; }
   body.front .navigation { top:160px; }
 
-.navigation li a.tab { font-family:Arial sans-serif; font-size:19px; }
+.navigation li a.tab { font-family:Arial,sans-serif; font-size:19px; }
 
 .front .page { margin-top:0px; padding-top:3px; background-color:#FFFFFF; }
 
@@ -32,13 +32,13 @@ nav.actions { width:149px; float:right; }
   nav.actions li { margin-top:3px; }
     nav.actions li:first-child { margin-top:0px; }
       nav.actions li:last-child a { padding-right:74px; }
-    nav.actions a { display:block; box-sizing:border-box; padding:54px 44px 0px 12px; line-height:20px; color:#FFFFFF; width:149px; height:98px; background:url(../images/action_background.png) #071427 repeat-x; font-family:Arial sans-serif; font-weight:bold; font-size:15px; text-transform:uppercase; }
+    nav.actions a { display:block; box-sizing:border-box; padding:54px 44px 0px 12px; line-height:20px; color:#FFFFFF; width:149px; height:98px; background:url(../images/action_background.png) #071427 repeat-x; font-family:Arial,sans-serif; font-weight:bold; font-size:15px; text-transform:uppercase; }
       nav.actions a:hover { text-decoration:none; }
       nav.actions a img { margin-left:9px; }
 
 .front .three .column { width:300px; padding:0px; padding-left:10px; margin:10px 9px 0px 0px; border-left:1px solid #E5E5E5; }
   .front .three .column:first-child { border:none; }
-  .front .columns h2 { height:36px; background:linear-gradient(225deg, transparent 8px, #5E6676 0) top right; color:#FFFFFF; font-family:Arial sans-serif; font-size:18px; line-height:18px; box-sizing:border-box; padding:9px 14px 9px 14px; font-weight:normal; }
+  .front .columns h2 { height:36px; background:linear-gradient(225deg, transparent 8px, #5E6676 0) top right; color:#FFFFFF; font-family:Arial,sans-serif; font-size:18px; line-height:18px; box-sizing:border-box; padding:9px 14px 9px 14px; font-weight:normal; }
 
 .footer { background-color:#374052; font-family:Arial; font-size:14px; color:#FFFFFF; padding:19px 21px 0px 21px; margin-bottom:0px; min-height:120px; width:918px; }
 
