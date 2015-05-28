@@ -1,9 +1,10 @@
-body.midd_blwc { background-image:url('../images/blwc/breadloaf.jpg'); }
+body.midd_blwc { background-image:url('../images/blwc/breadloaf.jpg?2015-05-28'); }
 .column > a, .column .content > a { display:none; }
 
-.midd_blwc h1.wordmark, .midd_blwc_inside h1.wordmark { width:941px; text-align:center; }
-.midd_blwc h1.wordmark { padding:287px 0px 6px 0px; }
-.midd_blwc_inside h1.wordmark { padding:50px 0px 6px 0px; }
+.midd_blwc h1.wordmark, .midd_blwc_inside h1.wordmark { width:950px; text-align:center; }
+.midd_blwc h1.wordmark { padding:261px 0px 0px 0px; }
+.midd_blwc_inside h1.wordmark { padding:50px 0px 0px 0px; }
+  .midd_blwc h1.wordmark a, .midd_blwc_inside h1.wordmark a { display:block; height:64px; }
 
 .search_query { background-color:#FFFFFF; border:none; font-size:0.929em; color:#666666; }
 .search_submit.ir { background:url('../images/arrow_go_white.png'); }
@@ -50,6 +51,5 @@ h2 { color:#666666; font-family:Georgia,serif; margin-bottom:16px; }
 .footer a { border:none; }
 .footer ul { float:left; }
   .quick_contact { margin-left:0px; }
-.footer_wordmark { float:right; }
-  #block-middlebury-midd-blocks-midd-footer-wordmark .footer_wordmark { display:block; }
-  .footer a.footer_wordmark:hover { background-color:transparent; }
+  #block-middlebury-midd-blocks-midd-footer-shield a { display:block; float:right; margin:13px 0px 6px 0px; }
+    .footer .block-middlebury-midd-blocks > .content > ul > li { margin:69px 2px 0px 2px; }
