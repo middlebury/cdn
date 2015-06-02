@@ -40,7 +40,7 @@ nav.actions { width:150px; float:right; }
       nav.actions li:last-child a { padding-right:74px; }
     nav.actions a { display:block; box-sizing:border-box; padding:54px 44px 0px 12px; line-height:20px; color:#FFFFFF; width:150px; height:98px; background:url(../images/action_background.png) #071427 repeat-x; font-family:Arial,sans-serif; font-weight:bold; font-size:15px; text-transform:uppercase; }
       nav.actions a:hover { text-decoration:none; color:#FFD230; }
-      nav.actions span.arrow { background:url(../images/arrow_white_yellow); display:inline-block; width:11px; height:11px; background-position:0px 0px; margin-left:9px; }
+      nav.actions span.arrow { background:url(../images/arrow_white_yellow.png); display:inline-block; width:11px; height:11px; background-position:0px 0px; margin-left:9px; }
         nav.actions a:hover span.arrow { background-position:0px -11px; }
 
 .front .three .column { width:300px; padding:0px; padding-left:10px; margin:10px 9px 0px 0px; border-left:1px solid #E5E5E5; font-family:Georgia,serif; font-size:14px; line-height:19px; font-weight:normal; color:#4A4A4A; }
