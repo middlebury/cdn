@@ -57,6 +57,8 @@ nav.actions { width:150px; float:right; }
 .footer { font-family:Arial; font-size:14px; color:#FFFFFF; padding:19px 21px 0px 21px; margin-bottom:0px; min-height:160px; width:918px; }
   .front .footer { background-color:#374052; }
 
+.footer .block { width:auto; }
+
 .footer .social { width:220px; }
   .footer .social a { width:35px; height:35px; display:inline-block; background:url(../images/social.png); float:left; margin:0px 0px 9px 9px; }
     .footer .social a.facebook { background-position:0px 0px; }
