@@ -47,7 +47,7 @@ nav.actions { width:150px; float:right; }
   .front .three .column a { color:#1B457A; }
     .front .three .column a.more, .front .three .column .pager a { text-transform:lowercase; font-family:sans-serif; margin-left:0px; font-weight:bold; }
   .front .three .column:first-child { border:none; }
-  .front .columns h2 { height:36px; background:linear-gradient(225deg, transparent 8px, #5E6676 0) top right; color:#FFFFFF; font-family:Arial,sans-serif; font-size:18px; line-height:18px; box-sizing:border-box; padding:9px 14px 9px 14px; font-weight:normal; }
+  .front .columns h2 { height:36px; background:linear-gradient(225deg, transparent 8px, #5E6676 0) top right; background-color:#5E6676\0; color:#FFFFFF; font-family:Arial,sans-serif; font-size:18px; line-height:18px; box-sizing:border-box; padding:9px 14px 9px 14px; font-weight:normal; }
   .front .column figure, .front .views-field-field-media { text-align:left; float:right; margin:0px 0px 2px 20px; }
   .front .column h3, .front .news .views-row .views-field-title a, .front .spotlight .views-field-title a, .front .spotlight .events a { color:#223E64; font-family:Arial,Verdana,sans-serif; font-size:15px; line-height:19px; font-weight:bold; }
   .front .column .views-field-field-media .enlarge { display:none; }
