@@ -582,6 +582,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .node-opportunity .field { margin-bottom:1em; }
 
   /* Quick Access */
+  .qa_form { color:#333366; font-size:1.6em; margin-bottom:-16px; }
   .qa_results { border:1px solid #CCCCCC; width:14em; background-color:#FFFFFF; z-index:200; position:relative; }
   .qa_results_list { list-style-type:none; padding:0px; margin:0px; line-height:1.2em; }
     .qa_results_list li { margin:0px; }
@@ -765,7 +766,7 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 
 .leaf h1, .leaf .node.node-jobdescription h1 { color:#063; }
 .leaf .opening { color:#527546; }
-.leaf h2, .leaf .node h1, .leaf .node-faq summary { color:#003300; }
+.leaf h2, .leaf .node h1, .leaf .node-faq summary, .leaf .node .qa_form { color:#003300; }
 .leaf h3 { color:#0C5A0C; }
 .leaf h4 { color:#549959; }
 .leaf h5, .leaf .profile-card h2 { color:#4EAE34; }
@@ -782,7 +783,7 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 
 .apple h1, .apple .node.node-jobdescription h1 { color:#603; }
 .apple .opening { color:#790E39; }
-.apple h2, .apple .node h1 { color:#6C492D; }
+.apple h2, .apple .node h1, .apple .node .qa_form { color:#6C492D; }
 .apple h3 { color:#A0BC0B; }
 .apple h4 { color:#C43737; }
 .apple h5, .apple .profile-card h2 { color:#B32629; }
@@ -799,7 +800,7 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 
 .sun h1, .sun .node.node-jobdescription h1 { color:#630; } 
 .sun .opening { color:#E69226; }
-.sun h2, .sun .node h1 { color:#DD9E27; }
+.sun h2, .sun .node h1, .sun .node .qa_form { color:#DD9E27; }
 .sun h3 { color:#D9C621; }
 .sun h4 { color:#AAA448; }
 .sun h5, .sun .profile-card h2 { color:#D9A900; }
@@ -816,7 +817,7 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 
 .lake h1, .lake .node.node-jobdescription h1 { color:#066; }
  .lake .opening { color:#117D81; }
-.lake h2, .lake .node h1 { color:#107F95; }
+.lake h2, .lake .node h1, .lake .node .qa_form { color:#107F95; }
 .lake h3 { color:#5CBEA7; }
 .lake h4 { color:#3A76A8; }
 .lake h5, .lake .profile-card h2 { color:#409792; }
@@ -833,7 +834,7 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 
 .grape h1, .grape .node.node-jobdescription h1 { color:#606; }
 .grape .opening { color:#790E39; }
-.grape h2, .grape .node h1 { color:#A0011C; }
+.grape h2, .grape .node h1, .grape .node .qa_form { color:#A0011C; }
 .grape h3 { color:#853533; }
 .grape h4 { color: #5b1c79; }
 .grape h5, .grape .profile-card h2 { color: #785b8b; }
@@ -850,7 +851,7 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 
 .maple h1, .maple .node.node-jobdescription h1 { color:#630; }
 .maple .opening { color:#AF760A; }
-.maple h2, .maple .node h1 { color:#95613A; }
+.maple h2, .maple .node h1, .maple .node .qa_form { color:#95613A; }
 .maple h3 { color:#AC8602; }
 .maple h4 { color:#944d00; }
 .maple h5, .maple .profile-card h2 { color:#5f3f1d; }
