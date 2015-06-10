@@ -454,6 +454,9 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 
   /* GCal Events */
   .block-gcal-events h2 { display:none; }
+  
+  /* Middlebury Listmanager */
+  .middlebury_listmanager label { display:inline-block; }
 
   /* Views Exposed Form */
   .views-exposed-widget { display:block; clear:left; }
