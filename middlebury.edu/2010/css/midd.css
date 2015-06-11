@@ -535,6 +535,12 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .field-name-field-news-media-images ul { list-style-type:none; font-size:0px; margin-bottom:12px; }
     .field-name-field-news-media-images li { display:inline; margin:0px; }
 
+ .node-news .sharethis-buttons { line-height:0px; font-size:0px; margin:0px; padding:0px; margin-bottom:22px; }    
+   .node-news .sharethis-buttons span { background-image:url('../images/newsroom_social.png'); width:30px; height:29px; display:inline-block; margin-right:4px; }
+     .node-news span.st_facebook_custom { background-position:0px 0px; }
+     .node-news span.st_twitter_custom { background-position:-34px 0px; width:32px; }
+     .node-news span.st_email_custom { background-position:-139px 0px; }
+
   /* Promotional Calendar */
   aside.sidebar+.body .node-promocal { width:450px; }
 
@@ -682,6 +688,15 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
       .logged-in .midd_banner #block-monster-menus-7 .link-wrapper { top:55px; }
     .midd_banner #block-monster-menus-7 article .links.inline { position:absolute; bottom:4px; left:0px; background:#FFFFFF; z-index:1; margin:0px; }
   .midd_banner .breadcrumb, .midd_banner aside.sidebar { margin-top:154px; }
+
+  #block-middlebury-midd-blocks-midd-newsroom-social ul { list-style-type:none; margin:0px 0px 12px 0px; padding:0px; font-size:0px; line-height:0px; }
+    #block-middlebury-midd-blocks-midd-newsroom-social li { display:inline-block; color:transparent; margin-right:4px; }
+      #block-middlebury-midd-blocks-midd-newsroom-social a { width:30px; height:29px; display:block; background-image:url('../images/newsroom_social.png'); border:none; }
+        #block-middlebury-midd-blocks-midd-newsroom-social a:hover { background-color:transparent; }
+        #block-middlebury-midd-blocks-midd-newsroom-social a.facebook { background-position:0px 0px; }
+        #block-middlebury-midd-blocks-midd-newsroom-social a.twitter { background-position:-34px 0px; width:32px; }
+        #block-middlebury-midd-blocks-midd-newsroom-social a.instagram { background-position:-70px 0px; width:31px; }
+        #block-middlebury-midd-blocks-midd-newsroom-social a.vimeo { background-position:-105px 0px; }
 
   /* Branded */
   .midd_branded .taskbar, .midd_branded .breadcrumb { display:none; }
