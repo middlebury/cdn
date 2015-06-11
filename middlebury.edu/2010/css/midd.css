@@ -693,6 +693,12 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
       .logged-in .midd_banner #block-monster-menus-7 .link-wrapper { top:55px; }
     .midd_banner #block-monster-menus-7 article .links.inline { position:absolute; bottom:4px; left:0px; background:#FFFFFF; z-index:1; margin:0px; }
   .midd_banner .breadcrumb, .midd_banner aside.sidebar { margin-top:154px; }
+  
+  .midd_banner aside.sidebar .node-rss-page .feed-item { padding:0px; }
+  .midd_banner aside.sidebar .node-rss-page .feed-item .node { margin-bottom:0px; }
+  .midd_banner aside.sidebar .node-rss-page .feed-item .node .contents { padding:0px 11px; }
+  .midd_banner .node-rss-page .feed-item-body .contents { border:none; }
+  .midd_banner .node-rss-page .feed-item-body .contents ul.links { display:none; }
 
   #block-middlebury-midd-blocks-midd-newsroom-social ul { list-style-type:none; margin:0px 0px 12px 0px; padding:0px; font-size:0px; line-height:0px; }
     #block-middlebury-midd-blocks-midd-newsroom-social li { display:inline-block; color:transparent; margin-right:4px; }
