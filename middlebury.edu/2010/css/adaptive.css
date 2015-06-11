@@ -20,7 +20,7 @@
 	#midd_navigation, #midd_taskbar, .search, .leftlinks {
 		display: none;
 	}
-	#midd_content {
+	#midd_content, #main-content {
 		margin-top: 0px;
 	}
 	.container, .fullwidth .page {

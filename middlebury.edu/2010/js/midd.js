@@ -39,7 +39,7 @@ jQuery(document).ready(function(jQuery) {
   jQuery('a img').parents('a').addClass('noborder');
 
   // Fix for Address height
-  jQuery('#midd_content nav.left').css('padding-bottom',Math.max(195,jQuery('#midd_content .region-address').height()+40));
+  jQuery('#midd_content nav.left, #main-content nav.left').css('padding-bottom',Math.max(195,jQuery('#midd_content .region-address').height()+40));
 
   function getFirstChild(el){
     var firstChild = el.firstChild;
@@ -165,7 +165,7 @@ jQuery(document).ready(function(jQuery) {
   var carousel = jQuery('#midd_carousel');
   if (carousel.length) {
     carousel.slider();
-    jQuery('#midd_content').append('<div class="carousel_arrow"></div>');
+    jQuery('#midd_content, #main-content').append('<div class="carousel_arrow"></div>');
   }
 
   // Footer positioning and panel

@@ -4,7 +4,7 @@ body.midd_blwc { background-image:url('../images/blwc/breadloaf.jpg?2015-05-28')
 .midd_blwc h1.wordmark, .midd_blwc_inside h1.wordmark { width:950px; text-align:center; }
 .midd_blwc h1.wordmark { padding:261px 0px 0px 0px; }
 .midd_blwc_inside h1.wordmark { padding:50px 0px 0px 0px; }
-  .midd_blwc h1.wordmark a, .midd_blwc_inside h1.wordmark a { display:block; height:64px; }
+  .midd_blwc h1.wordmark a, .midd_blwc_inside h1.wordmark a { background:url(../images/blwc/logo.png?2015-05-28) transparent no-repeat top left; display:block; width:950px; height:64px; text-indent:-9999px; }
 
 .search_query { background-color:#FFFFFF; border:none; font-size:0.929em; color:#666666; }
 .search_submit.ir { background:url('../images/arrow_go_white.png'); }

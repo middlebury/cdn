@@ -35,7 +35,7 @@ body > header { height:110px; }
 .container h1.wordmark { position:absolute; top:0; left:0; }
   .container h1.wordmark a:before { content:url('../images/logo_blue.png'); width:380px; height:110px; display:block; }
   .container h1.wordmark img { visibility:hidden; }
-  #midd_content { margin-top:34px; }
+  #midd_content, #main-content { margin-top:34px; }
 
 /* Reset defaults  */
 html { font-size:100%; }

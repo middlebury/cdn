@@ -4,6 +4,7 @@
 .midd_sa, .midd_sa_inside { background-image:url('../images/sa/photos.png?2015-02-24'); background-position:center 50px; }
 
 .midd_sa h1.wordmark, .midd_sa_inside h1.wordmark { font-size:0px; line-height:0px; width:433px; padding:257px 0px 0px 0px; margin:0px 0px 34px 22px; }
+  .midd_sa h1.wordmark a, .midd_sa_inside h1.wordmark a { background:url(../images/sa/logo.png?2015-02-24) transparent no-repeat top left; display:block; width:433px; height:84px; text-indent:-9999px; }
 
 .header_callout { background:url('../images/black_80.png'); color:#FFFFFF; padding:10px 20px; position:absolute; right:0; bottom:140px; }
   .midd_sa_inside .header_callout { display:none; }
@@ -16,35 +17,35 @@
 .search_query { background-color:#FFFFFF; border:none; font-size:0.929em; color:#666; }
 .search_submit.ir { background:url('../images/arrow_go_white.png'); }
 
-.navigation ul { background-color:#E7C654; height:36px; font-size:1em; line-height:36px; margin:0; }
+.navigation ul { background-color:#E7C654; height:36px; font-size:1em; line-height:36px; margin:0; padding:0px 16px; width:928px; }
   .navigation li { margin:0 14px; }
   .navigation li a { position:relative; color:#FFFFFF; }
     .region-header .navigation ul li a { height:36px; }
-  .navigation li a span { background-image:url('../images/sa/nav_schoolsabroad.gif?2015-02-24'); display:block; position:absolute; top:0; left:0; width:100%; height:36px; }
+  .navigation li a span { background-image:url('../images/sa/nav_schoolsabroad.gif?2015-06-03'); display:block; position:absolute; top:0; left:0; width:100%; height:36px; }
   .nav_apply { width:49px; }
-    .nav_apply a span { background-position:-24px 0; }
-    .nav_apply a:hover span { background-position:-24px -36px; }
-    .nav_apply.active a span { background-position:-24px -72px; }
-  .nav_whymidd { width:140px; }
-    .nav_whymidd a span { background-position:-101px 0; }
-    .nav_whymidd a:hover span { background-position:-101px -36px; }
-    .nav_whymidd.active a span { background-position:-101px -72px; }
-  .nav_parents { width:62px; }
-    .nav_parents a span { background-position:-269px 0; }
-    .nav_parents a:hover span { background-position:-269px -36px; }
-    .nav_parents.active a span { background-position:-269px -72px; }
-  .nav_health { width:198px; }
-    .nav_health a span { background-position:-359px 0; }
-    .nav_health a:hover span { background-position:-359px -36px; }
-    .nav_health.active a span { background-position:-359px -72px; }
-  .nav_graduate { width:165px; }
-    .nav_graduate a span { background-position:-586px 0; }
-    .nav_graduate a:hover span { background-position:-586px -36px; }
-    .nav_graduate.active a span { background-position:-586px -72px; }
+    .nav_apply a span { background-position:-20px 0; }
+    .nav_apply a:hover span { background-position:-20px -36px; }
+    .nav_apply.active a span { background-position:-20px -72px; }
+  .nav_advisors { width:193px; }
+    .nav_advisors a span { background-position:-101px 0; }
+    .nav_advisors a:hover span { background-position:-101px -36px; }
+    .nav_advisors.active a span { background-position:-101px -72px; }
+  .nav_parents { width:63px; }
+    .nav_parents a span { background-position:-326px 0; }
+    .nav_parents a:hover span { background-position:-326px -36px; }
+    .nav_parents.active a span { background-position:-326px -72px; }
+  .nav_health { width:131px; }
+    .nav_health a span { background-position:-421px 0; }
+    .nav_health a:hover span { background-position:-421px -36px; }
+    .nav_health.active a span { background-position:-421px -72px; }
+  .nav_graduate { width:167px; }
+    .nav_graduate a span { background-position:-584px 0; }
+    .nav_graduate a:hover span { background-position:-584px -36px; }
+    .nav_graduate.active a span { background-position:-584px -72px; }
   .nav_languageschools { width:154px; }
-    .nav_languageschools a span { background-position:-779px 0; }
-    .nav_languageschools a:hover span { background-position:-779px -36px; }
-    .nav_languageschools.active a span { background-position:-779px -72px; }
+    .nav_languageschools a span { background-position:-783px 0; }
+    .nav_languageschools a:hover span { background-position:-783px -36px; }
+    .nav_languageschools.active a span { background-position:-783px -72px; }
 
 .midd_sa .pagecontent, .midd_sa_inside .pagecontent { margin-top:0; }
   .midd_sa_inside .taskbar { display:none; }
