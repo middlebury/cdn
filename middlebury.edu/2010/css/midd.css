@@ -659,6 +659,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   body.autumn { background-image:url('../images/404_autumn.jpg'); }
     body.autumn .pagecontent header { margin-top:0px; }
     body.autumn h1, body.autumn h2, body.autumn h2 a { color:#000000; }
+      body.autumn h1.wordmark a { background:url(../images/logo_blue.png) transparent no-repeat top left; }
     body.autumn .seasonal.autumn { display:block; }
   body.winter { background-image:url('../images/404_winter.jpg'); }
     body.winter .pagecontent header { margin-top:450px; }
@@ -688,6 +689,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .midd_banner .breadcrumb, .midd_banner aside.sidebar { margin-top:154px; }
 
   /* Branded */
+  .midd_branded h1.wordmark a { background:url(../images/midd_branded_wordmark.png) transparent no-repeat top left; display:block; width:235px; height:66px; text-indent:-9999px; }
   .midd_branded .taskbar, .midd_branded .breadcrumb { display:none; }
   .midd_branded header.container { min-height:284px; }
   .midd_branded .search_query { background-color:#FFFFFF; border:none; font-size:0.929em; color:#666666; }

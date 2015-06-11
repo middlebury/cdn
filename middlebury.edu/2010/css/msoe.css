@@ -1,6 +1,6 @@
 .midd_msoe h1.wordmark, .midd_msoe_inside h1.wordmark { width:925px; padding:250px 0px 0px 35px; }
   .midd_msoe_inside h1.wordmark { padding:50px 0px 0px 35px; }
-h2.wordmark a { border:none; }
+h2.wordmark a { border:none; background:url(../images/msoe/logo.png) transparent no-repeat top left; display:block; width:960px; height:54px; text-indent:-9999px; }
   h2.wordmark a:hover { background:transparent; }
 
 .search_query { background-color:#fff; border:none; font-size:0.929em; color:#666; }

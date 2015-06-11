@@ -4,6 +4,7 @@
 .midd_sa, .midd_sa_inside { background-image:url('../images/sa/photos.png?2015-02-24'); background-position:center 50px; }
 
 .midd_sa h1.wordmark, .midd_sa_inside h1.wordmark { font-size:0px; line-height:0px; width:433px; padding:257px 0px 0px 0px; margin:0px 0px 34px 22px; }
+  .midd_sa h1.wordmark a, .midd_sa_inside h1.wordmark a { background:url(../images/sa/logo.png?2015-02-24) transparent no-repeat top left; display:block; width:433px; height:84px; text-indent:-9999px; }
 
 .header_callout { background:url('../images/black_80.png'); color:#FFFFFF; padding:10px 20px; position:absolute; right:0; bottom:140px; }
   .midd_sa_inside .header_callout { display:none; }

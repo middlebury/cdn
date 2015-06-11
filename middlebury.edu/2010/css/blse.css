@@ -7,6 +7,7 @@ body.midd_blse.santafe { background-image:url('../images/blse/background_santafe
 .midd_blse h1.wordmark, .midd_blse_inside h1.wordmark { width:924px; }
 .midd_blse h1.wordmark { padding:287px 0px 6px 0px; }
 .midd_blse_inside h1.wordmark { padding:50px 0px 6px 0px; }
+.midd_blse h1.wordmark a, .midd_blse_inside h1.wordmark a { background:url(../images/blse/logo.png) transparent no-repeat top left; width:931px; height:62px; display:block; text-indent:-9999px; }
 
 .header_callout { background:url('../images/black_80.png'); color:#FFFFFF; padding:10px 20px 10px 20px; position:absolute; right:0px; bottom:150px; }
   .header_callout ul { list-style-type:none; margin:0px; }
