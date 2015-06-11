@@ -698,6 +698,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .midd_banner aside.sidebar .node-rss-page .feed-item .node { margin-bottom:0px; }
   .midd_banner aside.sidebar .node-rss-page .feed-item .node .contents { padding:0px 11px; }
   .midd_banner .node-rss-page .feed-item-body .contents { border:none; }
+  .midd_banner .node-rss-page .feed-item-body .contents .field-item p:first-child { margin-bottom:0px; }
   .midd_banner .node-rss-page .feed-item-body .contents ul.links { display:none; }
 
   #block-middlebury-midd-blocks-midd-newsroom-social ul { list-style-type:none; margin:0px 0px 12px 0px; padding:0px; font-size:0px; line-height:0px; }
