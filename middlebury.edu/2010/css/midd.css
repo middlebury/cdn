@@ -102,7 +102,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     ul.ajax_search_results .ui-corner-all { border-radius:0px; }
 
   .container h1.wordmark { font-family:Garamond,"Times New Roman",serif; margin:0px auto; width:380px; padding:24px 0px 18px; font-size:3.2em; line-height:1; color:#fff; background-color:transparent; border:none; }
-    h1.wordmark a { font-weight:normal; background-color:transparent; border:none; padding:0px; color:#fff; }
+    h1.wordmark a { font-weight:normal; background:url(../images/logo.png) transparent no-repeat top left; border:none; padding:0px; color:#fff; display:block; width:380px; height:110px; text-indent:-9999px; }
     .homepage .wordmark { padding:42px 0px 0px; }
 
   .homepage .waveform { height:300px; }
