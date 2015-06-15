@@ -39,7 +39,7 @@ jQuery(document).ready(function(jQuery) {
   jQuery('a img').parents('a').addClass('noborder');
 
   // Fix for Address height
-  jQuery('#midd_content nav.left, #main-content nav.left').css('padding-bottom',Math.max(195,jQuery('#midd_content .region-address').height()+40));
+  jQuery('#main-content nav.left').css('padding-bottom',Math.max(195,jQuery('#main-content .region-address').height()+40));
 
   function getFirstChild(el){
     var firstChild = el.firstChild;
