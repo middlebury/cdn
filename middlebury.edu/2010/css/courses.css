@@ -1,3 +1,165 @@
+div.hub_dashboard h1 {
+  margin-bottom: 20px;
+}
+
+div.hub_dashboard div.site {
+  clear: both;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px dotted;
+  with:720px;
+  padding-right: 50px;
+
+}
+div.hub_dashboard div.clear {
+  height: 5px;
+}
+
+div.hub_dashboard div.content {
+/*  float: right;*/
+/*  width: 630px;*/
+}
+
+div.hub_dashboard div.stats {
+  float: left;
+  text-align: center;
+  color: #FFF;
+  margin-right: 5px;
+  width: 41px;
+}
+div.hub_dashboard div.stat {
+  background-color: #aaa;
+  margin-bottom: 2px;
+}
+div.hub_dashboard div.stat_value {
+  font-size: 1.55em;
+  line-height: 1.15em;
+  font-weight: bold;
+}
+div.hub_dashboard div.stat_label {
+  background-color: #666;
+  font-size: 0.7em;
+}
+
+div.hub_dashboard h2 {
+  margin-top: -5px;
+  float: left;
+  width: 520px;
+}
+div.hub_dashboard h2 a {
+  border-bottom: none;
+}
+div.hub_dashboard h2 a:hover {
+  border-bottom: 1px solid;
+  background-color: inherit;
+}
+
+div.hub_update {
+  clear: left;
+}
+div.hub_dashboard div.meta {
+
+}
+div.hub_update div.meta a, div.hub_update div.meta span {
+  padding-left: 6px;
+  padding-right: 6px;
+  background-color: #EFEEE9;
+  border: 1px solid #D4D5D0;
+  font-size: .90em;
+  font-weight: normal;
+  line-height: .5em;
+  color: #03466C;
+}
+
+div.hub_update div.meta a:hover, div.hub_update div.meta span {
+  background-color: #FCEFBC;
+}
+
+div.hub_dashboard div.meta div.create_date {
+  float: left;
+  margin-right: 0.5em;
+}
+
+div.hub_dashboard div.content {
+
+}
+div.hub_dashboard div.title {
+  float: left;
+  margin-right: 1.5em;
+  font-weight: bold;
+}
+div.hub_dashboard div.teaser p {
+  margin-bottom: 0px;
+}
+
+div.hub_dashboard div.more {
+  float: right;
+}
+
+div.hub_dashboard div.resource_links {
+  float: right;
+  margin-top: -5px;
+  margin-right: 0px;
+}
+div.hub_dashboard div.resource_links h3 {
+  float: right;
+  width: 80px;
+  text-align: center;
+}
+div.hub_dashboard .dropdown .contents {
+  width: 250px;
+  left: auto;
+  right: 0;
+}
+
+/* Updates as link rows */
+div.hub_dashboard div.about_links, div.hub_dashboard div.resource_links {
+  clear: left;
+  float: none;
+  margin-top: 0px;
+}
+div.hub_dashboard div.resource_links {
+  margin-left: 20px;
+}
+div.hub_dashboard div.about_links li, div.hub_dashboard div.resource_links li  {
+  float: left;
+  margin-left: 0px;
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+div.hub_dashboard div.manage_button {
+  float: right;
+}
+div.hub_dashboard div.manage_button button {
+  border: 1px solid;
+}
+div.hub_dashboard div.manage_button button:hover {
+  cursor: pointer;
+}
+
+/*********************************************************
+ * Instructor Course list
+ *********************************************************/
+div.hub_dashboard .instructor_section_unmanagable {
+  opacity:0.5;
+  filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+
+div.hub_dashboard table.instructor_sections {
+  width: 100%;
+}
+
+div.hub_dashboard table.instructor_sections tbody th {
+  background-color: white;
+  border-top: 0px;
+  font-weight: bold;
+}
+
+/**********************************************************
+ * End instructor Course list
+ **********************************************************/
+
 .messages {
   background-color: white;
   border: 1px solid #B8D3E5;
@@ -125,8 +287,12 @@ div.content > ul.menu {
     padding-top: 0;
     width: 190px;
 }
-#taskbar {
-    background: #FCEFBC;
+.taskbar {
+  color: #084B71;
+  font-weight: bold;
+  line-height:40px;
+  text-align:right;
+  background: #FCEFBC;
 }
 
 /*********************************************************
@@ -156,16 +322,19 @@ div.content > ul.menu {
 /*********************************************************
  * Site-wide Nav styles
  *********************************************************/
-div#left {
+nav.left {
     overflow-x: hidden;
     overflow-y: hidden;
     width: 150px;
 }
-div#body {
-    width: 750px;
+section.body {
+  width: 750px;
+  float:left;
+  padding:18px;
+  min-width:698px;
 }
 .pagecontent { margin-top:0px; }
-div#left div.block-hub_dashboard h2, div#left div.block-course_hub h2 {
+nav.left div.block-hub_dashboard h2, div#left div.block-course_hub h2 {
     display: none;
 }
 img.hub_logo {
@@ -173,7 +342,7 @@ img.hub_logo {
     margin-top: 0;
     margin-bottom: 18px;
 }
-#left div.content ul.menu {
+.left div.content ul.menu {
   float: none;
   padding-bottom: 0px;
 }
@@ -226,27 +395,27 @@ div.hub_nav_item div.term div.site_link {
 }
 
 /* Get top-level monster-menus menu items styled like nav blocks. */
-#left div.content > ul.menu > li > ul > li.leaf, #left div.content > ul.menu > li > ul > li.expanded {
+.left div.content > ul.menu > li > ul > li.leaf, #left div.content > ul.menu > li > ul > li.expanded {
   list-style-image: none;
   list-style-type: none;
 }
-#left div.content > ul.menu > li {
+.left div.content > ul.menu > li {
   padding: 0px;
 }
-#left div.content > ul.menu > li > ul {
+.left div.content > ul.menu > li > ul {
   padding-left: 0px;
 }
-#left div.content > ul.menu > li > ul.menu > li > a {
+.left div.content > ul.menu > li > ul.menu > li > a {
   font-weight: normal;
 }
-#left div.content > ul.menu > li > ul > li:last-child {
+.left div.content > ul.menu > li > ul > li:last-child {
   border-bottom: none;
 }
 
 /*  Allow showing of nav items created by the drupal nav system
     while still hiding the Monster menus root menu link.
 */
-#left div.block-menu > div.content > ul.menu > li {
+.left div.block-menu > div.content > ul.menu > li {
   padding-top: 8px;
   padding-bottom: 8px;
 }
@@ -271,15 +440,97 @@ div#taskbar a.login {
 }
 
 /*********************************************************
+ * Sidebar
+ *********************************************************/
+aside.sidebar {
+    background-color: #EFEEE9;
+    border: 1px solid #D4D5D0;
+    padding: 10px;
+    margin-right: 6px;
+}
+
+aside.sidebar ul.menu {
+  background-color: #EFEEE9;
+}
+
+aside.sidebar ul.menu li, aside.sidebar ul.menu > li > ul.menu > li, aside.sidebar li {
+  border: none;
+  list-style-image: none;
+  list-style-type: none;
+}
+
+aside.sidebar div.content > ul.menu > li > a {
+  display: block;
+  font-size: 22px;
+}
+
+aside.sidebar div.view-course-site-links li {
+  padding-left: 10px;
+}
+
+/*********************************************************
  * Breadcrumbs
  *********************************************************/
-div#breadcrumb {
+nav.breadcrumb {
     margin-bottom: 0;
     padding-left: 18px;
     margin-top: 10px;
     white-space: nowrap;
     overflow: hidden;
     width: 750px;
+}
+
+/*********************************************************
+ * Updates
+ *********************************************************/
+div.view-hub-updates-view {
+  margin-top: 5px;
+}
+div.view-empty, div.hub_updates_message {
+  font-style: italic;
+}
+
+div.hub_updates_header > div {
+  float: left;
+  padding: 5px;
+  font-weight: bold;
+  font-size: small;
+}
+
+article.node-hub-update {
+  clear: left;
+}
+article.node-hub-update > div, article.node-hub-update > section {
+  float: left;
+  padding: 5px;
+  border-top: 1px dotted;
+}
+article.node-hub-update > div.create_date, div.hub_updates_header > div.create_date {
+  width: 60px;
+}
+article.node-hub-update > div.source, div.hub_updates_header > div.source {
+  width: 80px;
+  overflow: hidden;
+}
+article.node-hub-update > section.contents, div.hub_updates_header > section.contents {
+  width: 330px;
+}
+article.node-hub-update > section.contents {
+  padding-top: 3px;
+  overflow: hidden;
+}
+
+article.node-hub-update > section.contents h2 {
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+div.updates-class_listing {
+  border-top: 1px solid;
+  width: 470px;
+  margin-top: 10px;
+  padding-top: 10px;
 }
 
 /*********************************************************
@@ -292,9 +543,64 @@ h1 {
 h2 {
   color: #03466C;
 }
-div#left div.block-masquerade {
+nav.left div.block-masquerade {
     clear: both;
     padding-top: 100px;
+}
+
+.page {
+  width: 720px;
+  padding: 0;
+}
+
+.midd_courses div.content ul.menu li{
+  margin: 0;
+}
+
+.region-quicklinks {
+  padding: 0 10px;
+}
+
+#midd_taskbar a.login:hover{
+  background-color: #E8DBAE;
+}
+
+ div.clear-block {
+  display: inline-block;
+  margin-bottom: 1em;
+}
+h2 {
+  margin-top: 8px;
+}
+
+.error, .status, .warning {
+  width: 450px;
+}
+.node-middfiles-resource dt {
+  width: 5em !important;
+  border-top: none !important;
+  clear:none;
+}
+.node-middfiles-resource dd {
+  width: 25em !important;
+  white-space: nowrap;
+  border-top: none !important;
+}
+.node-middfiles-resource .clear-block {
+  min-width: 30em;
+}
+.middfiles_help {
+  padding: 5px;
+  border: 1px solid #D4D5D0;
+  background-color: #EFEEE9;
+  font-size: 0.8em;
+}
+.views-row .middfiles_help {
+  border: none;
+  max-width: 480px;
+}
+.middfiles_help p a {
+  white-space: nowrap;
 }
 
 /*********************************************************
@@ -346,7 +652,7 @@ div#left div.block-masquerade {
 }
 .dropdown .contents ul {
   padding: 0.4em 0 0 0;
-  
+
 }
 .dropdown .contents ul li {
   padding: 0 1em 0.4em 1em;
