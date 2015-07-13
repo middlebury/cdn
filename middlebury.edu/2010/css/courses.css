@@ -469,6 +469,14 @@ aside.sidebar div.view-course-site-links li {
 }
 
 /*********************************************************
+ * Site Navigation on Right
+ *********************************************************/
+
+aside.content > ul.menu > li > ul.menu > li.expanded > a {
+  color:inherit;
+}
+
+/*********************************************************
  * Breadcrumbs
  *********************************************************/
 nav.breadcrumb {
@@ -604,8 +612,91 @@ h2 {
 }
 
 /*********************************************************
+ * Pagination Style Buttons
+ *********************************************************/
+
+.pager li {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.pager li a {
+    -moz-border-radius: 3px 3px 3px 3px;
+    background: -moz-linear-gradient(center top , #FFFFFF, #EFEFEF) repeat scroll 0 0 #F6F6F6;
+    border: 1px solid #CCCCCC;
+    color: #03466C;
+    cursor: pointer;
+	display: inline-block;
+	line-height: 2em;
+	height: 2em;
+	padding: 0 .5em !important;
+}
+
+.pager li.pager-current {
+    -moz-border-radius: 3px 3px 3px 3px;
+    background: #DDDDDD;
+	font-size:.95em;
+    border: 1px solid #CCCCCC;
+    color: #03466C;
+    cursor: default;
+	display: inline-block;
+	line-height: 2em;
+	height: 2em;
+	padding: 0 .5em !important;
+}
+
+
+/*********************************************************
  * Resource Drop Downs
  *********************************************************/
+.resource_filter {
+	margin-top: 1em;
+	min-width: 280px;
+}
+.resource_filter .selected {
+	font-weight: bold;
+}
+.resource_filter .num_updates {
+  float: right;
+  margin-right: 10px;
+}
+.resource_filter .resource_title {
+  width: 250px;
+}
+.resource_filter a {
+	border: none;
+}
+a.resource_filter:hover {
+	background-color: #dadada;
+}
+div#body a.ui-selectmenu {
+  border: 1px solid #D3D3D3;
+}
+
+.ui-widget {
+    font-size: inherit;
+}
+.ui-selectmenu-menu {
+  background-color: #aaa;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  background: none;
+  background-color: #E6E6E6;
+}
+.ui-selectmenu-menu li {
+  background-color: #E6E6E6;
+  border: 1px solid #E6E6E6;
+  font-weight: normal;
+}
+.resource_filter .selected {
+	font-weight: bold !important;
+}
+
+.ui-selectmenu-menu a:hover {
+  background-color: inherit;
+  border: none;
+} 
+ 
 .dropdown {
   float: none;
 }
