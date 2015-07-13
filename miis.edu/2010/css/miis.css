@@ -1,5 +1,5 @@
 /* Middlebury Insitute styles */
-/* by White Whale Web Services */ 
+/* by White Whale Web Services */
 /* modified by Middlebury College Web Development */
 
 /* Reset defaults */
@@ -139,7 +139,7 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
       .navigation_about a:hover span, .has_dropdowns .navigation_about.hover a span { background-position:-125px -35px; }
       .navigation_about.active a span { background-position:125px -70px; }
       .navigation_about .nav_dropdown { left:-1px; }
-    .navigation_admissions a { width:90px; } 
+    .navigation_admissions a { width:90px; }
       .navigation_admissions a span, .has_dropdowns .navigation_admissions a:hover span { background-position:-218px 0px; }
       .navigation_admissions a:hover span, .has_dropdowns .navigation_admissions.hover a span { background-position:-218px -35px; }
       .navigation_admissions.active a span { background-position:-218px -70px; }
@@ -167,7 +167,7 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
       .navigation_giving .nav_feature img { border:none; margin-bottom:-12px; }
     .navigation li.navigation_giving { margin-right:0; }
     .nav_feature h3 { font-weight:bold; font-size:1.1em; color:#666666; }
-    .nav_feature a, .nav_dropdown .note a { color:#790E39; border:none; font-weight:bold; } 
+    .nav_feature a, .nav_dropdown .note a { color:#790E39; border:none; font-weight:bold; }
       .nav_feature a:hover, .nav_dropdown .note a:hover { color:#790E39; font-decoration:underline; }
       .nav_feature a img { color:#790E39; border:none; font-weight:bold; border:1px solid #790E39; }
         .nav_feature a:hover img { border-color:#790E39; }
@@ -600,15 +600,15 @@ details p.tags a { color:#336699; }
   .node-story figure p.enlarge { font-size:10px; margin-bottom:-6px; text-align:right; padding:12px 12px 0px 0px; }
   .node-story figcaption { color:#666; padding:8px 10px; font-style:italic; font-size: .9em; line-height:1.2em; }
 
-.node-story .sharethis-buttons { line-height:0px; font-size:0px; margin:0px; padding:0px; }    
-  .node-story .sharethis-buttons span { background-image:url('../../2015/images/social.png'); width:35px; height:35px; display:inline-block; margin-right:9px; }
-    .node-story .st_facebook_custom { background-position:0px 0px; }
-    .node-story .st_twitter_custom { background-position:-43px 0px; }
-    .node-story .st_googleplus_custom { background-position:-173px 0px; }
-    .node-story .st_pinterest_custom { background-position:0px -43px; }
-    .node-story .st_linkedin_custom { background-position:-87px 0px; }
-    .node_story .st_wordpress_custom { background-position:-130px -43px; }
-    .node-story .st_email_custom { background-position:-173px -43px; }
+.node-story .service-links { line-height:0px; font-size:0px; margin:0px; padding:0px; }
+  .node-story a.sprites.service-links { background-image:url('../../2015/images/social.png'); width:35px; height:35px; display:inline-block; margin-right:9px; padding:0px; }
+    .node-story a.sprites.service-links-facebook { background-position:0px 0px; }
+    .node-story a.sprites.service-links-twitter { background-position:-43px 0px; }
+    .node-story a.sprites.service-links-google-plus { background-position:-173px 0px; }
+    .node-story .service-links-pinterest-button a { background-position:0px -43px; background-image:url('../../2015/images/social.png') !important; background-size:auto !important; height:35px !important; width:35px !important; margin-right:9px; }
+      .node-story .service-links-pinterest-button a:hover { background-position:0px -43px; }
+    .node-story a.sprites.service-links-linkedin { background-position:-87px 0px; }
+    .node-story a.sprites.service-links-forward { background-position:-173px -43px; }
 
 .node-storylist h1 { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:1.2em; font-weight:bold; float:none; width:100%; border:none; }
 .node-storylist section, .node-storylist aside { display:table-cell; vertical-align: top; padding:0px 18px 10px 20px; }
