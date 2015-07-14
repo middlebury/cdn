@@ -150,7 +150,18 @@ jQuery(document).ready(function(jQuery) {
   });
 
   // Profile Lists
-  jQuery('article.node-profilelist:even').css('margin-right', '18px');
+  var num_profile = 0;
+  jQuery('article.node-profilelist').each(function(index, element) {
+    if (num_profile % 2 == 0) {
+      jQuery(this).css('margin-right', '18px');
+    }
+
+    if (jQuery(this).nextAll('.node').first().hasClass('node-profilelist')) {
+      num_profile++;
+    } else {
+      num_profile = 0;
+    }
+  });
 
   // Promotional Calendars and Form fieldsets on pages with blank sidebars.
   jQuery('article.node-promocal,section.body fieldset.form-wrapper').each(function() {
