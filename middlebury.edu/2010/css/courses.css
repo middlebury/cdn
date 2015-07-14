@@ -169,104 +169,24 @@ div.status {
   color: #33A333;
 }
 
-/* Hub -- similar to department & office */
-body.hub #content {
-    background-color: #FFFFFF;
-}
-#content {
-    margin-top: 0;
-}
-body.hub #left {
-    color: #221100;
-}
-body.hub #left a {
+body.midd_courses nav.left a {
     border-bottom-color: #03466C;
     color: #03466C;
 }
-body.hub #left a:hover {
-    background-color: #EEFFCC;
-    border-bottom-color: -moz-use-text-color;
-    border-bottom-style: none;
-    border-bottom-width: 0;
-    border-left-color-ltr-source: physical;
-    border-left-color-rtl-source: physical;
-    border-left-color-value: -moz-use-text-color;
-    border-left-style-ltr-source: physical;
-    border-left-style-rtl-source: physical;
-    border-left-style-value: none;
-    border-left-width-ltr-source: physical;
-    border-left-width-rtl-source: physical;
-    border-left-width-value: 0;
-    border-right-color-ltr-source: physical;
-    border-right-color-rtl-source: physical;
-    border-right-color-value: -moz-use-text-color;
-    border-right-style-ltr-source: physical;
-    border-right-style-rtl-source: physical;
-    border-right-style-value: none;
-    border-right-width-ltr-source: physical;
-    border-right-width-rtl-source: physical;
-    border-right-width-value: 0;
-    border-top-color: -moz-use-text-color;
-    border-top-style: none;
-    border-top-width: 0;
-    color: #333300;
-}
-body.hub #page {
-    border-top-color: -moz-use-text-color;
-    border-top-style: none;
-    border-top-width: 0;
-}
-body.hub ul.menu {
-    -moz-background-clip: border;
-    -moz-background-origin: padding;
-    -moz-background-size: auto auto;
+
+body.midd_courses ul.menu {
     background-attachment: scroll;
     background-color: #FFFFFF;
     background-image: none;
     background-position: 0 0;
     background-repeat: repeat;
-    margin-left: 0;
 }
-body.hub ul.menu li {
-    background-color: transparent;
+body.midd_courses ul.menu li {
     border-bottom-color: #CCCCCC !important;
-    border-left-color-ltr-source: physical !important;
-    border-left-color-rtl-source: physical !important;
-    border-left-color-value: #CCCCCC !important;
-    border-right-color-ltr-source: physical !important;
-    border-right-color-rtl-source: physical !important;
-    border-right-color-value: #CCCCCC !important;
     border-top-color: #CCCCCC !important;
 }
-body.hub ul.menu li a {
-    color: #03466C;
+body.midd_courses ul.menu li a {
     padding-left: 6px;
-}
-body.hub ul.menu li a:hover {
-    -moz-background-clip: border !important;
-    -moz-background-origin: padding !important;
-    -moz-background-size: auto auto !important;
-    background-attachment: scroll !important;
-    background-color: #FFFFFF !important;
-    background-image: none !important;
-    background-position: 0 0 !important;
-    background-repeat: repeat !important;
-    color: #333300;
-}
-body.hub ul.menu li.active a {
-    color: #333300;
-}
-body.hub ul.menu li.active ul {
-    margin-left: 18px;
-}
-body.hub ul.menu li.active ul li a {
-    color: #272C6F;
-}
-body.hub ul.menu li.current a, body.hub ul.menu li.active ul li.current a {
-    color: #660000;
-}
-div.item-list > ul {
-    display: block;
 }
 div.content > ul.menu > li > ul.menu > li {
     padding-left: 0;
@@ -274,43 +194,28 @@ div.content > ul.menu > li > ul.menu > li {
 div.content > ul.menu > li > ul.menu > li.expanded > ul.menu, div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu {
     margin-left: 10px;
 }
-div.content > ul.menu > li {
-    list-style-image: none;
-    list-style-type: none;
-}
 div.content > ul.menu {
-    margin-left: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
     width: 190px;
 }
 .taskbar {
   color: #084B71;
   font-weight: bold;
-  line-height:40px;
   text-align:right;
   background: #FCEFBC;
 }
-
 div#block-views-course-hub-home-block {
   border-top: 1px solid;
   width: 470px;
   margin-top:10px;
   padding-top:10px;
 }
-
 div#block-views-course-hub-home-block dl, div#block-system-main dl {
   width: 32em;
 }
-
 div#block-views-course-hub-home-block dt, div#block-system-main dt {
   width: 10em;
   clear: none;
 }
-
 div#block-views-course-hub-home-block dd, div#block-system-main dd  {
   width: 20em;
 }
@@ -367,7 +272,9 @@ img.hub_logo {
 }
 .left div.content ul.menu {
   float: none;
-  padding-bottom: 0px;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 0;
 }
 div.hub_nav_item, div.block-menu > div.content > ul.menu > li {
     border-bottom-color: #CCCCCC;
@@ -421,12 +328,6 @@ div.hub_nav_item div.term div.site_link {
 .left div.content > ul.menu > li > ul > li.leaf, #left div.content > ul.menu > li > ul > li.expanded {
   list-style-image: none;
   list-style-type: none;
-}
-.left div.content > ul.menu > li {
-  padding: 0px;
-}
-.left div.content > ul.menu > li > ul {
-  padding-left: 0px;
 }
 .left div.content > ul.menu > li > ul.menu > li > a {
   font-weight: normal;
@@ -489,6 +390,13 @@ aside.sidebar div.content > ul.menu > li > a {
 
 aside.sidebar div.view-course-site-links li {
   padding-left: 10px;
+}
+.node-subpglist td ul ul {
+  font-size: .8em;
+}
+
+.node-subpglist td ul ul a{
+  border-bottom: 1px dotted #147;
 }
 
 /*********************************************************
