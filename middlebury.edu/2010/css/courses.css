@@ -327,6 +327,9 @@ nav.left {
     overflow-y: hidden;
     width: 150px;
 }
+nav.left div.block-hub-dashboard h2, nav.left div.block-course-hub h2 {
+  display: none;
+}
 section.body {
   width: 750px;
   float:left;
