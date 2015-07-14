@@ -559,6 +559,10 @@ nav.left div.block-masquerade {
     padding-top: 100px;
 }
 
+nav.left div.block-middlebury-cas .content a.login {
+  float:left;
+}
+
 .page {
   width: 720px;
   padding: 0;
