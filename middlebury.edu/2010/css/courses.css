@@ -295,6 +295,26 @@ div.content > ul.menu {
   background: #FCEFBC;
 }
 
+div#block-views-course-hub-home-block {
+  border-top: 1px solid;
+  width: 470px;
+  margin-top:10px;
+  padding-top:10px;
+}
+
+div#block-views-course-hub-home-block dl, div#block-system-main dl {
+  width: 32em;
+}
+
+div#block-views-course-hub-home-block dt, div#block-system-main dt {
+  width: 10em;
+  clear: none;
+}
+
+div#block-views-course-hub-home-block dd, div#block-system-main dd  {
+  width: 20em;
+}
+
 /*********************************************************
  * Top Navigation styles
  *********************************************************/
