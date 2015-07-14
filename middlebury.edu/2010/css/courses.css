@@ -209,15 +209,65 @@ div#block-views-course-hub-home-block {
   margin-top:10px;
   padding-top:10px;
 }
-div#block-views-course-hub-home-block dl, div#block-system-main dl {
+div#block-views-course-hub-home-block dl {
   width: 32em;
 }
-div#block-views-course-hub-home-block dt, div#block-system-main dt {
+div#block-views-course-hub-home-block dt {
   width: 10em;
   clear: none;
 }
-div#block-views-course-hub-home-block dd, div#block-system-main dd  {
+div#block-views-course-hub-home-block dd  {
   width: 20em;
+}
+
+/*********************************************************
+ * Roster styles
+ *********************************************************/
+
+.course_hub_roster_person {
+  clear: left;
+}
+.course_hub_roster_person img.course_hub_roster_photo {
+  float: left;
+  width: 200px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+.roster h2 {
+  clear: left;
+}
+
+.course_hub_roster_person dl {
+  float: left;
+  width: 18em;
+}
+
+.course_hub_roster_person dl dt {
+  width: 5em;
+}
+
+.course_hub_roster_person dl dd {
+  width: 11em;
+}
+
+.course_hub_roster_person .warning_template {
+  display: none;
+}
+
+.ui-dialog {
+  z-index: 500;
+}
+
+.ui-dialog-titlebar {
+  padding: 5px;
+}
+.ui-dialog-titlebar-close {
+  float: right;
+}
+
+.warning_template {
+  padding: 10px;
 }
 
 /*********************************************************
