@@ -185,17 +185,30 @@ body.midd_courses ul.menu li {
     border-bottom-color: #CCCCCC !important;
     border-top-color: #CCCCCC !important;
 }
+
+body.midd_courses div.content > ul.menu > li {
+  margin: 0px;
+}
+
 body.midd_courses ul.menu li a {
     padding-left: 6px;
 }
-div.content > ul.menu > li > ul.menu > li {
-    padding-left: 0;
+body.midd_courses div.content > ul.menu > li > ul.menu > li {
+  padding: 4px 12px;
+  padding-left:0px;
 }
+
+body.midd_courses div.content ul.menu li {
+  padding: 0px;
+}
+
 div.content > ul.menu > li > ul.menu > li.expanded > ul.menu, div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu {
     margin-left: 10px;
 }
 div.content > ul.menu {
     width: 190px;
+    margin: 0;
+    padding: 0;
 }
 .taskbar {
   color: #084B71;
@@ -379,6 +392,7 @@ div.hub_nav_item div.term div.site_link {
   list-style-image: none;
   list-style-type: none;
 }
+
 .left div.content > ul.menu > li > ul.menu > li > a {
   font-weight: normal;
 }
@@ -547,11 +561,15 @@ nav.left div.block-middlebury-cas .content a.login {
 }
 
 .midd_courses div.content ul.menu li{
-  margin: 0;
+  margin: 0 0 0 0.5em;
 }
 
-.midd_courses div.content ul.menu li.leaf{
-  list-style-image: url(../images/menu-leaf.png);
+.midd_courses div.content ul.menu li.leaf {
+  padding: 0.2em 0.5em 0 0;
+}
+
+.midd_courses .node-subpglist table {
+  border-bottom: 1px solid #cc9;
 }
 
 .midd_courses .node-subpglist ul li ul{
@@ -561,6 +579,14 @@ nav.left div.block-middlebury-cas .content a.login {
 
 .midd_courses .node-subpglist ul li ul li{
   list-style-image: url(../images/menu-leaf.png);
+}
+
+.midd_courses div.region-left .block-monster-menus ul ul ul li{
+  list-style-image: url(../images/menu-leaf.png);
+}
+
+.midd_courses div.region-left .block-monster-menus ul ul ul li.expanded{
+  list-style-image: url(../images/menu-expanded.png);
 }
 
 .region-quicklinks {
