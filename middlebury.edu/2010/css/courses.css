@@ -550,6 +550,19 @@ nav.left div.block-middlebury-cas .content a.login {
   margin: 0;
 }
 
+.midd_courses div.content ul.menu li.leaf{
+  list-style-image: url(../images/menu-leaf.png);
+}
+
+.midd_courses .node-subpglist ul li ul{
+  margin-left: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+.midd_courses .node-subpglist ul li ul li{
+  list-style-image: url(../images/menu-leaf.png);
+}
+
 .region-quicklinks {
   padding: 0 10px;
 }
