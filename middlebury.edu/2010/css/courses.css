@@ -232,6 +232,18 @@ div#block-views-course-hub-home-block dt {
 div#block-views-course-hub-home-block dd  {
   width: 20em;
 }
+dl.node-type-list {
+  width: 32em;
+}
+
+dl.node-type-list dt {
+  width: 10em;
+  clear: none;
+}
+
+dl.node-type-list dd {
+  width: 20em;
+}
 
 /*********************************************************
  * Roster styles
@@ -633,6 +645,10 @@ h2 {
 }
 .middfiles_help p a {
   white-space: nowrap;
+}
+
+.page-mm-contents-add aside.sidebar {
+  display: block;
 }
 
 /*********************************************************
