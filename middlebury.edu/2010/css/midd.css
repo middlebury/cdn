@@ -59,6 +59,7 @@ ul,ol { margin-left:1.5em; margin-bottom:0.8em; }
 .image_right { float:right; width:204px; margin:6px 0 6px 18px; }
 .opening { font-family:Georgia, serif; font-size:1.5em; color:#333300; }
 .rss-icon { float:right; text-align:right; margin-top:-5px; }
+.scrollable { overflow-x:scroll; overflow-y:visible; width:100%; }
 .small { font-size:0.929em; line-height:1.25em; }
 .summary { font-size:0.929em; line-height:1.3em; }
 .tags { font-size:0.929em; color:#999966; }

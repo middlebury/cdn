@@ -88,6 +88,14 @@ jQuery(document).ready(function(jQuery) {
     },500));
   });
 
+  // Wide tables
+  jQuery('.region-content .node .contents table').each(function() {
+    var contents = jQuery(this).parentsUntil('.contents');
+    if (jQuery(this).outerWidth() > contents.outerWidth()) {
+      jQuery(this).wrap('<div class="scrollable"></div>');
+    }
+  });
+
   // Course and Section lists
   jQuery('.coursedesc,.sectiondesc').hide();
   jQuery('.coursetitle,.sectiontitle').css('cursor','pointer').click(function() {
