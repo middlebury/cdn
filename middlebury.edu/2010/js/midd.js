@@ -90,8 +90,8 @@ jQuery(document).ready(function(jQuery) {
 
   // Wide tables
   jQuery('.region-content .node .contents table').each(function() {
-    var contents = jQuery(this).parentsUntil('.contents');
-    if (jQuery(this).outerWidth() > contents.outerWidth()) {
+    var contents = jQuery(this).parents('.contents').eq(0);
+    if (contents.outerWidth() && jQuery(this).outerWidth() > contents.outerWidth()) {
       jQuery(this).wrap('<div class="scrollable"></div>');
     }
   });
