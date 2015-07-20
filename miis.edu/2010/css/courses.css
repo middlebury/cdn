@@ -1,11 +1,19 @@
 /* Course Hub Styles */
-.miis_courses.front header.header { height:194px; background-image:url() !important; }
+.miis_courses.front header.header { height:194px; position:relative;margin: 0 auto; background-image:url() !important; }
   .miis_courses.front .navigation { top:160px; }
 
-.search { width:333px; }
+body.miis_courses div.region-left ul.menu > li > ul.menu > li.expanded > ul > li.leaf {
+  list-style-type: square;
+  list-style-image: url(../images/menu-leaf.png);
+}
+body.miis_courses div.region-left ul.menu > li > ul.menu > li.expanded > ul > li.expanded {
+  list-style-type: circle;
+  list-style-image: url(../images/menu-expanded.png);
+} 
+.search { width:333px; top: 15px; }
   .search input { width:18em; }
 
-#block-middlebury-cas-long-login { position:absolute; top:55px; right:0px; width:330px; padding:12px; background-image:url(../images/black_trans.png); }
+#block-middlebury-cas-long-login { position:absolute; top:55px; right:0px; width:330px; padding:12px; background-image:url(../images/black_trans.png); color: #FFF; }
   #block-middlebury-cas-long-login h2 { display:none; }
   #block-middlebury-cas-long-login a.login { margin-top:0px; font-size:inherit; padding:0px; display:inline-block; float:none; }
     #block-middlebury-cas-long-login a.login:hover { background:transparent; }
