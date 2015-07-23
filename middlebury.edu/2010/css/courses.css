@@ -327,9 +327,7 @@ nav.left {
     overflow-y: hidden;
     width: 150px;
 }
-nav.left div.block-hub-dashboard h2, nav.left div.block-course-hub h2 {
-  display: none;
-}
+
 section.body {
   width: 750px;
   float:left;
@@ -337,9 +335,7 @@ section.body {
   min-width:698px;
 }
 .pagecontent { margin-top:0px; }
-nav.left div.block-hub_dashboard h2, div#left div.block-course_hub h2 {
-    display: none;
-}
+
 img.hub_logo {
     margin-left: 0;
     margin-top: 0;
@@ -424,9 +420,6 @@ div.block-menu > div.content > ul.menu > li > a { display: block; }
 /*********************************************************
  * Taskbar
  *********************************************************/
-div#taskbar h2 {
-    display: none;
-}
 div#taskbar {
     color: #084B71;
     font-weight: bold;
