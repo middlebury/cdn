@@ -216,20 +216,24 @@ div.content > ul.menu {
   text-align:right;
   background: #FCEFBC;
 }
-div#block-views-course-hub-home-block {
+div#block-views-course-hub-home-block,
+div.view-course-hub-home {
   border-top: 1px solid;
   width: 470px;
   margin-top:10px;
   padding-top:10px;
 }
-div#block-views-course-hub-home-block dl {
+div#block-views-course-hub-home-block dl,
+div.view-course-hub-home dl {
   width: 32em;
 }
-div#block-views-course-hub-home-block dt {
+div#block-views-course-hub-home-block dt,
+div.view-course-hub-home dt {
   width: 10em;
   clear: none;
 }
-div#block-views-course-hub-home-block dd  {
+div#block-views-course-hub-home-block dd,
+div.view-course-hub-home dd  {
   width: 20em;
 }
 dl.node-type-list {
@@ -556,6 +560,12 @@ nav.left div.block-masquerade {
     padding-top: 100px;
 }
 
+.not-found h1, .not-found h2 {
+  font-family:inherit;
+}
+.not-found h1.wordmark {
+  margin: 0px auto;
+}
 nav.left div.block-middlebury-cas .content a.login {
   float:left;
 }
