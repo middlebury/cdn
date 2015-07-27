@@ -64,7 +64,7 @@ jQuery(document).ready(function(jQuery) {
     }
     jQuery.each(waveformStories,function(index,details) { //with each story (from JSON)
       story_number++;
-      if(!details.open && ie7 && waveformStories.length > 50 && story_number < (waveformStories.length*.25) || story_number > (waveformStories.length*.75)) {
+      if(!details.open && ie7 && waveformStories.length > 50 && (story_number < (waveformStories.length*.25) || story_number > (waveformStories.length*.75))) {
         return true;
       }
       bar_color++;
@@ -210,7 +210,7 @@ jQuery(document).ready(function(jQuery) {
   }
 
   function initVideos() {
-    
+
   }
 });
 

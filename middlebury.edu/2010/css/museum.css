@@ -270,6 +270,13 @@ body.front { color:#FFFFFF; }
 .node-news aside section.contact { border:1px dashed #999966; margin-bottom:18px; padding:11px; }
 .node-news aside section.contact h3 { color:#666666; font-weight:bold; font-size:1em; }
 
+.node-news .service-links { line-height:0px; font-size:0px; margin:0px; padding:0px; }
+  .node-news a.sprites.service-links { background-image:url('../images/museum/social.png'); width:35px; height:35px; display:inline-block; margin-right:9px; padding:0px; border:none; }
+    .node-news a.sprites.service-links-facebook { background-position:0px 0px; }
+    .node-news a.sprites.service-links-twitter { background-position:-43px 0px; }
+    .node-news a.sprites.service-links-linkedin { background-position:-87px 0px; }
+    .node-news a.sprites.service-links-forward { background-position:-173px -43px; }
+
 /* News Postings List */
 .newslist, .exhibitionlist { width:100%; display:table; padding:0px; margin-bottom:12px; }
 .newslist aside, .exhibitionlist aside { display:table-cell; vertical-align:top; width:140px; margin:0px; padding:0px; border:0px; float:none; background:transparent; }
