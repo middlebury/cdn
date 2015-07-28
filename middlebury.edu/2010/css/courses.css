@@ -223,6 +223,9 @@ div.view-course-hub-home {
   margin-top:10px;
   padding-top:10px;
 }
+body.front div.view-course-hub-home {
+  width: 700px;
+}
 div#block-views-course-hub-home-block dl,
 div.view-course-hub-home dl {
   width: 32em;
