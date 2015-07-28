@@ -252,6 +252,11 @@ dl.node-type-list dd {
   width: 20em;
 }
 
+div.clearfix {
+  display:inline-block;
+  margin-bottom: 1em;
+}
+
 /*********************************************************
  * Roster styles
  *********************************************************/
