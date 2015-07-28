@@ -544,6 +544,16 @@ div.updates-class_listing {
   margin-top: 10px;
   padding-top: 10px;
 }
+/*********************************************************
+ * Forms
+ *********************************************************/
+body.midd_courses section.body div.content form {
+  width: 500px;
+}
+
+body.midd_courses section.body div.content form.node-form {
+  float:left;
+}
 
 /*********************************************************
  * General Styles
@@ -738,8 +748,8 @@ div#body a.ui-selectmenu {
 .ui-selectmenu-menu a:hover {
   background-color: inherit;
   border: none;
-} 
- 
+}
+
 .dropdown {
   float: none;
 }
