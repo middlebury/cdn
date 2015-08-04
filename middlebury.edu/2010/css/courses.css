@@ -216,20 +216,27 @@ div.content > ul.menu {
   text-align:right;
   background: #FCEFBC;
 }
-div#block-views-course-hub-home-block {
+div#block-views-course-hub-home-block,
+div.view-course-hub-home {
   border-top: 1px solid;
   width: 470px;
   margin-top:10px;
   padding-top:10px;
 }
-div#block-views-course-hub-home-block dl {
+body.front div.view-course-hub-home {
+  width: 700px;
+}
+div#block-views-course-hub-home-block dl,
+div.view-course-hub-home dl {
   width: 32em;
 }
-div#block-views-course-hub-home-block dt {
+div#block-views-course-hub-home-block dt,
+div.view-course-hub-home dt {
   width: 10em;
   clear: none;
 }
-div#block-views-course-hub-home-block dd  {
+div#block-views-course-hub-home-block dd,
+div.view-course-hub-home dd  {
   width: 20em;
 }
 dl.node-type-list {
@@ -243,6 +250,11 @@ dl.node-type-list dt {
 
 dl.node-type-list dd {
   width: 20em;
+}
+
+div.clearfix {
+  display:inline-block;
+  margin-bottom: 1em;
 }
 
 /*********************************************************
@@ -327,9 +339,7 @@ nav.left {
     overflow-y: hidden;
     width: 150px;
 }
-nav.left div.block-hub-dashboard h2, nav.left div.block-course-hub h2 {
-  display: none;
-}
+
 section.body {
   width: 750px;
   float:left;
@@ -337,9 +347,7 @@ section.body {
   min-width:698px;
 }
 .pagecontent { margin-top:0px; }
-nav.left div.block-hub_dashboard h2, div#left div.block-course_hub h2 {
-    display: none;
-}
+
 img.hub_logo {
     margin-left: 0;
     margin-top: 0;
@@ -424,9 +432,6 @@ div.block-menu > div.content > ul.menu > li > a { display: block; }
 /*********************************************************
  * Taskbar
  *********************************************************/
-div#taskbar h2 {
-    display: none;
-}
 div#taskbar {
     color: #084B71;
     font-weight: bold;
@@ -547,6 +552,16 @@ div.updates-class_listing {
   margin-top: 10px;
   padding-top: 10px;
 }
+/*********************************************************
+ * Forms
+ *********************************************************/
+body.midd_courses section.body div.content form {
+  width: 500px;
+}
+
+body.midd_courses section.body div.content form.node-form {
+  float:left;
+}
 
 /*********************************************************
  * General Styles
@@ -563,6 +578,12 @@ nav.left div.block-masquerade {
     padding-top: 100px;
 }
 
+.not-found h1, .not-found h2 {
+  font-family:inherit;
+}
+.not-found h1.wordmark {
+  margin: 0px auto;
+}
 nav.left div.block-middlebury-cas .content a.login {
   float:left;
 }
@@ -735,8 +756,8 @@ div#body a.ui-selectmenu {
 .ui-selectmenu-menu a:hover {
   background-color: inherit;
   border: none;
-} 
- 
+}
+
 .dropdown {
   float: none;
 }
