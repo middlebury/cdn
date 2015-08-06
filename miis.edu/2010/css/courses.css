@@ -35,3 +35,450 @@ body.miis_courses div.region-left ul.menu > li > ul.menu > li.expanded > ul > li
   .nav_quicklinks a { width:101px; }
     .nav_quicklinks a span { background-position:-641px 0px; }
     .nav_quicklinks a:hover span { background-position:-641px -70px; }
+
+/*************************************************************
+  * Header
+  ************************************************************/
+body.miis_courses div.region-header {
+  height: 194px;
+  width: 960px;
+  background-color: #4E79D3;
+  color: #FFF;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position:relative;
+  margin: 0 auto;
+}
+
+body.miis_courses header.header nav.navigation {
+
+}
+body.miis_courses header.header nav.navigation ul {
+  width: 960px;
+  position: relative;
+  margin: 0 auto;
+}
+
+body.miis_courses .navigation li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 12px;
+  display: block;
+  position: relative;
+  text-align: center;
+  font-family: "Goudy Old Style",Goudy,"Times New Roman",Times,serif;
+  font-size: 1.3em;
+  line-height: 34px;
+  border: none;
+  white-space: nowrap;
+}
+/*************************************************************
+  * Breadcrumb
+  ************************************************************/
+.breadcrumb {
+  width: 625px;
+}
+/*************************************************************
+  * Region Left
+  ************************************************************/
+body.miis_courses .region-left{
+  width: 195px;
+  float: left;
+  margin-top: -12px;
+}
+body.miis_courses .region-left ul {
+  margin-left: 0;
+}
+body.miis_courses .region-left ul li.leaf,
+body.miis_courses .region-left ul li.expanded{
+  list-style-image: none;
+  list-style-type: none;
+}
+body.miis_courses .region-left a#login{
+  margin-top: 20px;
+  float: left;
+  text-decoration: none;
+}
+body.miis_courses .region-left a#login:hover{
+    text-decoration: underline;
+}
+body.miis_courses div.content > ul.menu {
+  margin:0;
+  padding: 0;
+  width: 179px;
+}
+body.miis_courses div.content > ul.menu > li >ul.menu {
+  padding: 0;
+}
+body.miis_courses div.hub_nav_item,
+body.miis_courses div.block-menu > div.content > ul.menu > li {
+  border-bottom: 1px solid #CCC;
+  border-top: 1px solid #CCC;
+  font-weight: normal;
+  margin-bottom: -1px;
+  padding: 8px 0 8px 8px;
+  width: 165px;
+}
+body.miis_courses div.hub_nav_item a.active {
+  font-weight:bold;
+}
+body.miis_courses div.hub_nav_item div.site_link {
+  margin-left: 15px;
+}
+body.miis_courses .region-left div.hub_nav_spacer {
+  height: 40px;
+}
+body.miis_courses .region-left div#block-menu-menu-coursehub-menu h2 {
+  display:none;
+}
+/*************************************************************
+  * Region Right
+  ************************************************************/
+div.coursenav {
+  background-color:#EFEEE9;
+  border: 1px solid #D4D5D0;
+  padding: 10px;
+  margin: 0 -10px 0 0;
+}
+div.coursenav div.content > ul.menu > li > a {
+  display: block;
+  font-size:22px;
+  color:#147;
+}
+div.coursenav div.content > ul.menu > li > ul.menu > li,
+div.coursenav div.content > ul.menu > li > ul.menu > li.expanded {
+  background-color: transparent;
+  border: none;
+}
+div.coursenav div.content > ul.menu > li > ul.menu > li > a {
+  padding: 0;
+  font-size: 1em;
+  font-weight: normal;
+  color: #147;
+}
+div.coursenav div.content > ul.menu > li > ul.menu > li > a:hover,
+div.coursenav div.content > ul.menu > li > ul.menu > li.expanded > a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+  color: #147;
+}
+div.coursenav div.content > ul.menu > li > ul.menu > li.expanded > a {
+  color: #147;
+  border:none;
+  background-color:#EFEEE9;
+}
+div.coursenav div.content > ul.menu > li > ul.menu > li.expanded > ul > li > a,
+div.coursenav div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.here > a,
+body.miis_courses .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li > a {
+  color: #147;
+}
+/*************************************************************
+  * Masquarade Block
+  ************************************************************/
+body.miis_courses div.region-left div.block-masquerade{
+  clear:both;
+  padding-top:100px;
+  color: #333;
+}
+body.miis_courses div.region-left div.block-masquerade h2 {
+  color: #03466C;
+}
+/************************************************************
+  * Middlebury CAS block
+  ***********************************************************/
+body.miis_courses #block-middlebury-cas-long-login a.login{
+  color: #fff;
+}
+body.miis_courses #block-middlebury-cas-long-login a:hover{
+  color: #5CD65C;
+}
+body.miis_courses div.region-left ul.menu > li > ul.menu > li {
+  background-color: #FFF;
+  border: none;
+  margin-left: 0px;
+}
+body.miis_courses div.region-left ul.menu > li > ul.menu > li ul {
+  margin: 0;
+  padding: 0 0 0.25em 1em;
+}
+body.miis_courses div.region-left ul.menu > li > ul.menu > li.expanded > ul > li {
+  border: none;
+  margin: 0 0 0 1em;
+  padding: 0.2em 0.5em 0 0.25em;
+}
+body.miis_courses div.region-left ul.menu > li > ul.menu > li,
+body.miis_courses div.region-left ul.menu > li > ul.menu > li.expanded {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #CCC;
+  border-top: 1px solid #CCC;
+  margin-bottom: -1px;
+}
+body.miis_courses div.region-left ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li > a {
+  color: #147;
+}
+/************************************************************
+  * Monster Menus
+  ***********************************************************/
+body.miis_courses div.editconsole_wrapper{
+  position:absolute;
+  top:0px;
+  width:100%;
+}
+body.miis_courses div.region-left div.block-monster-menus > div.content{
+  width: 174px;
+}
+body.miis_courses div.region-left div.block-monster-menus ul.menu > li > ul.menu {
+  margin-bottom: 0;
+}
+body.miis_courses div.region-left div.block-monster-menus ul.menu > li > ul.menu > li.expanded > a{
+  color: #147;
+  background-color:inherit;
+}
+body.miis_courses div.region-left div.block-monster-menus ul.menu > li > ul.menu > li a,
+body.miis_courses div.region-left ul.menu > li > ul.menu > li.expanded > ul.menu > li.here > a {
+  color: #147;
+  font-weight: normal;
+  font-size: 1em;
+}
+body.miis_courses div.region-left div.block-monster-menus ul.menu > li > ul.menu > li a:hover {
+  background-color: inherit;
+  text-decoration: underline;
+}
+body.miis_courses div.region-content form#mm-ui-content-edit {
+  width:700px;
+}
+body.miis_courses tr.even td, tr.odd td{
+  border: none;
+}
+
+/***********************************************************
+ *  Hub Dashboard
+ ***********************************************************/
+ div.hub_dashboard div.site{
+   clear:both;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   border-bottom: 1px dotted;
+   padding-right:50px;
+ }
+ div.hub_dashboard h2 {
+   margin-top: -5px;
+   float:left;
+   width: 480px;
+ }
+ div.hub_dashboard div.manage_button {
+   float:right;
+ }
+ div.hub_dashboard div.manage_button button{
+   border: 1px solid;
+ }
+div.hub_dashboard div.about_links,
+div.hub_dashboard div.resource_links {
+  clear: left;
+  float: none;
+  margin-top: 0px;
+}
+div.hub_dashboard div.resource_links {
+  margin-left:20px;
+}
+div.hub_dashboard div.about_links li,
+div.hub_dashboard div.resource_links li {
+  float:left;
+  margin-left:0px;
+  margin-right:20px;
+  list-style-type: none;
+}
+div.hub_dashboard .instructor_sections {
+  width: 100%;
+}
+div.hub_dashboard .instructor_sections tbody{
+  border-top: 1px solid #ccc;
+}
+div.hub_dashboard .instructor_section_unmanagable {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+/*************************************************************
+  * Roster
+  ************************************************************/
+div.course_hub_roster_person dl {
+  float:left;
+  width:18em;
+}
+div.course_hub_roster_person dl dt {
+  width: 5em;
+}
+div.course_hub_roster_person dl dd {
+  width: 11em;
+}
+/*************************************************************
+  * Course Hub Home View
+  ************************************************************/
+body.miis_courses div.view-course-hub-home {
+  float:left;
+  width: 455px;
+}
+/*********************************************************
+ * Updates
+ *********************************************************/
+div.view-hub-updates-view {
+  margin-top: 5px;
+}
+div.view-empty, div.hub_updates_message {
+  font-style: italic;
+}
+
+div.hub_updates_header > div {
+  float: left;
+  padding: 5px;
+  font-weight: bold;
+  font-size: small;
+}
+
+article.node-hub-update {
+  clear: left;
+}
+article.node-hub-update > div, article.node-hub-update > section {
+  float: left;
+  padding: 5px;
+  border-top: 1px dotted;
+}
+article.node-hub-update > div.create_date, div.hub_updates_header > div.create_date {
+  width: 60px;
+}
+article.node-hub-update > div.source, div.hub_updates_header > div.source {
+  width: 80px;
+  overflow: hidden;
+}
+article.node-hub-update > section.contents, div.hub_updates_header > section.contents {
+  width: 275px;
+}
+article.node-hub-update > section.contents {
+  padding-top: 3px;
+  overflow: hidden;
+}
+
+article.node-hub-update > section.contents h2 {
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 0px;
+}
+/*************************************************************
+  * Middfiles Node
+  ************************************************************/
+.node-middfiles-resource dl {
+  width: 100%;
+}
+.node-middfiles-resource dt {
+  width: 4em !important;
+  border-top: none !important;
+  clear:none;
+}
+.node-middfiles-resource dd {
+  width: 25em !important;
+  white-space: nowrap;
+  border-top: none !important;
+}
+.node-middfiles-resource input{
+  max-width:350px;
+}
+.node-middfiles-resource .clearfix {
+  min-width: 30em;
+}
+.middfiles_help {
+  padding: 5px;
+  border: 1px solid #D4D5D0;
+  background-color: #EFEEE9;
+  font-size: 0.8em;
+}
+.views-row .middfiles_help {
+  border: none;
+  max-width: 480px;
+}
+.middfiles_help p a {
+  white-space: nowrap;
+}
+/*************************************************************
+  * Other Styles
+  ************************************************************/
+body.miis_courses .page .fullheader h1,
+div.view-course-hub-syllabus header h1,
+article.node-syllabus-upload header h1,
+article.node-syllabus-link header h1 {
+  font-size: 1.6em;
+  font-weight: bold;
+  line-height: 1.25em;
+}
+h1{
+  font-size:2em;
+}
+div.view-hub-resources h1 {
+  font-size:1.6em;
+}
+body.miis_courses .page {
+  margin-top:24px;
+}
+body.miis_courses.front .page {
+  padding-top: 0;
+  color: #333;
+}
+body.miis_courses div#block-menu-menu-coursehub-menu > div.content > ul.menu li {
+  margin-left: 0;
+}
+body.miis_courses div#block-menu-menu-coursehub-menu > div.content > ul li.leaf {
+  list-style-image: none;
+  list-style-type: none;
+}
+body.miis_courses .region-content{
+  float:left;
+  width:445px;
+}
+body.miis_courses.miis_courses_no_right .region-content,
+body.miis_courses.miis_courses_no_right div.view-course-hub-home,
+body.miis_courses .hub_dashboard{
+  width:682px;
+}
+body.miis_courses .region-right .block-hub-resources h2{
+  display:none;
+}
+body.miis_courses .region-right .block-hub-resources .view-course-site-links ul li{
+  list-style: none;
+}
+body.miis_courses article.subpglist {
+  width: 700px;
+}
+body.miis_courses article.subpglist tbody {
+  border-top: 1px solid #CCC;
+}
+div#block-views-course-hub-home-block dl,
+div.view-course-hub-home dl,
+body.miis_courses .region-content dl {
+  width: 32em;
+}
+div#block-views-course-hub-home-block dt,
+div.view-course-hub-home dt,
+body.miis_courses .region-content dt {
+  width: 10em;
+}
+div#block-views-course-hub-home-block dd,
+div.view-course-hub-home dd,
+body.miis_courses .region-content dd {
+  width: 20em;
+}
+dl.node-type-list {
+  width: 32em;
+}
+
+dl.node-type-list dt {
+  width: 10em;
+  clear: none;
+}
+
+dl.node-type-list dd {
+  width: 20em;
+}
+div.clearfix {
+  display:inline-block;
+  margin-bottom: 1em;
+}
