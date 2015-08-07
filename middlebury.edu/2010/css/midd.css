@@ -71,6 +71,12 @@ ul,ol { margin-left:1.5em; margin-bottom:0.8em; }
 .noborder, .noborder:hover { border:none; background-color:transparent !important; padding:0; }
 .visuallyhidden { border:0; clip:rect(0 0 0 0); height:1px; margin:-1px; overflow:hidden; padding:0px; position:absolute; width:1px; }
 
+/* Thickbox Popout */
+#TB_window #TB_caption { text-align:left; width:auto; font-size:0.929em; line-height:1.25; margin:3px; }
+#TB_window #TB_closeWindow { bottom:10px; }
+#TB_window #TB_closeWindow a:link { border:none; padding:0px; background:url(); }
+#TB_window #TB_closeWindow a:link:hover { background:url(); }
+
 /* Body top to bottom */
 body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; color:#221100; font-size:0.875em; line-height:1.4; }
 .skiplink { position:absolute; top:0px; left:-9999px; width:9em; padding:5px; color:#0000FF; background-color:#FFFF99; border:1px solid #999933; text-align:center; z-index:9999; }
