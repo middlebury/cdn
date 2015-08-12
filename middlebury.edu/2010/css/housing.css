@@ -1,0 +1,24 @@
+.page { width:924px; }
+
+.region-header h2 { display:none; }
+.region-header p { margin:0px; padding:0px; max-height:150px; height:150px; }
+
+/* Ensure that the banner displays */
+.block > .content > a { display: inherit; }
+
+/* Tweaks to the housing list table */
+.nc-housing-list .view-header { margin-bottom: 15px; }
+.nc-housing-list table.views-table { width: 100%; }
+.nc-housing-list .location { display: inline-block; }
+
+/* Login in the quick-links area */
+.region-quicklinks .block-middlebury-cas { padding-right: 5px; }
+
+/* Main Menu in quick-links area */
+.region-quicklinks div.content > ul.menu { background:transparent; margin-top:0px; }
+  .region-quicklinks div.content > ul.menu > li { list-style: none; border: none; }
+    .region-quicklinks div.content > ul.menu > li > a { display:inline; color:#272c6f; font-weight: bold; }
+
+/* Full entry listing. */
+.node-housing .field { margin-bottom: 1em; }
+  .node-housing .field-items { margin-left: 1em; }
