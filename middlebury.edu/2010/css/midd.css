@@ -410,7 +410,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .row:before, .row:after { content: ""; display: table; }
   .row:after { clear: both;}
 
-  .col { position: relative; float: left; margin:10px 0;} 
+  .col { position: relative; float: left; margin: 10px 0; } 
   .col + .col { margin-left: 1.6%; }
 
   .col-1 { width: 6.86666666667%; }
@@ -426,10 +426,80 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .col-11 { width: 91.5333333333%; }
   .col-12 { width: 100%; }
 
-  .bg-gray {background-color: #e3e3e3; } /* used for illustrative purposes only */
-  /* ------------------------------ */
+  .bg-gray { background-color: #e3e3e3; } /* used for illustrative purposes only */
+
+  /* -------------------------------- */
+
+/* -------- TRANSITION TO NEW IDENTITY --------- */
+
+  .new-identity { font-family: 'Open Sans', sans-serif; color: #444; font-size: 16px;}
+
+  .new-identity h1,
+  .new-identity h2,
+  .new-identity h3,
+  .new-identity h4,     
+  .new-identity h5,
+  .new-identity h6 {
+    margin: 0 0 10px 0; 
+    padding: 0;
+  }
 
 
+
+
+  .heading-a {
+    width: 100%;
+    color: #444;
+    font-size: 2em; 
+    font-weight: 300;
+    line-height: 1.25;
+    border-bottom: 1px solid #e9e9e9;
+  }
+
+  .heading-b {
+    width: 100%;
+    color: #444;
+    font-size: 1.625em; 
+    font-weight: 400;
+    line-height: 1.15384615;
+  }
+
+  .heading-c {
+    width: 100%;     
+    color: #003478;
+    font-size: 1.375em; 
+    font-weight: 400;
+    line-height:  1.13636364;
+  }
+
+  .heading-d {
+    width: 100%;     
+    color: #003478; 
+    font-size: 1.125em; 
+    font-weight: 400;
+    line-height: 1.11111111;
+    text-transform: uppercase;
+  }  
+
+  .heading-e {
+    width: 100%;     
+    color: #003478; 
+    font-size: 1.1em; 
+    font-weight: 700;
+    line-height: 1.11111111;
+  } 
+
+  .new-identity a {border: 0px; text-decoration: underline;}
+  .new-identity a:link, .new-identity a:visited { color: #0066cc; }
+  .new-identity a:hover { color: #0099ff; background-color:#fff;}
+  .new-identity a:active { color: #0066cc; }
+
+
+  .new-identity a:focus { background-color: #e3f3fe; outline: 1px dotted #0099ff; }
+  .new-identity a:focus:hover { background-color: #d0ecff; }
+
+
+  /* ------------------------------------------- */
 
 
 
