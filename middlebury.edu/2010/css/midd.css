@@ -937,3 +937,9 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
     .new-identity a:active { color:#0066CC; }
     .new-identity a:focus { background-color:#E3F3FE; outline:1px dotted #0099FF; }
       .new-identity a:focus:hover { background-color:#D0ECFF; }
+
+  .new-identity .editconsole_wrapper a { color:#FFFFFF; }
+
+  .new-identity .region-address h1 { font-size:18px; }
+
+  .new-identity .footer ul li { min-height:30px; height:auto; }
