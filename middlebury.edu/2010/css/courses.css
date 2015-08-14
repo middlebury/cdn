@@ -218,10 +218,12 @@ div.content > ul.menu {
 }
 div#block-views-course-hub-home-block,
 div.view-course-hub-home {
-  border-top: 1px solid;
   width: 470px;
-  margin-top:10px;
-  padding-top:10px;
+}
+div.view-course-hub-home div.view-content div.views-row-first article section.contents {
+  border-top: 1px solid;
+  margin-top: 10px;
+  padding-top: 10px;
 }
 body.front div.view-course-hub-home {
   width: 700px;
