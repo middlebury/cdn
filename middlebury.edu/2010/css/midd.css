@@ -409,28 +409,6 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     .midd_fullwidth .columns.three .column { width:284px; }
   .column.gray { background-color:#EDEDED; }
 
-  /* Grid System */
-  .grid-container { width:100%; max-width:1200px; }
-
-  .row, .col { box-sizing:border-box; }
-    .row:before, .row:after { content:""; display:table; }
-    .row:after { clear:both;}
-
-  .col { position:relative; float:left; margin:10px 0; } 
-  .col + .col { margin-left:1.6%; }
-    .col-1 { width:6.86666666667%; }
-    .col-2 { width:15.3333333333%; }
-    .col-3 { width:23.8%; }
-    .col-4 { width:32.2666666667%; }
-    .col-5 { width:40.7333333333%; }
-    .col-6 { width:49.2%; }
-    .col-7 { width:57.6666666667%; }
-    .col-8 { width:66.1333333333%; }
-    .col-9 { width:74.6%; }
-    .col-10 { width:83.0666666667%; }
-    .col-11 { width:91.5333333333%; }
-    .col-12 { width:100%; }
-
   /* Footer */
   .footer { visibility:hidden; background-color:#003366; line-height:30px; margin-top:30px; font-size:1.1em; font-family:Garamond,"Times New Roman",serif; color:#FFFFFF; position:relative; }
     .footer a { color:#FFFFFF; border-color:#CCCCCC; padding:0px; outline:none; }
@@ -943,3 +921,25 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
   .new-identity .region-address h1 { font-size:18px; }
 
   .new-identity .footer ul li { min-height:30px; height:auto; }
+
+  /* Grid System */
+  .new-identity .grid-container { width:100%; max-width:1200px; }
+
+  .new-identity .row, .new-identity .col { box-sizing:border-box; }
+    .new-identity .row:before, .new-identity .row:after { content:""; display:table; }
+    .new-identity .row:after { clear:both;}
+
+  .new-identity .col { position:relative; float:left; margin:10px 0; }
+  .new-identity .col + .col { margin-left:1.6%; }
+    .new-identity .col-1 { width:6.86666666667%; }
+    .new-identity .col-2 { width:15.3333333333%; }
+    .new-identity .col-3 { width:23.8%; }
+    .new-identity .col-4 { width:32.2666666667%; }
+    .new-identity .col-5 { width:40.7333333333%; }
+    .new-identity .col-6 { width:49.2%; }
+    .new-identity .col-7 { width:57.6666666667%; }
+    .new-identity .col-8 { width:66.1333333333%; }
+    .new-identity .col-9 { width:74.6%; }
+    .new-identity .col-10 { width:83.0666666667%; }
+    .new-identity .col-11 { width:91.5333333333%; }
+    .new-identity .col-12 { width:100%; }
