@@ -9,7 +9,7 @@ body.miis_courses div.region-left ul.menu > li > ul.menu > li.expanded > ul > li
 body.miis_courses div.region-left ul.menu > li > ul.menu > li.expanded > ul > li.expanded {
   list-style-type: circle;
   list-style-image: url(../images/menu-expanded.png);
-} 
+}
 .search { width:333px; top: 15px; }
   .search input { width:18em; }
 
@@ -302,6 +302,9 @@ div.hub_dashboard .instructor_section_unmanagable {
 /*************************************************************
   * Roster
   ************************************************************/
+div.course_hub_roster_person {
+  clear: left;
+}
 div.course_hub_roster_person dl {
   float:left;
   width:18em;
@@ -311,6 +314,13 @@ div.course_hub_roster_person dl dt {
 }
 div.course_hub_roster_person dl dd {
   width: 11em;
+}
+div.course_hub_roster_person img {
+  max-width: 200px;
+  max-height: 200px;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
 }
 /*************************************************************
   * Course Hub Home View
