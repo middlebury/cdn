@@ -563,17 +563,6 @@ details p.tags a { color:#336699; }
   .course_sections dl.sectioninfo dt { width:7em; }
   .course_sections dl.sectioninfo dd { width:29em; }
 
-/* Quickaccess */
-.node-qa input { width:20em; font-size:1.2em; margin-top:0.2em; }
-.qa_blur, .qa_noquery { display:none; }
-.qa_toomany, .qa_nonefound { font-style:italic; }
-.node-qa form label { display:inline; font-weight:normal; margin:0px; }
-.node-qa form div { width:20em; position:relative; z-index:800; }
-.node-qa form ul { margin:0px; position:absolute; top:0px; left:0px; width:100%; border:1px solid #999999; border-top:none; background-color:#FFFFFF; list-style-type:none; }
-  .node-qa form li { padding:2px 0.5em 2px 0.5em; margin:0px; }
-    .qa_highlight { background-color:#FFEE88; border:solid #FFBB44; border-width:1px 0px; text-decoration:underline; }
-    .qa_selected { background-color:#DDDDEE; }
-
 /* RSS Page */
 .node-rss-page .item-list { display:none; }
   .sidebar #rss-page a { color:#FFFFFF; text-decoration:none; font-weight:normal; }
