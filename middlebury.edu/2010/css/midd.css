@@ -916,7 +916,7 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
     .new-identity a:focus { background-color:#E3F3FE; outline:1px dotted #0099FF; }
       .new-identity a:focus:hover { background-color:#D0ECFF; }
 
-  .new-identity .editconsole_wrapper a { color:#FFFFFF; }
+  .new-identity .editconsole_wrapper a, .new-identity .leftlinks, .new-identity .leftlinks > a { color:#FFFFFF; }
 
   .new-identity .region-address h1 { font-size:18px; }
 

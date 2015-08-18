@@ -23,15 +23,21 @@
  * Example: $('#quicksearch').quickaccess({selector:'#offices li a', maxResults:10,noneFound:'Sorry, no matching links were found.'});
  **/
 
+var pageInitialized = false;
+
 (function($){
 	$.fn.extend({
 		quickaccess  :   function(s) {
+			if (pageInitialized) return;
+			pageInitialized = true;
+
 			var self = this;
 
 			// initialize the settings with their defaults
 			s = $.extend({
 					selector	: 'a.qa',
 					results		: null,
+					submit    : null,
 					forceSelect	: true,
 					onSubmit	: function(e,selected) { if(selected.length) { e.preventDefault(); window.location=selected.eq(0).find('a').attr('href'); } },
 					maxResults	: 10,
@@ -42,27 +48,30 @@
 					sort		: false,
 					duplicates	: true
 				},s);
-			
+
 			qa = { };
-			
+
 			var blur = function() { // blur function (that we can call without dispatching onBlur events)
 				if(s.inlineLabel&&!$.trim(qa.search.val())) { // if an inlineLabel is specified and there's no query
 					qa.search.val(s.inlineLabel).addClass('qa_inline_label'); // set the value to the inlineLabel and add the class
 				}
 			};
-			
+
 			if(self.is('input[type=text],textarea')) qa.search=self; // if the specified item is an input element, use it
 			else qa.search = self.prepend('<input type="text" id="qa_search_query"/>').children().eq(0); // otherwise, add an input inside of it
 
+			if(s.submit) qa.submit=$(s.submit).eq(0); // select the specified container
+			else qa.submit = qa.search.after('<input id="qa_submit" type="submit" value="Go" />').next(); // otherwise, create a new container
+
 			if(s.results) qa.results=$(s.results).eq(0); // select the specified container
-			else qa.results = qa.search.after('<div id="qa_results"></div>').next(); // otherwise, create a new container
-			
+			else qa.results = qa.submit.after('<div id="qa_results"></div>').next(); // otherwise, create a new container
+
 			qa.results.addClass('qa_blur').append('<ul id="qa_results_list"><li></li></ul>'); // initialize the blurred state and append results list to results div
-			qa.results_list = qa.results.find('ul#qa_results_list'); // results list is the ul we just added 
-			
+			qa.results_list = qa.results.find('ul#qa_results_list'); // results list is the ul we just added
+
 			var toSpace = new RegExp('[,\-_\/\\\s&]+','g'), // regexp for elements that should become spaces
 				toRemove = new RegExp('[^a-zA-Z 0-9]+','g'); // regexp for elements that should be removed
-			
+
 			qa.links = new Array(); // array to store all links
 			$(s.selector).each(function() { // with each
 				qa.links.push({ // add it to the array
@@ -71,15 +80,15 @@
 					href : $(this).attr('href')
 				});
 			});
-			
+
 			if(s.sort) qa.links.sort(function(a,b) { // alphabetize
 				var la = a.title.toLowerCase(), // toLowerCase for case-insensitive sort; we use a new variable name due to IE bug
 					lb = b.title.toLowerCase(); // ditto
 				return (la==lb ? 0 : (la>lb? 1 : -1));
 			});
-						
+
 			qa.matches = qa.links; // grab links, attach data to match against
-			
+
 			qa.search.attr('autocomplete','off').keyup(function() { // on each keypress, filter the links
 				var raw = $(this).val(),
 					query = $.trim(raw.toLowerCase().replace(toSpace,' ').replace(toRemove,'')),subquery; // grab query, sanitize it
@@ -147,13 +156,18 @@
 				setTimeout(function() { qa.results.addClass('qa_blur'); },200); // after 200ms, add the blur class; we use a delay in case the user has clicked in that area
 				blur();
 			});
-			
+
+			qa.submit.click(function(e) {
+				var selected = qa.results_list.find('.qa_selected');
+				s.onSubmit.apply(self,[e,selected]);
+			});
+
 			qa.search.keyup(); // run search in case field is pre-populated (e.g. in Firefox)
-			
+
 			blur(); // call the blur function
-			
+
 			if(s.focus) qa.search.focus(); // put cursor in search box
-			
+
 			return this; // return original element for chaining
 		}
 	});
