@@ -593,20 +593,13 @@ details p.tags a { color:#336699; }
 .node-page .service-links { line-height:0px; font-size:0px; margin:0px; padding:0px; }
   .node-story a.sprites.service-links,
   .node-page a.sprites.service-links { background-image:url('../../2015/images/social.png'); width:35px; height:35px; display:inline-block; margin-right:9px; padding:0px; }
-    .node-story a.sprites.service-links-facebook,
-    .node-page a.sprites.service-links-facebook { background-position:0px 0px; }
-    .node-story a.sprites.service-links-twitter,
-    .node-page a.sprites.service-links-twitter { background-position:-43px 0px; }
-    .node-story a.sprites.service-links-google-plus,
-    .node-page a.sprites.service-links-google-plus { background-position:-173px 0px; }
-    .node-story .service-links-pinterest-button a,
-    .node-page .service-links-pinterest-button a { background-position:0px -43px; background-image:url('../../2015/images/social.png') !important; background-size:auto !important; height:35px !important; width:35px !important; margin-right:9px; }
-      .node-story .service-links-pinterest-button a:hover,
-      .node-page .service-links-pinterest-button a:hover { background-position:0px -43px; }
-    .node-story a.sprites.service-links-linkedin,
-    .node-page a.sprites.service-links-linkedin { background-position:-87px 0px; }
-    .node-story a.sprites.service-links-forward,
-    .node-page a.sprites.service-links-forward { background-position:-173px -43px; }
+    .node a.sprites.service-links-facebook { background-position:0px 0px; }
+    .node a.sprites.service-links-twitter { background-position:-43px 0px; }
+    .node a.sprites.service-links-google-plus { background-position:-173px 0px; }
+    .node .service-links-pinterest-button a { background-position:0px -43px; background-image:url('../../2015/images/social.png') !important; background-size:auto !important; height:35px !important; width:35px !important; margin-right:9px; }
+      .node .service-links-pinterest-button a:hover { background-position:0px -43px; }
+    .node a.sprites.service-links-linkedin { background-position:-87px 0px; }
+    .node a.sprites.service-links-forward { background-position:-173px -43px; }
 
 .node-storylist h1 { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:1.2em; font-weight:bold; float:none; width:100%; border:none; }
 .node-storylist section, .node-storylist aside { display:table-cell; vertical-align: top; padding:0px 18px 10px 20px; }
