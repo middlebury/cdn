@@ -69,6 +69,7 @@ ul,ol { margin-left:1.5em; margin-bottom:0.8em; }
   .tags ul { margin-left:0; }
 .verybig { font-size:2em; line-height:1.25em; }
 .noborder, .noborder:hover { border:none; background-color:transparent !important; padding:0; }
+.underline { text-decoration:underline; }
 .visuallyhidden { border:0; clip:rect(0 0 0 0); height:1px; margin:-1px; overflow:hidden; padding:0px; position:absolute; width:1px; }
 
 /* Heading styles */

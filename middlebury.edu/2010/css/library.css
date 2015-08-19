@@ -15,6 +15,7 @@
     #library-quick-search-tabs .ui-tabs-panel { padding:40px 15px 20px 15px; font-size:12px; margin:0px; }
 
 #library-quick-search input { font-family:inherit; }
+  .library-search-wide { width:250px; }
   #library-quick-search a { color:#272C6F; }
 
 #library-quick-search .image-margin { margin:0px; }
