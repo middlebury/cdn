@@ -14,7 +14,7 @@
         #library-quick-search-tabs .ui-tabs-nav li.ui-tabs-active a { font-weight:bold; font-size:14px; color:#071427; background-color:#DDDDDD; padding:0px 3px 3px 3px; margin:2px 0px 0px 5px; border-bottom:1px solid #DDDDDD; line-height:19.6px; height:13px; }
     #library-quick-search-tabs .ui-tabs-panel { padding:40px 15px 20px 15px; font-size:12px; margin:0px; }
 
-#library-quick-search label { display:inline; }
+.block-middlebury-library-search label { display:inline; }
 #library-quick-search input { font-family:inherit; }
   .library-search-wide { width:250px; }
   #library-quick-search a { color:#272C6F; }
