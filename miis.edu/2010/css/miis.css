@@ -609,6 +609,9 @@ details p.tags a { color:#336699; }
 .node-storylist time+p, .node-storylist time+div, .node-storylist time *, .node-storylist time+div * { display:inline; }
   .node-storylist aside .mm-gallery-caption { display:none; }
 
+/* MM Archive Pages */
+.archive-links label { display:inline; padding:0px 4px 0px 4px; }
+
 /* Webform */
 .webform-client-form .form-item .description { white-space:pre-line; }
 .webform-client-form fieldset { padding:1em; margin-bottom:1em; border:1px solid #000000; }

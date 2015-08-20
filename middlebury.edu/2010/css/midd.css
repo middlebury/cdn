@@ -478,6 +478,9 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .views-exposed-widget > label { float:left; width:250px; }
   .views-exposed-widget .views-widget { float:right; }
 
+  /* MM Archive Pages */
+  .archive-links label { display:inline; padding:0px 4px 0px 4px; }
+
 /* Content Types */
 
   /* BLSE Profile */
