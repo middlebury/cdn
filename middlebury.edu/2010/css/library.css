@@ -16,7 +16,8 @@
 
 .block-middlebury-library-search label { display:inline; }
 #library-quick-search input { font-family:inherit; }
-  .library-search-wide { width:250px; }
+  .library-search-wide { width:200px; }
+  .library-search-medium { width:120px; }
   #library-quick-search a { color:#272C6F; }
 
 #library-quick-search .image-margin { margin:0px; }
