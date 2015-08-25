@@ -618,3 +618,6 @@ details p.tags a { color:#336699; }
 .webform-client-form legend { font-size:1.2em; font-weight:bold; }
   /* TODO: Remove this when the core issue is resolved: https://www.drupal.org/node/2339109 */
   .webform-client-form .form-submit.ajax-processed { display:none; }
+
+/* New Identity styles */
+.new-identity .content-sidebar { background-color:#efeee9; }
