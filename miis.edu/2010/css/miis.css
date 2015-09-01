@@ -218,7 +218,7 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
     .sidebar div.content > ul.menu > li > ul.menu > li.expanded > a { background-color:#18447C; color:#FFFFFF; border:none; }
     .sidebar div.content > ul.menu > li > ul.menu > li.expanded > a:hover { color:#FFFFFF; }
   .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu { list-style-type:disc; color:#CCEEFF; font-size:0.929em; margin-left:1.2em; }
-  .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li { margin-top:0.2em; }
+  .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li { margin-top:0.5em; }
   .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li > a { list-style-type:disc; color:#CCEEFF; border-color:#CCEEFF; }
   .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li a { color:#114477; }
   .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li a:hover { color:#114477; }
@@ -618,3 +618,6 @@ details p.tags a { color:#336699; }
 .webform-client-form legend { font-size:1.2em; font-weight:bold; }
   /* TODO: Remove this when the core issue is resolved: https://www.drupal.org/node/2339109 */
   .webform-client-form .form-submit.ajax-processed { display:none; }
+
+/* New Identity styles */
+.new-identity .content-sidebar { background-color:#efeee9; }
