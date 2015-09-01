@@ -416,7 +416,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     .footer a:hover { border:none; color:#003366; background-color:#83B2F9; }
     .footer ul { list-style-type:none; margin:0px; }
       .footer ul li { float:left; margin:0px 6px; height:30px; }
-        .footer ul li a { border:none; display:block; height:30px; padding:0px 6px; overflow:hidden; position:relative; text-align:center; }
+        .footer ul li a { border:none; display:block; height:30px; padding:0px 6px; overflow:hidden; position:relative; text-align:center; text-decoration:underline; }
           .footer ul li a span { height:100%; position:absolute; top:0px; left:0px; width:100%; background-image:url(../images/nav_footer.gif); }
         .footer ul li a:hover { background-color:transparent; }
       .gateways_students { width:126px; }
@@ -458,7 +458,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
         .footer ul li a { outline:none; }
         .footer ul li .contents { display:none; position:absolute; top:30px; left:0px; padding:12px; background:url(../images/dkblue_95trans.png); min-width:240px; color:#FFFFFF; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.929em; line-height:1.4; }
         .footer ul li.active .contents { display:block; }
-          .footer ul li .contents a { display:inline; width:auto; color:#FFE371; padding:0px; }
+          .footer ul li .contents a { display:inline; width:auto; color:#FFE371; padding:0px; text-decoration:none; }
           .footer ul li .contents a:hover { color:#FFFFAA; }
           .quick_go .contents { width:300px; }
           .quick_go .contents ul { width:50%; float:left; }
