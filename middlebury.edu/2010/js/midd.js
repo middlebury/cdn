@@ -59,7 +59,13 @@ jQuery(document).ready(function(jQuery) {
   // Department Banner Image Links
   var midd_banner = jQuery('#midd_banner');
   if (midd_banner.data('theme-page')) {
-    midd_banner.find('.node-mm-media img').wrap('<a href="'+midd_banner.data('theme-page')+'"></a>');
+    var midd_banner_img = midd_banner.find('.node-mm-media img');
+    var midd_banner_parent = midd_banner_img.parent();
+    if (!midd_banner_parent.is('a')) {
+      midd_banner_img.wrap('<a href="'+midd_banner.data('theme-page')+'"></a>');
+    } else if (!midd_banner_parent.hasClass('mm_media_field_url')) {
+      midd_banner_parent.attr('href', midd_banner.data('theme-page'));
+    }
   }
 
   // Dropdowns
