@@ -650,6 +650,9 @@ div.warning {
   background-repeat: repeat-y;
 }
 
+.node-middfiles-resource dl {
+  width: 36.1em;
+}
 .node-middfiles-resource dt {
   width: 5em !important;
   border-top: none !important;
@@ -660,7 +663,7 @@ div.warning {
   white-space: nowrap;
   border-top: none !important;
 }
-.node-middfiles-resource .clear-block {
+.node-middfiles-resource .clearfix {
   min-width: 30em;
 }
 .middfiles_help {
