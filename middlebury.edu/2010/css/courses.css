@@ -236,10 +236,12 @@ div#block-views-course-hub-home-block dt,
 div.view-course-hub-home dt {
   width: 10em;
   clear: none;
+  min-height: 20px;
 }
 div#block-views-course-hub-home-block dd,
 div.view-course-hub-home dd  {
   width: 20em;
+  min-height: 20px;
 }
 dl.node-type-list {
   width: 32em;
@@ -643,6 +645,14 @@ h2 {
 .error, .status, .warning {
   width: 450px;
 }
+div.warning {
+  padding-left:25px;
+  background-repeat: repeat-y;
+}
+
+.node-middfiles-resource dl {
+  width: 36.1em;
+}
 .node-middfiles-resource dt {
   width: 5em !important;
   border-top: none !important;
@@ -653,7 +663,7 @@ h2 {
   white-space: nowrap;
   border-top: none !important;
 }
-.node-middfiles-resource .clear-block {
+.node-middfiles-resource .clearfix {
   min-width: 30em;
 }
 .middfiles_help {

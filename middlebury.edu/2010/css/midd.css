@@ -947,3 +947,6 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
     .new-identity .col-10 { width:83.0666666667%; }
     .new-identity .col-11 { width:91.5333333333%; }
     .new-identity .col-12 { width:100%; }
+
+/* Custom colors */
+.light-blue {background-color: #e4eaf3;}
