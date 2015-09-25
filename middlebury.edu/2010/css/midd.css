@@ -140,7 +140,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
         .disabled .bar_color { background-color:#37424F; }
       .submit .bar_color { background-color:transparent !important; border:1px dashed #FFFFFF; }
       .bar.header { width:auto; margin-right:-16px; }
-        .bar.header h1 { position:absolute; top:40px; left:0px; width:100%; color:#FFFFFF; font-family:Garamond,"Times New Roman",serif; font-size:14em; line-height:1; text-align:center; }
+        .bar.header h1 { position:absolute; top:40px; left:0px; width:100%; color:transparent; font-family:Garamond,"Times New Roman",serif; font-size:14em; line-height:1; text-align:center; }
           .bar.header h1 img { float:none; }
         .bar.header img { margin:0px 16px 0px 0px; float:left; }
       .waveform.nojs .slider { width:1410px; left:50%; margin-left:-713px; }
