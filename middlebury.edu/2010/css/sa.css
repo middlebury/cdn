@@ -20,6 +20,7 @@
 .navigation ul { background-color:#E7C654; height:36px; font-size:1em; line-height:36px; margin:0; padding:0px 16px; width:928px; }
   .navigation li { margin:0 14px; }
   .navigation li a { position:relative; color:#FFFFFF; }
+    .navigation ul.ir li a { height:36px; }
     .region-header .navigation ul li a { height:36px; }
   .navigation li a span { background-image:url('../images/sa/nav_schoolsabroad.gif?2015-06-03'); display:block; position:absolute; top:0; left:0; width:100%; height:36px; }
   .nav_apply { width:49px; }
