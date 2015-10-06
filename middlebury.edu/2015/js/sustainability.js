@@ -1,10 +1,1 @@
-(function() {
-
-    jQuery('.menu-btn').on('click', function(e) {
-        e.preventDefault();
-        jQuery('#midd-menu').toggleClass('menu-open')
-    });
-
-})();
-
-//# sourceMappingURL=main.js.map
+!function(n){n(document).ready(function(){n(".menu-btn").on("click",function(e){e.preventDefault(),n("#midd-menu").toggleClass("menu-open")})})}(jQuery);
