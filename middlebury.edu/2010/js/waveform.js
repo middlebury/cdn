@@ -198,7 +198,7 @@ jQuery(document).ready(function(jQuery) {
     var permalinked = jQuery(window.location.hash+'_bar'); // check whether a story corresponds to the hash tag
     if(homepage&&permalinked.length) { // if it exists
       permalinked.openStory(); // show it
-    } else if(firstOpen) {
+    } else if(homepage&&firstOpen) {
       first_id = '#story'+firstOpen+'_bar';
       jQuery(first_id).openStory();
       openedStories.push(first_id);
