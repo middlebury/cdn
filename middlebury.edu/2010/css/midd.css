@@ -672,6 +672,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 /* Page Themes */
 
   /* 404 */
+  body.page-404 > header { z-index:1; }
   .seasonal { display:none; }
   body.spring { background-image:url('../images/404_spring.jpg'); }
     body.spring .pagecontent header { margin-top:360px; }
