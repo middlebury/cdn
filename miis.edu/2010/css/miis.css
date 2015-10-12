@@ -621,3 +621,6 @@ details p.tags a { color:#336699; }
 
 /* New Identity styles */
 .new-identity .content-sidebar { background-color:#efeee9; }
+
+/* Custom colors */
+.light-blue { background-color: #e4eaf3; }
