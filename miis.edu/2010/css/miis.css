@@ -299,11 +299,11 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
   .front .spotlight .views-field-counter { margin-top:-5px; text-align:center; }
   .front .spotlight .views-field-title { display:block; font-size:1.2em; line-height:1.25em; }
     .front .spotlight .views-field-title a { font-weight:normal; }
-  .front .spotlight div.item-list { margin:0px; width: 258px; }
-    .front .spotlight div.item-list li { width: 128px; margin:0px; padding:0px; display:block; }
-      .front .spotlight div.item-list li.first { float:left; text-align:left; }
-      .front .spotlight div.item-list li.pager-current { display:none; }
-      .front .spotlight div.item-list li.last { float:right; text-align:right; }
+  .front .view-spotlight div.item-list { margin:0px; width: 258px; }
+    .front .view-spotlight div.item-list li { width: 128px; margin:0px; padding:0px; display:block; }
+      .front .view-spotlight div.item-list li.first { float:left; text-align:left; }
+      .front .view-spotlight div.item-list li.pager-current { display:none; }
+      .front .view-spotlight div.item-list li.last { float:right; text-align:right; }
 
 .front .dates { float:right; width:258px; }
   .front .dates ul { margin-top:1.5em; }

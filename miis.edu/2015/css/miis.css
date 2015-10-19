@@ -54,6 +54,24 @@ nav.actions { width:150px; float:right; }
   .front .spotlight .views-field-counter { clear:both; margin-top:0px; }
   .front .spotlight div.item-list { margin-top:-20px; width:100%; }
 
+.front .view-spotlight .views-field-title { margin-bottom:0.5em; margin-top:1em; font-size:1.2em; }
+.front .view-spotlight .views-field-title a { color:#223E64; font-family:Arial,sans-serif; font-size:15px; font-weight:bold; line-height:19px; }
+.front .view-spotlight .views-field-field-teaser p { display:inline; }
+
+.front .view-spotlight .views-field-counter { margin-top:8px; text-align:center; }
+.front .view-spotlight div.item-list { margin:0px; width: 258px; }
+  .front .view-spotlight div.item-list .pager { margin-top:-30px; width:300px; font-weight:bold; font-family:Arial,sans-serif; }
+  .front .view-spotlight div.item-list li { width: 128px; margin:0px; padding:0px; display:block; }
+    .front .view-spotlight div.item-list li.first { float:left; text-align:left; }
+    .front .view-spotlight div.item-list li.pager-current { display:none; }
+    .front .view-spotlight div.item-list li.last { float:right; text-align:right; }
+
+#block-views-spotlight-block-2 { border-bottom:1px solid #5E6676; }
+#block-views-spotlight-block-2 .content { padding-bottom:12px; }
+#block-views-spotlight-block-3 { margin-top:12px; }
+
+p.events { padding-top:24px; clear:both; }
+
 .footer { font-family:Arial; font-size:14px; color:#FFFFFF; padding:19px 21px 0px 21px; margin-bottom:0px; min-height:160px; width:918px; }
   .front .footer { background-color:#374052; }
 
