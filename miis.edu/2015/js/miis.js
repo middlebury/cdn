@@ -10,6 +10,19 @@ jQuery(function() {
   });
 
   if (jQuery('body').is('.front')) {
+    jQuery(this).frontColumnHeights();
+  }
+});
+
+jQuery(document).ajaxSuccess(function() {
+  jQuery('.front .column').each(function() {
+    jQuery(this).height('100%');
+  });
+  jQuery(this).frontColumnHeights();
+});
+
+jQuery.fn.extend({
+  frontColumnHeights : function() {
     var maxHeight = Math.max.apply(null, jQuery('.columns .column').map(function () {
       return jQuery(this).height();
     }).get());
