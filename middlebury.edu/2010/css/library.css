@@ -22,3 +22,5 @@
   #library-quick-search a { color:#272C6F; }
 
 #library-quick-search .image-margin { margin:0px; }
+img.random_library_item {margin:5px;}
+#random-library-items-wrapper {text-align:center;margin:auto;}

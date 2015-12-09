@@ -624,3 +624,11 @@ details p.tags a { color:#336699; }
 
 /* Custom colors */
 .light-blue { background-color: #e4eaf3; }
+
+/* video filter styles */
+div.video_filter {
+  overflow: hidden;
+}
+div.video_filter video {
+  object-fit: cover;
+}
