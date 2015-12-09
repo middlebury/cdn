@@ -372,7 +372,7 @@ body {
   background-image: url("http://cdn.middlebury.edu/middlebury.edu/2010/images/bluegradient.jpg");
   background-position: 50% 0;
   background-repeat: no-repeat;
-  font-family: "whitney", verdana, sans-serif; }
+  font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif; }
 
 p {
   margin-top: 0;
@@ -852,7 +852,7 @@ textarea {
     margin-bottom: 10px; }
   .global-nav__list a {
     font-size: 18px;
-    font-family: "sentinel", georgia, serif;
+    font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
     text-decoration: none; }
     .global-nav__list a:hover {
       color: #dfdf90;
@@ -1072,7 +1072,7 @@ input.search-form__input {
       color: #BFCBD9; }
   .global-footer h3 {
     font-size: 18px;
-    font-family: "sentinel", georgia, serif;
+    font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
     font-weight: 500; }
   .global-footer h4 {
     margin-bottom: 0;
@@ -1092,7 +1092,7 @@ input.search-form__input {
   .sidebar article h1 {
     background-color: #1158a0;
     color: #fff;
-    font-family: "sentinel", georgia, serif;
+    font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
     font-weight: 400;
     font-size: 16px;
     text-align: center;
@@ -1130,7 +1130,7 @@ input.search-form__input {
 
 .page .region-content blockquote {
   font-size: 18px;
-  font-family: "sentinel", georgia, serif;
+  font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
   border-left: 2px solid #272C6F;
   margin-left: 0;
   padding-left: 40px; }
@@ -1142,10 +1142,10 @@ input.search-form__input {
       position: absolute;
       right: calc(100% + 2px);
       font-size: 24px;
-      font-family: "sentinel", georgia, serif; }
+      font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif; }
   .page .region-content blockquote small {
     font-size: 14px;
-    font-family: "whitney", verdana, sans-serif; }
+    font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif; }
 
 .page .region-content ol,
 .page .region-content ul {
@@ -1184,7 +1184,7 @@ input.search-form__input {
   margin-bottom: 50px;
   padding: 20px; }
   .page h1 {
-    font-family: "sentinel", georgia, serif;
+    font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
     font-size: 28px;
     font-weight: normal; }
 
