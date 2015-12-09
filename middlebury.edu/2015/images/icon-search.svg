@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16044) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Tablet-Portrait" sketch:type="MSArtboardGroup" transform="translate(-721.000000, -31.000000)" fill="#FFFFFF">
+            <path d="M729.75,31 C726.851562,31 724.5,33.3515625 724.5,36.25 C724.5,37.2890625 724.793945,38.2460938 725.313477,39.0527344 L721.341797,43.0039062 C720.883789,43.4619141 720.883789,44.2070312 721.341797,44.6582031 C721.567383,44.8837891 721.861328,45 722.168945,45 C722.456055,45 722.763672,44.8837891 722.996094,44.6582031 L726.947266,40.6865234 C727.753906,41.2060547 728.710938,41.5 729.75,41.5 C732.648438,41.5 735,39.1484375 735,36.25 C735,33.3515625 732.648438,31 729.75,31 L729.75,31 Z M729.75,39.75 C727.822266,39.75 726.25,38.1777344 726.25,36.25 C726.25,34.3222656 727.822266,32.75 729.75,32.75 C731.677734,32.75 733.25,34.3222656 733.25,36.25 C733.25,38.1777344 731.677734,39.75 729.75,39.75 L729.75,39.75 Z" id="icon-search" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
