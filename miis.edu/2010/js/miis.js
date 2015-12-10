@@ -67,7 +67,7 @@ jQuery(function() { // on DOM ready
 
   // Quickaccess
   if(jQuery.fn.quickaccess) {
-    jQuery('input.quickaccess').quickaccess({selector:'.qa_links a'});	
+    jQuery('input.quickaccess').quickaccess({selector:'.qa_links a'});
   }
 
   // Header photo caption popup
