@@ -160,12 +160,6 @@ jQuery(function() { // on DOM ready
     jQuery('.node-subpglist ul ul ul').parent().addClass('h4');
   }
 
-  jQuery('a[href*="/admissions/apply/application"],a[href*="ssb.middlebury.edu/PNTR/bzskalog.P_DispLoginNon"]').each(function() {
-    jQuery(this).attr('href', 'https://cdn.middlebury.edu/miis.edu/2010/apply.html');
-    jQuery(this).attr('target', '_self');
-    jQuery(this).attr('onClick', "_gaq.push(['_link', this.href]); return false;");
-  });
-
   jQuery('.course_sections .sectiontitle').click(function() {
     jQuery(this).siblings().slideToggle();
   });
