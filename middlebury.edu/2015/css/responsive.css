@@ -391,6 +391,10 @@ img {
 textarea {
   resize: vertical; }
 
+hr {
+  border-top: 1px solid lightgray;
+  border-left: 0; }
+
 .container, .container-fluid {
   margin-left: auto;
   margin-right: auto;
@@ -976,23 +980,58 @@ textarea {
   margin-bottom: 10px; }
 
 .menu {
-  list-style-type: none;
   margin-top: 0;
   padding-left: 0; }
   .menu a {
-    text-decoration: none; }
+    text-decoration: none;
+    font-size: 15px; }
     .menu a:hover {
       text-decoration: underline; }
-  .menu li a {
-    display: none; }
-  .menu li li {
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px; }
-    .menu li li a {
-      display: block;
-      font-weight: 500; }
+  .menu li {
+    list-style: none !important;
+    margin-left: 0 !important; }
+    .menu li a {
+      display: none; }
+    .menu li li {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 5px;
+      padding-bottom: 5px;
+      padding-left: 5px; }
+      .menu li li a {
+        display: block;
+        font-weight: 500; }
+      .menu li li ul {
+        margin-top: 10px; }
+        .menu li li ul li {
+          border-bottom: 0;
+          padding-left: 10px; }
+          .menu li li ul li a {
+            font-size: 14px;
+            color: #222; }
+
+.menu-open {
+  overflow-y: hidden;
+  height: 100%; }
+
+.pagecontent,
+.global-header > .row,
+.global-footer {
+  -webkit-transition: -webkit-transform .35s ease-in-out;
+          transition: transform .35s ease-in-out;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0); }
+  .menu-open .pagecontent, .menu-open
+  .global-header > .row, .menu-open
+  .global-footer {
+    -webkit-transform: translateX(-280px);
+            transform: translateX(-280px); }
+
+.pagecontent {
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+          transition: transform .4s ease-in-out; }
+  .menu-open .pagecontent {
+    -webkit-transform: translateX(-300px) scale(0.98);
+            transform: translateX(-300px) scale(0.98); }
 
 .search-form {
   position: relative; }
@@ -1085,11 +1124,84 @@ input.search-form__input {
     display: inline-block;
     margin-right: 30px; } }
 
-.sidebar article {
+.page {
+  background-color: #fff;
+  margin-bottom: 50px;
+  padding: 20px; }
+  .page h1 {
+    font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
+    font-size: 28px;
+    font-weight: normal; }
+  .page .region-content h1,
+  .page .region-content h2,
+  .page .region-content h3,
+  .page .region-content h4,
+  .page .region-content h5,
+  .page .region-content h6 {
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: .2em; }
+  .page .region-content p.opening {
+    font-size: 18px; }
+  .page .region-content p.big {
+    font-size: 20px; }
+  .page .region-content strong {
+    font-weight: 600; }
+  .page .region-content blockquote {
+    font-size: 18px;
+    font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
+    border-left: 2px solid #272C6F;
+    margin-left: 0;
+    padding-left: 40px; }
+    .page .region-content blockquote p:first-child {
+      position: relative;
+      quotes: "“" "”" "‘" "’"; }
+      .page .region-content blockquote p:first-child:before {
+        content: open-quote;
+        position: absolute;
+        right: calc(100% + 2px);
+        font-size: 24px;
+        font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif; }
+    .page .region-content blockquote small {
+      font-size: 14px;
+      font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif; }
+  .page .region-content ol,
+  .page .region-content ul {
+    margin-top: 0; }
+  .page .region-content table {
+    width: 100%;
+    margin-bottom: 20px; }
+    .page .region-content table th {
+      font-weight: 500;
+      background-color: #efefef;
+      text-align: left;
+      border: 1px solid #efefef;
+      padding: 10px; }
+    .page .region-content table td {
+      border: 1px solid #efefef;
+      padding: 10px;
+      font-size: 14px; }
+
+.sidebar--primary h1 {
+  font-size: 16px; }
+
+.sidebar--primary p {
+  font-size: 14px; }
+
+.sidebar--primary #login {
+  color: inherit;
+  background-color: transparent;
+  float: none;
+  font-size: inherit;
+  padding: 0; }
+  .sidebar--primary #login:hover {
+    background-color: transparent; }
+
+.sidebar--secondary article {
   border: 1px solid #ccc;
   margin-bottom: 20px;
   padding: 20px; }
-  .sidebar article h1 {
+  .sidebar--secondary article h1 {
     background-color: #1158a0;
     color: #fff;
     font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
@@ -1099,71 +1211,8 @@ input.search-form__input {
     margin: -21px -21px 10px -21px;
     padding: 8px 12px; }
 
-.sidebar p:last-child {
+.sidebar--secondary p:last-child {
   margin-bottom: 0; }
-
-.page .region-content > header > h1 {
-  margin-top: 0; }
-
-.page .region-content h1,
-.page .region-content h2,
-.page .region-content h3,
-.page .region-content h4,
-.page .region-content h5,
-.page .region-content h6 {
-  font-weight: 500;
-  margin-top: 1em;
-  margin-bottom: .2em; }
-
-.page .region-content hr {
-  border-top: 1px solid lightgray;
-  border-left: 0; }
-
-.page .region-content p.opening {
-  font-size: 20px; }
-
-.page .region-content p.big {
-  font-size: 18px; }
-
-.page .region-content strong {
-  font-weight: 600; }
-
-.page .region-content blockquote {
-  font-size: 18px;
-  font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
-  border-left: 2px solid #272C6F;
-  margin-left: 0;
-  padding-left: 40px; }
-  .page .region-content blockquote p:first-child {
-    position: relative;
-    quotes: "“" "”" "‘" "’"; }
-    .page .region-content blockquote p:first-child:before {
-      content: open-quote;
-      position: absolute;
-      right: calc(100% + 2px);
-      font-size: 24px;
-      font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif; }
-  .page .region-content blockquote small {
-    font-size: 14px;
-    font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif; }
-
-.page .region-content ol,
-.page .region-content ul {
-  margin-top: 0; }
-
-.page .region-content table {
-  width: 100%;
-  margin-bottom: 20px; }
-  .page .region-content table th {
-    font-weight: 500;
-    background-color: #efefef;
-    text-align: left;
-    border: 1px solid #efefef;
-    padding: 10px; }
-  .page .region-content table td {
-    border: 1px solid #efefef;
-    padding: 10px;
-    font-size: 14px; }
 
 .sr-only {
   position: absolute;
@@ -1174,38 +1223,5 @@ input.search-form__input {
   margin: -1px;
   padding: 0;
   border: 0; }
-
-.menu-open {
-  overflow-y: hidden;
-  height: 100%; }
-
-.page {
-  background-color: #fff;
-  margin-bottom: 50px;
-  padding: 20px; }
-  .page h1 {
-    font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
-    font-size: 28px;
-    font-weight: normal; }
-
-.pagecontent,
-.global-header > .row,
-.global-footer {
-  -webkit-transition: -webkit-transform .35s ease-in-out;
-          transition: transform .35s ease-in-out;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0); }
-  .menu-open .pagecontent, .menu-open
-  .global-header > .row, .menu-open
-  .global-footer {
-    -webkit-transform: translateX(-280px);
-            transform: translateX(-280px); }
-
-.pagecontent {
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-          transition: transform .4s ease-in-out; }
-  .menu-open .pagecontent {
-    -webkit-transform: translateX(-300px) scale(0.98);
-            transform: translateX(-300px) scale(0.98); }
 
 /*# sourceMappingURL=responsive.css.map */
