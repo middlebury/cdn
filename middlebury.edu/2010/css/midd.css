@@ -451,7 +451,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
         .quick_contact.active a:hover span { background-position:-542px -90px; }
       .footer_right { float:right; }
         #block-middlebury-midd-blocks-midd-footer-return a { display:inline; }
-        body.midd #block-middlebury-midd-blocks-midd-footer-quicklinks li.quick_go { margin-left:204px; }
+        body.midd #block-middlebury-midd-blocks-midd-footer-quicklinks li.quick_go, body.midd ul.footer-quicklinks li.quick_go { margin-left:204px; }
       .footer ul li { position:relative; }
         .footer ul li.gateways_alumni  .contents { min-width:375px; }
           .footer ul li.gateways_alumni  .contents li { clear:left; }
