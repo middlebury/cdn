@@ -68,6 +68,11 @@ jQuery(document).ready(function(jQuery) {
     }
   }
 
+  // Videos
+  jQuery('div.video_filter>.video-filter').each(function() {
+    jQuery(this).parent().attr("class", "video_filter " + jQuery(this).attr("class"));
+  });
+
   // Dropdowns
   var dropdowns = jQuery('#midd_taskbar .node');
   dropdowns.each(function() {
