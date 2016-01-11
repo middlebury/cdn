@@ -1,9 +1,9 @@
 @charset "UTF-8";
-.row:before, .clearfix:before, .row:after, .clearfix:after {
+.row:before, .field-name-taxonomy-vocabulary-1:before, .clearfix:before, .row:after, .field-name-taxonomy-vocabulary-1:after, .clearfix:after {
   content: " ";
   display: table; }
 
-.row:after, .clearfix:after {
+.row:after, .field-name-taxonomy-vocabulary-1:after, .clearfix:after {
   clear: both; }
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
@@ -879,6 +879,9 @@ hr {
   @media only screen and (min-width: 48em) {
     .global-nav__list--top a {
       font-size: 15px; } }
+  @media only screen and (min-width: 62em) {
+    .global-nav__list--top a {
+      font-size: 18px; } }
 
 @media only screen and (min-width: 48em) {
   .global-nav__list--top {
@@ -1040,6 +1043,15 @@ hr {
   .menu-open .pagecontent {
     -webkit-transform: translateX(-300px) scale(0.98);
             transform: translateX(-300px) scale(0.98); }
+
+.field-name-taxonomy-vocabulary-1 .field-label {
+  float: left;
+  display: inline-block; }
+
+.field-name-taxonomy-vocabulary-1 .field-items .field-item {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px; }
 
 .search-form {
   position: relative; }
