@@ -590,13 +590,13 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
       .profile-extras li a { border-bottom: 1px dotted #003366; }
       .profile-extras li a:hover { color:#003366; border-bottom:1px solid #003366; background-color: #eeffcc; }
 
-  .node-profilelist { display:inline-block; position:relative; width:330px; vertical-align:top; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; float:none; margin-bottom:22px; background-color:#EFEEE9; border:1px solid #D4D6C8; font-size:0.88em; line-height:1.5em; padding:16px 16px 8px 16px; clear:both; }
-    .node-profilelist .profile-right { float:right; margin:-4px -4px 5px 8px; padding:0px; width:auto; }
-    .node-profilelist .profile-image { background:transparent; }
-      .node-profilelist .profile-image img { max-width:85px; }
-    .node-profilelist .profile-card { background:transparent; width:auto; border:none; padding:0px; margin:0px; }
-      .node-profilelist .profile-card h1 { line-height:1.6em; height:auto; font-weight:bold; }
-    .node-profilelist .profile-card h2, .node-profilelist .profile-card h3 { font-size:1em; font-weight:bold; border:none; }
+  .node-profile.node-teaser { display:inline-block; position:relative; width:330px; vertical-align:top; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; float:none; margin-bottom:22px; background-color:#EFEEE9; border:1px solid #D4D6C8; font-size:0.88em; line-height:1.5em; padding:16px 16px 8px 16px; clear:both; }
+    .node-profile.node-teaser .profile-right { float:right; margin:-4px -4px 5px 8px; padding:0px; width:auto; }
+    .node-profile.node-teaser .profile-image { background:transparent; }
+      .node-profile.node-teaser .profile-image img { max-width:85px; }
+    .node-profile.node-teaser .profile-card { background:transparent; width:auto; border:none; padding:0px; margin:0px; }
+      .node-profile.node-teaser .profile-card h1 { line-height:1.6em; height:auto; font-weight:bold; }
+    .node-profile.node-teaser .profile-card h2, .node-profile.node-teaser .profile-card h3 { font-size:1em; font-weight:bold; border:none; }
 
   /* Job Description */
   .node-jobdescription h1 { font-weight:bold; }
