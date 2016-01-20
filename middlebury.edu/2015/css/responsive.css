@@ -1,9 +1,9 @@
 @charset "UTF-8";
-.row:before, .field-name-taxonomy-vocabulary-1:before, .clearfix:before, .row:after, .field-name-taxonomy-vocabulary-1:after, .clearfix:after {
+dl:before, .row:before, .field-name-taxonomy-vocabulary-1:before, .clearfix:before, dl:after, .row:after, .field-name-taxonomy-vocabulary-1:after, .clearfix:after {
   content: " ";
   display: table; }
 
-.row:after, .field-name-taxonomy-vocabulary-1:after, .clearfix:after {
+dl:after, .row:after, .field-name-taxonomy-vocabulary-1:after, .clearfix:after {
   clear: both; }
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
@@ -394,8 +394,33 @@ textarea {
   resize: vertical; }
 
 hr {
-  border-top: 1px solid lightgray;
-  border-left: 0; }
+  border: 0;
+  background-color: #DCDCDC;
+  height: 1px;
+  margin: 20px 0; }
+
+dl {
+  font-size: 14px;
+  margin-bottom: 20px; }
+
+dt {
+  font-weight: 600;
+  word-wrap: break-word;
+  margin: 0; }
+  @media only screen and (min-width: 48em) {
+    dt {
+      float: left;
+      clear: left;
+      width: 25%;
+      margin-right: 2%; } }
+
+dd {
+  margin: 0 0 10px 0; }
+  @media only screen and (min-width: 48em) {
+    dd {
+      width: 73%;
+      float: left;
+      margin-left: 0; } }
 
 .container, .container-fluid {
   margin-left: auto;
@@ -1162,12 +1187,21 @@ input.search-form__input {
   .page .region-content h4,
   .page .region-content h5,
   .page .region-content h6 {
-    font-weight: 500;
-    margin-top: 1em;
+    font-weight: 600;
+    margin-top: 0;
     margin-bottom: .2em; }
-  .page .region-content p.opening {
+    .page .region-content h1:first-child,
+    .page .region-content h2:first-child,
+    .page .region-content h3:first-child,
+    .page .region-content h4:first-child,
+    .page .region-content h5:first-child,
+    .page .region-content h6:first-child {
+      margin-top: 0; }
+  .page .region-content .opening {
     font-size: 18px; }
-  .page .region-content p.big {
+  .page .region-content .small {
+    font-size: 14px; }
+  .page .region-content .big {
     font-size: 20px; }
   .page .region-content strong {
     font-weight: 600; }
@@ -1196,15 +1230,19 @@ input.search-form__input {
     width: 100%;
     margin-bottom: 20px; }
     .page .region-content table th {
-      font-weight: 500;
       background-color: #efefef;
       text-align: left;
+      font-weight: 600;
       border: 1px solid #efefef;
+      font-size: 14px;
       padding: 10px; }
     .page .region-content table td {
       border: 1px solid #efefef;
       padding: 10px;
       font-size: 14px; }
+
+.sidebar {
+  word-break: break-word; }
 
 .sidebar--primary h1 {
   font-size: 16px; }
