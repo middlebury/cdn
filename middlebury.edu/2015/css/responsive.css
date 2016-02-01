@@ -1241,8 +1241,9 @@ input.search-form__input {
       padding: 10px;
       font-size: 14px; }
 
-.sidebar {
-  word-break: break-word; }
+.sidebar a[href^="mailto:"] {
+  word-break: break-all;
+  display: inline-block; }
 
 .sidebar--primary h1 {
   font-size: 16px; }
