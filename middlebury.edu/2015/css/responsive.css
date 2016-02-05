@@ -851,7 +851,7 @@ dd {
 
 .global-nav {
   background-color: #12243F;
-  width: 280px;
+  width: 270px;
   height: 100%;
   position: fixed;
   right: 0;
@@ -1059,15 +1059,15 @@ dd {
   .menu-open .pagecontent, .menu-open
   .global-header > .row, .menu-open
   .global-footer {
-    -webkit-transform: translateX(-280px);
-            transform: translateX(-280px); }
+    -webkit-transform: translateX(-270px);
+            transform: translateX(-270px); }
 
 .pagecontent {
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-          transition: transform .4s ease-in-out; }
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+          transition: transform .5s ease-in-out; }
   .menu-open .pagecontent {
-    -webkit-transform: translateX(-300px) scale(0.98);
-            transform: translateX(-300px) scale(0.98); }
+    -webkit-transform: translateX(-270px);
+            transform: translateX(-270px); }
 
 .field-name-taxonomy-vocabulary-1 .field-label {
   float: left;
@@ -1125,7 +1125,7 @@ input.search-form__input {
 .global-header__menu-btn {
   text-align: right;
   margin-top: 20px;
-  padding: 20px; }
+  padding: 20px 0; }
   @media only screen and (min-width: 48em) {
     .global-header__menu-btn {
       display: none; } }
