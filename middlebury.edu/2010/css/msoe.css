@@ -1,26 +1,29 @@
-.midd_msoe h1.wordmark,
-.midd_msoe_inside h1.wordmark {
-  width: 925px;
-  padding: 250px 0px 0px 35px;
 header.container {
   background: url('../images/msoe/msoe-banner.jpg') no-repeat center top;
 }
 
-.midd_msoe_inside h1.wordmark {
-  padding: 50px 0px 0px 35px
+h1.wordmark {
+  display: none;
+}
+
+.container h2.wordmark {
+  margin: 0;
+  padding: 25px 0 0 25px;
 }
 
 h2.wordmark a {
   border: none;
-  background: url(../images/msoe/logo.png) transparent no-repeat top left;
+  background: transparent url('../images/msoe/logo-msoe.png') no-repeat top left;
   display: block;
-  width: 960px;
-  height: 54px;
+  width: 348px;
+  height: 98px;
   text-indent: -9999px;
+  margin-bottom: 75px;
 }
 
-h2.wordmark a:hover {
-  background: transparent
+form.search {
+  top: 25px;
+  right: 25px;
 }
 
 .search_query {
