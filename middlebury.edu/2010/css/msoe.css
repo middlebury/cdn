@@ -217,7 +217,7 @@ form.search {
 
 h2 {
   color: #666;
-  font-family: Georgia,serif;
+  font-family: Georgia, serif;
   margin-bottom: 16px;
 }
 
@@ -229,7 +229,7 @@ td.first {
 td.first .opening {
   color: #333300;
   font-size: 30px;
-  font-family: Garamond,"Times New Roman",serif;
+  font-family: Garamond, "Times New Roman", serif;
 }
 
 td.first a {
@@ -242,7 +242,7 @@ td.first a {
 td.first h3 {
   color: #5b8707;
   font-size: 24px;
-  font-family: Garamond,"Times New Roman",serif;
+  font-family: Garamond, "Times New Roman", serif;
   font-weight: normal;
 }
 
