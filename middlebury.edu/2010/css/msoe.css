@@ -77,6 +77,12 @@ form.search {
   display: none
 }
 
+/*reset page style for home page*/
+.midd_msoe .page {
+  padding: 0;
+  width: 100% !important;
+}
+
 /* home page */
 
 .home-container {
