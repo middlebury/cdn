@@ -77,6 +77,265 @@ form.search {
   display: none
 }
 
+/* home page */
+
+.home-container {
+  width: 770px;
+  margin: 0 auto;
+}
+
+.hero {
+  height: 374px;
+}
+
+.hero-banner {
+  float: left;
+  width: 640px;
+  height: 100%;
+}
+
+.hero-form {
+  background-color: #263d5e;
+  float: left;
+  width: 320px;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.hero-form h2 {
+  font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-size: 16px;
+  font-weight: 600;
+  color: #f8d140;
+  margin: 0;
+}
+
+.hero-form p {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, sans-serif;
+  margin-bottom: 10px;
+}
+
+.row {
+
+}
+
+.column {
+  float: left;
+  box-sizing: border-box;
+}
+
+.column-program {
+  width: 225px;
+}
+
+.column-training {
+  width: 320px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.column-courses {
+  width: 225px;
+}
+
+.icon {
+  display: block;
+  border-radius: 50px;
+  height: 77px;
+  width: 77px;
+  position: relative;
+  margin: 36px auto;
+}
+
+.icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.icon-blue {
+  background-color: #263d5e;
+}
+
+.icon-yellow {
+  background-color: #f8d140;
+}
+
+.icon-green {
+  background-color: #8eaf42;
+}
+
+.home-features p {
+  color: #333;
+  font-family: 'Sentinel SSm A', 'Sentinel SSm B', georgia, serif;
+  font-size: 15px;
+}
+
+.home-features p strong {
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, sans-serif;
+}
+
+.rule {
+  border-top: 3px solid #8eaf42;
+  position: relative;
+  z-index: 1;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+.rule-buttoned {
+  text-align: center;
+  overflow: visible;
+  height: 3px;
+}
+
+.rule-buttoned .btn {
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  z-index: 2;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, sans-serif;
+  cursor: pointer;
+  border: 0;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-arrow {
+  margin-left: 5px;
+  height: 20px;
+  position: relative;
+  top: 3px;
+}
+
+.btn:hover {
+  padding: 10px 20px !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #8eaf42 !important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #7e9a3e !important;
+}
+
+.home-container blockquote {
+  border: 0;
+  margin: 0 0 40px 0;
+  padding: 0;
+  text-align: center;
+}
+
+.home-container blockquote p {
+  font-size: 30px;
+  color: #263d5e;
+  display: inline;
+  margin: 0;
+  font-family: 'Sentinel SSm A', 'Sentinel SSm B', georgia, serif;
+}
+
+.home-container blockquote p strong {
+  font-weight: 600;
+}
+
+.home-container blockquote small {
+  color: #8eaf42;
+  font-size: 20px;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, sans-serif;
+}
+
+/* form styles */
+
+.select {
+  position: relative;
+  background-color: #fff;
+}
+
+.select:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #000 transparent transparent transparent;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.select select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  border-radius: 0;
+  border: 1px solid transparent;
+  position: relative;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.form-group.has-error input,
+.form-group.has-error select {
+  border-color: tomato;
+}
+
+.form-group.form-actions {
+  margin-top: 10px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+/* content styles */
+
 .opening {
   font-size: 1.2em;
   color: #440;
