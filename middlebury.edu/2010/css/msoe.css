@@ -2,6 +2,8 @@
 .midd_msoe_inside h1.wordmark {
   width: 925px;
   padding: 250px 0px 0px 35px;
+header.container {
+  background: url('../images/msoe/msoe-banner.jpg') no-repeat center top;
 }
 
 .midd_msoe_inside h1.wordmark {
