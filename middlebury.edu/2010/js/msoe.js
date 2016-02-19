@@ -17,7 +17,7 @@ jQuery(function() {
 
   $form.find('input, select').on('blur', function() {
     var $field = $(this);
-    var $formgroup = $this.closest('.form-group');
+    var $formgroup = $field.closest('.form-group');
     if(!$field.val() && $field.attr('required')) {
       $formgroup.addClass('has-error');
     } else {
