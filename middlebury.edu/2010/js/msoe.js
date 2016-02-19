@@ -24,4 +24,14 @@ jQuery(function() {
       $formgroup.removeClass('has-error');
     }
   });
+
+  if(!Modernizr.placeholder && Drupal.settings) {
+    (function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+        g.src = Drupal.settings.middleburyUtility.middleburyCdnBase + '/common/2010/js/placeholders.jquery.min.js';
+        s.parentNode.insertBefore(g, s);
+    }(document, 'script'));
+  }
+
 });
