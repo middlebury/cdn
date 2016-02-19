@@ -206,25 +206,25 @@ body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em
   .sidebar { width:200px; margin:24px 12px; padding:0px; float:right; color:#FFFFFF; }
   .sidebar ul.menu { list-style-type:none; margin:0px; }
   .sidebar ul.menu > li { margin:0px; list-style-type:none; list-style-image:none; padding:0px; }
-  .sidebar .block-monster-menus > ul.menu > li > a { display:none; }
-  .sidebar .block-monster-menus > ul.menu > li > ul.menu > li { margin:0px; background-color:#061830; border:1px solid #18293A; margin-bottom:5px; }
-  .sidebar .block-monster-menus > ul.menu > li > ul.menu > li > a { display:block; border:none; padding:8px 10px; text-decoration: none; font-size:0.929em; line-height:1.1em; font-weight:bold; color: #DDDDEE; }
-    .sidebar .block-monster-menus > ul.menu > li > ul.menu > li > a:hover { background-color:#18447C; text-decoration: none; color:#FFFFFF; }
-    .sidebar .block-monster-menus > ul.menu > li > ul.menu > li > ul { margin:10px 0px 10px 10px; }
-    .sidebar .block-monster-menus > ul.menu > li > ul.menu > li.expanded > ul > li { padding:0px 10px 0px 10px; margin:0px 0px 5px 0px; }
-    .sidebar .block-monster-menus > ul.menu > li > ul.menu > li.expanded > ul > li > a { color:#FFFFFF; border:none; }
-    .sidebar .block-monster-menus > ul.menu > li > ul.menu > li.expanded > ul > li > a:hover { text-decoration:underline; }
-  .sidebar .block-monster-menus > ul.menu > li > ul.menu > li.expanded { border:2px solid #18293A; background-color:#061830; }
-    .sidebar .block-monster-menus > ul.menu > li > ul.menu > li.expanded > a { background-color:#18447C; color:#FFFFFF; border:none; }
-    .sidebar .block-monster-menus > ul.menu > li > ul.menu > li.expanded > a:hover { color:#FFFFFF; }
-  .sidebar .block-monster-menus > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu { list-style-type:disc; color:#CCEEFF; font-size:0.929em; margin-left:1.2em; }
-  .sidebar .block-monster-menus > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li { margin-top:0.5em; }
-  .sidebar .block-monster-menus > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li > a { list-style-type:disc; color:#CCEEFF; border-color:#CCEEFF; }
-  .sidebar .block-monster-menus > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li a { color:#114477; }
-  .sidebar .block-monster-menus > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li a:hover { color:#114477; }
-  .sidebar .block-monster-menus > ul.menu > li > ul.menu > li.expanded > ul.menu li.here { color:#FFFFFF; }
-    .sidebar .block-monster-menus > ul.menu > li > ul.menu > li.expanded > ul.menu > li.here > a { font-weight:bold; color:#FFFFFF; border:none; }
-  .sidebar .block-monster-menus > ul.menu > li > ul.menu > li.expanded > ul.menu > li.here > a:hover { border: none; }
+  .sidebar div.content > ul.menu > li > a { display:none; }
+  .sidebar div.content > ul.menu > li > ul.menu > li { margin:0px; background-color:#061830; border:1px solid #18293A; margin-bottom:5px; }
+  .sidebar div.content > ul.menu > li > ul.menu > li > a { display:block; border:none; padding:8px 10px; text-decoration: none; font-size:0.929em; line-height:1.1em; font-weight:bold; color: #DDDDEE; }
+    .sidebar div.content > ul.menu > li > ul.menu > li > a:hover { background-color:#18447C; text-decoration: none; color:#FFFFFF; }
+    .sidebar div.content > ul.menu > li > ul.menu > li > ul { margin:10px 0px 10px 10px; }
+    .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul > li { padding:0px 10px 0px 10px; margin:0px 0px 5px 0px; }
+    .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul > li > a { color:#FFFFFF; border:none; }
+    .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul > li > a:hover { text-decoration:underline; }
+  .sidebar div.content > ul.menu > li > ul.menu > li.expanded { border:2px solid #18293A; background-color:#061830; }
+    .sidebar div.content > ul.menu > li > ul.menu > li.expanded > a { background-color:#18447C; color:#FFFFFF; border:none; }
+    .sidebar div.content > ul.menu > li > ul.menu > li.expanded > a:hover { color:#FFFFFF; }
+  .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu { list-style-type:disc; color:#CCEEFF; font-size:0.929em; margin-left:1.2em; }
+  .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li { margin-top:0.5em; }
+  .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li > a { list-style-type:disc; color:#CCEEFF; border-color:#CCEEFF; }
+  .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li a { color:#114477; }
+  .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li.expanded > ul.menu > li a:hover { color:#114477; }
+  .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu li.here { color:#FFFFFF; }
+    .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.here > a { font-weight:bold; color:#FFFFFF; border:none; }
+  .sidebar div.content > ul.menu > li > ul.menu > li.expanded > ul.menu > li.here > a:hover { border: none; }
   .sidebar h2 { color:#FFD231; }
   .sidebar .node h1 { color:#FFD231; font-size:1.229em; font-weight:bold; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; border:none; }
   .sidebar .node a { color:#76DB5B; font-weight:bold; border:none; text-decoration:none; }
