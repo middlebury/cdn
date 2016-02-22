@@ -177,7 +177,7 @@ jQuery(function() { // on DOM ready
 
   // Blue Theme Sub-navigation
   if (jQuery('body').hasClass('miis_blue')) {
-    var subnav = jQuery('#block-monster-menus-1 > ul > li.expanded > ul.menu').clone();
+    var subnav = jQuery('#block-monster-menus-1 > ul > li > ul > li.expanded > ul').clone();
     jQuery('.region-right').prepend(subnav);
   }
 });
