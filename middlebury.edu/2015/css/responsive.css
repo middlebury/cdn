@@ -1,9 +1,9 @@
 @charset "UTF-8";
-.row:before, .clearfix:before, .row:after, .clearfix:after {
+dl:before, .row:before, .field-name-taxonomy-vocabulary-1:before, .clearfix:before, dl:after, .row:after, .field-name-taxonomy-vocabulary-1:after, .clearfix:after {
   content: " ";
   display: table; }
 
-.row:after, .clearfix:after {
+dl:after, .row:after, .field-name-taxonomy-vocabulary-1:after, .clearfix:after {
   clear: both; }
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
@@ -365,7 +365,7 @@ th {
 html {
   color: #222;
   font-size: 1em;
-  line-height: 1.4; }
+  line-height: 1.5; }
 
 body {
   background-color: #071427;
@@ -378,8 +378,10 @@ p {
   margin-top: 0;
   margin-bottom: 20px; }
 
+#rss-page .feed-item-title a,
 a {
   color: #272C6F; }
+  #rss-page .feed-item-title a:hover,
   a:hover {
     color: #272C6F;
     text-decoration: none; }
@@ -392,8 +394,33 @@ textarea {
   resize: vertical; }
 
 hr {
-  border-top: 1px solid lightgray;
-  border-left: 0; }
+  border: 0;
+  background-color: #DCDCDC;
+  height: 1px;
+  margin: 20px 0; }
+
+dl {
+  font-size: 14px;
+  margin-bottom: 20px; }
+
+dt {
+  font-weight: 600;
+  word-wrap: break-word;
+  margin: 0; }
+  @media only screen and (min-width: 48em) {
+    dt {
+      float: left;
+      clear: left;
+      width: 25%;
+      margin-right: 2%; } }
+
+dd {
+  margin: 0 0 10px 0; }
+  @media only screen and (min-width: 48em) {
+    dd {
+      width: 73%;
+      float: left;
+      margin-left: 0; } }
 
 .container, .container-fluid {
   margin-left: auto;
@@ -824,7 +851,7 @@ hr {
 
 .global-nav {
   background-color: #12243F;
-  width: 280px;
+  width: 270px;
   height: 100%;
   position: fixed;
   right: 0;
@@ -853,7 +880,7 @@ hr {
   margin: 0;
   padding: 0; }
   .global-nav__list li {
-    margin-bottom: 10px; }
+    margin-bottom: 15px; }
   .global-nav__list a {
     font-size: 18px;
     font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
@@ -867,12 +894,19 @@ hr {
       .global-nav__list li {
         display: table-cell;
         width: 1%;
-        text-align: center; }
+        text-align: center;
+        margin-bottom: 10px; }
       .global-nav__list a {
         white-space: nowrap; } }
 
 .global-nav__list--top a {
   color: #fff; }
+  @media only screen and (min-width: 48em) {
+    .global-nav__list--top a {
+      font-size: 15px; } }
+  @media only screen and (min-width: 62em) {
+    .global-nav__list--top a {
+      font-size: 18px; } }
 
 @media only screen and (min-width: 48em) {
   .global-nav__list--top {
@@ -884,7 +918,7 @@ hr {
     color: #73A2E6; }
     @media only screen and (min-width: 48em) {
       .global-nav__list--bottom a {
-        font-size: 16px; } }
+        font-size: 15px; } }
     @media only screen and (min-width: 62em) {
       .global-nav__list--bottom a {
         font-size: 18px; } }
@@ -987,6 +1021,8 @@ hr {
     font-size: 15px; }
     .menu a:hover {
       text-decoration: underline; }
+    > .menu a.active {
+      color: #272C6F; }
   .menu li {
     list-style: none !important;
     margin-left: 0 !important; }
@@ -1006,7 +1042,7 @@ hr {
           border-bottom: 0;
           padding-left: 10px; }
           .menu li li ul li a {
-            font-size: 14px;
+            font-size: 13px;
             color: #222; }
 
 .menu-open {
@@ -1023,15 +1059,24 @@ hr {
   .menu-open .pagecontent, .menu-open
   .global-header > .row, .menu-open
   .global-footer {
-    -webkit-transform: translateX(-280px);
-            transform: translateX(-280px); }
+    -webkit-transform: translateX(-270px);
+            transform: translateX(-270px); }
 
 .pagecontent {
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-          transition: transform .4s ease-in-out; }
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+          transition: transform .5s ease-in-out; }
   .menu-open .pagecontent {
-    -webkit-transform: translateX(-300px) scale(0.98);
-            transform: translateX(-300px) scale(0.98); }
+    -webkit-transform: translateX(-270px);
+            transform: translateX(-270px); }
+
+.field-name-taxonomy-vocabulary-1 .field-label {
+  float: left;
+  display: inline-block; }
+
+.field-name-taxonomy-vocabulary-1 .field-items .field-item {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px; }
 
 .search-form {
   position: relative; }
@@ -1080,7 +1125,7 @@ input.search-form__input {
 .global-header__menu-btn {
   text-align: right;
   margin-top: 20px;
-  padding: 20px; }
+  padding: 20px 0; }
   @media only screen and (min-width: 48em) {
     .global-header__menu-btn {
       display: none; } }
@@ -1124,6 +1169,10 @@ input.search-form__input {
     display: inline-block;
     margin-right: 30px; } }
 
+.global-footer__copyright {
+  margin-top: 40px;
+  font-size: 14px; }
+
 .page {
   background-color: #fff;
   margin-bottom: 50px;
@@ -1138,12 +1187,21 @@ input.search-form__input {
   .page .region-content h4,
   .page .region-content h5,
   .page .region-content h6 {
-    font-weight: 500;
-    margin-top: 1em;
+    font-weight: 600;
+    margin-top: 0;
     margin-bottom: .2em; }
-  .page .region-content p.opening {
+    .page .region-content h1:first-child,
+    .page .region-content h2:first-child,
+    .page .region-content h3:first-child,
+    .page .region-content h4:first-child,
+    .page .region-content h5:first-child,
+    .page .region-content h6:first-child {
+      margin-top: 0; }
+  .page .region-content .opening {
     font-size: 18px; }
-  .page .region-content p.big {
+  .page .region-content .small {
+    font-size: 14px; }
+  .page .region-content .big {
     font-size: 20px; }
   .page .region-content strong {
     font-weight: 600; }
@@ -1172,15 +1230,20 @@ input.search-form__input {
     width: 100%;
     margin-bottom: 20px; }
     .page .region-content table th {
-      font-weight: 500;
       background-color: #efefef;
       text-align: left;
+      font-weight: 600;
       border: 1px solid #efefef;
+      font-size: 14px;
       padding: 10px; }
     .page .region-content table td {
       border: 1px solid #efefef;
       padding: 10px;
       font-size: 14px; }
+
+.sidebar a[href^="mailto:"] {
+  word-break: break-all;
+  display: inline-block; }
 
 .sidebar--primary h1 {
   font-size: 16px; }

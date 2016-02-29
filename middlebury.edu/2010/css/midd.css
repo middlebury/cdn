@@ -62,11 +62,12 @@ ul,ol { margin-left:1.5em; margin-bottom:0.8em; }
 .scrollable { overflow-x:scroll; overflow-y:visible; width:100%; }
 .small { font-size:0.929em; line-height:1.25em; }
 .summary { font-size:0.929em; line-height:1.3em; }
-.tags { font-size:0.929em; color:#999966; }
-  .tags div { display:inline; }
-  .tags a { -moz-border-radius-bottomleft:3px; -moz-border-radius-bottomright:3px; -moz-border-radius-topleft:3px; -moz-border-radius-topright:3px; background-color:#F4F4EA; border:1px solid #CCCCCC; cursor:default; margin:2px 0.2em; padding:0.1em 0.2em; }
-  .tags a:hover { text-decoration:none; background-color:#E9E9E9; }
-  .tags ul { margin-left:0; }
+.field-name-taxonomy-vocabulary-1 { font-size:0.929em; color:#999966; }
+  .field-name-taxonomy-vocabulary-1 div { display:inline; }
+  .field-name-taxonomy-vocabulary-1 .field-label { font-weight:normal; }
+  .field-name-taxonomy-vocabulary-1 a { -moz-border-radius-bottomleft:3px; -moz-border-radius-bottomright:3px; -moz-border-radius-topleft:3px; -moz-border-radius-topright:3px; background-color:#F4F4EA; border:1px solid #CCCCCC; cursor:default; margin:2px 0.2em; padding:0.1em 0.2em; }
+  .field-name-taxonomy-vocabulary-1 a:hover { text-decoration:none; background-color:#E9E9E9; }
+  .field-name-taxonomy-vocabulary-1 ul { margin-left:0; }
 .verybig { font-size:2em; line-height:1.25em; }
 .noborder, .noborder:hover { border:none; background-color:transparent !important; padding:0; }
 .underline { text-decoration:underline; }
@@ -372,7 +373,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
         aside.sidebar header:after { height:32px; width:34px; margin:0px auto; content:""; display:block; background-image:url(../images/arrow.png); background-position:50% 0px; background-repeat:no-repeat; z-index:100; position:relative; }
         aside.sidebar .contents { padding:25px 11px 11px 11px; border:1px dashed #999966; }
           aside.sidebar header+.contents { margin-top:-21px; }
-        aside.sidebar .terms.tags { display:none; }
+        aside.sidebar .field-name-taxonomy-vocabulary-1 { display:none; }
         aside.sidebar+.body textarea, aside.sidebar+.body .grippie { width:450px; }
         .page-mm-contents-add aside.sidebar { display:none; }
 
@@ -395,7 +396,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .carousel .block { border:dashed #FFFFFF; border-width:1px 1px 1px 0px; list-style-type:none; height:238px; margin:0px; }
     .carousel .node, .carousel .link-wrapper { border-left:1px dashed #FFFFFF; height:180px; padding:30px; margin:0px; float:left; }
     .carousel .block-monster-menus > .content > a { display:none; }
-  .carousel .field-type-taxonomy-term-reference, .carousel .terms { display:none; }
+  .carousel .field-type-taxonomy-term-reference, .carousel .field-name-taxonomy-vocabulary-1 { display:none; }
   .carousel .node-mm-media { padding:0px; }
     .carousel .node-mm-media header, .carousel .node-mm-media .field-name-body { display:none; }
 
@@ -589,13 +590,13 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
       .profile-extras li a { border-bottom: 1px dotted #003366; }
       .profile-extras li a:hover { color:#003366; border-bottom:1px solid #003366; background-color: #eeffcc; }
 
-  .node-profilelist { display:inline-block; position:relative; width:330px; vertical-align:top; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; float:none; margin-bottom:22px; background-color:#EFEEE9; border:1px solid #D4D6C8; font-size:0.88em; line-height:1.5em; padding:16px 16px 8px 16px; clear:both; }
-    .node-profilelist .profile-right { float:right; margin:-4px -4px 5px 8px; padding:0px; width:auto; }
-    .node-profilelist .profile-image { background:transparent; }
-      .node-profilelist .profile-image img { max-width:85px; }
-    .node-profilelist .profile-card { background:transparent; width:auto; border:none; padding:0px; margin:0px; }
-      .node-profilelist .profile-card h1 { line-height:1.6em; height:auto; font-weight:bold; }
-    .node-profilelist .profile-card h2, .node-profilelist .profile-card h3 { font-size:1em; font-weight:bold; border:none; }
+  .node-profile.node-teaser { display:inline-block; position:relative; width:330px; vertical-align:top; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; float:none; margin-bottom:22px; background-color:#EFEEE9; border:1px solid #D4D6C8; font-size:0.88em; line-height:1.5em; padding:16px 16px 8px 16px; clear:both; }
+    .node-profile.node-teaser .profile-right { float:right; margin:-4px -4px 5px 8px; padding:0px; width:auto; }
+    .node-profile.node-teaser .profile-image { background:transparent; }
+      .node-profile.node-teaser .profile-image img { max-width:85px; }
+    .node-profile.node-teaser .profile-card { background:transparent; width:auto; border:none; padding:0px; margin:0px; }
+      .node-profile.node-teaser .profile-card h1 { line-height:1.6em; height:auto; font-weight:bold; }
+    .node-profile.node-teaser .profile-card h2, .node-profile.node-teaser .profile-card h3 { font-size:1em; font-weight:bold; border:none; }
 
   /* Job Description */
   .node-jobdescription h1 { font-weight:bold; }

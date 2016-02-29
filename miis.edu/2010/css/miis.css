@@ -349,17 +349,17 @@ body.miis_blue { background:url('//cdn.middlebury.edu/miis.edu/2010/images/blue/
   .miis_blue > nav ul.menu { margin:0px auto 0px auto; position:relative; text-align:left; width:920px; }
     .miis_blue > nav li { display:inline-block; margin:0px 10px 0px 0px; padding:0px; position:relative; }
     .miis_blue > nav a { color:#FFFFFF; font-weight:normal; padding:0px 10px 0px 10px; font-size:1.531em; line-height:1.71em; display:block; }
-    .miis_blue > nav .content > ul.menu > li > a { display:none; }
-    .miis_blue > nav .content > ul.menu ul.menu ul.menu { display:none; }
-    .miis_blue > nav .content > ul.menu > li > ul.menu > li > a { min-height:36px; }
-    .miis_blue > nav .content > ul.menu ul.menu > li:hover { background-color:#FFFFFF; }
-    .miis_blue > nav .content > ul.menu ul.menu > li:hover > a { color:#1A2D49; text-decoration:none; }
-    .miis_blue > nav .content > ul.menu ul.menu > li:hover ul.menu, .miis_blue > nav .content > ul.menu ul.menu ul.menu:hover { display:block; position:absolute; background:#FFFFFF; top:36px; left:0px; z-index:999; min-width:180px; width:auto; }
-      .miis_blue > nav .content > ul.menu ul.menu ul.menu li { display:block; margin:0.1em 0px 0.3em 0px; }
-      .miis_blue > nav .content > ul.menu ul.menu ul.menu a { color:#003399; font-size:0.918em; padding:7px 10px 7px 10px; }
-    .miis_blue > nav .content > ul.menu ul.menu ul.menu ul.menu { display:none; }
-    .miis_blue nav .content > ul.menu > li.expanded > ul.menu > li.expanded { background-color:#1A2D49; }
-    .miis_blue nav .content> ul.menu > li.expanded > ul.menu > li.expanded:hover { background-color:#FFFFFF; }
+    .miis_blue > nav .block-monster-menus > ul.menu > li > a { display:none; }
+    .miis_blue > nav .block-monster-menus > ul.menu ul.menu ul.menu { display:none; }
+    .miis_blue > nav .block-monster-menus > ul.menu > li > ul.menu > li > a { min-height:36px; }
+    .miis_blue > nav .block-monster-menus > ul.menu ul.menu > li:hover { background-color:#FFFFFF; }
+    .miis_blue > nav .block-monster-menus > ul.menu ul.menu > li:hover > a { color:#1A2D49; text-decoration:none; }
+    .miis_blue > nav .block-monster-menus > ul.menu ul.menu > li:hover ul.menu, .miis_blue > nav .block-monster-menus > ul.menu ul.menu ul.menu:hover { display:block; position:absolute; background:#FFFFFF; top:36px; left:0px; z-index:999; min-width:180px; width:auto; }
+      .miis_blue > nav .block-monster-menus > ul.menu ul.menu ul.menu li { display:block; margin:0.1em 0px 0.3em 0px; }
+      .miis_blue > nav .block-monster-menus > ul.menu ul.menu ul.menu a { color:#003399; font-size:0.918em; padding:7px 10px 7px 10px; }
+    .miis_blue > nav .block-monster-menus > ul.menu ul.menu ul.menu ul.menu { display:none; }
+    .miis_blue nav .block-monster-menus > ul.menu > li.expanded > ul.menu > li.expanded { background-color:#1A2D49; }
+    .miis_blue nav .block-monster-menus> ul.menu > li.expanded > ul.menu > li.expanded:hover { background-color:#FFFFFF; }
 .miis_blue .slides { }
   .miis_blue .slides .node header, .miis_blue .slides .node .field-name-body { display:none; }
   .miis_blue .slides .link-wrapper { position:absolute; top:0; left:0; background-color:#FFFFFF; z-index:110; }
