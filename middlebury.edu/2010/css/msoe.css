@@ -37,19 +37,23 @@ form.search {
   background: url('../images/arrow_go_white.png')
 }
 
+.navigation {
+  border-bottom: 4px solid #fff;
+}
+
 .navigation ul {
   background-color: #f8d140;
   height: 36px;
-  margin: 0;
-  display: table;
+  padding: 0;
+  width: 100%;
 }
 
 .navigation li {
-  float: none;
-  display: table-cell;
-  width: 1%;
-  margin-left: 3px;
-  margin-right: 3px;
+  width: auto;
+}
+
+.navigation li:first-child {
+  margin-left: 5px;
 }
 
 .navigation li a {
@@ -61,6 +65,9 @@ form.search {
   font-weight: 600;
   text-align: center;
   height: auto !important;
+  padding-left: 27px;
+  padding-right: 27px;
+  text-transform: uppercase;
   transition: .2s;
 }
 
