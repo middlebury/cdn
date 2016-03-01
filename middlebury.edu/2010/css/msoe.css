@@ -109,7 +109,7 @@ form.search {
   float: left;
   width: 320px;
   height: 100%;
-  padding: 20px;
+  padding: 10px 20px;
   box-sizing: border-box;
 }
 
@@ -118,7 +118,8 @@ form.search {
   font-size: 22px;
   font-weight: 400;
   color: #f8d140;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 
 .hero-form p {
