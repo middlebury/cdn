@@ -383,7 +383,12 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
         .breadcrumb a:hover { border-bottom:1px solid #999999; background-color:#EEEEEE; color:#333333; }
 
       .block > .content > a { display:none; }
-        .block > .content > a.login { display:inline; color:#272C6F; float:none; }
+        .block > .content > a.login { display:block; }
+
+      .left .block { display:block; width:100%; float:left; }
+        a.login { color:#272C6F; text-decoration:none; border-bottom:1px dotted #272C6F; }
+        .left.blue a.login { color:#CCFF66; border-bottom-color:#CCFF66; }
+          .left.blue a.login:hover { background-color:#003466; }
 
       aside.sidebar+section.body fieldset.form-wrapper { max-width:440px; }
 
