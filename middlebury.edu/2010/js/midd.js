@@ -170,12 +170,12 @@ jQuery(document).ready(function(jQuery) {
 
   // Profile Lists
   var num_profile = 0;
-  jQuery('article.node-profilelist').each(function(index, element) {
+  jQuery('article.node-profile.node-teaser').each(function(index, element) {
     if (num_profile % 2 == 0) {
       jQuery(this).css('margin-right', '18px');
     }
 
-    if (jQuery(this).nextAll('.node').first().hasClass('node-profilelist')) {
+    if (jQuery(this).nextAll('.node').first().is('.node-profile, .node-teaser')) {
       num_profile++;
     } else {
       num_profile = 0;
