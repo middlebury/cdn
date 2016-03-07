@@ -597,7 +597,7 @@ details p.tags a { color:#336699; }
     .node a.sprites.service-links-facebook { background-position:0px 0px; }
     .node a.sprites.service-links-twitter { background-position:-43px 0px; }
     .node a.sprites.service-links-google-plus { background-position:-173px 0px; }
-    .node .service-links-pinterest-button span { background-position:0px -43px; background-image:url('../../2015/images/social.png') !important; background-size:auto !important; height:35px !important; width:35px !important; margin-right:9px; box-shadow:none; }
+    .node .service-links-pinterest-button span { background-position:0px -43px; background: transparent url('../../2015/images/social.png') !important; background-size:auto !important; height:35px !important; width:35px !important; margin-right:9px; box-shadow:none; }
       .node .service-links-pinterest-button span:hover { background-position:0px -43px; }
     .node a.sprites.service-links-linkedin { background-position:-87px 0px; }
     .node a.sprites.service-links-forward { background-position:-173px -43px; }
