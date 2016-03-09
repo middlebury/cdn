@@ -591,7 +591,13 @@ nav.left div.block-masquerade {
 nav.left div.block-middlebury-cas .content a.login {
   float:left;
 }
-
+#block-middlebury-cas-long-login a.login {
+    margin:0 0 0 10px;
+    font-size:inherit;
+    padding:0px;
+    border:none;
+    float:right;
+}
 .page {
   width: 720px;
   padding: 0;
