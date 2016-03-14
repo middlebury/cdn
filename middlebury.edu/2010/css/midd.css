@@ -385,6 +385,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
       .block > .content > a { display:none; }
         .block > .content > a.login { display:block; }
         .region-content .block > .content > a.login { display:inline; margin-top:0px; float:none; }
+          .region-content .block > .content > a.login:hover { background-color:#EEFFCC; color:#333300; }
 
       .left .block { display:block; width:100%; float:left; }
         a.login { color:#272C6F; text-decoration:none; border-bottom:1px dotted #272C6F; }
