@@ -674,8 +674,6 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .webform-client-form label { font-weight:bold; }
     .webform-client-form label.option { font-weight:normal; }
   .webform-client-form .form-item .description { white-space:pre-line; }
-    /* TODO: Remove this when the core issue is resolved: https://www.drupal.org/node/2339109 */
-    .webform-client-form .form-submit.ajax-processed { display:none; }
 
 /* Page Themes */
 
