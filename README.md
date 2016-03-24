@@ -3,11 +3,13 @@
 ## Using [Gulp](http://gulpjs.com/) to compile assets for projects
 
 **IMPORTANT:** Because we are not running Gulp in production to build assets on deploy, compiled assets must also stay in version control. Due to this, you must **NOT** make changes directly to the output file(s) i.e. a CSS file that has been preprocessed by Sass. Always edit the source files then commit the output at the same time as the source.  
+
 The following projects are using Gulp and Sass:
 
 - Midd Responsive
   - Sass files `./middlebury.edu/2015/sass/responsive/`
   - Output CSS file `./middlebury.edu/2015/css/responsive.css`
+  - Gulp command `gulp --project responsive`
 
 ### Installation
 
