@@ -1,0 +1,84 @@
+* {
+  &,
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+body {
+  background-color: $body-bg;
+  background-image: url('../../2010/images/bluegradient.jpg');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  font-family: $font-family-sans-serif;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#rss-page .feed-item-title a, // overwrite
+a {
+  color: $link-color;
+
+  &:hover {
+    color: $link-color-hover;
+    text-decoration: none;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+hr {
+	border: 0;
+	background-color: #DCDCDC;
+	height: 1px;
+  margin: 20px 0;
+}
+
+dl {
+	font-size: 14px;
+	margin-bottom: 20px;
+
+	@include media(md) {
+		@include clearfix();
+	}
+}
+
+dt {
+  font-weight: 600;
+	word-wrap: break-word;
+	margin: 0;
+
+	@include media(md) {
+		float: left;
+	  clear: left;
+	  width: 25%;
+	  margin-right: 2%;
+	}
+}
+
+dd {
+  margin: 0 0 10px 0;
+
+	@include media(md) {
+		width: 73%;
+		float: left;
+		margin-left: 0;
+	}
+}

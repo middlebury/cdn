@@ -1,0 +1,54 @@
+.global-footer {
+  background-color: #003366;
+  color: $white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin-bottom: 10px;
+    }
+  }
+
+  a {
+    color: #BFCBD9;
+
+    &[href*="tel:"] {
+      text-decoration: none;
+      color: #BFCBD9;
+    }
+  }
+
+  h3 {
+    font-size: 18px;
+    font-family: $font-family-serif;
+    font-weight: 500;
+  }
+
+  h4 {
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+
+  p {
+    color: #BFCBD9;
+  }
+}
+
+.global-footer__audience-list {
+  @include media(sm) {
+    li {
+      display: inline-block;
+      margin-right: 30px;
+    }
+  }
+}
+
+.global-footer__copyright {
+  margin-top: 40px;
+  font-size: 14px;
+}

@@ -1,0 +1,102 @@
+.page {
+  background-color: $white;
+  margin-bottom: 50px;
+  padding: 20px;
+
+  h1 {
+    font-family: $font-family-serif;
+    font-size: 28px;
+    font-weight: normal;
+  }
+
+  .region-content {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: .2em;
+
+			&:first-child {
+				margin-top: 0;
+			}
+    }
+
+    .opening {
+      font-size: 18px;
+    }
+
+		.small {
+			font-size: 14px;
+		}
+
+		.big {
+			font-size: 20px;
+		}
+
+    strong {
+      font-weight: 600;
+    }
+
+    blockquote {
+      font-size: 18px;
+      font-family: $font-family-serif;
+      border-left: 2px solid #272C6F;
+      margin-left: 0;
+      padding-left: 40px;
+
+      p:first-child {
+        position: relative;
+        quotes: "\201C""\201D""\2018""\2019";
+
+        &:before {
+          content: open-quote;
+          position: absolute;
+          right: calc(100% + 2px);
+          font-size: 24px;
+          font-family: $font-family-serif;
+        }
+      }
+
+      small {
+        font-size: 14px;
+        font-family: $font-family-sans-serif;
+      }
+    }
+
+    ol,
+    ul {
+      margin-top: 0;
+    }
+
+    table {
+      width: 100%;
+      margin-bottom: 20px;
+
+      th {
+        background-color: #efefef;
+        text-align: left;
+				font-weight: 600;
+        border: 1px solid #efefef;
+				font-size: 14px;
+        padding: 10px;
+      }
+
+      td {
+        border: 1px solid #efefef;
+        font-size: 14px;
+        padding: 5px;
+        // background-color: #efefef;
+
+        @include media(md) {
+          padding: 10px;
+        }
+      }
+
+    }
+  }
+}

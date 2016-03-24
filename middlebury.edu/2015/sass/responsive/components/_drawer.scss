@@ -1,0 +1,28 @@
+// This file contains styles for handling
+// drawer navigation on mobile
+
+// TODO: Should change 'menu' to something else
+// since Drupal nav lists are titled .menu
+.menu-open {
+  overflow-y: hidden;
+  height: 100%;
+}
+
+.pagecontent,
+.global-header > .row,
+.global-footer {
+  transition: transform .35s ease-in-out;
+  transform: translateZ(0);
+
+  .menu-open & {
+    transform: translateX(-#{$menu-width});
+  }
+}
+
+.pagecontent {
+  transition: transform .5s ease-in-out;
+
+  .menu-open & {
+    transform: translateX(-#{$menu-width});
+  }
+}
