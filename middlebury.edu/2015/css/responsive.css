@@ -1238,14 +1238,11 @@ input.search-form__input {
       padding: 10px; }
     .page .region-content table td {
       border: 1px solid #efefef;
-      padding: 5px;
-      font-size: 14px; }
-
-  @media only screen and (min-width: 48em) {
-    .page .region-content table td {
-      padding: 10px;
-    }
-  }
+      font-size: 14px;
+      padding: 5px; }
+      @media only screen and (min-width: 48em) {
+        .page .region-content table td {
+          padding: 10px; } }
 
 .sidebar a[href^="mailto:"] {
   word-break: break-all;
@@ -1292,5 +1289,3 @@ input.search-form__input {
   margin: -1px;
   padding: 0;
   border: 0; }
-
-/*# sourceMappingURL=responsive.css.map */
