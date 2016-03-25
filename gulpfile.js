@@ -8,12 +8,11 @@ var plumber = require('gulp-plumber');
 var sourcemaps = require('gulp-sourcemaps');
 var args = require('yargs').argv;
 var chalk = require('chalk');
+var rename = require('gulp-rename');
 var config = require('./config.gulp'); // Import asset paths defined by project
 
 var projectName = args.project || args.p;
 var project = config[projectName];
-
-var production = args.production || false;
 
 // Custom error handler from
 // https://github.com/mikaelbr/gulp-notify/issues/81#issuecomment-100422179
@@ -56,9 +55,12 @@ gulp.task('styles', function() {
     .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(autoprefixer('last 2 versions'))
-    .pipe(production ? cmq() : gutil.noop())
-    .pipe(production ? cssnano() : gutil.noop())
-    .pipe(sourcemaps.write('./'))
+    .pipe(gulp.dest(project.styles.dest))
+    .pipe(cmq())
+    .pipe(cssnano({
+      zindex: false // disable optimizing z-index 
+    }))
+    .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest(project.styles.dest))
 });
 
