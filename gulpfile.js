@@ -20,12 +20,6 @@ var production = args.production || false;
 var reportError = function (error) {
   var lineNumber = (error.lineNumber) ? 'LINE ' + error.lineNumber + ' -- ' : '';
 
-  notify({
-    title: 'Task Failed [' + error.plugin + ']',
-    message: lineNumber + 'See console.',
-    sound: 'Sosumi' // See: https://github.com/mikaelbr/node-notifier#all-notification-options-with-their-defaults
-  }).write(error);
-
   gutil.beep();
 
   var report = '';
