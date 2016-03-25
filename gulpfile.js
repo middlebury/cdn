@@ -30,10 +30,10 @@ var reportError = function (error) {
 
   var report = '';
 
-  report += chalk('TASK:') + ' [' + error.plugin + ']\n';
-  report += chalk('PROB:') + ' ' + error.message + '\n';
-  if (error.lineNumber) { report += chalk('LINE:') + ' ' + error.lineNumber + '\n'; }
-  if (error.fileName)   { report += chalk('FILE:') + ' ' + error.fileName + '\n'; }
+  report += chalk.red('TASK:') + ' [' + error.plugin + ']\n';
+  report += chalk.red('PROB:') + ' ' + error.message + '\n';
+  if (error.lineNumber) { report += chalk.red('LINE:') + ' ' + error.lineNumber + '\n'; }
+  if (error.fileName)   { report += chalk.red('FILE:') + ' ' + error.fileName + '\n'; }
   console.error(report);
 
   this.emit('end');
