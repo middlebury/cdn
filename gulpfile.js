@@ -52,7 +52,6 @@ gulp.task('styles', function() {
     .pipe(plumber({
       errorHandler: reportError
     }))
-    .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(autoprefixer('last 2 versions'))
     .pipe(gulp.dest(project.styles.dest))

@@ -64,3 +64,7 @@ gulp --project myProjectName
 ```
 
 Use `--watch` flag to continuously build.
+
+
+## Todo
+- [ ] Get sourcemaps to cooperate with `gulp-combine-mq`
