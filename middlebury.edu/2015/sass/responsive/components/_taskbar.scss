@@ -1,0 +1,23 @@
+.taskbar {
+  background-color: #eeeedd;
+  padding: 5px;
+}
+
+// taskbar__return-anchor
+.taskbar_back {
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px;
+  text-decoration: none;
+  color: $black;
+
+  &:hover,
+  &:focus {
+    color: $black;
+    text-decoration: underline;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+}

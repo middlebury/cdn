@@ -1,0 +1,10 @@
+.jumpnav-anchor {
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  @include media(lg) {
+    display: none;
+  }
+}
