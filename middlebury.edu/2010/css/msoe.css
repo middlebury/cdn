@@ -1,64 +1,412 @@
-.midd_msoe h1.wordmark, .midd_msoe_inside h1.wordmark { width:925px; padding:250px 0px 0px 35px; }
-  .midd_msoe_inside h1.wordmark { padding:50px 0px 0px 35px; }
-h2.wordmark a { border:none; background:url(../images/msoe/logo.png) transparent no-repeat top left; display:block; width:960px; height:54px; text-indent:-9999px; }
-  h2.wordmark a:hover { background:transparent; }
+header.container {
+  background: url('../images/msoe/msoe-banner.jpg') no-repeat center top;
+}
 
-.search_query { background-color:#fff; border:none; font-size:0.929em; color:#666; }
-.search_submit.ir { background:url('../images/arrow_go_white.png'); }
+h1.wordmark {
+  display: none;
+}
 
-.navigation ul { background-image:url('../images/msoe/nav_msoe_background.png'); font-size:1em; height:30px; line-height:30px; margin:0; }
-  .navigation li a { height:30px !important; position:relative; }
-    .navigation li a span { display:block; height:30px; left:0; position:absolute; top:0; width:100%; }
-  .navigation li { margin:0 3px !important; }
-    .navigation li a span { background-image:url('../images/msoe/nav_msoe_top.gif'); }
-  .nav_home { width:108px; padding-left:15px; }
-    .nav_home a span { background-position:0 0; }
-    .nav_home a:hover span { background-position:0 -30px; }
-    .nav_home.active a span { background-position:0 -60px; }
-  .nav_about { width:108px; }
-    .nav_about a span { background-position:-100px 0; }
-    .nav_about a:hover span { background-position:-100px -30px; }
-    .nav_about.active a span { background-position:-100px -60px; }
-  .nav_faculty { width:108px; }
-    .nav_faculty a span { background-position:-200px 0; }
-    .nav_faculty a:hover span { background-position:-200px -30px; }
-    .nav_faculty.active a span { background-position:-200px -60px; }
-  .nav_curriculum { width:108px; }
-    .nav_curriculum a span { background-position:-320px 0; }
-    .nav_curriculum a:hover span { background-position:-320px -30px; }
-    .nav_curriculum.active a span { background-position:-320px -60px; }
-  .nav_apply { width:108px; }
-    .nav_apply a span { background-position:-440px 0; }
-    .nav_apply a:hover span { background-position:-440px -30px; }
-    .nav_apply.active a span { background-position:-440px -60px; }
-  .nav_finaid { width:108px; }
-    .nav_finaid a span { background-position:-570px 0; }
-    .nav_finaid a:hover span { background-position:-570px -30px; }
-    .nav_finaid.active a span { background-position:-570px -60px; }
-  .nav_blog { width:108px; }
-    .nav_blog a span { background-position:-690px 0; }
-    .nav_blog a:hover span { background-position:-690px -30px; }
-    .nav_blog.active a span { background-position:-690px -60px; }
-  .nav_contact { width:108px; }
-    .nav_contact a span { background-position:-800px 0; }
-    .nav_contact a:hover span { background-position:-800px -30px; }
-    .nav_contact.active a span { background-position:-800px -60px; }
+.container h2.wordmark {
+  margin: 0;
+  padding: 25px 0 0 25px;
+}
 
-.pagecontent { margin-top:0; }
-.taskbar, .breadcrumb { display:none; }
-.opening { font-size:1.2em; color:#440; }
-  .opening a { font-style:italic; border:none; }
+h2.wordmark a {
+  border: none;
+  background: transparent url('../images/msoe/logo-msoe.png') no-repeat top left;
+  display: block;
+  width: 348px;
+  height: 98px;
+  text-indent: -9999px;
+  margin-bottom: 75px;
+}
 
-h2 { color:#666; font-family:Georgia,serif; margin-bottom:16px; }
+form.search {
+  top: 25px;
+  right: 25px;
+}
 
-td.first { font-size:14.5px; color:#333300; }
-td.first .opening { color:#333300; font-size:30px; font-family:Garamond,"Times New Roman",serif; }
-td.first a { font-size:17px; font-weight:bold; color:#333300; border-color:#333300; }
-td.first h3 { color:#5b8707; font-size:24px; font-family:Garamond,"Times New Roman",serif;font-weight:normal; }
+.search_query {
+  background-color: #fff;
+  border: none;
+  font-size: 0.929em;
+  color: #666;
+}
 
-.footer a { border:none; }
-.footer ul { float:left; }
-  .quick_contact { margin-left:0; }
-#block-middlebury-midd-blocks-midd-footer-wordmark { float:right; }
-  #block-middlebury-midd-blocks-midd-footer-wordmark a { display:inline; }
-    #block-middlebury-midd-blocks-midd-footer-wordmark a:hover { background:transparent; }
+.search_submit.ir {
+  background: url('../images/arrow_go_white.png')
+}
+
+.navigation {
+  border-bottom: 4px solid #fff;
+}
+
+.navigation ul {
+  background-color: #f8d140;
+  height: 36px;
+  padding: 0;
+  width: 100%;
+}
+
+.navigation li {
+  width: auto;
+}
+
+.navigation li a {
+  text-indent: 0 !important;
+  overflow: visible !important;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, sans-serif;
+  font-size: 14px;
+  line-height: 36px;
+  font-weight: 600;
+  text-align: center;
+  height: auto !important;
+  letter-spacing: 0.05em;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-transform: uppercase;
+  transition: .2s;
+}
+
+.navigation li a:hover {
+  background-color: #FFE173;
+}
+
+.pagecontent {
+  margin-top: 0
+}
+
+.taskbar,
+.breadcrumb {
+  display: none
+}
+
+/*reset page style for home page*/
+.midd_msoe .page {
+  padding: 0;
+  width: 100% !important;
+}
+
+/* home page */
+
+.home-container {
+  width: 770px;
+  margin: 0 auto;
+}
+
+.hero {
+  height: 415px;
+}
+
+.hero-banner {
+  float: left;
+  width: 640px;
+  height: 100%;
+}
+
+.hero-form {
+  background-color: #263d5e;
+  float: left;
+  width: 320px;
+  height: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.hero-form h2 {
+  font-family: 'Sentinel SSm A', 'Sentinel SSm B', georgia, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #f8d140;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.hero-form p {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, sans-serif;
+  margin-bottom: 10px;
+}
+
+.column {
+  float: left;
+  box-sizing: border-box;
+}
+
+.column-program {
+  width: 225px;
+}
+
+.column-training {
+  width: 320px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.column-courses {
+  width: 225px;
+}
+
+.icon {
+  display: block;
+  border-radius: 50px;
+  height: 77px;
+  width: 77px;
+  position: relative;
+  margin: 36px auto;
+}
+
+.icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.icon-blue {
+  background-color: #263d5e;
+}
+
+.icon-yellow {
+  background-color: #f8d140;
+}
+
+.icon-green {
+  background-color: #8eaf42;
+}
+
+.home-features p {
+  color: #333;
+  font-family: 'Sentinel SSm A', 'Sentinel SSm B', georgia, serif;
+  font-size: 15px;
+}
+
+.home-features p strong {
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, sans-serif;
+}
+
+.rule {
+  border-top: 3px solid #8eaf42;
+  position: relative;
+  z-index: 1;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+.rule-buttoned {
+  text-align: center;
+  overflow: visible;
+  height: 3px;
+}
+
+.rule-buttoned .btn {
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  z-index: 2;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, sans-serif;
+  cursor: pointer;
+  border: 0;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-arrow {
+  margin-left: 5px;
+  height: 20px;
+  position: relative;
+  top: 3px;
+}
+
+.btn:hover {
+  padding: 10px 20px !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #8eaf42 !important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #7e9a3e !important;
+}
+
+.home-container blockquote {
+  border: 0;
+  margin: 0 0 40px 0;
+  padding: 0;
+  text-align: center;
+}
+
+.home-container blockquote p {
+  font-size: 30px;
+  color: #263d5e;
+  display: inline;
+  margin: 0;
+  font-family: 'Sentinel SSm A', 'Sentinel SSm B', georgia, serif;
+}
+
+.home-container blockquote p strong {
+  font-weight: 600;
+}
+
+.home-container blockquote small {
+  color: #8eaf42;
+  font-size: 20px;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, sans-serif;
+}
+
+/* form styles */
+
+.select {
+  position: relative;
+  background-color: #fff;
+}
+
+.select:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #000 transparent transparent transparent;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.select select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  border-radius: 0;
+  border: 1px solid transparent;
+  position: relative;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.form-group.has-error input,
+.form-group.has-error select {
+  border-color: tomato;
+}
+
+.form-group.form-actions {
+  margin-top: 10px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+/* content styles */
+
+.opening {
+  font-size: 1.2em;
+  color: #440;
+}
+
+.opening a {
+  font-style: italic;
+  border: none;
+}
+
+h2 {
+  color: #666;
+  font-family: Georgia, serif;
+  margin-bottom: 16px;
+}
+
+td.first {
+  font-size: 14.5px;
+  color: #333300;
+}
+
+td.first .opening {
+  color: #333300;
+  font-size: 30px;
+  font-family: Garamond, "Times New Roman", serif;
+}
+
+td.first a {
+  font-size: 17px;
+  font-weight: bold;
+  color: #333300;
+  border-color: #333300;
+}
+
+td.first h3 {
+  color: #5b8707;
+  font-size: 24px;
+  font-family: Garamond, "Times New Roman", serif;
+  font-weight: normal;
+}
+
+.footer {
+  background-color: transparent;
+  color: #333;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, sans-serif;
+  margin-top: 0 !important;
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+.footer .container {
+  background-color: #f5f5f4;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.footer a {
+  color: #333;
+}
+
+.footer a:hover {
+  background-color: transparent;
+  border-bottom: 1px solid #000;
+}
+
+.footer p strong {
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
