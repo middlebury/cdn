@@ -1,0 +1,55 @@
+@import 'variables';
+
+@import 'global';
+
+// layout
+@import 'header';
+@import 'hero';
+
+// components
+@import 'nav';
+@import 'icon';
+@import 'explore-section';
+@import 'rule';
+@import 'forms';
+@import 'button';
+
+@import 'helpers';
+
+
+// midd.css overwrites
+.pagecontent {
+  margin-top: 0;
+}
+
+.midd_ls_inside .taskbar,
+.midd_ls_fullwidth .taskbar,
+.midd_ls_grad .taskbar {
+  display: none
+}
+
+.page {
+  border: none;
+  float: none;
+  width: auto;
+  padding: 0;
+}
+
+/* home page */
+
+.home-container {
+  width: 770px;
+  margin: 0 auto;
+}
+
+.column {
+  float: left;
+  box-sizing: border-box;
+}
+
+.home-features p {
+  color: #333;
+  font-family: $font-family-serif;
+  font-size: 15px;
+}
+

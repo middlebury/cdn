@@ -1,0 +1,27 @@
+$icon-colors: (
+  'sky': $brand-sky,
+  'brick': $brand-brick,
+  'green': $brand-green
+);
+
+.icon {
+  display: block;
+  border-radius: 50px;
+  height: 77px;
+  width: 77px;
+  position: relative;
+  margin: 36px auto;
+
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@each $name, $color in $icon-colors {
+  .icon-#{$name} {
+    background-color: $color;
+  }
+}

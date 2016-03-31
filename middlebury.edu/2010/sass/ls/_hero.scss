@@ -1,0 +1,34 @@
+.hero {
+  height: 415px;
+}
+
+.hero-banner {
+  float: left;
+  width: 640px;
+  height: 100%;
+}
+
+.hero-form {
+  background-color: #585858;
+  float: left;
+  width: 320px;
+  height: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.hero-form h2 {
+  font-family: 'Sentinel SSm A', 'Sentinel SSm B', georgia, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #f8d140;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.hero-form p {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, sans-serif;
+  margin-bottom: 10px;
+}

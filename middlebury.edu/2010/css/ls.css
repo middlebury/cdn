@@ -1,9 +1,19 @@
-.midd_ls,
-.midd_ls_inside,
-.midd_ls_grad {
-  background-image: url(../images/ls/logo.jpg)
-}
+@charset "UTF-8";
+body {
+  background-image: none; }
 
+.content .wordmark {
+  margin: 60px 0 30px !important;
+  padding: 0 !important; }
+
+.content .wordmark a {
+  background-image: url("../images/ls/middlebury-language-schools-logo.png");
+  background-repeat: no-repeat; }
+
+form.search {
+  top: 0; }
+
+/*
 .column>a,
 .column .content>a {
   display: none
@@ -59,709 +69,314 @@ table.layout {
   height: 142px;
   text-indent: -9999px;
 }
-
+*/
 .search_query {
   background-color: #FFFFFF;
   border: none;
   font-size: 0.929em;
-  color: #666666;
-}
+  color: #666666; }
 
 .search_submit.ir {
-  background: url(../images/arrow_go_white.png)
-}
+  background: url(../images/arrow_go_white.png); }
+
+.hero {
+  height: 415px; }
+
+.hero-banner {
+  float: left;
+  width: 640px;
+  height: 100%; }
+
+.hero-form {
+  background-color: #585858;
+  float: left;
+  width: 320px;
+  height: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box; }
+
+.hero-form h2 {
+  font-family: 'Sentinel SSm A', 'Sentinel SSm B', georgia, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #f8d140;
+  margin-top: 0;
+  margin-bottom: 5px; }
+
+.hero-form p {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, sans-serif;
+  margin-bottom: 10px; }
+
+.navigation {
+  border-bottom: 4px solid #fff; }
 
 .navigation ul {
-  background-color: #94CB21;
+  background-color: #f8d140;
   height: 36px;
-  font-size: 1em;
-  line-height: 36px;
-  margin: 0px;
-}
+  padding: 0;
+  width: 100%; }
 
 .navigation li {
-  margin: 0px 8px
-}
+  width: auto; }
 
 .navigation li a {
+  color: #1b3767;
+  text-indent: 0 !important;
+  overflow: visible !important;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, sans-serif;
+  font-size: 14px;
+  line-height: 36px;
+  font-weight: 600;
+  text-align: center;
+  height: auto !important;
+  letter-spacing: 0.05em;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-transform: uppercase;
+  -webkit-transition: .2s;
+          transition: .2s; }
+
+.navigation li a:hover {
+  background-color: #FFE173; }
+
+.icon {
+  display: block;
+  border-radius: 50px;
+  height: 77px;
+  width: 77px;
   position: relative;
-  color: #0B315E;
-}
+  margin: 36px auto; }
+  .icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
 
-.navigation ul.ir li a {
-  height: 36px
-}
+.icon-sky {
+  background-color: #75a3cd; }
 
-.region-header .navigation ul li a {
-  height: 36px
-}
+.icon-brick {
+  background-color: #c26531; }
 
-.navigation li a span {
-  background-image: url(../images/ls/nav_languageschools.jpg?2015-02-24);
+.icon-green {
+  background-color: #8e9b39; }
+
+.explore-languages-section {
+  background: url("../images/ls/globe-texture.png") no-repeat left top;
+  margin: 0 -95px 60px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.explore-section-title {
+  color: #4d4b4c;
+  font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin-bottom: 10px; }
+
+.explore-languages-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block; }
+
+.explore-languages-section ul ul li {
+  display: inline-block; }
+
+.explore-languages-section ul a {
+  font-size: 36px;
+  font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+  border: 0;
+  line-height: 1; }
+
+.explore-languages-section ul a:hover {
+  background: none; }
+
+.explore-languages-section a:after {
+  content: '■';
+  color: #4d4b4c;
+  font-size: 20px;
+  position: relative;
+  top: -5px;
+  left: 5px; }
+
+.explore-languages-section ul ul li:last-child a:after {
+  content: ''; }
+
+.rule {
+  border-top: 3px solid #8eaf42;
+  position: relative;
+  z-index: 1;
+  margin-top: 65px;
+  margin-bottom: 65px; }
+
+.rule-buttoned {
+  text-align: center;
+  overflow: visible;
+  height: 3px; }
+
+.rule-buttoned .btn {
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  z-index: 2; }
+
+.select {
+  position: relative;
+  background-color: #fff; }
+
+.select:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #000 transparent transparent transparent;
   display: block;
   position: absolute;
-  top: 0px;
-  left: 0px;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1; }
+
+.select select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  border-radius: 0;
+  border: 1px solid transparent;
+  position: relative;
+  background-color: transparent;
+  z-index: 2; }
+
+.form-group {
+  position: relative;
+  margin-bottom: 5px; }
+
+.form-group.has-error input,
+.form-group.has-error select {
+  border-color: tomato; }
+
+.form-group.form-actions {
+  margin-top: 10px; }
+
+.form-control {
+  display: block;
   width: 100%;
-  height: 36px;
-}
+  padding: 5px;
+  border: 1px solid transparent;
+  box-sizing: border-box; }
 
-.navigation li.nav_apply {
-  width: 54px;
-  margin-left: 10px;
-}
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  text-align: center;
+  border: 0;
+  padding: 10px 20px; }
+  .btn:disabled {
+    opacity: 0.5; }
+  .btn:hover {
+    padding: 10px 20px !important; }
 
-.nav_apply a span {
-  background-position: -20px 0px
-}
+.btn-block {
+  display: block;
+  width: 100%; }
 
-.nav_apply a:hover span {
-  background-position: -20px -36px
-}
-
-.nav_apply.active a span {
-  background-position: -20px -72px
-}
-
-.nav_academics {
-  width: 96px
-}
-
-.nav_academics a span {
-  background-position: -90px 0px
-}
-
-.nav_academics a:hover span {
-  background-position: -90px -36px
-}
-
-.nav_academics.active a span {
-  background-position: -90px -72px
-}
-
-.nav_language_pledge {
-  width: 148px
-}
-
-.nav_language_pledge a span {
-  background-position: -207px 0px
-}
-
-.nav_language_pledge a:hover span {
-  background-position: -207px -36px
-}
-
-.nav_language_pledge.active a span {
-  background-position: -207px -72px
-}
-
-.nav_finaid {
-  width: 118px
-}
-
-.nav_finaid a span {
-  background-position: -372px 0px
-}
-
-.nav_finaid a:hover span {
-  background-position: -372px -36px
-}
-
-.nav_finaid.active a span {
-  background-position: -372px -72px
-}
-
-.nav_graduate {
-  width: 171px
-}
-
-.nav_graduate a span {
-  background-position: -506px 0px
-}
-
-.nav_graduate a:hover span {
-  background-position: -506px -36px
-}
-
-.nav_graduate.active a span {
-  background-position: -506px -72px
-}
-
-.nav_schoolsabroad {
-  width: 135px
-}
-
-.nav_schoolsabroad a span {
-  background-position: -693px 0px
-}
-
-.nav_schoolsabroad a:hover span {
-  background-position: -693px -36px
-}
-
-.nav_schoolsabroad.active a span {
-  background-position: -693px -72px
-}
-
-.nav_contact {
-  width: 96px
-}
-
-.nav_contact a span {
-  background-position: -843px 0px
-}
-
-.nav_contact a:hover span {
-  background-position: -843px -36px
-}
-
-.nav_contact.active a span {
-  background-position: -843px -72px
-}
-
-.midd_ls_grad .navigation ul {
-  background-color: #8CB8FF
-}
-
-.midd_ls_grad .navigation li {
-  margin-left: 10px;
-  height: 36px;
-}
-
-.midd_ls_grad .navigation li a span {
-  background-image: url(../images/ls/nav_languageschools_grad.jpg?2015-02-24)
-}
-
-.midd_ls_grad .nav_apply {
-  width: 49px
-}
-
-.midd_ls_grad .nav_apply a span {
-  background-position: -10px 0
-}
-
-.midd_ls_grad .nav_apply a:hover span {
-  background-position: -10px -36px
-}
-
-.midd_ls_grad .nav_apply.active a span {
-  background-position: -10px -72px
-}
-
-.midd_ls_grad .nav_academics {
-  width: 91px
-}
-
-.midd_ls_grad .nav_academics a span {
-  background-position: -84px 0
-}
-
-.midd_ls_grad .nav_academics a:hover span {
-  background-position: -84px -36px
-}
-
-.midd_ls_grad .nav_academics.active a span {
-  background-position: -84px -72px
-}
-
-.midd_ls_grad .nav_language_pledge {
-  width: 147px
-}
-
-.midd_ls_grad .nav_language_pledge a span {
-  background-position: -198px 0
-}
-
-.midd_ls_grad .nav_language_pledge a:hover span {
-  background-position: -198px -36px
-}
-
-.midd_ls_grad .nav_language_pledge.active a span {
-  background-position: -198px -72px
-}
-
-.midd_ls_grad .nav_finaid {
-  width: 113px
-}
-
-.midd_ls_grad .nav_finaid a span {
-  background-position: -369px 0
-}
-
-.midd_ls_grad .nav_finaid a:hover span {
-  background-position: -369px -36px
-}
-
-.midd_ls_grad .nav_finaid.active a span {
-  background-position: -369px -72px
-}
-
-.midd_ls_grad .nav_language {
-  width: 170px
-}
-
-.midd_ls_grad .nav_language a span {
-  background-position: -506px 0
-}
-
-.midd_ls_grad .nav_language a:hover span {
-  background-position: -506px -36px
-}
-
-.midd_ls_grad .nav_language.active a span {
-  background-position: -506px -72px
-}
-
-.midd_ls_grad .nav_schoolsabroad {
-  width: 131px
-}
-
-.midd_ls_grad .nav_schoolsabroad a span {
-  background-position: -700px 0
-}
-
-.midd_ls_grad .nav_schoolsabroad a:hover span {
-  background-position: -700px -36px
-}
-
-.midd_ls_grad .nav_schoolsabroad.active a span {
-  background-position: -700px -72px
-}
-
-.midd_ls_grad .nav_contact {
-  width: 91px
-}
-
-.midd_ls_grad .nav_contact a span {
-  background-position: -855px 0
-}
-
-.midd_ls_grad .nav_contact a:hover span {
-  background-position: -855px -36px
-}
-
-.midd_ls_grad .nav_contact.active a span {
-  background-position: -855px -72px
-}
-
-.languages_feature {
-  height: 250px;
+.btn-arrow {
+  margin-left: 5px;
+  height: 20px;
   position: relative;
-}
+  top: 3px; }
 
-.languages_feature h2 {
-  text-indent: -999em;
-  overflow: hidden;
-  background-image: url(../images/ls/languages2.gif);
-  height: 33px;
-  width: 345px;
-  position: absolute;
-  top: 86px;
-  left: 305px;
-}
+.btn-primary,
+.btn-primary:hover {
+  color: #fff;
+  background-color: #8e9b39 !important; }
+  .btn-primary:hover,
+  .btn-primary:hover:hover {
+    color: #fff;
+    background-color: #8e9b39 !important; }
 
-.languages_feature h2 a {
-  background: url(../images/ls/languages2.gif) no-repeat 0px 0px;
-  height: 33px;
-  left: 305px;
-  overflow: hidden;
-  text-indent: -999em;
-  display: block;
-  width: 345px;
-  border: 0px !important;
-}
+.color-navy {
+  color: #113a5f; }
+  .color-navy:hover {
+    color: #113a5f;
+    text-decoration: underline; }
 
-.languages_feature h2 a:hover {
-  background: url(../images/ls/languages2.gif) no-repeat 0px -34px
-}
+.color-sky {
+  color: #75a3cd; }
+  .color-sky:hover {
+    color: #75a3cd;
+    text-decoration: underline; }
 
-.languages_feature ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-}
+.color-orange {
+  color: #c26531; }
+  .color-orange:hover {
+    color: #c26531;
+    text-decoration: underline; }
 
-.languages_feature ul li {
-  margin: 0px;
-  padding: 0px;
-  display: block;
-  position: absolute;
-}
+.color-teal {
+  color: #1d9f8b; }
+  .color-teal:hover {
+    color: #1d9f8b;
+    text-decoration: underline; }
 
-.languages_feature ul li a {
-  display: block;
-  height: 33px;
-  border: none;
-  text-indent: -999em;
-  overflow: hidden;
-  background-image: url(../images/ls/languages2.gif);
-}
+.color-gold {
+  color: #b0862d; }
+  .color-gold:hover {
+    color: #b0862d;
+    text-decoration: underline; }
 
-.languages_feature li a:hover {
-  background-color: transparent
-}
+.color-red {
+  color: #972d29; }
+  .color-red:hover {
+    color: #972d29;
+    text-decoration: underline; }
 
-.feature_arabic {
-  width: 261px;
-  left: 702px;
-  top: 86px;
-}
+.color-green {
+  color: #8e9b39; }
+  .color-green:hover {
+    color: #8e9b39;
+    text-decoration: underline; }
 
-.feature_arabic a {
-  background-position: -365px 0px
-}
-
-.feature_arabic a:hover {
-  background-position: -365px -35px
-}
-
-.feature_japanese {
-  width: 185px;
-  left: 764px;
-  top: 203px;
-}
-
-.feature_japanese a {
-  background-position: -646px 0px
-}
-
-.feature_japanese a:hover {
-  background-position: -646px -35px
-}
-
-.feature_french {
-  width: 423px;
-  left: 534px;
-  top: 25px;
-}
-
-.feature_french a {
-  background-position: -851px 0px
-}
-
-.feature_french a:hover {
-  background-position: -851px -35px
-}
-
-.feature_german {
-  width: 401px;
-  left: -8px;
-  top: 25px;
-}
-
-.feature_german a {
-  background-position: -1293px 0px
-}
-
-.feature_german a:hover {
-  background-position: -1293px -35px
-}
-
-.feature_hebrew {
-  width: 310px;
-  left: 8px;
-  top: 142px;
-}
-
-.feature_hebrew a {
-  background-position: -1713px 0px
-}
-
-.feature_hebrew a:hover {
-  background-position: -1713px -35px
-}
-
-.feature_italian {
-  width: 291px;
-  left: -28px;
-  top: 85px;
-}
-
-.feature_italian a {
-  background-position: -2043px 0px
-}
-
-.feature_italian a:hover {
-  background-position: -2043px -35px
-}
-
-.feature_chinese {
-  width: 134px;
-  left: 372px;
-  top: 152px;
-}
-
-.feature_chinese a {
-  background-position: -2352px 0px
-}
-
-.feature_chinese a:hover {
-  background-position: -2352px -35px
-}
-
-.feature_portuguese {
-  width: 313px;
-  left: 383px;
-  top: 203px;
-}
-
-.feature_portuguese a {
-  background-position: -2505px 0px
-}
-
-.feature_portuguese a:hover {
-  background-position: -2505px -35px
-}
-
-.feature_russian {
-  width: 360px;
-  left: 587px;
-  top: 156px;
-}
-
-.feature_russian a {
-  background-position: -2837px 0px
-}
-
-.feature_russian a:hover {
-  background-position: -2837px -35px
-}
-
-.feature_spanish {
-  width: 288px;
-  left: 13px;
-  top: 203px;
-}
-
-.feature_spanish a {
-  background-position: -3217px 0px
-}
-
-.feature_spanish a:hover {
-  background-position: -3217px -35px
-}
-
-.midd_ls .pagecontent,
-.midd_ls_inside .pagecontent,
-.midd_ls_fullwidth .pagecontent,
-.midd_ls_grad .pagecontent {
-  margin-top: 0px;
-  background-color: #FFFFFF;
-}
+.pagecontent {
+  margin-top: 0; }
 
 .midd_ls_inside .taskbar,
 .midd_ls_fullwidth .taskbar,
 .midd_ls_grad .taskbar {
-  display: none
-}
+  display: none; }
 
-.midd_ls_fullwidth .page {
-  width: 924px
-}
-
-.midd_ls .body {
-  padding: 0px;
-  float: left;
-  min-width: 698px;
-}
-
-.midd_ls .page {
-  width: 924px;
+.page {
   border: none;
   float: none;
   width: auto;
-  background-color: #FFFFFF;
-  padding: 0px;
-}
+  padding: 0; }
 
-.midd_ls_inside .page,
-.midd_ls_grad .page {
-  border-top: none
-}
+/* home page */
+.home-container {
+  width: 770px;
+  margin: 0 auto; }
 
-.midd_ls .columns {
-  margin-left: 9px
-}
-
-.columns .column {
-  padding: 18px;
-  margin: 0px;
-}
-
-.columns p {
-  margin: 1em 0px
-}
-
-.midd_ls .columns.split {
-  background: url(../images/column_gray.gif) repeat-y right top
-}
-
-.midd_ls .columns.split .column {
-  width: 240px
-}
-
-.midd_ls .columns.split .first {
-  width: 639px;
-  color: #333300;
-}
-
-.split .first h2 {
-  color: #006F37;
-  font-size: 1.8em;
-  font-weight: normal;
-  font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
-}
-
-.split .last h4 {
-  margin-top: 5px;
-  margin-bottom: 0px;
-}
-
-.schools ul {
-  list-style-type: none;
-  margin: 0px 0px 1em;
-  padding: 0px;
-  color: #666666;
-  width: 40%;
+.column {
   float: left;
-}
+  box-sizing: border-box; }
 
-.schools ul li {
-  margin: 0.2em 0px
-}
-
-.schools ul li a {
-  font-weight: bold;
-  font-size: 1.2em;
-  border: none;
-}
-
-h2 {
-  color: #2BACC2 !important;
-  font-family: Georgia,serif;
-  margin-bottom: 8px;
-}
-
-h4 {
-  color: #666666;
-  font-size: 1.2em;
-  line-height: 1em;
-}
-
-ul.sublinks {
-  list-style-type: none;
-  font-size: 1.2em;
-  margin: 0px;
-}
-
-p.more_link {
-  text-align: left;
-  margin: 0px;
-  font-size: 1.3em;
-  font-weight: normal;
-  color: #666666;
-}
-
-.footer a {
-  border: none
-}
-
-.footer ul li a span {
-  background-image: url(../images/ls/nav_languageschools_footer.gif)
-}
-
-.footer ul {
-  float: left
-}
-
-.languageschools_students {
-  width: 127px
-}
-
-.languageschools_students a span {
-  background-position: 0px 0px
-}
-
-.languageschools_students a:hover span {
-  background-position: 0px -30px
-}
-
-.languageschools_students.active a span {
-  background-position: 0px -60px
-}
-
-.languageschools_students.active a:hover span {
-  background-position: 0px -90px
-}
-
-.languageschools_families {
-  width: 71px
-}
-
-.languageschools_families a span {
-  background-position: -133px 0px
-}
-
-.languageschools_families a:hover span {
-  background-position: -133px -30px
-}
-
-.languageschools_families.active a span {
-  background-position: -133px -60px
-}
-
-.languageschools_families.active a:hover span {
-  background-position: -133px -90px
-}
-
-.languageschools_alumni {
-  width: 62px
-}
-
-.languageschools_alumni a span {
-  background-position: -210px 0px
-}
-
-.languageschools_alumni a:hover span {
-  background-position: -210px -30px
-}
-
-.languageschools_alumni.active a span {
-  background-position: -210px -60px
-}
-
-.languageschools_alumni.active a:hover span {
-  background-position: -210px -90px
-}
-
-.languageschools_contact {
-  width: 87px
-}
-
-.languageschools_contact a span {
-  background-position: -278px 0px
-}
-
-.languageschools_contact a:hover span {
-  background-position: -278px -30px
-}
-
-.languageschools_contact.active a span {
-  background-position: -278px -60px
-}
-
-.languageschools_contact.active a:hover span {
-  background-position: -278px -90px
-}
-
-.footer_wordmark {
-  float: right
-}
-
-#block-middlebury-midd-blocks-midd-footer-wordmark .footer_wordmark {
-  display: block
-}
-
-.footer_wordmark:hover {
-  background-color: transparent !important
-}
+.home-features p {
+  color: #333;
+  font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
+  font-size: 15px; }

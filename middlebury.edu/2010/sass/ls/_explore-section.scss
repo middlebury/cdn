@@ -1,0 +1,52 @@
+.explore-languages-section {
+  background: url('../images/ls/globe-texture.png') no-repeat left top;
+  margin: 0 -95px 60px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.explore-section-title {
+  color: #4d4b4c;
+  font-family: $font-family-sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin-bottom: 10px;
+}
+
+.explore-languages-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.explore-languages-section ul ul li {
+  display: inline-block;
+}
+
+.explore-languages-section ul a {
+  font-size: 36px;
+  font-family: $font-family-sans-serif;
+  border: 0;
+  line-height: 1;
+}
+
+.explore-languages-section ul a:hover {
+  background: none;
+}
+
+.explore-languages-section a:after {
+  content: '■';
+  color: #4d4b4c;
+  font-size: 20px;
+  position: relative;
+  top: -5px;
+  left: 5px;
+}
+
+.explore-languages-section ul ul li:last-child a:after {
+  content: '';
+}

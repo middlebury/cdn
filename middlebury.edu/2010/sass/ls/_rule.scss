@@ -1,0 +1,22 @@
+.rule {
+  border-top: 3px solid #8eaf42;
+  position: relative;
+  z-index: 1;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+.rule-buttoned {
+  text-align: center;
+  overflow: visible;
+  height: 3px;
+}
+
+.rule-buttoned .btn {
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  z-index: 2;
+}
