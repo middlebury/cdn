@@ -57,7 +57,7 @@ gulp.task('styles', function() {
     .pipe(gulp.dest(project.styles.dest))
     .pipe(cmq())
     .pipe(cssnano({
-      zindex: false // disable optimizing z-index 
+      zindex: false // disable optimizing z-index
     }))
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest(project.styles.dest))
