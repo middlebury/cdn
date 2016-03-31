@@ -10,6 +10,10 @@ The following projects are using Gulp and Sass:
   - Sass files `./middlebury.edu/2015/sass/responsive/`
   - Output CSS file `./middlebury.edu/2015/css/responsive.css`
   - Gulp command `gulp --project responsive`
+- Language Schools
+  - Sass files `./middlebury.edu/2010/sass/ls/`
+  - Output CSS files `./middlebury.edu/2010/css/ls.css`, `./middlebury.edu/2010/css/ls.min.css`
+  - Gulp command `gulp --project ls`
 
 ### Installation
 
