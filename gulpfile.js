@@ -65,7 +65,6 @@ gulp.task('styles', function() {
 
 gulp.task('watch', function() {
   gulp.watch(project.styles.src, ['styles']);
-  gulp.watch(project.scripts.src, ['scripts']);
 });
 
 // Define default tasks to run
