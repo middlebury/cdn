@@ -1,9 +1,45 @@
 .explore-languages-section {
   background: url('../images/ls/globe-texture.png') no-repeat left top;
-  margin: 0 -95px 60px;
   text-align: center;
+  margin: 0 0 60px;
   padding-top: 60px;
   padding-bottom: 60px;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+    ul li {
+      display: inline-block;
+
+      &:after {
+        content: '■';
+        color: #4d4b4c;
+        font-size: 20px;
+        position: relative;
+        top: -5px;
+        left: 5px;
+      }
+
+      &:last-child:after {
+        content: '';
+      }
+    }
+
+    a {
+      font-size: 36px;
+      font-family: $font-family-sans-serif;
+      border: 0;
+      line-height: 1;
+
+      &:hover {
+        background: none;
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 .explore-section-title {
@@ -16,37 +52,3 @@
   margin-bottom: 10px;
 }
 
-.explore-languages-section ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-}
-
-.explore-languages-section ul ul li {
-  display: inline-block;
-}
-
-.explore-languages-section ul a {
-  font-size: 36px;
-  font-family: $font-family-sans-serif;
-  border: 0;
-  line-height: 1;
-}
-
-.explore-languages-section ul a:hover {
-  background: none;
-}
-
-.explore-languages-section a:after {
-  content: '■';
-  color: #4d4b4c;
-  font-size: 20px;
-  position: relative;
-  top: -5px;
-  left: 5px;
-}
-
-.explore-languages-section ul ul li:last-child a:after {
-  content: '';
-}
