@@ -53,7 +53,9 @@ gulp.task('styles', function() {
       errorHandler: reportError
     }))
     .pipe(sass())
-    .pipe(autoprefixer('last 2 versions'))
+    .pipe(autoprefixer({
+      browsers: ['> 1%', 'last 2 versions', 'ie 9']
+    }))
     .pipe(gulp.dest(project.styles.dest))
     .pipe(cmq())
     .pipe(cssnano({
