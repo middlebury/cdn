@@ -339,6 +339,7 @@ body.miis_blue { background:url('//cdn.middlebury.edu/miis.edu/2010/images/blue/
 .miis_blue td { padding:4px; color:#404040; border:none; }
   .miis_blue td p { margin-bottom:1em; }
 .miis_blue header.header { background:transparent; height:106px; }
+    .miis_blue.miis_montrep header.header, .miis_blue.miis_conflict header.header { height:216px; }
   .miis_blue .wordmark { top:20px; left:0px; }
   .miis_blue .header_search { border:1px solid #18447C; height:1.8em; padding:1px; position:absolute; top:20px; right:0px; }
     .miis_blue .header_search input { background-color:#18447C; border:none; color:#8FD4FF; font-style:italic; height:1.8em; line-height:1.5em; padding:0px 0px 0px 0.8em; width:9.4em; }
