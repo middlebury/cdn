@@ -9,6 +9,7 @@
   text-align: center;
   border: 0;
   padding: 10px 20px;
+  transition: background-color .2s;
 
   &:disabled {
     opacity: 0.5;
@@ -38,7 +39,10 @@
 
   &:hover {
     color: $white;
-    background-color: $brand-green !important;
+    background-color: darken($brand-green, 5%) !important;
+  }
+}
+
 .btn-secondary {
   color: $white;
   background-color: $brand-navy !important;
