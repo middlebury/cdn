@@ -39,5 +39,12 @@
   &:hover {
     color: $white;
     background-color: $brand-green !important;
+.btn-secondary {
+  color: $white;
+  background-color: $brand-navy !important;
+
+  &:hover {
+    color: $white;
+    background-color: darken($brand-navy, 5%) !important;
   }
 }
