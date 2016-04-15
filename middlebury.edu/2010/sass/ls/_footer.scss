@@ -31,3 +31,59 @@
     margin-bottom: 0;
   }
 }
+
+.footer-inner {
+
+  .footer-contact,
+  .footer-secondary {
+    float: left;
+    width: 50%;
+  }
+
+  .footer-secondary {
+    text-align: right;
+  }
+}
+
+.social-icons {
+  display: inline-block;
+  margin-bottom: 10px !important;
+
+  li {
+    margin: 0 4px 0 0 !important;
+    &:last-child {
+      margin-right: 0 !important;
+    }
+  }
+
+  a {
+    background-image: url('../images/newsroom_social.png');
+    width: 30px;
+    height: 29px !important;
+    display: inline-block;
+    padding: 0 !important;
+    border: none;
+    text-indent: -9999px;
+    &:hover {
+      background-color: transparent;
+    }
+  }
+
+  .facebook {
+    background-position: 0 0;
+  }
+
+  .twitter {
+    background-position: -34px 0;
+    width: 32px;
+  }
+
+  .instagram {
+    background-position: -70px 0px;
+    width: 31px;
+  }
+
+  .vimeo {
+    background-position: -105px 0px;
+  }
+}
