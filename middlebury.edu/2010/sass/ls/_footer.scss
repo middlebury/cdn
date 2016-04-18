@@ -15,6 +15,10 @@
     font-size: 15px;
     line-height: 20px;
     padding: 100px 20px 20px;
+
+    .midd_ls_inside & {
+      padding-top: 20px;
+    }
   }
 
   a {
