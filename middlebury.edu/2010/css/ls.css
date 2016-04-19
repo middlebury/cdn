@@ -121,6 +121,8 @@ table.layout {
     font-size: 15px;
     line-height: 20px;
     padding: 100px 20px 20px; }
+    .midd_ls_inside .footer .region-footer {
+      padding-top: 20px; }
   .footer a {
     color: #333;
     border: none; }
@@ -129,6 +131,42 @@ table.layout {
       background-color: transparent; }
   .footer p:last-child {
     margin-bottom: 0; }
+
+.footer-inner .footer-contact,
+.footer-inner .footer-secondary {
+  float: left;
+  width: 50%; }
+
+.footer-inner .footer-secondary {
+  text-align: right; }
+
+.social-icons {
+  display: inline-block;
+  margin-bottom: 10px !important; }
+  .social-icons li {
+    margin: 0 4px 0 0 !important; }
+    .social-icons li:last-child {
+      margin-right: 0 !important; }
+  .social-icons a {
+    background-image: url("../images/icon_sprite_social.png");
+    width: 30px;
+    height: 29px !important;
+    display: inline-block;
+    padding: 0 !important;
+    border: none;
+    text-indent: -9999px; }
+    .social-icons a:hover {
+      background-color: transparent; }
+  .social-icons .facebook {
+    background-position: 0 0; }
+  .social-icons .twitter {
+    background-position: -34px 0;
+    width: 32px; }
+  .social-icons .instagram {
+    background-position: -70px 0px;
+    width: 31px; }
+  .social-icons .youtube {
+    background-position: -376px 0px; }
 
 .navigation {
   border-bottom: 4px solid #fff; }
@@ -398,8 +436,8 @@ table.layout {
   margin-bottom: 40px; }
   .home-features .column {
     text-align: center;
-    padding-left: 50px;
-    padding-right: 49px; }
+    padding-left: 35px;
+    padding-right: 35px; }
   .home-features h3 {
     font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
     color: #333;
