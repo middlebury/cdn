@@ -13,6 +13,9 @@ body {
 form.search {
   top: 0; }
 
+.taskbar,.breadcrumb {
+  display:none;
+}
 /*
 .column>a,
 .column .content>a {
