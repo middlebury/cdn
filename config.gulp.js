@@ -10,5 +10,12 @@ module.exports = {
     }
   },
   sustainability: {
+  },
+  ls: {
+    styles: {
+      src: './middlebury.edu/2010/sass/ls/**/*.scss',
+      dest: './middlebury.edu/2010/css/'
+    }
   }
+
 }

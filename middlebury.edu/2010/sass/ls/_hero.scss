@@ -1,0 +1,35 @@
+.hero {
+  height: 400px;
+}
+
+.hero-banner {
+  float: left;
+  width: 640px;
+  height: 100%;
+}
+
+.hero-form {
+  background-color: #585858;
+  float: left;
+  width: 320px;
+  height: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+
+  h2 {
+    font-family: $font-family-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: $brand-yellow;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  p {
+    color: $white;
+    font-size: 15px;
+    font-family: $font-family-sans-serif;
+    margin-bottom: 10px;
+  }
+
+}

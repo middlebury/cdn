@@ -53,11 +53,13 @@ gulp.task('styles', function() {
       errorHandler: reportError
     }))
     .pipe(sass())
-    .pipe(autoprefixer('last 2 versions'))
+    .pipe(autoprefixer({
+      browsers: ['> 1%', 'last 2 versions', 'ie 9']
+    }))
     .pipe(gulp.dest(project.styles.dest))
     .pipe(cmq())
     .pipe(cssnano({
-      zindex: false // disable optimizing z-index 
+      zindex: false // disable optimizing z-index
     }))
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest(project.styles.dest))
@@ -65,7 +67,6 @@ gulp.task('styles', function() {
 
 gulp.task('watch', function() {
   gulp.watch(project.styles.src, ['styles']);
-  gulp.watch(project.scripts.src, ['scripts']);
 });
 
 // Define default tasks to run

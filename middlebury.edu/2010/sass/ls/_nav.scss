@@ -1,0 +1,35 @@
+.navigation {
+  border-bottom: 4px solid $white;
+
+  ul {
+    background-color: $brand-yellow;
+    height: 36px;
+    padding: 0;
+    width: 100%;
+  }
+
+  li {
+    width: auto;
+
+    a {
+      color: $brand-navy;
+      text-indent: 0 !important;
+      overflow: visible !important;
+      font-family: $font-family-sans-serif;
+      font-size: 14px;
+      line-height: 36px;
+      font-weight: 600;
+      text-align: center;
+      height: auto !important;
+      letter-spacing: 0.05em;
+      padding-left: 22px;
+      padding-right: 22px;
+      text-transform: uppercase;
+      transition: .2s;
+
+      &:hover {
+        background-color: lighten($brand-yellow, 10%);
+      }
+    }
+  }
+}
