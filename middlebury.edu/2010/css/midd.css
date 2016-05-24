@@ -664,7 +664,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
       .node-story div, .node-story span, .node-story p { font-size:13px; line-height:1.3em; display:inline; }
 
   /* Sub-page List */
-  .node-subpglist td ul { list-style-type:none; margin:0px; padding:0px; }
+  .node-subpglist td ul { list-style-type:none; }
   .node-subpglist td a { font-size:1.3em; color:#336699; border:none; }
 
   /* Sustainability Project */
