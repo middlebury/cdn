@@ -849,6 +849,67 @@ dd {
   .col-xl-pull-12 {
     right: 100%; } }
 
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important; }
+  a,
+  a:visited {
+    text-decoration: underline; }
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  p a[href]:after,
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: ""; }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+  tr,
+  img {
+    page-break-inside: avoid; }
+  img {
+    max-width: 100% !important; }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+  h2,
+  h3 {
+    page-break-after: avoid; }
+  ul,
+  ol,
+  li {
+    display: block; }
+  .global-nav,
+  .global-footer .container .row:first-child,
+  .taskbar_back,
+  .editconsole_wrapper,
+  .jumpnav-anchor {
+    display: none !important; }
+  .page,
+  *[class="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+  .wordmark {
+    content: url("../images/logo-blue-sm.png"); }
+    .wordmark img {
+      display: none; } }
+
 .global-nav {
   background-color: #12243F;
   width: 270px;
