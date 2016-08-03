@@ -957,3 +957,6 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 
 /* Custom colors */
 .light-blue { background-color: #e4eaf3; }
+
+/* Increase z-index of mm_browser popup so the taskbar doesn't display */
+.mm-browser-dialog{ z-index:401; }
