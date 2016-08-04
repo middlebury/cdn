@@ -633,3 +633,6 @@ div.video_filter {
 div.video_filter video {
   object-fit: cover;
 }
+
+/* Increase z-index of ui-dialog popup so the taskbar and quicklinks/language buttons do not display */
+.ui-dialog{ z-index:601; }
