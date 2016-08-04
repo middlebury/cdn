@@ -636,3 +636,31 @@ div.video_filter video {
 
 /* Increase z-index of ui-dialog popup so the taskbar and quicklinks/language buttons do not display */
 .ui-dialog{ z-index:601; }
+
+/* Institute ESL Language Rollover button styles */
+#ApplyESLLinks ul{ 
+margin: 0; 
+padding: 0; 
+list-style: none; 
+}
+#ApplyESLLinks li{ 
+display: inline-block; 
+padding: 0; 
+margin: 0;
+font-weight:bold;
+}
+#ApplyESLLinks li a{
+display: block; 
+border-radius: 0.3em;
+padding: 2px 7px;
+text-decoration: none;
+width: 160px; 
+margin: 5px 0px;
+text-align: center;
+font-size: 100%;
+background-color: #114477;/*Button Color*/
+color: #ffffff;/*Text Color*/
+}
+#ApplyESLLinks li a:hover{
+background-color: #5e6676;/*Mouseover Button Color*/
+}
