@@ -638,23 +638,23 @@ div.video_filter video {
 .ui-dialog{ z-index:601; }
 
 /* Institute ESL Language Rollover button styles */
-#ApplyESLLinks ul{ 
-margin: 0; 
-padding: 0; 
-list-style: none; 
+#ApplyESLLinks ul{
+margin: 0;
+padding: 0;
+list-style: none;
 }
-#ApplyESLLinks li{ 
-display: inline-block; 
-padding: 0; 
+#ApplyESLLinks li{
+display: inline-block;
+padding: 0;
 margin: 0;
 font-weight:bold;
 }
 #ApplyESLLinks li a{
-display: block; 
+display: block;
 border-radius: 0.3em;
 padding: 2px 7px;
 text-decoration: none;
-width: 160px; 
+width: 160px;
 margin: 5px 0px;
 text-align: center;
 font-size: 100%;
@@ -664,3 +664,6 @@ color: #ffffff;/*Text Color*/
 #ApplyESLLinks li a:hover{
 background-color: #5e6676;/*Mouseover Button Color*/
 }
+
+/* Hide the amh_upload tags field */
+form#mm-media-node-form fieldset#edit-amh-upload div#files-result table.sticky-enabled tr td:nth-child(2) div:nth-child(2) {display:none;}
