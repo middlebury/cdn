@@ -1,15 +1,15 @@
-body.midd_blse.ripton { background-image:url('../images/blse/background_ripton.jpg'); }
-body.midd_blse.oxford { background-image:url('../images/blse/background_oxford.jpg'); }
-body.midd_blse.santafe { background-image:url('../images/blse/background_santafe.jpg'); }
+body.midd_blse.ripton, body.midd_blse_inside { background-image:url('../images/blse/background_ripton.jpg?2016-09-19'); }
+body.midd_blse.oxford { background-image:url('../images/blse/background_oxford.jpg?2016-09-19'); }
+body.midd_blse.santafe { background-image:url('../images/blse/background_santafe.jpg?2016-09-19'); }
 
 .column > a, .column .content > a { display:none; }
 
-.midd_blse h1.wordmark, .midd_blse_inside h1.wordmark { width:924px; }
-.midd_blse h1.wordmark { padding:287px 0px 6px 0px; }
-.midd_blse_inside h1.wordmark { padding:50px 0px 6px 0px; }
-.midd_blse h1.wordmark a, .midd_blse_inside h1.wordmark a { background:url(../images/blse/logo.png) transparent no-repeat top left; width:931px; height:62px; display:block; text-indent:-9999px; }
+.midd_blse h1.wordmark, .midd_blse_inside h1.wordmark { width:931px; padding:25px 0px 141px 29px; }
+.midd_blse h1.wordmark a, .midd_blse_inside h1.wordmark a { background:url('../images/blse/logo.png?2016-09-19') transparent no-repeat top left; width:931px; height:84px; display:block; text-indent:-9999px; }
 
-.header_callout { background:url('../images/black_80.png'); color:#FFFFFF; padding:10px 20px 10px 20px; position:absolute; right:0px; bottom:150px; }
+form.search { position:absolute; top:25px; right:43px; }
+
+.header_callout { background:url('../images/black_80.png'); color:#FFFFFF; padding:10px 20px 10px 20px; position:absolute; right:43px; bottom:93px; }
   .header_callout ul { list-style-type:none; margin:0px; }
   .header_callout li { margin:0px; }
   .header_callout a { color:#FFFFFF; border:none; }
