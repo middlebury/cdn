@@ -1,0 +1,33 @@
+.list-unstyled {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  li {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+}
+
+.list-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: inline-block;
+
+  li {
+    list-style: none;
+    display: inline-block;
+
+     & + li {
+       margin-left: 10px;
+     }
+  }
+}
+
+.list-border-separated {
+  li:not(:first-child) {
+    border-left: 2px solid #a3abb9;
+    padding-left: 11px;
+  }
+}

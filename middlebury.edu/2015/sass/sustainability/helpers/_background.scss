@@ -1,0 +1,13 @@
+$background-helpers: (
+  'white': $white,
+  'primary': $brand-primary,
+  'secondary': $brand-secondary,
+  'gray-light': $gray-light,
+  'gray-lighter': $gray-lighter
+);
+
+@each $name, $color in $background-helpers {
+  .bg-#{$name} {
+    background-color: $color
+  }
+}

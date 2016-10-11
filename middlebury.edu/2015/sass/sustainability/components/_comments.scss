@@ -1,0 +1,91 @@
+// this class shows up on listing pages, so it's not necessarily part of the comments component
+// TODO: move .comment-comments somewhere more appropriate
+.comment-comments {
+  float: right;
+
+  a {
+    color: $gray;
+  }
+}
+
+.comments {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.comment {
+  // margin-top: 20px;
+  margin-bottom: 40px;
+
+  p {
+    margin-top: 20px;
+    color: $gray;
+  }
+
+  .links {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+
+    li {
+      display: inline-block;
+    }
+  }
+}
+
+.comments-box {
+  background-color: $gray-lighter;
+  padding: 20px;
+}
+
+.comment-form-title {
+  margin-bottom: 20px;
+}
+
+.form-item,
+.form-actions,
+.captcha {
+  // margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-item {
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .description {
+    display: block;
+    margin-top: 3px;
+  }
+}
+
+.form-text,
+.form-textarea {
+  padding: .5em;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  display: block;
+  width: 100% !important;
+}
+
+.form-text {
+
+}
+
+.form-textarea {
+
+}
+
+.form-required {
+  color: tomato;
+}
+
+.form-submit {
+  @extend .btn-secondary;
+  @extend .btn;
+}
