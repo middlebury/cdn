@@ -47,13 +47,6 @@ gulp.task('watch', function() {
   gulp.watch(project.styles.src, ['styles']);
 });
 
-// Define default tasks to run
-var tasks = [
-  'styles'
-]
+gulp.task('build', ['styles']);
 
-if(args.watch) {
-  tasks.push('watch');
-}
-
-gulp.task('default', tasks);
+gulp.task('default', ['build', 'watch']);
