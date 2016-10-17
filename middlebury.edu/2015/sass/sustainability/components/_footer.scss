@@ -17,3 +17,14 @@
 #block-middlebury-midd-sustainability-midd-sustainability-address {
   font-size: 14px;
 }
+
+.footer-nav {
+  .nav-list-item {
+    margin-bottom: 10px;
+  }
+
+  .nav-list-anchor {
+    color: $brand-secondary;
+    font-size: 14px;
+  }
+}
