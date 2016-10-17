@@ -1,9 +1,4 @@
-
 $slide-breakpoint: 'xl';
-
-.cycle-slideshow {
-  // margin-bottom: 50px;
-}
 
 .cycle-slide {
   width: 100%; // this is needed since Firefox ignores img { max-width: 100%; } if the container doesn't have a set width
@@ -97,10 +92,6 @@ a.cycle-pager-active {
     color: $brand-primary-light;
     font-size: 18px;
   }
-}
-
-.cycle-slides {
-
 }
 
 .cycle-controls {
