@@ -41,134 +41,7 @@ ul.inline {
   padding-left: 0;
 }
 
-.nav-list-item {
-
-}
-
-.nav-list-anchor {
-
-}
-
-.global-header {
-
-  .nav-list {
-    // margin-bottom: 0;
-  }
-
-  .nav-list-item {
-    @include media(lg) {
-      display: table-cell;
-      // float: left;
-      width: 1%;
-
-      &:not(:first-child) {
-        // margin-left: 25px;
-        padding-left: 20px;
-      }
-    }
-  }
-
-  .nav-list-anchor {
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    display: block;
-    color: $brand-secondary;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid transparent;
-    white-space: nowrap;
-    transition: border-color .2s;
-    font-size: 14px;
-
-    &:hover,
-    &:focus {
-      text-decoration: none;
-      border-color: $brand-secondary;
-    }
-
-    &.active {
-      border-color: $brand-secondary;
-    }
-
-    @include media(lg) {
-      // font-size: 14px;
-      border-width: 6px;
-      text-align: center;
-    }
-
-    @include media(xl) {
-      // font-size: 16px;
-    }
-  }
-}
-
-// tags (icons) list nav
-.nav-list-tags {
-
-  .nav-list-item {
-    margin-bottom: 10px;
-    @include clearfix();
-
-    body:not(.midd_sustainability_inside) & {
-
-      @include media(sm) {
-        float: left;
-        width: 50%;
-        padding: 10px;
-      }
-
-      @include media(lg) {
-        text-align: center;
-        width: percentage(1 / 6);
-      }
-    }
-  }
-
-  .nav-list-anchor {
-    @include clearfix();
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-  }
-}
-
-.nav-list-tags-img {
-  float: left;
-  width: 40px;
-  height: auto;
-  margin-right: 10px;
-  vertical-align: middle;
-  margin-bottom: 15px;
-
-  body:not(.midd_sustainability_inside) & {
-
-    @include media(lg) {
-      float: none;
-      width: 60px;
-      margin-right: auto;
-    }
-  }
-}
-
-.nav-list-tags-text {
-  display: block;
-  font-size: 14px;
-}
-
-// footer nav
-.footer-nav {
-  .nav-list-item {
-    margin-bottom: 10px;
-  }
-
-  .nav-list-anchor {
-    color: $brand-secondary;
-    font-size: 14px;
-  }
-}
-
-// TODO: gag
+// TODO: clean this up. too much specificity and nesting
 .widget-nav > .menu {
   box-shadow: 0 0 5px rgba(black, .25);
   padding: 0;
@@ -230,7 +103,7 @@ ul.inline {
               }
             }
 
-            // 4rd level nest
+            // 4th level nest
             ul li a {
               color: $gray;
             }
