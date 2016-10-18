@@ -8,6 +8,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var args = require('yargs').argv;
 var chalk = require('chalk');
 var rename = require('gulp-rename');
+var uglify = require('gulp-uglify');
 var config = require('./config.gulp'); // Import asset paths defined by project
 
 var projectName = args.project || args.p;
@@ -43,10 +44,19 @@ gulp.task('styles', function() {
     .pipe(gulp.dest(project.styles.dest))
 });
 
-gulp.task('watch', function() {
-  gulp.watch(project.styles.src, ['styles']);
+gulp.task('scripts', function() {
+  return gulp.src(project.scripts.src)
+    .pipe(gulp.dest(project.scripts.dest))
+    .pipe(uglify())
+    .pipe(rename({ suffix: '.min' }))
+    .pipe(gulp.dest(project.scripts.dest));
 });
 
-gulp.task('build', ['styles']);
+gulp.task('watch', function() {
+  gulp.watch(project.styles.src, ['styles']);
+  gulp.watch(project.scripts.src, ['scripts']);
+});
+
+gulp.task('build', ['styles', 'scripts']);
 
 gulp.task('default', ['build', 'watch']);
