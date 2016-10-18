@@ -1,0 +1,42 @@
+$breadcrumb-gutter: 5px;
+$breadcrumb-link-color: #96A2B1;
+
+.breadcrumbs {
+  @include clearfix();
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
+
+  .first > a {
+    background-image: url('../images/sustainability/icon-home.svg');
+    height: 15px;
+    background-size: cover;
+    width: 20px;
+    display: inline-block;
+    text-indent: -99999px;
+  }
+
+  li {
+    list-style: none;
+    float: left;
+    font-size: 14px;
+
+    &:not(:first-child) {
+      margin-left: $breadcrumb-gutter * 2;
+
+      &:before {
+        content: '/';
+        color: $breadcrumb-link-color;
+        position: relative;
+        right: $breadcrumb-gutter;
+        top: 1px;
+        margin-left: $breadcrumb-gutter;
+      }
+    }
+
+    a {
+      color: $breadcrumb-link-color;
+    }
+  }
+
+}

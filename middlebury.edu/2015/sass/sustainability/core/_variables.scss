@@ -1,0 +1,62 @@
+
+// Media sizes
+
+$screen-xs: 0;
+$screen-sm: em(480);
+$screen-md: em(768);
+$screen-lg: em(992);
+$screen-xl: em(1200);
+
+$breakpoints: (
+  xs: 0,
+  sm: $screen-sm,
+  md: $screen-md,
+  lg: $screen-lg,
+  xl: $screen-xl
+);
+
+// Font families
+
+$font-family-sans-serif: 'open sans', arial, sans-serif;
+$font-family-serif: domine, georgia, serif;
+
+
+// Font sizes
+
+$base-font-size: 16px;
+$base-line-height: 1.4;
+
+// Colors
+
+$brand-primary: #00255c;
+$brand-primary-dark: darken($brand-primary, 25%);
+$brand-primary-light: #4d78ad;
+$brand-primary-lighter: #32537e;
+$brand-primary-lightest: #c6d3e6;
+
+$brand-secondary: #e25200;
+$brand-secondary-dark: darken($brand-secondary, 10%);
+
+$gray-base: #000;
+$gray-light: #ecebe9;
+$gray-lighter: #f5f5f5;
+$gray: #7b7b7b;
+$gray-dark: darken($gray-base, 10%);
+$gray-darker: darken($gray-base, 10%);
+
+$white: #fff;
+$black: #222;
+
+
+// Area specific colors
+
+$header-nav-rail: $brand-primary-lightest;
+
+$body-bg: $white;
+
+$content-color: #606e7d;
+
+$link-color: $brand-secondary;
+$link-color-hover: $brand-secondary-dark;
+
+$footer-link-color: #a3abb8;

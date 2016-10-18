@@ -1,0 +1,50 @@
+.nav-list-tags {
+  .nav-list-item {
+    margin-bottom: 10px;
+    @include clearfix();
+
+    body:not(.midd_sustainability_inside) & {
+
+      @include media(sm) {
+        float: left;
+        width: 50%;
+        padding: 10px;
+      }
+
+      @include media(lg) {
+        text-align: center;
+        width: percentage(1 / 6);
+      }
+    }
+  }
+
+  .nav-list-anchor {
+    @include clearfix();
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+}
+
+.nav-list-tags-img {
+  float: left;
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+  margin-bottom: 15px;
+
+  body:not(.midd_sustainability_inside) & {
+
+    @include media(lg) {
+      float: none;
+      width: 60px;
+      margin-right: auto;
+    }
+  }
+}
+
+.nav-list-tags-text {
+  display: block;
+  font-size: 14px;
+}

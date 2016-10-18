@@ -4,33 +4,15 @@ var gutil = require('gulp-util');
 var autoprefixer = require('gulp-autoprefixer');
 var cmq = require('gulp-combine-mq');
 var cssnano = require('gulp-cssnano');
-var plumber = require('gulp-plumber');
 var sourcemaps = require('gulp-sourcemaps');
 var args = require('yargs').argv;
 var chalk = require('chalk');
 var rename = require('gulp-rename');
+var uglify = require('gulp-uglify');
 var config = require('./config.gulp'); // Import asset paths defined by project
 
 var projectName = args.project || args.p;
 var project = config[projectName];
-
-// Custom error handler from
-// https://github.com/mikaelbr/gulp-notify/issues/81#issuecomment-100422179
-var reportError = function (error) {
-  var lineNumber = (error.lineNumber) ? 'LINE ' + error.lineNumber + ' -- ' : '';
-
-  gutil.beep();
-
-  var report = '';
-
-  report += chalk.red('TASK:') + ' [' + error.plugin + ']\n';
-  report += chalk.red('PROB:') + ' ' + error.message + '\n';
-  if (error.lineNumber) { report += chalk.red('LINE:') + ' ' + error.lineNumber + '\n'; }
-  if (error.fileName)   { report += chalk.red('FILE:') + ' ' + error.fileName + '\n'; }
-  console.error(report);
-
-  this.emit('end');
-}
 
 // if no value is passed after --project, it returns true, so check for it here.
 if(!projectName || projectName === true) {
@@ -49,10 +31,7 @@ if(typeof project.styles !== 'object') {
 
 gulp.task('styles', function() {
   return gulp.src(project.styles.src)
-    .pipe(plumber({
-      errorHandler: reportError
-    }))
-    .pipe(sass())
+    .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({
       browsers: ['> 1%', 'last 2 versions', 'ie 9']
     }))
@@ -65,17 +44,19 @@ gulp.task('styles', function() {
     .pipe(gulp.dest(project.styles.dest))
 });
 
-gulp.task('watch', function() {
-  gulp.watch(project.styles.src, ['styles']);
+gulp.task('scripts', function() {
+  return gulp.src(project.scripts.src)
+    .pipe(gulp.dest(project.scripts.dest))
+    .pipe(uglify())
+    .pipe(rename({ suffix: '.min' }))
+    .pipe(gulp.dest(project.scripts.dest));
 });
 
-// Define default tasks to run
-var tasks = [
-  'styles'
-]
+gulp.task('watch', function() {
+  gulp.watch(project.styles.src, ['styles']);
+  gulp.watch(project.scripts.src, ['scripts']);
+});
 
-if(args.watch) {
-  tasks.push('watch');
-}
+gulp.task('build', ['styles', 'scripts']);
 
-gulp.task('default', tasks);
+gulp.task('default', ['build', 'watch']);

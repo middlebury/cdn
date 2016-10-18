@@ -1,0 +1,115 @@
+// drupal overwrites
+ul.menu li {
+  list-style: none !important;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+}
+
+.item-list {
+  ul {
+    li {
+      margin-left: inherit;
+      margin-bottom: inherit;
+    }
+  }
+}
+
+.links {
+  li {
+    display: inline-block;
+  }
+}
+
+ul.inline {
+  li {
+    padding: 0;
+
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+  }
+}
+
+// end overwrites
+
+.nav-list {
+  @include clearfix();
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+
+// TODO: clean this up. too much specificity and nesting
+.widget-nav > .menu {
+  box-shadow: 0 0 5px rgba(black, .25);
+  padding: 0;
+  margin: 0;
+
+  > li {
+
+    &.expanded > a {
+      display: block;
+      background-color: $brand-primary;
+      color: $white;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      width: 100%;
+      padding: 10px 20px;
+    }
+
+    > ul {
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+
+      > li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid $gray-light;
+        }
+
+        > a {
+          color: $brand-primary-light;
+        }
+
+        ul {
+          padding-left: 20px;
+          margin-top: 5px;
+          margin-bottom: 0;
+
+          li {
+            padding-top: 3px;
+            padding-bottom: 3px;
+
+            > a {
+              color: $brand-primary;
+              font-size: 14px;
+
+              &.active {
+                position: relative;
+
+                &:before {
+                  content: '▸';
+                  right: 105%; // fallback for calc though it's pretty much supported http://caniuse.com/#search=calc
+                  right: calc(100% + 5px);
+                  position: absolute;
+                }
+              }
+            }
+
+            // 4th level nest
+            ul li a {
+              color: $gray;
+            }
+          }
+        }
+      }
+    }
+  }
+}

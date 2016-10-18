@@ -1,0 +1,45 @@
+$map-overlay-size: 240px;
+
+.map {
+  padding: 5px;
+  background-color: $white;
+  position: relative;
+  @extend .shadow-btm;
+}
+
+.map-overlay {
+  background-color: $brand-primary;
+  text-align: center;
+  padding: 20px;
+
+  @include media(md) {
+    display: inline-block;
+    border-radius: $map-overlay-size / 2;
+    width: $map-overlay-size;
+    height: $map-overlay-size;
+    position: absolute;
+    left: 25px;
+    top: -25px;
+    padding: ($map-overlay-size / 4) ($map-overlay-size / 4);
+    z-index: 3;
+  }
+}
+
+.map-text {
+  color: $white;
+  font-family: $font-family-serif;
+}
+
+.map-image-container {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+
+  @include media(md) {
+    height: 395px;
+  }
+}
+
+.map-image {
+  display: block;
+}

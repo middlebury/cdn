@@ -14,6 +14,13 @@ The following projects are using Gulp and Sass:
   - Sass files `./middlebury.edu/2010/sass/ls/`
   - Output CSS files `./middlebury.edu/2010/css/ls.css`, `./middlebury.edu/2010/css/ls.min.css`
   - Gulp command `gulp --project ls`
+- Sustainability
+  - Sass files `./middlebury.edu/2015/sass/sustainability/`
+  - Output CSS files `./middlebury.edu/2015/css/sustainability.css`, `./middlebury.edu/2015/css/sustainability.min.css`
+  - Output JS files `./middlebury.edu/2015/js/sustainability.js`, `./middlebury.edu/2015/js/sustainability.min.js`
+  - Gulp command `gulp --project sustainability`
+
+By default, gulp will run `watch` to continuously watch assets and recompile. If you don't want to do this, run `gulp --project <projectname> build` instead to compile them once.
 
 ### Installation
 
