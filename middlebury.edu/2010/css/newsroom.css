@@ -1,0 +1,219 @@
+.page > h1 {
+  font-size: 45px;
+  font-weight: normal;
+}
+
+.breadcrumb {
+  margin-bottom: 60px;
+}
+
+h1 a {
+  border: 0;
+}
+
+h1 a:hover {
+  background-color: transparent;
+  border: 0;
+  text-decoration: underline;
+}
+
+#midd_newsroom_search {
+  right: 20px;
+  overflow: hidden;
+}
+
+#midd_newsroom_search_query {
+  background-color: #fff;
+  width: 150px;
+  font-size: 12px;
+  color: #000;
+  float: left;
+  height: 22px;
+  border: 1px solid #666;
+}
+
+#midd_newsroom_search_submit {
+  margin-right: 0;
+  background-color: #272c6f;
+  color: #fff;
+  padding: 5px;
+  border: 0;
+  font-size: 12px;
+  float: right;
+  height: 22px;
+  cursor: pointer;
+}
+
+#block-middlebury-midd-blocks-midd-newsroom-social,
+#block-middlebury-listmanager-midd-newsroom-subscribe {
+  margin-top: 50px;
+}
+
+.left h2 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
+}
+
+.midd_department .left a:hover {
+  background-color: transparent;
+}
+
+aside.sidebar {
+  padding-left: 20px;
+  margin-left: 20px;
+  width: 180px;
+  border-left: 1px solid #ccc;
+}
+
+.sidebar h2 {
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .085em;
+  border-top: 4px solid #272c6f;
+  padding-top: 4px;
+  margin-bottom: 30px;
+}
+
+.sidebar .item-list ul {
+  list-style: none;
+}
+
+.sidebar .item-list li {
+  margin-left: 0;
+}
+
+.sidebar .views-row {
+  margin-bottom: 40px;
+}
+
+aside.sidebar .contents {
+  padding: 0;
+  border: 0;
+}
+
+aside.sidebar header:after {
+  display: none;
+}
+
+aside.sidebar header h1 {
+  font-size: 16px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  background: none;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.body .node-news-featured .news-image {
+  display: block;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.body .node-news-featured h1 {
+  font-size: 18px;
+}
+
+.news-image {
+  position: relative;
+}
+
+.news-image img {
+  display: block;
+}
+
+span.news-button {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.065em;
+  background-color: #12a08a;
+  position: absolute;
+  line-height: 1;
+  font-size: 12px;
+  left: 15px;
+  bottom: 15px;
+  padding: 5px;
+  padding-bottom: 4px;
+}
+
+.news-button:before {
+  content: '►';
+  font-size: 10px;
+  position: relative;
+  top: -1px;
+  margin-right: 2px;
+}
+
+.node-news {
+  margin-bottom: 40px;
+}
+
+.node-news h1 {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.node-news p {
+  font-size: 14px;
+  color: #210;
+  line-height: 1.5;
+}
+
+.node-news .news-date,
+.news-date {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.more-link {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.more-link a {
+  border: 0;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
+
+.more-link a:hover {
+  background-color: transparent;
+  border-color: #272c6f;
+}
+
+.region-address a {
+  color: #272c6f;
+}
+
+.item-list .pager {
+  text-align: left;
+}
+
+.item-list .pager a {
+  border: 0;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.item-list .pager a:hover {
+  background-color: #ececec;
+}
+
+.item-list .pager li {
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
+
+.item-list .pager .pager-current {
+  color: #000;
+  background-color: #ececec;
+  padding: 5px;
+}
