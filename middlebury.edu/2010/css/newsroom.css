@@ -30,6 +30,7 @@ h1 a:hover {
   float: left;
   height: 22px;
   border: 1px solid #666;
+  box-sizing: border-box;
 }
 
 #midd_newsroom_search_submit {
@@ -42,6 +43,8 @@ h1 a:hover {
   float: right;
   height: 22px;
   cursor: pointer;
+  line-height: 12px;
+  box-sizing: border-box;
 }
 
 #block-middlebury-midd-blocks-midd-newsroom-social,
