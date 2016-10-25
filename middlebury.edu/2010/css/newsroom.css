@@ -53,9 +53,8 @@ h1 a:hover {
 }
 
 .left h2 {
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  font-size: 14px;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
