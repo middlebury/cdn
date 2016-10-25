@@ -223,3 +223,10 @@ span.news-button {
   background-color: #ececec;
   padding: 5px;
 }
+
+.service-label {
+  font-size: 12px;
+  font-weight: bold;
+  color: #525248;
+  line-height: 1.5;
+}
