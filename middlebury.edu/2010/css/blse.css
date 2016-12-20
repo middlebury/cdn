@@ -1,98 +1,387 @@
-body.midd_blse.ripton, body.midd_blse_inside { background-image:url('../images/blse/background_ripton.jpg?2016-09-19'); }
-body.midd_blse.oxford { background-image:url('../images/blse/background_oxford.jpg?2016-09-19'); }
-body.midd_blse.santafe { background-image:url('../images/blse/background_santafe.jpg?2016-09-19'); }
+body.midd_blse.ripton, body.midd_blse_inside {
+  background-image: url('../images/blse/background_ripton.jpg?2016-09-19');
+}
 
-.column > a, .column .content > a { display:none; }
+body.midd_blse.oxford {
+  background-image: url('../images/blse/background_oxford.jpg?2016-09-19');
+}
 
-.midd_blse h1.wordmark, .midd_blse_inside h1.wordmark { width:931px; padding:25px 0px 141px 29px; }
-.midd_blse h1.wordmark a, .midd_blse_inside h1.wordmark a { background:url('../images/blse/logo.png?2016-09-19') transparent no-repeat top left; width:931px; height:84px; display:block; text-indent:-9999px; }
+body.midd_blse.santafe {
+  background-image: url('../images/blse/background_santafe.jpg?2016-09-19');
+}
 
-form.search { position:absolute; top:25px; right:43px; }
+.column>a, .column .content>a {
+  display: none;
+}
 
-.header_callout { background:url('../images/black_80.png'); color:#FFFFFF; padding:10px 20px 10px 20px; position:absolute; right:43px; bottom:93px; }
-  .header_callout ul { list-style-type:none; margin:0px; }
-  .header_callout li { margin:0px; }
-  .header_callout a { color:#FFFFFF; border:none; }
-  .header_callout a:hover { color:#F9DD3F; background-color:#000000; }
-  .header_callout a.selected { color:#F9DD3F; font-weight:bold; }
-.midd_blse_inside .header_callout { display:none; }
+.midd_blse h1.wordmark, .midd_blse_inside h1.wordmark {
+  width: 931px;
+  padding: 25px 0px 141px 29px;
+}
 
-.search_query { background-color:#FFFFFF; border:none; font-size:0.929em; color:#666666; }
-.search_submit.ir { background:url('../images/arrow_go_white.png'); }
+.midd_blse h1.wordmark a, .midd_blse_inside h1.wordmark a {
+  background: url('../images/blse/logo.png?2016-09-19') transparent no-repeat top left;
+  width: 931px;
+  height: 84px;
+  display: block;
+  text-indent: -9999px;
+}
 
-.navigation ul { background-color:#FFDD57; height:36px; font-size:1em; line-height:36px; margin:0px; border-bottom:36px solid #CCCCCC; }
-  .navigation li.top { margin:0px 18px 0px 18px; }
-  .navigation li.bottom { margin:0px 20px 0px 20px; }
-  .midd_blse .navigation ul li a, .midd_blse_inside .navigation ul li a { position:relative; height:36px; }
-  .navigation li a span { display:block; height:36px; position:absolute; left:0px; top:0px; width:100%; }
-  .navigation li.top a span { background-image:url('../images/blse/nav_breadloaf.gif'); }
-  .navigation li.bottom a span { background-image:url('../images/blse/nav_breadloaf_bottom.gif'); }
-  .nav_about { width:75px; }
-    .nav_about a span { background-position:-20px 0px; }
-    .nav_about a:hover span { background-position:-20px -36px; }
-    .nav_about.active a span { background-position:-20px -72px; }
-  .nav_admissions { width:100px; }
-    .nav_admissions a span { background-position:-140px 0px; }
-    .nav_admissions a:hover span { background-position:-140px -36px; }
-    .nav_admissions.active a span { background-position:-140px -72px; }
-  .nav_academics { width:100px; }
-    .nav_academics a span { background-position:-280px 0px; }
-    .nav_academics a:hover span { background-position:-280px -36px; }
-    .nav_academics.active a span { background-position:-280px -72px; }
-  .nav_students { width:85px; }
-    .nav_students a span { background-position:-415px 0px; }
-    .nav_students a:hover span { background-position:-415px -36px; }
-    .nav_students.active a span { background-position:-415px -72px; }
-  .nav_campuses { width:236px; }
-    .nav_campuses a span { background-position:-535px 0px; }
-    .nav_campuses a:hover span { background-position:-535px -36px; }
-    .nav_campuses.active a span { background-position:-535px -72px; }
-  .nav_finaid { width:120px; }
-    .nav_finaid a span { background-position:-810px 0px; }
-    .nav_finaid a:hover span { background-position:-810px -36px; }
-    .nav_finaid.active a span { background-position:-810px -72px; }
-  .navigation li.nav_teacher { width:140px; margin-left:26px; }
-    .nav_teacher a span { background-position:-10px 0px; }
-    .nav_teacher a:hover span { background-position:-10px -36px; }
-    .nav_teacher.active a span { background-position:-10px -72px; }
-  .nav_facstaff { width:130px; }
-    .nav_facstaff a span { background-position:-180px 0px; }
-    .nav_facstaff a:hover span { background-position:-180px -36px; }
-    .nav_facstaff.active a span { background-position:-180px -72px; }
-  .nav_giving { width:175px; }
-    .nav_giving a span { background-position:-345px 0px; }
-    .nav_giving a:hover span { background-position:-345px -36px; }
-    .nav_givign.active a span { background-position:-345px -72px; }
-  .nav_alumni { width:70px; }
-    .nav_alumni a span { background-position:-550px 0px; }
-    .nav_alumni a:hover span { background-position:-550px -36px; }
-    .nav_alumni.active a span { background-position:-550px -72px; }
-  .nav_news { width:60px; }
-    .nav_news a span { background-position:-650px 0px; }
-    .nav_news a:hover span { background-position:-650px -36px; }
-    .nav_news.active a span { background-position:-650px -72px; }
-  .nav_contact { width:95px; }
-    .nav_contact a span { background-position:-745px 0px; }
-    .nav_contact a:hover span { background-position:-745px -36px; }
-    .nav_contact.active a span { background-position:-745px -72px; }
+form.search {
+  position: absolute;
+  top: 25px;
+  right: 43px;
+}
 
-.midd_blse .pagecontent, .midd_blse_inside .pagecontent { margin-top:0px; }
-  .midd_blse .page { border:none; width:100%; padding:0%; }
+.header_callout {
+  background: url('../images/black_80.png');
+  color: #FFFFFF;
+  padding: 10px 20px 10px 20px;
+  position: absolute;
+  right: 43px;
+  bottom: 93px;
+}
 
-.columns { margin-left:9px; background:url('../images/column_gray.gif') repeat-y 383px top; }
-.columns .column { padding:18px; margin:0px; width:240px; }
-.columns .first { width:347px; }
-.columns .gray { margin-top:0px; }
-  .columns .gray a { font-weight:bold; }
+.header_callout ul {
+  list-style-type: none;
+  margin: 0px;
+}
 
-.opening { font-size:1.2em; color:#444400; }
-  .opening a { font-size:italic; border:none; }
+.header_callout li {
+  margin: 0px;
+}
 
-h2, summary { color:#666666; font-family:Georgia,serif; margin-bottom:16px; }
+.header_callout a {
+  color: #FFFFFF;
+  border: none;
+}
 
-.footer a { border:none; }
-.footer ul { float:left; }
-  .quick_contact { margin-left:0px; }
-.footer_wordmark { float:right; }
-  #block-middlebury-midd-blocks-midd-footer-wordmark .footer_wordmark { display:block; }
-  .footer a.footer_wordmark:hover { background-color:transparent; }
+.header_callout a:hover {
+  color: #F9DD3F;
+  background-color: #000000;
+}
+
+.header_callout a.selected {
+  color: #F9DD3F;
+  font-weight: bold;
+}
+
+.midd_blse_inside .header_callout {
+  display: none;
+}
+
+.search_query {
+  background-color: #FFFFFF;
+  border: none;
+  font-size: 0.929em;
+  color: #666666;
+}
+
+.search_submit.ir {
+  background: url('../images/arrow_go_white.png');
+}
+
+.navigation ul {
+  background-color: #FFDD57;
+  height: 36px;
+  font-size: 1em;
+  line-height: 36px;
+  margin: 0px;
+  border-bottom: 36px solid #CCCCCC;
+}
+
+.navigation li.top {
+  margin: 0px 18px 0px 18px;
+}
+
+.navigation li.bottom {
+  margin: 0px 20px 0px 20px;
+}
+
+.midd_blse .navigation ul li a, .midd_blse_inside .navigation ul li a {
+  position: relative;
+  height: 36px;
+}
+
+.navigation li a span {
+  display: block;
+  height: 36px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+}
+
+.navigation li.top a span {
+  background-image: url('../images/blse/nav_breadloaf.gif');
+}
+
+.navigation li.bottom a span {
+  background-image: url('../images/blse/nav_breadloaf_bottom.gif');
+}
+
+.nav_about {
+  width: 75px;
+}
+
+.nav_about a span {
+  background-position: -20px 0px;
+}
+
+.nav_about a:hover span {
+  background-position: -20px -36px;
+}
+
+.nav_about.active a span {
+  background-position: -20px -72px;
+}
+
+.nav_admissions {
+  width: 100px;
+}
+
+.nav_admissions a span {
+  background-position: -140px 0px;
+}
+
+.nav_admissions a:hover span {
+  background-position: -140px -36px;
+}
+
+.nav_admissions.active a span {
+  background-position: -140px -72px;
+}
+
+.nav_academics {
+  width: 100px;
+}
+
+.nav_academics a span {
+  background-position: -280px 0px;
+}
+
+.nav_academics a:hover span {
+  background-position: -280px -36px;
+}
+
+.nav_academics.active a span {
+  background-position: -280px -72px;
+}
+
+.nav_students {
+  width: 85px;
+}
+
+.nav_students a span {
+  background-position: -415px 0px;
+}
+
+.nav_students a:hover span {
+  background-position: -415px -36px;
+}
+
+.nav_students.active a span {
+  background-position: -415px -72px;
+}
+
+.nav_campuses {
+  width: 236px;
+}
+
+.nav_campuses a span {
+  background-position: -535px 0px;
+}
+
+.nav_campuses a:hover span {
+  background-position: -535px -36px;
+}
+
+.nav_campuses.active a span {
+  background-position: -535px -72px;
+}
+
+.nav_finaid {
+  width: 120px;
+}
+
+.nav_finaid a span {
+  background-position: -810px 0px;
+}
+
+.nav_finaid a:hover span {
+  background-position: -810px -36px;
+}
+
+.nav_finaid.active a span {
+  background-position: -810px -72px;
+}
+
+.navigation li.nav_teacher {
+  width: 140px;
+  margin-left: 26px;
+}
+
+.nav_teacher a span {
+  background-position: -10px 0px;
+}
+
+.nav_teacher a:hover span {
+  background-position: -10px -36px;
+}
+
+.nav_teacher.active a span {
+  background-position: -10px -72px;
+}
+
+.nav_facstaff {
+  width: 130px;
+}
+
+.nav_facstaff a span {
+  background-position: -180px 0px;
+}
+
+.nav_facstaff a:hover span {
+  background-position: -180px -36px;
+}
+
+.nav_facstaff.active a span {
+  background-position: -180px -72px;
+}
+
+.nav_giving {
+  width: 175px;
+}
+
+.nav_giving a span {
+  background-position: -345px 0px;
+}
+
+.nav_giving a:hover span {
+  background-position: -345px -36px;
+}
+
+.nav_givign.active a span {
+  background-position: -345px -72px;
+}
+
+.nav_alumni {
+  width: 70px;
+}
+
+.nav_alumni a span {
+  background-position: -550px 0px;
+}
+
+.nav_alumni a:hover span {
+  background-position: -550px -36px;
+}
+
+.nav_alumni.active a span {
+  background-position: -550px -72px;
+}
+
+.nav_news {
+  width: 60px;
+}
+
+.nav_news a span {
+  background-position: -650px 0px;
+}
+
+.nav_news a:hover span {
+  background-position: -650px -36px;
+}
+
+.nav_news.active a span {
+  background-position: -650px -72px;
+}
+
+.nav_contact {
+  width: 95px;
+}
+
+.nav_contact a span {
+  background-position: -745px 0px;
+}
+
+.nav_contact a:hover span {
+  background-position: -745px -36px;
+}
+
+.nav_contact.active a span {
+  background-position: -745px -72px;
+}
+
+.midd_blse .pagecontent, .midd_blse_inside .pagecontent {
+  margin-top: 0px;
+}
+
+.midd_blse .page {
+  border: none;
+  width: 100%;
+  padding: 0%;
+}
+
+.columns {
+  margin-left: 9px;
+  background: url('../images/column_gray.gif') repeat-y 383px top;
+}
+
+.columns .column {
+  padding: 18px;
+  margin: 0px;
+  width: 240px;
+}
+
+.columns .first {
+  width: 347px;
+}
+
+.columns .gray {
+  margin-top: 0px;
+}
+
+.columns .gray a {
+  font-weight: bold;
+}
+
+.opening {
+  font-size: 1.2em;
+  color: #444400;
+}
+
+.opening a {
+  font-size: italic;
+  border: none;
+}
+
+h2, summary {
+  color: #666666;
+  font-family: Georgia, serif;
+  margin-bottom: 16px;
+}
+
+.footer a {
+  border: none;
+}
+
+.footer ul {
+  float: left;
+}
+
+.quick_contact {
+  margin-left: 0px;
+}
+
+.footer_wordmark {
+  float: right;
+}
+
+#block-middlebury-midd-blocks-midd-footer-wordmark .footer_wordmark {
+  display: block;
+}
+
+.footer a.footer_wordmark:hover {
+  background-color: transparent;
+}
