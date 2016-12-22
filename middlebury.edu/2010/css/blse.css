@@ -96,3 +96,14 @@ h2, summary { color:#666666; font-family:Georgia,serif; margin-bottom:16px; }
 .footer_wordmark { float:right; }
   #block-middlebury-midd-blocks-midd-footer-wordmark .footer_wordmark { display:block; }
   .footer a.footer_wordmark:hover { background-color:transparent; }
+
+.midd_blse .footer-contact {
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.midd_blse .footer-contact a:hover {
+  background-color: transparent;
+  color: #fff;
+  text-decoration: underline;
+}
