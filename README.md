@@ -6,6 +6,10 @@
 
 The following projects are using Gulp and Sass:
 
+- BLSE
+  - Sass files `./middlebury.edu/2010/sass/blse/`
+  - Output CSS file `./middlebury.edu/2010/css/blse.css`
+  - Gulp command `gulp --project blse`
 - Midd Responsive
   - Sass files `./middlebury.edu/2015/sass/responsive/`
   - Output CSS file `./middlebury.edu/2015/css/responsive.css`

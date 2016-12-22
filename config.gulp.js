@@ -24,6 +24,15 @@ module.exports = {
       src: './middlebury.edu/2010/sass/ls/**/*.scss',
       dest: './middlebury.edu/2010/css/'
     }
+  },
+  blse: {
+    styles: {
+      src: './middlebury.edu/2010/sass/blse/**/*.scss',
+      dest: './middlebury.edu/2010/css/'
+    },
+    scripts: {
+      src: '',
+      dest: ''
+    }
   }
-
 }
