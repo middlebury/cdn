@@ -1,0 +1,68 @@
+.midd_blse.ripton,
+.midd_blse_inside {
+  background-image: url('../images/blse/background_ripton.jpg?2016-09-19');
+}
+
+.midd_blse.oxford {
+  background-image: url('../images/blse/background_oxford.jpg?2016-09-19');
+}
+
+.midd_blse.santafe {
+  background-image: url('../images/blse/background_santafe.jpg?2016-09-19');
+}
+
+.header_callout {
+  background: url('../images/black_80.png');
+  color: #FFFFFF;
+  padding: 10px 20px 10px 20px;
+  position: absolute;
+  right: 43px;
+  bottom: 93px;
+
+  ul {
+    list-style-type: none;
+    margin: 0px;
+  }
+
+  li {
+    margin: 0px;
+  }
+
+  a {
+    color: #FFFFFF;
+    border: none;
+  }
+
+  a:hover {
+    color: #F9DD3F;
+    background-color: #000000;
+  }
+
+  a.selected {
+    color: #F9DD3F;
+    font-weight: bold;
+  }
+
+  .midd_blse_inside & {
+    display: none;
+  }
+}
+
+.midd_blse h1.wordmark, .midd_blse_inside h1.wordmark {
+  width: 931px;
+  padding: 25px 0px 141px 29px;
+}
+
+.midd_blse h1.wordmark a, .midd_blse_inside h1.wordmark a {
+  background: url('../images/blse/logo.png?2016-09-19') transparent no-repeat top left;
+  width: 931px;
+  height: 84px;
+  display: block;
+  text-indent: -9999px;
+}
+
+form.search {
+  position: absolute;
+  top: 25px;
+  right: 43px;
+}

@@ -1,0 +1,55 @@
+$trait-colors: (
+  'intensive': $brand-red,
+  'innovative': $brand-teal,
+  'distinctive': $brand-gold,
+  'transformative': $brand-sky
+);
+
+.traits {
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.traits-row {
+  display: flex;
+}
+
+.traits-item {
+  border-top: 10px solid transparent;
+  padding-top: 10px;
+  width: 50%;
+  box-sizing: border-box;
+  margin-bottom: 70px;
+
+  &:nth-of-type(odd) {
+    margin-right: 20px;
+  }
+
+  &:nth-of-type(even) {
+    margin-left: 20px;
+  }
+}
+
+.traits-item-title {
+  color: $black;
+  font-family: $font-family-sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.traits-item-text {
+  color: $gray-dark;
+  font-family: $font-family-sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+@each $name, $color in $trait-colors {
+  .traits-item-#{$name} {
+    border-color: $color;
+  }
+}

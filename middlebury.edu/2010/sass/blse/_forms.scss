@@ -1,0 +1,60 @@
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.select {
+  position: relative;
+  background-color: #fff;
+}
+
+.select:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #000 transparent transparent transparent;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.select select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  border-radius: 0;
+  border: 1px solid transparent;
+  position: relative;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.form-group.has-error input,
+.form-group.has-error select {
+  border-color: tomato;
+}
+
+.form-group.form-actions {
+  margin-top: 10px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}

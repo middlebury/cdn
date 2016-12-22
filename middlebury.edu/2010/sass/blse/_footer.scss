@@ -1,0 +1,19 @@
+.footer a {
+  border: none;
+}
+
+.footer ul {
+  float: left;
+}
+
+.footer_wordmark {
+  float: right;
+}
+
+.footer a.footer_wordmark:hover {
+  background-color: transparent;
+}
+
+#block-middlebury-midd-blocks-midd-footer-wordmark .footer_wordmark {
+  display: block;
+}

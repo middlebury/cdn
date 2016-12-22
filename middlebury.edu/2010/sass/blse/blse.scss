@@ -1,0 +1,25 @@
+@import 'variables';
+@import 'mixins';
+
+@import 'header';
+@import 'navigation';
+@import 'forms';
+@import 'hero';
+@import 'intro';
+@import 'traits';
+@import 'footer';
+@import 'rule';
+@import 'buttons';
+@import 'search';
+
+.midd_blse .page {
+  float: none;
+  border: none;
+  width: 100%;
+  padding: 0%;
+}
+
+.midd_blse .pagecontent,
+.midd_blse_inside .pagecontent {
+  margin-top: 0;
+}

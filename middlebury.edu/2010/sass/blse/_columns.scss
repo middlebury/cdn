@@ -1,0 +1,22 @@
+.columns {
+  margin-left: 9px;
+  background: url('../images/column_gray.gif') repeat-y 383px top;
+}
+
+.columns .column {
+  padding: 18px;
+  margin: 0px;
+  width: 240px;
+}
+
+.columns .first {
+  width: 347px;
+}
+
+.columns .gray {
+  margin-top: 0px;
+}
+
+.columns .gray a {
+  font-weight: bold;
+}
