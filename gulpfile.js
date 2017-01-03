@@ -33,7 +33,7 @@ gulp.task('styles', function() {
   return gulp.src(project.styles.src)
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({
-      browsers: ['> 1%', 'last 2 versions', 'ie 9']
+      browsers: ['> 1%', 'last 2 versions', 'ie 9', 'ie 10']
     }))
     .pipe(gulp.dest(project.styles.dest))
     .pipe(cmq())
