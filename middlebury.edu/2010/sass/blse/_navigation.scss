@@ -1,43 +1,52 @@
 .navigation {
-  /*background-color: #FFDD57;*/
-  /*height: 36px;*/
-  /*font-size: 1em;*/
-  /*line-height: 36px;*/
-  /*margin: 0px;*/
-  /*border-bottom: 36px solid #CCCCCC;*/
-
   ul {
-    display: flex;
     padding: 0;
-    flex-wrap: wrap;
     width: 100%;
+    height: auto;
+    display: flex;
 
-    &:before {
-      content: '';
-      width: 100%;
-      order: 1;
-      height: 0;
+    html:not(.flexbox) {
+      overflow: hidden;
     }
   }
 
   li {
     float: none;
-    flex: 1;
-    background-color: #FFDD57;
+    flex: 1 0 auto;
 
-    &:nth-child(n+6) {
-      background-color: #ccc;
-      order: 2;
+    html:not(.flexbox) {
+      display: inline-block;
     }
   }
 
   a {
-    position: relative;
-    text-indent: 0 !important;
-    white-space: nowrap;
-    font-family: verdana, sans-serif;
+    display: block;
+    color: $brand-navy;
+    font-family: $font-family-sans-serif;
     font-size: 14px;
-    display: inline-block;
-    padding: 5px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    text-indent: 0 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    height: auto !important;
+    position: relative;
+    transition: .2s;
+    background-color: $brand-yellow;
+
+    &:hover {
+      background-color: lighten($brand-yellow, 10%) !important;
+    }
+  }
+
+  ul:last-child a {
+    background-color: #ccc;
+    color: $gray-dark;
+
+    &:hover {
+      background-color: lighten(#ccc, 10%) !important;
+    }
   }
 }
