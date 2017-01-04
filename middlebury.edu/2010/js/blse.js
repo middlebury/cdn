@@ -8,6 +8,8 @@
     $(this).addClass('selected');
   });
 
+  $('[data-validate-form]').bsFormValidate();
+
   var video = document.getElementById('blse-home-video');
   var videoContainer = video.parentElement;
   var videoClass = 'video-playing';
