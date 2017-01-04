@@ -11,10 +11,13 @@
 }
 
 .hero-video-form {
-  display: flex;
+  @include clearfix();
 }
 
 .hero-video {
+  width: 600px;
+  float: left;
+
   &:not(.video-playing) {
     position: relative;
 
@@ -41,7 +44,8 @@
 
 .hero-form {
   padding-left: 20px;
-  width: 350px;
+  float: left;
+  width: 300px;
 
   label {
     color: $white;
