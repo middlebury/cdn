@@ -15,18 +15,16 @@ $trait-colors: (
 }
 
 .traits-item {
-  border-top: 10px solid transparent;
-  padding-top: 10px;
   width: 50%;
-  box-sizing: border-box;
   margin-bottom: 70px;
+  box-sizing: border-box;
 
   &:nth-of-type(odd) {
-    margin-right: 50px;
+    padding-right: 50px;
   }
 
   &:nth-of-type(even) {
-    margin-left: 50px;
+    padding-left: 50px;
   }
 }
 
@@ -38,6 +36,9 @@ $trait-colors: (
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 15px;
+  border-top: 10px solid transparent;
+  padding-top: 10px;
+  display: block;
 }
 
 .traits-item-text {
@@ -47,9 +48,11 @@ $trait-colors: (
   line-height: 1.6;
 }
 
-
 @each $name, $color in $trait-colors {
   .traits-item-#{$name} {
-    border-color: $color;
+
+    .traits-item-title {
+      border-color: $color;
+    }
   }
 }
