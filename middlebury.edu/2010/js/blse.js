@@ -11,12 +11,16 @@
   $('[data-validate-form]').bsFormValidate();
 
   var video = document.getElementById('blse-home-video');
+  var videoBtn = document.getElementById('blse-home-video-btn');
   var videoContainer = video.parentElement;
   var videoClass = 'video-playing';
 
   video.removeAttribute('controls');
 
-  video.addEventListener('click', function() {
+  video.addEventListener('click', toggleVideo);
+  videoBtn.addEventListener('click', toggleVideo);
+
+  function toggleVideo() {
     if(video.paused) {
       video.setAttribute('controls', '');
       videoContainer.classList.add(videoClass);
@@ -25,6 +29,6 @@
     videoContainer.classList.remove(videoClass);
     video.removeAttribute('controls');
     video.pause();
-  });
+  }
 
 })(jQuery);
