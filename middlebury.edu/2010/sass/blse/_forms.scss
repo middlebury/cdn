@@ -63,3 +63,11 @@ label {
 textarea.form-control {
   resize: vertical;
 }
+
+html:not(.placeholder) .element-invisible {
+  display: block;
+  clip: auto;
+  height: auto;
+  position: relative !important;
+  overflow: visible;
+}
