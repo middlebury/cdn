@@ -377,7 +377,7 @@ html:not(.placeholder) .element-invisible {
   float: none;
   border: none;
   width: 100%;
-  padding: 0%; }
+  padding: 0; }
 
 .midd_blse .pagecontent,
 .midd_blse_inside .pagecontent {
