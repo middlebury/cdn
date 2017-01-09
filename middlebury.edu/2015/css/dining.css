@@ -1,5 +1,5 @@
 /* Custom Styles */
-.taskbar, .breadcrumb { display:none; }
+.taskbar, .breadcrumb, .midd_dining .jumpnav-anchor { display:none; }
 
 .navigation { font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif; background-color: #619565; text-transform: uppercase; }
   .navigation a { color:#ffffff; }
