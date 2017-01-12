@@ -30,11 +30,14 @@ $grid-gutter-width: 30px;
 }
 
 [class*="#{$grid-prefix}"] {
-  float: left;
   min-height: 1px;
   position: relative;
   padding-left: ($grid-gutter-width / 2);
   padding-right: ($grid-gutter-width / 2);
+
+  @include media(sm) {
+    float: left;
+  }
 }
 
 @mixin grid($size, $columns: 12) {
