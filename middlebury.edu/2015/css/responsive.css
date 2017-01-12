@@ -930,10 +930,12 @@ dd {
       width: auto;
       position: static;
       -webkit-transform: none;
+          -ms-transform: none;
               transform: none;
       padding: 0; } }
   body.menu-open .global-nav {
     -webkit-transform: none;
+        -ms-transform: none;
             transform: none; }
 
 .global-nav__list {
@@ -1121,6 +1123,7 @@ dd {
   .global-header > .row, .menu-open
   .global-footer {
     -webkit-transform: translateX(-270px);
+        -ms-transform: translateX(-270px);
             transform: translateX(-270px); }
 
 .pagecontent {
@@ -1128,6 +1131,7 @@ dd {
           transition: transform .5s ease-in-out; }
   .menu-open .pagecontent {
     -webkit-transform: translateX(-270px);
+        -ms-transform: translateX(-270px);
             transform: translateX(-270px); }
 
 .field-name-taxonomy-vocabulary-1 .field-label {
