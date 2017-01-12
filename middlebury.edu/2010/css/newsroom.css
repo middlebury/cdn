@@ -62,11 +62,18 @@ h1 a:hover {
   background-color: transparent;
 }
 
+.page-mm-73507 .page .body {
+  border-right: 1px solid #ccc;
+  float: left;
+  width: 460px;
+  padding-right: 20px;
+}
+
 aside.sidebar {
-  padding-left: 20px;
-  margin-left: 20px;
+  float: left;
   width: 180px;
-  border-left: 1px solid #ccc;
+  padding-left: 20px;
+  margin-left: 0;
 }
 
 .sidebar h2 {
@@ -88,7 +95,7 @@ aside.sidebar {
 }
 
 .sidebar .views-row {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 aside.sidebar .contents {
@@ -114,6 +121,7 @@ aside.sidebar header h1 {
   display: block;
   padding: 0;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .body .node-news-featured h1 {
@@ -126,6 +134,8 @@ aside.sidebar header h1 {
 
 .news-image img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 span.news-button {
