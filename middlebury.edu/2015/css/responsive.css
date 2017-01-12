@@ -443,7 +443,8 @@ dd {
   min-height: 1px;
   position: relative;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  width: 100%; }
 
 .col-xs-1 {
   width: 8.33333%; }
