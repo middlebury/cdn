@@ -1,0 +1,24 @@
+// Middlebury Responsive Framework
+@import '../responsive/responsive';
+
+// Bootstrap extras
+@import '../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables';
+@import '../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins';
+
+@import '../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/forms';
+@import '../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/buttons';
+
+@import '../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/button-groups';
+@import '../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/input-groups';
+
+@import '../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navs';
+@import '../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navbar';
+// Custom Styles
+.taskbar, .breadcrumb, .midd_dining .jumpnav-anchor { display:none; }
+
+.navigation { font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif; background-color: #619565; text-transform: uppercase; }
+  .navigation a { color:#ffffff; }
+  .navigation > ul > li > a { text-decoration:none; border:none; }
+  .navigation > ul > li > a:hover { background-color:#73A2E6; }
+
+.view-content h3 { background-color:#73A2E6; color:#ffffff; text-align:center; }
