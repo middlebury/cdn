@@ -1,4 +1,14 @@
 module.exports = {
+  dining: {
+    styles: {
+      src: './middlebury.edu/2015/sass/dining/**/*.scss',
+      dest: './middlebury.edu/2015/css/'
+    },
+    scripts: {
+      src: '',
+      dest: ''
+    }
+  },
   responsive: {
     styles: {
       src: './middlebury.edu/2015/sass/responsive/**/*.scss',
