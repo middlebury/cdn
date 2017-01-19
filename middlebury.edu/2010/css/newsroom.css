@@ -95,7 +95,7 @@ aside.sidebar {
 }
 
 .sidebar .views-row {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 aside.sidebar .contents {
@@ -180,7 +180,7 @@ span.news-button {
 
 .node-newslist .news-date,
 .sidebar .news-date {
-  font-weight: bold;
+  font-weight: normal;
   font-size: 14px;
 }
 
@@ -190,7 +190,7 @@ span.news-button {
 
 .more-link {
   text-align: left;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .more-link a {
