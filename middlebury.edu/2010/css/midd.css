@@ -985,3 +985,42 @@ aside.sidebar header h1, aside.sidebar header:after, .news-media h2, .node-news 
 
 /* Increase z-index of mm_browser popup so the taskbar doesn't display */
 .mm-browser-dialog, .ui-dialog{ z-index:401; }
+
+
+/* Font Nav */
+.leftlinks { font-family:"Whitney SSm A", "Whitney SSm B", verdana, sans-serif; font-size:14px; line-height:1.5; }
+
+.navigation ul { font-family:"Sentinel SSm A", "Sentinel SSm B", georgia, serif; font-size:18px; text-align:center; }
+  #midd_navigation li { position:relative; float:left; margin:0px; display:inline-block; text-align:center; }
+    .navigation li.bottom a:hover { color:#CCCC99; }
+    .navigation .nav_admissions { width:150px; }
+    .navigation .nav_academics { width:143px; }
+    .navigation .nav_studentlife { width:156px; }
+    .navigation .nav_athletics { width:128px; }
+    .navigation .nav_arts { width:91px; }
+    .navigation .nav_international { width:261px; }
+    .navigation .nav_about { width:185px; }
+    .navigation .nav_sustainability { width:149px; }
+    .navigation .nav_giving { width:91px; }
+    .navigation .nav_news { width:135px; }
+    .navigation .nav_events { width:189px; }
+    .navigation li.nav_offices { width:181px; }
+
+.footer { font-family:"Sentinel SSm A", "Sentinel SSm B", georgia, serif; font-size:14px; }
+  .footer ul li a { text-decoration:none; padding:0px; }
+  .footer ul li a:hover { color:#CCCC99; }
+
+.affiliates { font-family:"Sentinel SSm A", "Sentinel SSm B", georgia, serif; }
+  .affiliates header { height:20px; }
+  .affiliates hr, .affiliates h2 { display:inline-block; }
+  .affiliates hr { width:330px; border:0px; height:1px; background-color:#616971; }
+  .affiliates h2 { margin:0px 20px; text-transform:uppercase; font-variant:normal; }
+  .affiliates li { padding:0px; height:30px; }
+  .affiliates li a { font-size:14px; color:#D4E8E2; padding-top:10px; }
+  .affiliates li a:hover { color:#FFFFFF; }
+    .affiliates .affiliates_languageschools { padding-bottom:0px; width:228px; margin-left:37px; }
+    .affiliates .affiliates_breadloafschool { width:305px; }
+    .affiliates .affiliates_breadloafconference { width:325px; }
+    .affiliates .affiliates_schoolsabroad { clear:left; width:200px; }
+    .affiliates .affiliates_environment { width:285px; }
+    .affiliates .affiliates_miis { width:430px; }
