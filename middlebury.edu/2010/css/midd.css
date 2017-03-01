@@ -702,6 +702,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 
   /* Arts Calendar */
   .arts-calendar { clear: left; }
+  .arts-calendar div.date-display-range { display:inline; }
 
 /* Page Themes */
 
