@@ -700,6 +700,9 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     .webform-client-form label.option { font-weight:normal; }
   .webform-client-form .form-item .description { white-space:pre-line; }
 
+  /* Arts Calendar */
+  .arts-calendar { clear: left; }
+
 /* Page Themes */
 
   /* 404 */
