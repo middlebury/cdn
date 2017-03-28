@@ -57,6 +57,16 @@ gulp.task('watch', function() {
   gulp.watch(project.scripts.src, ['scripts']);
 });
 
-gulp.task('build', ['styles', 'scripts']);
+var buildTasks = [];
+
+if(project.styles && project.styles.src && project.styles.dest) {
+  buildTasks.push('styles');
+}
+
+if(project.scripts && project.scripts.src && project.scripts.dest) {
+  buildTasks.push('scripts');
+}
+
+gulp.task('build', buildTasks);
 
 gulp.task('default', ['build', 'watch']);
