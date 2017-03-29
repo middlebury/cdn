@@ -72,3 +72,12 @@
   }
 
 }
+
+.taskbar,
+.breadcrumb {
+  display: none;
+}
+
+#main-content {
+  z-index: 1;
+}
