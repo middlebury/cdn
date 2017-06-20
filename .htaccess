@@ -1,8 +1,3 @@
-# Requires mod_expires to be enabled.
-<IfModule mod_expires.c>
-  # Enable expirations.
-  ExpiresActive On
-
-  # Cache all files for 2 weeks after access (A).
-  ExpiresDefault A1209600
-</IfModule>
+<FilesMatch "\.(ico|pdf|jpg|jpeg|png|gif|js|css)$">
+  Header set Cache-Control "max-age=1209600, public"
+</FilesMatch>
