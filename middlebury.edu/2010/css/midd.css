@@ -166,7 +166,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     .navigation li.bottom { margin-right:17px; }
       .navigation li.bottom a { color:#73A2E6; }
       .navigation li.bottom a:hover { color:#FFFFFF; }
-        .navigation li.bottom a span { background-image:url(../images/nav_bottom.gif); }
+        .navigation li.bottom a span { background-image:url(../images/nav_bottom.gif?2017-06-27); }
     .nav_admissions { width:116px; }
       .nav_admissions a span { background-position:0px 0px; }
       .nav_admissions a:hover span { background-position:0px -24px; }
