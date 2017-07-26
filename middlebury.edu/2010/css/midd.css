@@ -596,6 +596,11 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .node-event .location-name { margin-bottom:10px; }
   .node-event .contents { clear:both; }
 
+  .sidebar+.body .node-event .contents,
+  .sidebar+.body .node-event .event-meta,
+  .sidebar+.body .node-event .news-image,
+  .sidebar+.body .node-event .location-box { display:block; width:auto; background:transparent; clear:none; }
+
   /* Promotional Calendar */
   aside.sidebar+.body .node-promocal { width:450px; }
 
