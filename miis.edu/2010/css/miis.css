@@ -80,7 +80,7 @@ ul, ol { margin-left:1.5em; margin-bottom:0.8em; }
 .verybig { font-size:2em; line-height:1.25em; }
 
 /* Body top to bottom */
-body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em; line-height:1.4; background-color:#071427;  background-image:url(../images/bluegradient.jpg); background-position:center 194px; background-repeat:repeat-x; color:#333333; }
+body { font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.85em; line-height:1.4; background-color:#071427;  background-image:url(../images/bluegradient.jpg?2017-07-31); background-position:center 194px; background-repeat:repeat-x; color:#333333; }
 .skiplink { position:absolute; top:0; left:-9999px; width:9em; padding:5px; color:#00f; background-color:#ff9; border:1px solid #993; text-align:center; z-index:9999; }
 .skiplink:focus { left:0; }
 .container { width:960px; position:relative; margin:0 auto; }
