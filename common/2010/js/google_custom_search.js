@@ -1,16 +1,12 @@
 var q2 = urldecode(gup('q2'));
 var site2 = document.getElementById('midd_google_custom_search_id').innerHTML;
 
-google.load('search', '1', {"language" : 'en'});
-google.setOnLoadCallback(function() {
-  var customSearchControl = new google.search.CustomSearchControl(site2);
-  customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-  customSearchControl.setLinkTarget(google.search.Search.LINK_TARGET_SELF);
-  customSearchControl.draw('cse');
-  if (q2) {
-    customSearchControl.execute(q2);
-  }
-}, true);
+(function() {
+  var cx = site2; // Insert your own Custom Search engine ID here
+  var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})();
 
 jQuery(document).ready(function(jQuery) {
   jQuery('#midd_google_custom_search_text').click(function() {
@@ -72,8 +68,8 @@ function gup( name ) {
 };
 
 function urldecode( str ) {
-    // Decodes URL-encoded string  
-    // 
+    // Decodes URL-encoded string
+    //
     // version: 907.503
     // discuss at: http://phpjs.org/functions/urldecode
     // +   original by: Philip Peterson
@@ -97,15 +93,15 @@ function urldecode( str ) {
     // *     returns 3: 'http://www.google.nl/search?q=php.js&ie=utf-8&oe=utf-8&aq=t&rls=com.ubuntu:en-US:unofficial&client=firefox-a'
   // *   example 4: urldecode("%3Ctr%3E%3Ctd%3Einfo%40jquery.com%20space%20%E9%3C%2Ftd%3E%3C%2Ftr%3E");
   // *   returns 4: info@jquery.com Space e
-    
+
     var hash_map = {}, ret = str.toString(), unicodeStr='', hexEscStr='';
-    
+
     var replacer = function(search, replace, str) {
         var tmp_arr = [];
         tmp_arr = str.split(search);
         return tmp_arr.join(replace);
     };
-    
+
     // The hash_map is identical to the one in urlencode.
     hash_map["'"]   = '%27';
     hash_map['(']   = '%28';
@@ -157,16 +153,16 @@ function urldecode( str ) {
   hash_map['<']      = '%3C';
   hash_map['>']      = '%3E';
   hash_map['/']      = '%2F';
-  hash_map['@']    = '%40'; 
-  hash_map['e']    = '%E9'; 
+  hash_map['@']    = '%40';
+  hash_map['e']    = '%E9';
   hash_map[' ']    = '%20';
-  
+
 
     for (unicodeStr in hash_map) {
         hexEscStr = hash_map[unicodeStr]; // Switch order when decoding
         ret = replacer(hexEscStr, unicodeStr, ret); // Custom replace. No regexing
     }
-    
+
     // End with decodeURIComponent, which most resembles PHP's encoding functions
     ret = decodeURIComponent(ret);
 

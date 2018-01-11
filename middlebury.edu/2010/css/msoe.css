@@ -1,5 +1,5 @@
 header.container {
-  background: url('../images/msoe/msoe-banner.jpg') no-repeat center top;
+  background: url('../images/msoe/msoe-banner-china.jpg') no-repeat center top;
 }
 
 h1.wordmark {
@@ -409,4 +409,29 @@ td.first h3 {
 .footer p strong {
   text-transform: uppercase;
   letter-spacing: .05em;
+}
+
+.footer-contact,
+.footer-secondary {
+  float: left;
+  width: 50%;
+}
+
+.footer-secondary {
+  text-align: right;
+}
+
+.icon-facebook {
+  background-image: url('../images/icon_sprite_social.png');
+  background-position: 0 0;
+  width: 30px;
+  height: 29px;
+  display: inline-block;
+  border: 0 !important;
+  text-indent: -9999px;
+  text-align: left; /* required for text indent because parent has text-right */
+}
+
+.icon-facebook:hover {
+  border-bottom: 0;
 }

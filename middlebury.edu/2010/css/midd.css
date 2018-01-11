@@ -166,7 +166,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
     .navigation li.bottom { margin-right:17px; }
       .navigation li.bottom a { color:#73A2E6; }
       .navigation li.bottom a:hover { color:#FFFFFF; }
-        .navigation li.bottom a span { background-image:url(../images/nav_bottom.gif); }
+        .navigation li.bottom a span { background-image:url(../images/nav_bottom.gif?2017-06-28); }
     .nav_admissions { width:116px; }
       .nav_admissions a span { background-position:0px 0px; }
       .nav_admissions a:hover span { background-position:0px -24px; }
@@ -596,6 +596,12 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .node-event .location-name { margin-bottom:10px; }
   .node-event .contents { clear:both; }
 
+  .sidebar+.body .node-event h2 { max-width:462px; }
+  .sidebar+.body .node-event .contents,
+  .sidebar+.body .node-event .event-meta,
+  .sidebar+.body .node-event .news-image,
+  .sidebar+.body .node-event .location-box { display:block; width:auto; background:transparent; clear:none; }
+
   /* Promotional Calendar */
   aside.sidebar+.body .node-promocal { width:450px; }
 
@@ -699,6 +705,10 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .webform-client-form label { font-weight:bold; }
     .webform-client-form label.option { font-weight:normal; }
   .webform-client-form .form-item .description { white-space:pre-line; }
+
+  /* Arts Calendar */
+  .arts-calendar { clear: left; }
+  .arts-calendar div.date-display-range { display:inline; }
 
 /* Page Themes */
 
