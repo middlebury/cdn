@@ -367,6 +367,9 @@ form.search {
   width: auto;
   padding: 0; }
 
+.node-faq summary, .node-faq summary a {
+  color: #333366; }
+
 /* home page */
 .column {
   float: left;
