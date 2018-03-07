@@ -17,7 +17,6 @@
 
 @import 'helpers';
 
-
 // midd.css overwrites
 .pagecontent {
   margin-top: 0;
@@ -26,7 +25,7 @@
 .midd_ls_inside .taskbar,
 .midd_ls_fullwidth .taskbar,
 .midd_ls_grad .taskbar {
-  display: none
+  display: none;
 }
 
 .midd_ls .page {
@@ -65,7 +64,7 @@
     color: #333;
     font-size: 16px;
     text-transform: uppercase;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
     font-weight: 600;
     margin-bottom: 0;
   }
@@ -74,7 +73,6 @@
     font-family: $font-family-serif;
     font-size: 16px;
   }
-
 }
 
 .taskbar,
@@ -84,4 +82,8 @@
 
 #main-content {
   z-index: 1;
+}
+
+.ls-home-video {
+  padding-bottom: 60px;
 }

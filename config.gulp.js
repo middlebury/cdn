@@ -33,6 +33,10 @@ module.exports = {
     styles: {
       src: './middlebury.edu/2010/sass/ls/**/*.scss',
       dest: './middlebury.edu/2010/css/'
+    },
+    scripts: {
+      src: '',
+      dest: ''
     }
   },
   blse: {

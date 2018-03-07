@@ -52,11 +52,11 @@ form.search {
 
 .footer {
   background: none;
-  margin-top: -70px !important;
+  margin-top: 0 !important;
   margin-bottom: 60px; }
   .footer strong {
     text-transform: uppercase;
-    letter-spacing: .05em; }
+    letter-spacing: 0.05em; }
   .footer .region-footer {
     background-color: #f5f5f4;
     color: #333;
@@ -166,7 +166,7 @@ form.search {
 .explore-languages-section {
   background: #ecebe9 url("../images/ls/globe-texture.png") no-repeat left top;
   text-align: center;
-  margin: 0 0 60px;
+  margin-bottom: 65px;
   padding-top: 50px;
   padding-bottom: 36px; }
   .explore-languages-section ul {
@@ -203,20 +203,17 @@ form.search {
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   margin-bottom: 10px; }
 
 .rule {
   border-top: 3px solid #113a5f;
   position: relative;
-  z-index: 1;
-  margin-top: 65px;
-  margin-bottom: 65px; }
+  z-index: 1; }
 
 .rule-buttoned {
   text-align: center;
-  overflow: visible;
-  height: 3px; }
+  overflow: visible; }
   .rule-buttoned .btn {
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -389,7 +386,7 @@ form.search {
     color: #333;
     font-size: 16px;
     text-transform: uppercase;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
     font-weight: 600;
     margin-bottom: 0; }
   .home-features p {
@@ -402,3 +399,6 @@ form.search {
 
 #main-content {
   z-index: 1; }
+
+.ls-home-video {
+  padding-bottom: 60px; }

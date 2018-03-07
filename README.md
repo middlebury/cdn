@@ -1,46 +1,31 @@
 # cdn
+> Storage of CSS, JS, HTML, and images shared across Middlebury's websites.
 
-## Using [Gulp](http://gulpjs.com/) to compile assets for projects
+**Important:** Some CSS/JS is processed with [Gulp](https://github.com/gulpjs/gulp) so they can use [Sass](https://sass-lang.com/) and other [npm modules](https://www.npmjs.com/). These assets must be built and commited to git.
 
-**IMPORTANT:** Because we are not running Gulp in production to build assets on deploy, compiled assets must also stay in version control. Due to this, you must **NOT** make changes directly to the output file(s) i.e. a CSS file that has been preprocessed by Sass. Always edit the source files then commit the output at the same time as the source.
+See [config.gulp.js](./config.gulp.js) for projects using Gulp.
 
-The following projects are using Gulp and Sass:
+## Requirements
+- Node.js v6.4+
 
-- BLSE
-  - Sass files `./middlebury.edu/2010/sass/blse/`
-  - Output CSS file `./middlebury.edu/2010/css/blse.css`
-  - Gulp command `gulp --project blse`
-- Midd Responsive
-  - Sass files `./middlebury.edu/2015/sass/responsive/`
-  - Output CSS file `./middlebury.edu/2015/css/responsive.css`
-  - Gulp command `gulp --project responsive`
-- Language Schools
-  - Sass files `./middlebury.edu/2010/sass/ls/`
-  - Output CSS files `./middlebury.edu/2010/css/ls.css`, `./middlebury.edu/2010/css/ls.min.css`
-  - Gulp command `gulp --project ls`
-- Sustainability
-  - Sass files `./middlebury.edu/2015/sass/sustainability/`
-  - Output CSS files `./middlebury.edu/2015/css/sustainability.css`, `./middlebury.edu/2015/css/sustainability.min.css`
-  - Output JS files `./middlebury.edu/2015/js/sustainability.js`, `./middlebury.edu/2015/js/sustainability.min.js`
-  - Gulp command `gulp --project sustainability`
-
-By default, gulp will run `watch` to continuously watch assets and recompile. If you don't want to do this, run `gulp --project <projectname> build` instead to compile them once.
-
-### Installation
-
-To install required NodeJS dependencies to use Gulp, run the following in command line:
+## Quick start
 
 ```bash
+# install Node dependencies
 npm install
-```
 
-Read more about working with NPM: https://docs.npmjs.com/how-npm-works/packages
+# build + watch assets
+npm run watch -- --project myProjectName
+
+# or just build
+npm run build -- --project myProjectName
+```
 
 ### Multi-project configuration
 
 Typically you have a single `gulpfile.js` which has all the configuration for your single project, but because this repo contains assets for multiple websites/projects, it's been configured so one gulpfile can be used across varying folder structures and files.
 
-The file sources and output destinations are defined in `config.gulp.js`.
+The file sources and output destinations are defined in [`config.gulp.js`](./config.gulp.js).
 
 ```js
 module.exports = {
@@ -69,17 +54,6 @@ module.exports = {
   }
 }
 ```
-
-### Running Gulp
-
-To run gulp for a specific project:
-
-```bash
-gulp --project myProjectName
-```
-
-Use `--watch` flag to continuously build.
-
 
 ## Todo
 - [ ] Get sourcemaps to cooperate with `gulp-combine-mq`
