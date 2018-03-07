@@ -1,11 +1,11 @@
 .footer {
   background: none;
-  margin-top: -70px !important;
+  margin-top: 0 !important;
   margin-bottom: 60px;
 
   strong {
     text-transform: uppercase;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
   }
 
   .region-footer {
@@ -37,7 +37,6 @@
 }
 
 .footer-inner {
-
   .footer-contact,
   .footer-secondary {
     float: left;
