@@ -33,33 +33,33 @@ table { margin-bottom:1em; }
     .topnav li a { position:relative; height:35px !important; color:#518C8C; }
       .topnav li a span { display:block; height:35px; left:0px; position:absolute; top:0px; width:100%; background-image:url('../images/nav.png'); }
     .topnav li.program { width:118px; }
-      .topnav li.program a span { width:118px; background-position:0px 0px; }
+      .topnav li.program a span { width:118px; background-position:-15px 0px; }
       .topnav li.program a:hover span,
-      .topnav li.program.active a span { background-position:0px -35px; }
-    .topnav li.scholars { width:84px; }
-      .topnav li.scholars a span { width:84px; background-position:-118px 0px; }
+      .topnav li.program.active a span { background-position:-15px -35px; }
+    .topnav li.scholars { width:90px; }
+      .topnav li.scholars a span { width:90px; background-position:-124px 0px; }
       .topnav li.scholars a:hover span,
-      .topnav li.scholars.active a span { background-position:-118px -35px; }
-    .topnav li.founders { width:96px; }
-      .topnav li.founders a span { width:96px; background-position:-202px 0px; }
+      .topnav li.scholars.active a span { background-position:-124px -35px; }
+    .topnav li.founders { width:94px; }
+      .topnav li.founders a span { width:94px; background-position:-204px 0px; }
       .topnav li.founders a:hover span,
-      .topnav li.founders.active a span { background-position:-202px -35px; }
-    .topnav li.partners { width:172px; }
-      .topnav li.partners a span { width:172px; background-position:-298px 0px; }
+      .topnav li.founders.active a span { background-position:-204px -35px; }
+    .topnav li.partners { width:164px; }
+      .topnav li.partners a span { width:164px; background-position:-292px 0px; }
       .topnav li.partners a:hover span,
-      .topnav li.partners.active a span { background-position:-298px -35px; }
-    .topnav li.stories { width:178px; }
-      .topnav li.stories a span { width:178px; background-position:-470px 0px; }
+      .topnav li.partners.active a span { background-position:-292px -35px; }
+    .topnav li.stories { width:166px; }
+      .topnav li.stories a span { width:166px; background-position:-454px 0px; }
       .topnav li.stories a:hover span,
-      .topnav li.stories.active a span { background-position:-470px -35px; }
-    .topnav li.join { width:198px; }
-      .topnav li.join a span { width:198px; background-position:-648px 0px; }
+      .topnav li.stories.active a span { background-position:-454px -35px; }
+    .topnav li.join { width:186px; }
+      .topnav li.join a span { width:186px; background-position:-620px 0px; }
       .topnav li.join a:hover span,
-      .topnav li.join.active a span { background-position:-648px -35px; }
-    .topnav li.contact { width:100px; }
-      .topnav li.contact a span { width:100px; background-position:-846px 0px; }
+      .topnav li.join.active a span { background-position:-620px -35px; }
+    .topnav li.contact { width:128px; }
+      .topnav li.contact a span { width:128px; background-position:-802px 0px; }
       .topnav li.contact a:hover span,
-      .topnav li.contact.active a span { background-position:-846px -35px; }
+      .topnav li.contact.active a span { background-position:-802px -35px; }
     .topnav li.active { background:#FFFFFF; }
 
 .body, .feature { background:#FFFFFF; display:table; }
