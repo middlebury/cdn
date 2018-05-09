@@ -56,10 +56,10 @@ table { margin-bottom:1em; }
       .topnav li.join a span { width:186px; background-position:-620px 0px; }
       .topnav li.join a:hover span,
       .topnav li.join.active a span { background-position:-620px -35px; }
-    .topnav li.contact { width:128px; }
-      .topnav li.contact a span { width:128px; background-position:-802px 0px; }
-      .topnav li.contact a:hover span,
-      .topnav li.contact.active a span { background-position:-802px -35px; }
+    .topnav li.reports { width:128px; }
+      .topnav li.reports a span { width:128px; background-position:-802px 0px; }
+      .topnav li.reports a:hover span,
+      .topnav li.reports.active a span { background-position:-802px -35px; }
     .topnav li.active { background:#FFFFFF; }
 
 .body, .feature { background:#FFFFFF; display:table; }
