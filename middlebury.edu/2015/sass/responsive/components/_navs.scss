@@ -122,3 +122,52 @@
     }
   }
 }
+
+// Bootstrap tabs nav styles
+
+.navigation {
+  font-family: $font-family-sans-serif;
+
+  li {
+    background-color: #619565;
+  }
+
+  a {
+    color: $white;
+  }
+
+  > ul > li > a {
+    text-decoration: none;
+    border: 0;
+
+    &:hover {
+      background-color:#73A2E6;
+    }
+  }
+}
+
+.nav-justified,
+.nav-tabs.nav-justified {
+  > li {
+    @include media(sm) {
+      display: block;
+      width: auto;
+    }
+
+    @include media(md) {
+      display: table-cell;
+      width: 1%;
+    }
+
+    > a {
+      @include media(sm) {
+        margin-bottom: 5px;
+        border: 0;
+      }
+
+      @include media(md) {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
