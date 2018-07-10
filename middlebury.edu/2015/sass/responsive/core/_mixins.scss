@@ -57,3 +57,13 @@
     border-bottom-color: $black;
   }
 }
+
+@mixin link-border() {
+  border-bottom: 1px solid currentColor;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom-color: transparent;
+    text-decoration: none;
+  }
+}

@@ -25,6 +25,12 @@ $font-family-serif: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
 $base-font-size: 16px;
 $base-line-height: 1.4;
 
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
 // Colors
 
 $brand-primary: #071427;
@@ -40,6 +46,8 @@ $gray: lighten($gray-base, 10%);
 $gray-dark: darken($gray-base, 10%);
 $gray-darker: darken($gray-base, 10%);
 
+
+$line-gray: #dedede;
 $white: #fff;
 $black: #222;
 
@@ -52,3 +60,6 @@ $link-color: #272C6F;
 $link-color-hover: #272C6F;
 
 $menu-width: 270px;
+
+// component/D8 "Paragraphs"
+$component-margin-bottom: 6rem;
