@@ -421,17 +421,27 @@ td.first h3 {
   text-align: right;
 }
 
+.icon-instagram,
 .icon-facebook {
   background-image: url('../images/icon_sprite_social.png');
-  background-position: 0 0;
-  width: 30px;
-  height: 29px;
   display: inline-block;
   border: 0 !important;
   text-indent: -9999px;
   text-align: left; /* required for text indent because parent has text-right */
+  width: 30px;
+  height: 29px;
 }
 
+.icon-instagram:hover,j
 .icon-facebook:hover {
   border-bottom: 0;
+}
+
+.icon-instagram {
+  background-position: -70px 0px;
+  width: 31px;
+}
+
+.icon-facebook {
+  background-position: 0 0;
 }
