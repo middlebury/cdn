@@ -75,7 +75,7 @@ module.exports = {
 To run gulp for a specific project:
 
 ```bash
-gulp --project myProjectName
+npm run build -- --project myProjectName
 ```
 
 Use `--watch` flag to continuously build.
