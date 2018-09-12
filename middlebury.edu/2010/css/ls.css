@@ -198,13 +198,14 @@ form.search {
         text-decoration: underline; }
 
 .explore-section-title {
-  color: #4d4b4c;
+  display: none;
+  /*color: #4d4b4c;
   font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;*/ }
 
 .rule {
   border-top: 3px solid #113a5f;
