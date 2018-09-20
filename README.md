@@ -55,5 +55,15 @@ module.exports = {
 }
 ```
 
+### Running Gulp
+
+To run gulp for a specific project:
+
+```bash
+npm run build -- --project myProjectName
+```
+
+Use `--watch` flag to continuously build.
+
 ## Todo
 - [ ] Get sourcemaps to cooperate with `gulp-combine-mq`
