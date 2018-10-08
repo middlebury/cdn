@@ -648,7 +648,7 @@ h2 {
   margin-top: 8px;
 }
 
-.error, .status, .warning {
+div.error, div.status, div.warning {
   width: 450px;
 }
 div.warning {
