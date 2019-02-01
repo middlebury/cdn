@@ -672,7 +672,8 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
   .node-sa-cid .field { margin-bottom:1em; }
 
   /* Slideshow */
-  .node-slideshow { max-width:960px; margin:12px auto 0px auto; display:inline-block; }
+  .node-slideshow { max-width:960px; margin:12px auto 0px auto; }
+    .region-content .node-slideshow { display:inline-block; }
   .node-slideshow .slide { margin:0px; }
     .node-slideshow .slideshow-pager { text-align:center; }
       .node-slideshow .slideshow-pager span { padding:0px 4px 0px 4px; font-size:2em; line-height:1em; }
