@@ -52,9 +52,6 @@ jQuery(document).ready(function(jQuery) {
   var affiliates = document.getElementById('midd_affiliates'),
     search_submit = document.getElementById('midd_search_submit'),
     navigation = document.getElementById('midd_navigation');
-  if(affiliates) affiliates.className=affiliates.className+' ir';
-  if(search_submit) search_submit.className=search_submit.className+' ir';
-  if(navigation) getFirstChild(navigation).className='ir';
 
   // Department Banner Image Links
   var midd_banner = jQuery('#midd_banner');
