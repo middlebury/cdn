@@ -375,6 +375,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
           aside.sidebar header+.contents { margin-top:-21px; }
         aside.sidebar .field-name-taxonomy-vocabulary-1 { display:none; }
         aside.sidebar+.body textarea, aside.sidebar+.body .grippie { width:450px; }
+          aside.sidebar+.body textarea.fullwidth { width: 100%; }
         .page-mm-contents-add aside.sidebar { display:none; }
 
       /* Body Content */
