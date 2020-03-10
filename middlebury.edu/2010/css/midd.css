@@ -95,7 +95,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
 .editconsole_wrapper { z-index:1; position:relative; }
 
   /* Page Top */
-  .region-top { position:absolute; top:0px; width:100%; }
+  .region-top { position:relative; top:0px; width:100%; }
     .region-top .block-monster-menus { text-align:center; }
     .region-top .block-monster-menus .content { position:relative; }
     .region-top .block-monster-menus .node header, .region-top .block-monster-menus .node .field-name-body { display:none; }
