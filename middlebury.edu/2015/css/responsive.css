@@ -1996,7 +1996,7 @@ body {
   background-image: url("../../2010/images/bluegradient.jpg");
   background-position: 50% 0;
   background-repeat: no-repeat;
-  font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif; }
+  font-family: Open Sans, verdana, sans-serif; }
 
 p {
   margin-top: 0;
@@ -2582,7 +2582,7 @@ dd {
     margin-bottom: 15px; }
   .global-nav__list a {
     font-size: 18px;
-    font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
+    font-family: Domine, georgia, serif;
     text-decoration: none; }
     .global-nav__list a:hover {
       color: #dfdf90;
@@ -2642,7 +2642,7 @@ dd {
       margin-right: 10px; } }
 
 .navigation {
-  font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif; }
+  font-family: Open Sans, verdana, sans-serif; }
   .navigation li {
     background-color: #619565; }
   .navigation a {
@@ -2985,7 +2985,7 @@ input.search-form__input {
       color: #BFCBD9; }
   .global-footer h3 {
     font-size: 18px;
-    font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
+    font-family: Domine, georgia, serif;
     font-weight: 500; }
   .global-footer h4 {
     margin-bottom: 0;
@@ -3007,7 +3007,7 @@ input.search-form__input {
   margin-bottom: 50px;
   padding: 20px; }
   .page h1 {
-    font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
+    font-family: Domine, georgia, serif;
     font-size: 28px;
     font-weight: normal; }
   .page .region-content h1,
@@ -3036,7 +3036,7 @@ input.search-form__input {
     font-weight: 600; }
   .page .region-content blockquote {
     font-size: 18px;
-    font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
+    font-family: Domine, georgia, serif;
     border-left: 2px solid #272C6F;
     margin-left: 0;
     padding-left: 40px; }
@@ -3048,10 +3048,10 @@ input.search-form__input {
         position: absolute;
         right: calc(100% + 2px);
         font-size: 24px;
-        font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif; }
+        font-family: Domine, georgia, serif; }
     .page .region-content blockquote small {
       font-size: 14px;
-      font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif; }
+      font-family: Open Sans, verdana, sans-serif; }
   .page .region-content ol,
   .page .region-content ul {
     margin-top: 0; }
@@ -3099,7 +3099,7 @@ input.search-form__input {
   .sidebar--secondary article h1 {
     background-color: #1158a0;
     color: #fff;
-    font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
+    font-family: Domine, georgia, serif;
     font-weight: 400;
     font-size: 16px;
     text-align: center;

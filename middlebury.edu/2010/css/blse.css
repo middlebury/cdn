@@ -69,7 +69,7 @@ form.search {
 .navigation a {
   display: block;
   color: #113a5f;
-  font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+  font-family: Open Sans, verdana, sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 36px;
@@ -162,7 +162,7 @@ html:not(.placeholder) .element-invisible {
 
 .hero-title {
   color: #f8d140;
-  font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
+  font-family: Domine, georgia, serif;
   font-size: 27px;
   margin-bottom: 20px; }
 
@@ -203,14 +203,14 @@ html:not(.placeholder) .element-invisible {
 .intro {
   padding: 50px 130px 50px; }
   .intro-title {
-    font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+    font-family: Open Sans, verdana, sans-serif;
     font-size: 23px;
     color: #113a5f;
     line-height: 32px;
     font-weight: 600;
     margin-bottom: 24px; }
   .intro-text {
-    font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+    font-family: Open Sans, verdana, sans-serif;
     font-size: 18px;
     color: #333;
     line-height: 28px;
@@ -246,7 +246,7 @@ html:not(.placeholder) .element-invisible {
 
 .traits-item-title {
   color: #000;
-  font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+  font-family: Open Sans, verdana, sans-serif;
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
@@ -258,7 +258,7 @@ html:not(.placeholder) .element-invisible {
 
 .traits-item-text {
   color: #333;
-  font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+  font-family: Open Sans, verdana, sans-serif;
   font-size: 14px;
   line-height: 1.6; }
 
@@ -280,7 +280,7 @@ html:not(.placeholder) .element-invisible {
   margin-bottom: 50px; }
   .footer p {
     color: #333;
-    font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+    font-family: Open Sans, verdana, sans-serif;
     line-height: 1.5; }
     .footer p:last-of-type {
       margin-bottom: 0; }
@@ -323,7 +323,7 @@ html:not(.placeholder) .element-invisible {
 .btn {
   cursor: pointer;
   display: inline-block;
-  font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+  font-family: Open Sans, verdana, sans-serif;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: .05em;

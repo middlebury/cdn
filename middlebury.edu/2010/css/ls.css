@@ -38,7 +38,7 @@ form.search {
   padding: 10px 20px;
   box-sizing: border-box; }
   .hero-form h2 {
-    font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
+    font-family: Domine, georgia, serif;
     font-size: 20px;
     font-weight: 400;
     color: #f8d140;
@@ -47,7 +47,7 @@ form.search {
   .hero-form p {
     color: #fff;
     font-size: 15px;
-    font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+    font-family: Open Sans, verdana, sans-serif;
     margin-bottom: 10px; }
 
 .footer {
@@ -60,7 +60,7 @@ form.search {
   .footer .region-footer {
     background-color: #f5f5f4;
     color: #333;
-    font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+    font-family: Open Sans, verdana, sans-serif;
     font-size: 15px;
     line-height: 20px;
     padding: 100px 20px 20px; }
@@ -124,7 +124,7 @@ form.search {
       color: #113a5f;
       text-indent: 0 !important;
       overflow: visible !important;
-      font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+      font-family: Open Sans, verdana, sans-serif;
       font-size: 14px;
       line-height: 36px;
       font-weight: 600;
@@ -190,7 +190,7 @@ form.search {
           content: ''; }
     .explore-languages-section ul a {
       font-size: 36px;
-      font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+      font-family: Open Sans, verdana, sans-serif;
       border: 0;
       line-height: 1; }
       .explore-languages-section ul a:hover {
@@ -200,7 +200,7 @@ form.search {
 .explore-section-title {
   display: none;
   /*color: #4d4b4c;
-  font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+  font-family: Open Sans, verdana, sans-serif;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
@@ -275,7 +275,7 @@ form.search {
 .btn {
   cursor: pointer;
   display: inline-block;
-  font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+  font-family: Open Sans, verdana, sans-serif;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: .05em;
@@ -383,7 +383,7 @@ form.search {
     padding-left: 32px;
     padding-right: 32px; }
   .home-features h3 {
-    font-family: "Whitney SSm A", "Whitney SSm B", verdana, sans-serif;
+    font-family: Open Sans, verdana, sans-serif;
     color: #333;
     font-size: 16px;
     text-transform: uppercase;
@@ -391,7 +391,7 @@ form.search {
     font-weight: 600;
     margin-bottom: 0; }
   .home-features p {
-    font-family: "Sentinel SSm A", "Sentinel SSm B", georgia, serif;
+    font-family: Domine, georgia, serif;
     font-size: 16px; }
 
 .taskbar,
