@@ -211,10 +211,14 @@ jQuery(document).ready(function(jQuery) {
       jQuery('html,body').animate({scrollTop:(fromTop+330-windowHeight)+'px'},1100);
     } else {
       if(li.is('.active')) {
-        footerPanel.slideUp(1000,function() {
+        if (homepage) {
           jQuery('#midd_footer .quick_footer').removeClass('active');
-        });
-        jQuery('html,body').animate({scrollTop:(jQuery('body').height()-windowHeight-300)+'px'},900);
+        } else {
+          footerPanel.slideUp(1000,function() {
+            jQuery('#midd_footer .quick_footer').removeClass('active');
+          });
+          jQuery('html,body').animate({scrollTop:(jQuery('body').height()-windowHeight-300)+'px'},900);
+        }
       } else {
         jQuery('#midd_footer .quick_footer').removeClass('active');
         li.addClass('active');
