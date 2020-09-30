@@ -204,16 +204,18 @@ jQuery(document).ready(function(jQuery) {
   jQuery('#midd_footer .quick_footer>a').click(function() {
     var windowHeight = jQuery(window).height(),
       li = jQuery(this).parent();
-    if(!footerPanel.is(':visible')) {
+    if(!footerPanel.is(':visible') || homepage) {
       li.addClass('active');
       var fromTop = jQuery(this).offset().top;
       footerPanel.slideDown(1000);
       jQuery('html,body').animate({scrollTop:(fromTop+330-windowHeight)+'px'},1100);
+      if (homepage) {
+        jQuery('#midd_footer .quick_footer').removeClass('active');
+        li.addClass('active');
+      }
     } else {
       if(li.is('.active')) {
-        if (homepage) {
-          jQuery('#midd_footer .quick_footer').removeClass('active');
-        } else {
+        if (!homepage) {
           footerPanel.slideUp(1000,function() {
             jQuery('#midd_footer .quick_footer').removeClass('active');
           });
