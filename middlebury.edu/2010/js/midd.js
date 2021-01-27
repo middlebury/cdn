@@ -15,7 +15,7 @@ var settings = {
 
 jQuery(document).ready(function(jQuery) {
   homepage = jQuery('body').is('#midd_homepage');
-  if (jQuery('body').hasClass('page-mm-71654')) {
+  if (jQuery('body').hasClass('page-mm-71654') || jQuery('body').hasClass('page-mm-1041178')) {
     jQuery('#block-monster-menus-1 ul ul li').each(function(i) {
       if (i > 8) this.style.display = 'none';
     });
