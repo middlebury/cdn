@@ -438,7 +438,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
         .gateways_parents a:hover span { background-position:-144px -30px; }
         .gateways_parents.active a span { background-position:-144px -60px; }
         .gateways_parents.active a:hover span { background-position:-144px -90px; }
-      .gateways_staff { width:111px; }
+      .gateways_staff { width:111px; display:none; visibility:hidden; }
         .gateways_staff a span { background-position:-225px 0px; }
         .gateways_staff a:hover span { background-position:-225px -30px; }
         .gateways_staff.active a span { background-position:-225px -60px; }
