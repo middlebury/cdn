@@ -465,7 +465,7 @@ body { background:#071427 url(../images/bluegradient.jpg) no-repeat center top; 
         .footer ul li.gateways_alumni  .contents { min-width:375px; }
           .footer ul li.gateways_alumni  .contents li { clear:left; }
         .footer ul li a { outline:none; }
-        .footer ul li .contents { display:none; position:absolute; top:30px; left:0px; padding:12px; background:url(../images/dkblue_95trans.png); min-width:240px; color:#FFFFFF; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.929em; line-height:1.4; }
+        .footer ul li .contents { display:none; position:absolute; top:30px; left:0px; padding:12px; background:url(../images/dkblue_95trans.png); min-width:240px; color:#FFFFFF; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-size:0.929em; line-height:1.4; z-index:1; }
         .footer ul li.active .contents { display:block; }
           .footer ul li .contents a { display:inline; width:auto; color:#FFE371; padding:0px; text-decoration:none; }
           .footer ul li .contents a:hover { color:#FFFFAA; }
