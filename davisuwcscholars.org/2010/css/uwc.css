@@ -98,6 +98,7 @@ footer .middlebury { display:block; float:right; width:104px; height:20px; backg
 .scholar-list-item a { text-decoration:none; }
 .scholar-list-item h1 { font-size:22px; color:#1D4468; margin:0px; }
 .scholar-list-item h2, .node-scholar h2 { color:#50473B; margin:0px; font-weight:normal; }
+.scholar-list-item img { width: 125px; }
 
 .node-student aside { display:table-cell; width:125px; }
 .node-student header { display:table-cell; vertical-align:top; }
