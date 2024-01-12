@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var autoprefixer = require('gulp-autoprefixer');
+import autoprefixer from 'gulp-autoprefixer';
 var cmq = require('gulp-combine-mq');
 var cssnano = require('gulp-cssnano');
 var sourcemaps = require('gulp-sourcemaps');
