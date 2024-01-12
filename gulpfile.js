@@ -1,14 +1,14 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
+import gulp from 'gulp';
+import sass from 'gulp-sass';
 import autoprefixer from 'gulp-autoprefixer';
-var cmq = require('gulp-combine-mq');
-var cssnano = require('gulp-cssnano');
-var sourcemaps = require('gulp-sourcemaps');
-var args = require('yargs').argv;
-var chalk = require('chalk');
-var rename = require('gulp-rename');
-var uglify = require('gulp-uglify');
-var config = require('./config.gulp'); // Import asset paths defined by project
+import cmq from 'gulp-combine-mq';
+import cssnano from 'gulp-cssnano';
+import sourcemaps from 'gulp-sourcemaps';
+import args from 'yargs';
+import chalk from 'chalk';
+import rename from 'gulp-rename';
+import uglify from 'gulp-uglify';
+import config from './config.gulp';
 
 var projectName = args.project || args.p;
 var project = config[projectName];
