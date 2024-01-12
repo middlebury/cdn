@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var gutil = require('gulp-util');
 var autoprefixer = require('gulp-autoprefixer');
 var cmq = require('gulp-combine-mq');
 var cssnano = require('gulp-cssnano');
