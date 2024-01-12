@@ -8,7 +8,7 @@ import args from 'yargs';
 import chalk from 'chalk';
 import rename from 'gulp-rename';
 import uglify from 'gulp-uglify';
-import config from './config.gulp';
+import config from '../config.gulp.js';
 
 var projectName = args.project || args.p;
 var project = config[projectName];
